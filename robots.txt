@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://thefourcraft.github.io/DF-Blogs/sitemap.xml

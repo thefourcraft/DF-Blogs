@@ -1,0 +1,45 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "DF Blogs",
+    "description": "",
+    "home_page_url": "https://thefourcraft.github.io/DF-Blogs",
+    "feed_url": "https://thefourcraft.github.io/DF-Blogs/feed.json",
+    "user_comment": "",
+    "icon": "https://thefourcraft.github.io/DF-Blogs/media/website/logo-2.png",
+    "author": {
+        "name": "thefourCraft"
+    },
+    "items": [
+        {
+            "id": "https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn/",
+            "url": "https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn/",
+            "title": "Zero Trust vs VPN",
+            "summary": "VPN is what many organizations use to control access instead of ZTNA. Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants&hellip;",
+            "content_html": "<p>VPN is what many organizations use to control access instead of ZTNA. <br>Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants access to the specific application requested and denies access to applications and data by default.<br><br></p>\n<p>One of the biggest threats to network security is a company’s own Virtual Private Network (VPN). <br>Based on old network architectures, VPN’s assumption of a securely fixed perimeter surrounding a trusted network is a dated design pattern that undermines security. <br>Zero Trust is a framework of security concepts that are better suited to the way business works today.</p>\n<h2 id=\"what-is-zero-trust\" class=\"sc-ghizgr-0 DIklJ\">What is Zero Trust?</h2>\n<p>You Can read about it on my main website, and see my demo of a zero-trust system implantation</p>\n<h2 id=\"why-is-zero-trust-a-superior-solution-to-vpns\" class=\"sc-ghizgr-0 DIklJ\">Why Zero Trust is Better?</h2>\n<p>VPNs are the traditional choice for secure remote access because they work well with legacy perimeter-based security models. <br>However, they have several limitations that make them ill-suited to the security needs of the modern enterprise</p>\n<ul>\n<li><strong>Perimeter-Focused Security:</strong> <br>VPN helps reinforce the traditional perimeter-based security model because an authenticated user is granted full access to the corporate network. This allows an attacker to move laterally through the corporate network after gaining access via compromised VPN credentials or exploitation of a VPN vulnerability.</li>\n<li><strong>Network-Level Access Controls:</strong> <br>VPNs implement access controls at the network level without visibility into or control over the application layer. This provides overly-permissive access to users, granting read, write, and execute access to resources within different applications.</li>\n<li><strong>No Cloud Support:</strong> <br>VPNs are typically designed to provide secure remote access to the corporate network. Often, they have limited support for cloud-based resources located outside of the traditional perimeter.</li>\n<li><strong>Poor Support for BYOD Devices:</strong> <br>Allowing BYOD devices to access the corporate VPN provides access to corporate resources from unmanaged, non-corporate endpoints. This may allow malware or other cyber threats direct access to the corporate network.</li>\n</ul>\n<h2>Why ZTNA Is The Future?</h2>\n<p>With a zero trust security strategy, VPNs are no longer a viable secure remote access solution. ZTNA offers an alternative with several benefits when compared to VPNs</p>\n<p>Implementing zero trust technologies with careful planning will make the cloud a more manageable place for any organization. <br><br>The use of ZTNA, IAM, and MFA can prevent unwanted events from occurring. <br>New compute instances or storage buckets cannot just “pop up” like weeds in unpredictable locations. Zero trust will cultivate them into domesticated plants confined to well-defined flowerpots.</p>\n<p>These flowerpots are your micro-perimeters, which you can isolate using micro-segmentation. <br><br>They will enable easier monitoring and tighter access control. Sounds like everything needed for an over-stretched, sleep-deprived security team to defend the new frontier that is the cloud.</p>",
+            "image": "https://thefourcraft.github.io/DF-Blogs/media/posts/3/VPN-VS-ZN.png",
+            "author": {
+                "name": "thefourCraft"
+            },
+            "tags": [
+                   "Zero Trust",
+                   "Cloudflare"
+            ],
+            "date_published": "2022-08-20T21:35:49+03:00",
+            "date_modified": "2022-08-20T21:35:49+03:00"
+        },
+        {
+            "id": "https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability/",
+            "url": "https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability/",
+            "title": "BungeeCord And Spigot Servers Venerability",
+            "summary": "Introduction 👋 Most Minecraft servers today use BungeeCord as their proxy manager. What is BungeeCord? BungeeCord is a useful software written in-house by the team at SpigotMC. It acts as a proxy between the player's client and the connected Minecraft servers. End-users of BungeeCord see&hellip;",
+            "content_html": "<h2>Introduction 👋</h2>\n<p>Most Minecraft servers today use BungeeCord as their proxy manager.<br><strong>What is BungeeCord?</strong><br>BungeeCord is a useful software written in-house by the team at SpigotMC. It acts as a proxy between the player's client and the connected Minecraft servers. End-users of BungeeCord see no difference between it and a normal Minecraft server. - SpigotMC</p>\n<h3>The Venerability</h3>\n<p>some server owners do a wrong and dangerous setup </p>",
+            "author": {
+                "name": "thefourCraft"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-08-20T21:03:53+03:00",
+            "date_modified": "2022-08-20T21:03:53+03:00"
+        }
+    ]
+}
