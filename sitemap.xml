@@ -5,11 +5,27 @@
 <loc>https://thefourcraft.github.io/DF-Blogs/</loc>
 </url>
 <url>
-<loc>https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability/</loc>
+<loc>https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability.html</loc>
 <lastmod>2022-08-20T21:03:53+03:00</lastmod>
 </url>
 <url>
-<loc>https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn/</loc>
+<loc>https://thefourcraft.github.io/DF-Blogs/how-does-a-ztna-work.html</loc>
+<lastmod>2022-08-21T20:31:47+03:00</lastmod>
+<image:image>
+<image:loc>https://thefourcraft.github.io/DF-Blogs/media\posts\4/ZTNA.png</image:loc>
+<image:title><![CDATA[ZTNA Blog Post Cover Image]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html</loc>
+<lastmod>2022-08-21T21:04:39+03:00</lastmod>
+<image:image>
+<image:loc>https://thefourcraft.github.io/DF-Blogs/media\posts\5/Beta.png</image:loc>
+<image:title><![CDATA[Beta Testing Blog Image]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn.html</loc>
 <lastmod>2022-08-20T21:35:49+03:00</lastmod>
 <image:image>
 <image:loc>https://thefourcraft.github.io/DF-Blogs/media\posts\3/VPN-VS-ZN.png</image:loc>

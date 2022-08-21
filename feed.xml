@@ -3,19 +3,86 @@
     <title>DF Blogs</title>
     <link href="https://thefourcraft.github.io/DF-Blogs/feed.xml" rel="self" />
     <link href="https://thefourcraft.github.io/DF-Blogs" />
-    <updated>2022-08-20T21:35:49+03:00</updated>
+    <updated>2022-08-21T21:04:39+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://thefourcraft.github.io/DF-Blogs</id>
 
     <entry>
+        <title>Nail Beta Testing</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html"/>
+        <id>https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html</id>
+
+        <updated>2022-08-21T21:04:39+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
+                    Beta tests are important for companies and they are benefiting everyone who is involved. Companies that run beta tests are genuinely interested in hearing your feedback and what you think. If you’re selected as a beta tester, you need to make the most of the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
+                <p>Beta tests are important for companies and they are benefiting everyone who is involved.<br>Companies that run beta tests are genuinely interested in hearing your feedback and what you think. <br>If you’re selected as a beta tester, you need to make the most of the opportunity. <br>Share every thought, note every bug, and get engaged in the process.<br><br>The more active you are on the project, the more likely you will be to earn any project incentive and get other chances to test with the company.<br>If the company likes you they will contact you again and maybe even give you benefits! </p>
+<h2>Let's Learn Some Tips To Nail Beta Testing </h2>
+<p class="dropcap">1. <strong>Don't OverWork Your Self<br></strong>Spend a little time every day doing something on every part of the product. Budget sometime each day to submit feedback.  By doing a little bit every day you will test the product in its entirety, have great performance numbers, and have a lot of fun Because getting access to beta testing usually means new features and improvements, also remember you are #first.<strong><br></strong></p>
+<p class="dropcap">2.<strong>Communicate<br></strong>Be communicative and responsive throughout the project. Remember that the people running the test are eager to hear what you have to say and what you’re experiencing. It’s incredibly important to monitor your bugs, watch the forums, and respond quickly to any inquiries the beta team might have for more information. Being Active and also providing human interest can go a long way.<strong><br></strong></p>
+<p class="dropcap">3. <strong>Be Clear and Thorough</strong><br>Make your communication clear and detailed. Your feedback needs to give the beta team a solid understanding of your issues, ideas, and opinions. If they don’t understand what you’re saying or don’t have enough data, they might have to come back to you again, which just takes up more of everyone’s time. They need to be able to understand your comments and act on them immediately. Screenshots and pictures often help. Also writing the issue and using the right words is important, I often use emojis to describe sections and titles. </p>
+<p class="dropcap">4.<strong>Privacy as Always </strong><br>Many companies spend months designing and building their test product. They are spending many thousands of dollars to prepare for its launch. If the beta test is private, it’s your responsibility and obligation to keep everything about the beta test secret. Don’t blog, don’t Tweet, don’t chat, don’t post anything anywhere about the beta test. Don’t even mention you are involved in the project. Remember, these companies are trusting you with their new product. In return, you should show them respect by keeping everything you experience a secret. Also, you can get sued, because companies sometimes sign you up with an argument when joining the beta test.</p>
+<p class="dropcap">5. <strong>Relax</strong><br>Be flexible and understanding. Product development is a complicated process that involves many people and many tasks. Your role in this process is to share your perspective regarding the product. If the company discovers an important issue or needs to change the direction of the project, that could change the schedule. They might need to extend the test or cut it short to meet their new schedule. These changes are commonplace in beta, so please be willing to adapt to them. At the end of the day, you are just tasked to help beta test the product. </p>
+<h3>About Me</h3>
+<p>I love beta testing, getting access to tools/products before everyone is a huge key to getting an upper age on the market. <br>Most importantly the benefits that you are getting are knowledge and new people that you can meet and collaborate with in the future.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How Does a ZTNA Work</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://thefourcraft.github.io/DF-Blogs/how-does-a-ztna-work.html"/>
+        <id>https://thefourcraft.github.io/DF-Blogs/how-does-a-ztna-work.html</id>
+            <category term="Zero Trust"/>
+
+        <updated>2022-08-21T20:31:47+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
+                    While the specific tools used to implement Zero Trust Architecture may vary Implementing a Zero Trust Architecture project calls out some key functions: So, you are ready to create your zero-trust network? Implementing zero trust principles within an organization’s environment requires the development of a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
+                <p>While the specific tools used to implement Zero Trust Architecture may vary<br>Implementing a Zero Trust Architecture project calls out some key functions:</p>
+<ul class="learning-list">
+<li><strong>Application vs. network access:</strong> <br>ZTNA treats application access separately from network access. Connecting to a network does not automatically grant a user the right to access an application.</li>
+<li><strong>Hidden IP addresses:</strong> <br>ZTNA does not expose IP addresses to the network. The rest of the network remains invisible to connected devices, except for the application or service they are connected to.</li>
+<li><strong>Device security:</strong> </li>
+<li>ZTNA can incorporate the risk and security posture of devices as factors in access decisions. It does this by running software on the device itself (see "Agent-based ZTNA vs. service-based ZTNA" below) or by analyzing network traffic to and from the device.</li>
+<li><strong>Additional factors:</strong> </li>
+<li>Unlike traditional access control, which only grants access based on user identity and role, ZTNA can evaluate risks associated with additional factors like user location, timing, and frequency of requests, the apps and data being requested, and more. A user could sign in to a network or application, but if their device is not trusted, access is denied.</li>
+<li><strong>No MPLS:</strong> <br>ZTNA uses encrypted Internet connections over TLS instead of MPLS-based WAN connections. Traditional corporate networks are built on private MPLS connections. ZTNA is built on the public Internet instead, using TLS encryption to keep network traffic private. ZTNA sets up small encrypted tunnels between a user and an application, as opposed to connecting a user to a larger network.</li>
+<li><strong>IdP and SSO:</strong> <br>Most ZTNA solutions integrate with separate identity providers (IdPs), single sign-on (SSO) platforms, or both. SSO allows users to authenticate identity for all applications; the IdP stores user identity and determines associated user privileges.</li>
+<li><strong>Agent vs. service:</strong> <br>ZTNA can either use an endpoint agent or be based in the cloud. The difference is explained below.</li>
+</ul>
+<h2>Explaining the Zero Trust Framework</h2>
+<p>So, you are ready to create your zero-trust network?<br>Implementing zero trust principles within an organization’s environment requires the development of a zero trust network. <br>A zero-trust network implements and enforces zero trust policies, such as zero-trust network access (ZTNA) or Software Defined Perimeter (SDP), <br>consistently across an organization’s entire environment.<br><br>In this blog post, I prepared some tips to know if you really need ZTNA for this app</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>Zero Trust vs VPN</title>
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn/index.html"/>
-        <id>https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn/index.html</id>
+        <link href="https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn.html"/>
+        <id>https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn.html</id>
             <category term="Zero Trust"/>
             <category term="Cloudflare"/>
 
@@ -53,8 +120,8 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability/index.html"/>
-        <id>https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability/index.html</id>
+        <link href="https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability.html"/>
+        <id>https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability.html</id>
 
         <updated>2022-08-20T21:03:53+03:00</updated>
             <summary>
