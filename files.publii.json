@@ -1,0 +1,562 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "eb82178aee5e56c39d52e6c11c1bdfc7"
+    },
+    {
+        "path": "amp",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "amp/authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "amp/authors/thefourcraft",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/authors/thefourcraft/index.html",
+        "type": "file",
+        "md5": "b5dab06ca7800d5b6021929854acf2c6"
+    },
+    {
+        "path": "/amp/bungeecord-and-spigot-servers-venerability.html",
+        "type": "file",
+        "md5": "d09d3e2a38fb5e5c97be2560f12a2ad6"
+    },
+    {
+        "path": "/amp/how-does-a-ztna-work.html",
+        "type": "file",
+        "md5": "4a089c97e514da20327d3508415c00e8"
+    },
+    {
+        "path": "/amp/index.html",
+        "type": "file",
+        "md5": "601a012303407009118a8a72f1556141"
+    },
+    {
+        "path": "/amp/nail-beta-testing.html",
+        "type": "file",
+        "md5": "487e15ea28cd90886eef7f1f2c0f9fd4"
+    },
+    {
+        "path": "amp/tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "amp/tags/cloudflare",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/tags/cloudflare/index.html",
+        "type": "file",
+        "md5": "ed5ffe6116d963d40e1007543db3b72e"
+    },
+    {
+        "path": "amp/tags/tips-and-tricks",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/tags/tips-and-tricks/index.html",
+        "type": "file",
+        "md5": "ff61fa6bf6f4eec44cfd46b42f3a3268"
+    },
+    {
+        "path": "amp/tags/zero-trust",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/amp/tags/zero-trust/index.html",
+        "type": "file",
+        "md5": "d7b01b62719148d1b68b1816fb36743e"
+    },
+    {
+        "path": "/amp/zero-trust-vs-vpn.html",
+        "type": "file",
+        "md5": "78e76c5ff7bbf31a0dc4efa52430fb72"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "4202808df745f2ac7ab250606fa0d272"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "cb9f0c010889a7919feb96d5e6b3b993"
+    },
+    {
+        "path": "/assets/css/photoswipe.css",
+        "type": "file",
+        "md5": "7331f6eb15671b2fc8e3ffd46e849f7b"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "4cadb1309f78cdb81b394acd74b1dde1"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/jetbrainsmono",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/jetbrainsmono/jetbrainsmono.woff2",
+        "type": "file",
+        "md5": "5affdf56bdbffc36af64d2616187b531"
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/photoswipe-ui-default.min.js",
+        "type": "file",
+        "md5": "9952f77ca2b8fbc9449a268008ea8dee"
+    },
+    {
+        "path": "/assets/js/photoswipe.min.js",
+        "type": "file",
+        "md5": "b586a3bc288c989ecce7b81b48e35855"
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e0c4d53c21e83015f166f4b853f8ade4"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "f47c11534595205f20935f0db2a62a85"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "3f007dc85fd8629e11dad3e000154b2b"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/gallery-icons-dark.svg",
+        "type": "file",
+        "md5": "a4f588d02a5173243813af82b5d5546e"
+    },
+    {
+        "path": "/assets/svg/gallery-icons-light.svg",
+        "type": "file",
+        "md5": "38f529a5cfc8469010687b31596e8208"
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "25970b4dc9b91773247e995cb3d0318a"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/thefourcraft",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/thefourcraft/index.html",
+        "type": "file",
+        "md5": "7989ac297e99711da054dfa65e205210"
+    },
+    {
+        "path": "bungeecord-and-spigot-servers-venerability.html",
+        "type": "file",
+        "md5": "b106fb5e6f245060c64aec8b7ecf603c"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "7642a0bb3ce966d185fd467da698453d"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "882ab6b0515679cfae3b0d425e254c41"
+    },
+    {
+        "path": "how-does-a-ztna-work.html",
+        "type": "file",
+        "md5": "99f5f80d704b1e8222c0a2cc4441cf23"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "e61fa94e03f3bf9c92f894c837285ae4"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/3/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/responsive/VPN-VS-ZN-2xl.png",
+        "type": "file",
+        "md5": "3559e15a3fcc360756fa9442772e4c7d"
+    },
+    {
+        "path": "/media/posts/3/responsive/VPN-VS-ZN-lg.png",
+        "type": "file",
+        "md5": "468357d46d5cbf5fc57a2dbea0423ca6"
+    },
+    {
+        "path": "/media/posts/3/responsive/VPN-VS-ZN-md.png",
+        "type": "file",
+        "md5": "59bd3473dcd98b1b00f44778b3e1689c"
+    },
+    {
+        "path": "/media/posts/3/responsive/VPN-VS-ZN-sm.png",
+        "type": "file",
+        "md5": "b3175c7f1e4de857110224cd19dcc12e"
+    },
+    {
+        "path": "/media/posts/3/responsive/VPN-VS-ZN-xl.png",
+        "type": "file",
+        "md5": "92d6a2330ddc61f9e1a09c47ff102c8a"
+    },
+    {
+        "path": "/media/posts/3/responsive/VPN-VS-ZN-xs.png",
+        "type": "file",
+        "md5": "779bf2bfee7971682f99395d70dbc8e7"
+    },
+    {
+        "path": "/media/posts/3/VPN-VS-ZN.png",
+        "type": "file",
+        "md5": "be428c22f2611fcf0f8c9b31b81c16ac"
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/4/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/responsive/ZTNA-2xl.png",
+        "type": "file",
+        "md5": "a732d300f692ede6565b8011d339281d"
+    },
+    {
+        "path": "/media/posts/4/responsive/ZTNA-lg.png",
+        "type": "file",
+        "md5": "4f405d816d78ed55a31cca68a6229945"
+    },
+    {
+        "path": "/media/posts/4/responsive/ZTNA-md.png",
+        "type": "file",
+        "md5": "da348599095698d4e28ed7506c5c1d93"
+    },
+    {
+        "path": "/media/posts/4/responsive/ZTNA-sm.png",
+        "type": "file",
+        "md5": "fdf1f281e113a8d81c23eee432bf3d24"
+    },
+    {
+        "path": "/media/posts/4/responsive/ZTNA-xl.png",
+        "type": "file",
+        "md5": "24ff308dc91f2f4f5fe8e4385e156a50"
+    },
+    {
+        "path": "/media/posts/4/responsive/ZTNA-xs.png",
+        "type": "file",
+        "md5": "177b745bc7c085a7a3a8d5022c73ad61"
+    },
+    {
+        "path": "/media/posts/4/ZTNA.png",
+        "type": "file",
+        "md5": "1decd9b201c28f790d4b3e731492080d"
+    },
+    {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/Beta.png",
+        "type": "file",
+        "md5": "f5354682fdd5402f00dd029cec7b0c49"
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/Beta-2xl.png",
+        "type": "file",
+        "md5": "ea568ef12f23e54a4bda4f3dd0ab64dc"
+    },
+    {
+        "path": "/media/posts/5/responsive/Beta-lg.png",
+        "type": "file",
+        "md5": "52d2e6cf3f3018d049112f72ffa474fd"
+    },
+    {
+        "path": "/media/posts/5/responsive/Beta-md.png",
+        "type": "file",
+        "md5": "b920d2c5d24a1f7ac46e2b1ac6e1e8c3"
+    },
+    {
+        "path": "/media/posts/5/responsive/Beta-sm.png",
+        "type": "file",
+        "md5": "98b43fad53a3c06b3a80316f02b75010"
+    },
+    {
+        "path": "/media/posts/5/responsive/Beta-xl.png",
+        "type": "file",
+        "md5": "903acbeba092492fb5dee2ba0f9b6ef4"
+    },
+    {
+        "path": "/media/posts/5/responsive/Beta-xs.png",
+        "type": "file",
+        "md5": "4f36c89f21c889ff117d7cf5bdda761b"
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/backround.png",
+        "type": "file",
+        "md5": "2551b6915c2994ce71ed89714a0ab307"
+    },
+    {
+        "path": "/media/website/logo-2.png",
+        "type": "file",
+        "md5": "f56e5ffa93d218ff38f89d6833c7ef2a"
+    },
+    {
+        "path": "/media/website/logo.png",
+        "type": "file",
+        "md5": "f56e5ffa93d218ff38f89d6833c7ef2a"
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/backround-2xl.png",
+        "type": "file",
+        "md5": "d4f61cb17d65313a2881efeadca47672"
+    },
+    {
+        "path": "/media/website/responsive/backround-lg.png",
+        "type": "file",
+        "md5": "235b68ee2abd193f9762aae92d2f0b54"
+    },
+    {
+        "path": "/media/website/responsive/backround-md.png",
+        "type": "file",
+        "md5": "b29be3043e180222d66a5ebcaa33974e"
+    },
+    {
+        "path": "/media/website/responsive/backround-sm.png",
+        "type": "file",
+        "md5": "5ae1cc8312f56d7ee3c1e926ad76710b"
+    },
+    {
+        "path": "/media/website/responsive/backround-xl.png",
+        "type": "file",
+        "md5": "437396378acd896c58b557960a8b1259"
+    },
+    {
+        "path": "/media/website/responsive/backround-xs.png",
+        "type": "file",
+        "md5": "b263956791e26caf88d0a5bc73058366"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-2xl.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-lg.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-md.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-sm.png",
+        "type": "file",
+        "md5": "4952363477e95a32cc2ac32c53cfc9a3"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-xl.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-2-xs.png",
+        "type": "file",
+        "md5": "b27a0731b70382f60e1192674789ac36"
+    },
+    {
+        "path": "/media/website/responsive/logo-2xl.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-lg.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-md.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-sm.png",
+        "type": "file",
+        "md5": "4952363477e95a32cc2ac32c53cfc9a3"
+    },
+    {
+        "path": "/media/website/responsive/logo-xl.png",
+        "type": "file",
+        "md5": "ff18a5c69d17cb94dc4aa574549b4900"
+    },
+    {
+        "path": "/media/website/responsive/logo-xs.png",
+        "type": "file",
+        "md5": "b27a0731b70382f60e1192674789ac36"
+    },
+    {
+        "path": "nail-beta-testing.html",
+        "type": "file",
+        "md5": "45d485a6ee85c83d0edd34ad94d6b347"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "510ada3ea4294c50758c752b55ddab94"
+    },
+    {
+        "path": "search.html",
+        "type": "file",
+        "md5": "12819cc076d91779d5e8ee7857c81945"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "ee8ed20b2d152b597fc10bf1db71c1ee"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "03c2f9a7fdcc46ff05c435907614a0b8"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "tags/cloudflare",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/cloudflare/index.html",
+        "type": "file",
+        "md5": "5bc170e5ae6df46fb712b1c230c9f541"
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "6d0f304fd6a83788589b8d5484bb187b"
+    },
+    {
+        "path": "tags/tips-and-tricks",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/tips-and-tricks/index.html",
+        "type": "file",
+        "md5": "10b43ed43ac9d43a35398530390c48ad"
+    },
+    {
+        "path": "tags/zero-trust",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/zero-trust/index.html",
+        "type": "file",
+        "md5": "8f0896285e5ae78de135a60662157f1a"
+    },
+    {
+        "path": "zero-trust-vs-vpn.html",
+        "type": "file",
+        "md5": "03e6b7830acfe02882599ada751b188e"
+    }
+]

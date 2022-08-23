@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://thefourcraft.github.io/DF-Blogs/feed.xml" rel="self" />
     <link href="https://thefourcraft.github.io/DF-Blogs" />
-    <updated>2022-08-21T21:04:39+03:00</updated>
+    <updated>2022-08-21T23:53:03+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html"/>
         <id>https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html</id>
+            <category term="Tips &amp; Tricks"/>
 
-        <updated>2022-08-21T21:04:39+03:00</updated>
+        <updated>2022-08-21T23:53:03+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
