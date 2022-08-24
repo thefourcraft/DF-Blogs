@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>DF Blogs</title>
-    <link href="https://thefourcraft.github.io/DF-Blogs/feed.xml" rel="self" />
-    <link href="https://thefourcraft.github.io/DF-Blogs" />
+    <link href="https://blogs.thefourcraft.com/feed.xml" rel="self" />
+    <link href="https://blogs.thefourcraft.com" />
     <updated>2022-08-21T23:53:03+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
-    <id>https://thefourcraft.github.io/DF-Blogs</id>
+    <id>https://blogs.thefourcraft.com</id>
 
     <entry>
         <title>Nail Beta Testing</title>
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html"/>
-        <id>https://thefourcraft.github.io/DF-Blogs/nail-beta-testing.html</id>
+        <link href="https://blogs.thefourcraft.com/nail-beta-testing.html"/>
+        <id>https://blogs.thefourcraft.com/nail-beta-testing.html</id>
             <category term="Tips &amp; Tricks"/>
 
         <updated>2022-08-21T23:53:03+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
+                        <img src="https://blogs.thefourcraft.com/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
                     Beta tests are important for companies and they are benefiting everyone who is involved. Companies that run beta tests are genuinely interested in hearing your feedback and what you think. If you’re selected as a beta tester, you need to make the most of the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
+                    <img src="https://blogs.thefourcraft.com/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
                 <p>Beta tests are important for companies and they are benefiting everyone who is involved.<br>Companies that run beta tests are genuinely interested in hearing your feedback and what you think. <br>If you’re selected as a beta tester, you need to make the most of the opportunity. <br>Share every thought, note every bug, and get engaged in the process.<br><br>The more active you are on the project, the more likely you will be to earn any project incentive and get other chances to test with the company.<br>If the company likes you they will contact you again and maybe even give you benefits! </p>
 <h2>Let's Learn Some Tips To Nail Beta Testing </h2>
 <p class="dropcap">1. <strong>Don't OverWork Your Self<br></strong>Spend a little time every day doing something on every part of the product. Budget sometime each day to submit feedback.  By doing a little bit every day you will test the product in its entirety, have great performance numbers, and have a lot of fun Because getting access to beta testing usually means new features and improvements, also remember you are #first.<strong><br></strong></p>
@@ -45,20 +45,20 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://thefourcraft.github.io/DF-Blogs/how-does-a-ztna-work.html"/>
-        <id>https://thefourcraft.github.io/DF-Blogs/how-does-a-ztna-work.html</id>
+        <link href="https://blogs.thefourcraft.com/how-does-a-ztna-work.html"/>
+        <id>https://blogs.thefourcraft.com/how-does-a-ztna-work.html</id>
             <category term="Zero Trust"/>
 
         <updated>2022-08-21T20:31:47+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
+                        <img src="https://blogs.thefourcraft.com/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
                     While the specific tools used to implement Zero Trust Architecture may vary Implementing a Zero Trust Architecture project calls out some key functions: So, you are ready to create your zero-trust network? Implementing zero trust principles within an organization’s environment requires the development of a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
+                    <img src="https://blogs.thefourcraft.com/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
                 <p>While the specific tools used to implement Zero Trust Architecture may vary<br>Implementing a Zero Trust Architecture project calls out some key functions:</p>
 <ul class="learning-list">
 <li><strong>Application vs. network access:</strong> <br>ZTNA treats application access separately from network access. Connecting to a network does not automatically grant a user the right to access an application.</li>
@@ -82,21 +82,21 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn.html"/>
-        <id>https://thefourcraft.github.io/DF-Blogs/zero-trust-vs-vpn.html</id>
+        <link href="https://blogs.thefourcraft.com/zero-trust-vs-vpn.html"/>
+        <id>https://blogs.thefourcraft.com/zero-trust-vs-vpn.html</id>
             <category term="Zero Trust"/>
             <category term="Cloudflare"/>
 
         <updated>2022-08-20T21:35:49+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
+                        <img src="https://blogs.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
                     VPN is what many organizations use to control access instead of ZTNA. Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://thefourcraft.github.io/DF-Blogs/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
+                    <img src="https://blogs.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
                 <p>VPN is what many organizations use to control access instead of ZTNA. <br>Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants access to the specific application requested and denies access to applications and data by default.<br><br></p>
 <p>One of the biggest threats to network security is a company’s own Virtual Private Network (VPN). <br>Based on old network architectures, VPN’s assumption of a securely fixed perimeter surrounding a trusted network is a dated design pattern that undermines security. <br>Zero Trust is a framework of security concepts that are better suited to the way business works today.</p>
 <h2 id="what-is-zero-trust" class="sc-ghizgr-0 DIklJ">What is Zero Trust?</h2>
@@ -121,8 +121,8 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability.html"/>
-        <id>https://thefourcraft.github.io/DF-Blogs/bungeecord-and-spigot-servers-venerability.html</id>
+        <link href="https://blogs.thefourcraft.com/bungeecord-and-spigot-servers-venerability.html"/>
+        <id>https://blogs.thefourcraft.com/bungeecord-and-spigot-servers-venerability.html</id>
 
         <updated>2022-08-20T21:03:53+03:00</updated>
             <summary>
