@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://blogs.theofourcraft.com/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://blogs.thefourcraft.com/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://blogs.theofourcraft.com/</loc>
+<loc>https://blogs.thefourcraft.com/</loc>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/bungeecord-and-spigot-servers-venerability/</loc>
+<loc>https://blogs.thefourcraft.com/bungeecord-and-spigot-servers-venerability/</loc>
 <lastmod>2022-08-27T00:53:02+03:00</lastmod>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/how-does-a-ztna-work/</loc>
+<loc>https://blogs.thefourcraft.com/how-does-a-ztna-work/</loc>
 <lastmod>2022-08-21T20:31:47+03:00</lastmod>
 <image:image>
-<image:loc>https://blogs.theofourcraft.com/media\posts\4/ZTNA.png</image:loc>
+<image:loc>https://blogs.thefourcraft.com/media\posts\4/ZTNA.png</image:loc>
 <image:title><![CDATA[ZTNA Blog Post Cover Image]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/ims-double-net-bug/</loc>
+<loc>https://blogs.thefourcraft.com/ims-double-net-bug/</loc>
 <lastmod>2022-08-27T00:52:46+03:00</lastmod>
 <image:image>
-<image:loc>https://blogs.theofourcraft.com/media\posts\6//Blog-IMG.png</image:loc>
+<image:loc>https://blogs.thefourcraft.com/media\posts\6//Blog-IMG.png</image:loc>
 <image:title><![CDATA[Double Net Demo]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/log4j-killed-me/</loc>
+<loc>https://blogs.thefourcraft.com/log4j-killed-me/</loc>
 <lastmod>2022-08-27T09:39:23+03:00</lastmod>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/nail-beta-testing/</loc>
+<loc>https://blogs.thefourcraft.com/nail-beta-testing/</loc>
 <lastmod>2022-08-21T23:53:03+03:00</lastmod>
 <image:image>
-<image:loc>https://blogs.theofourcraft.com/media\posts\5/Beta.png</image:loc>
+<image:loc>https://blogs.thefourcraft.com/media\posts\5/Beta.png</image:loc>
 <image:title><![CDATA[Beta Testing Blog Image]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/nl-failure/</loc>
+<loc>https://blogs.thefourcraft.com/nl-failure/</loc>
 <lastmod>2022-08-27T09:24:19+03:00</lastmod>
 <image:image>
 <image:loc>https://static.wixstatic.com/media/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg/v1/fill/w_740,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg</image:loc>
@@ -45,13 +45,13 @@
 </image:image>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/page/2/</loc>
+<loc>https://blogs.thefourcraft.com/page/2/</loc>
 </url>
 <url>
-<loc>https://blogs.theofourcraft.com/zero-trust-vs-vpn/</loc>
+<loc>https://blogs.thefourcraft.com/zero-trust-vs-vpn/</loc>
 <lastmod>2022-08-20T21:35:49+03:00</lastmod>
 <image:image>
-<image:loc>https://blogs.theofourcraft.com/media\posts\3/VPN-VS-ZN.png</image:loc>
+<image:loc>https://blogs.thefourcraft.com/media\posts\3/VPN-VS-ZN.png</image:loc>
 <image:title><![CDATA[Zero Trust vs VPN Image]]></image:title>
 </image:image>
 </url>
