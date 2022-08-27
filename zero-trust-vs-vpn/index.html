@@ -1,0 +1,526 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zero Trust vs VPN - DF Blogs</title><meta name="description" content="Why you need to switch the VPN offline?!
+The Zero Trust vs VPN ultimate article by DF Blogs."><meta name="generator" content="Publii Open-Source CMS for Static Site"><meta name="theme-color" content="#17181E" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#D73A42" media="(prefers-color-scheme: light)"><meta name="msapplication-navbutton-color" content="#D73A42"><meta name="apple-mobile-web-app-status-bar-style" content="#D73A42"><link rel="canonical" href="https://blogs.theofourcraft.com/zero-trust-vs-vpn/"><link rel="amphtml" href="https://blogs.theofourcraft.com/amp/zero-trust-vs-vpn/"><link rel="alternate" type="application/atom+xml" href="https://blogs.theofourcraft.com/feed.xml"><link rel="alternate" type="application/json" href="https://blogs.theofourcraft.com/feed.json"><meta property="og:title" content="Zero Trust vs VPN"><meta property="og:image" content="https://blogs.theofourcraft.com/media/posts/3/VPN-VS-ZN.png"><meta property="og:site_name" content="DF Blogs"><meta property="og:description" content="Why you need to switch the VPN offline?!
+The Zero Trust vs VPN ultimate article by DF Blogs."><meta property="og:url" content="https://blogs.theofourcraft.com/zero-trust-vs-vpn/"><meta property="og:type" content="article"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@thefourcraft"><meta name="twitter:title" content="Zero Trust vs VPN"><meta name="twitter:description" content="Why you need to switch the VPN offline?!
+The Zero Trust vs VPN ultimate article by DF Blogs."><meta name="twitter:image" content="https://blogs.theofourcraft.com/media/posts/3/VPN-VS-ZN.png"><link rel="shortcut icon" href="https://blogs.theofourcraft.com/media/website/logo.png" type="image/png"><link rel="preload" href="https://blogs.theofourcraft.com/assets/dynamic/fonts/jetbrainsmono/jetbrainsmono.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://blogs.theofourcraft.com/assets/css/style.css?v=4cadb1309f78cdb81b394acd74b1dde1"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://blogs.theofourcraft.com/zero-trust-vs-vpn/index.html"},"headline":"Zero Trust vs VPN","datePublished":"2022-08-20T21:35","dateModified":"2022-08-20T21:35","image":{"@type":"ImageObject","url":"https://blogs.theofourcraft.com/media/posts/3/VPN-VS-ZN.png","height":1080,"width":1920},"description":"Why you need to switch the VPN offline?!\nThe Zero Trust vs VPN ultimate article by DF Blogs.","author":{"@type":"Person","name":"thefourCraft","url":"https://blogs.theofourcraft.com/authors/thefourcraft/"},"publisher":{"@type":"Organization","name":"thefourCraft","logo":{"@type":"ImageObject","url":"https://blogs.theofourcraft.com/media/website/logo-2.png","height":650,"width":500}}}</script><link rel="stylesheet" href="https://blogs.theofourcraft.com/media/plugins/docSearch/docsearch.min.css"></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://blogs.theofourcraft.com/index.html"><img src="https://blogs.theofourcraft.com/media/website/logo-2.png" alt="DF Blogs" width="500" height="650"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://www.thefourcraft.net" target="_self">Main Website</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><div class="search__overlay-inner"><div id="docsearch"></div><button class="search__close js-search-close" aria-label="Close">Close</button></div></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#search"/></svg></button></div></header><main><article class="post"><div class="hero"><figure class="hero__image hero__image--overlay"><img src="https://blogs.theofourcraft.com/media/posts/3/VPN-VS-ZN.png" srcset="https://blogs.theofourcraft.com/media/posts/3/responsive/VPN-VS-ZN-xs.png 300w, https://blogs.theofourcraft.com/media/posts/3/responsive/VPN-VS-ZN-sm.png 480w, https://blogs.theofourcraft.com/media/posts/3/responsive/VPN-VS-ZN-md.png 768w, https://blogs.theofourcraft.com/media/posts/3/responsive/VPN-VS-ZN-lg.png 1024w, https://blogs.theofourcraft.com/media/posts/3/responsive/VPN-VS-ZN-xl.png 1360w, https://blogs.theofourcraft.com/media/posts/3/responsive/VPN-VS-ZN-2xl.png 1600w" sizes="(max-width: 1600px) 100vw, 1600px" loading="eager" height="1080" width="1920" alt="Zero Trust vs VPN Image"><figcaption>All Right&#x27;s Are Reserved</figcaption></figure><header class="hero__content"><div class="wrapper"><div class="post__meta"><time datetime="2022-08-20T21:35">20/08/2022</time></div><h1>Zero Trust vs VPN</h1></div></header></div><div class="wrapper post__entry"><p>VPN is what many organizations use to control access instead of ZTNA.<br>Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants access to the specific application requested and denies access to applications and data by default.<br><br></p><p>One of the biggest threats to network security is a company’s own Virtual Private Network (VPN).<br>Based on old network architectures, VPN’s assumption of a securely fixed perimeter surrounding a trusted network is a dated design pattern that undermines security.<br>Zero Trust is a framework of security concepts that are better suited to the way business works today.</p><h2 id="what-is-zero-trust" class="sc-ghizgr-0 DIklJ">What is Zero Trust?</h2><p>You Can read about it on my main website, and see my demo of a zero-trust system implantation</p><h2 id="why-is-zero-trust-a-superior-solution-to-vpns" class="sc-ghizgr-0 DIklJ">Why Zero Trust is Better?</h2><p>VPNs are the traditional choice for secure remote access because they work well with legacy perimeter-based security models.<br>However, they have several limitations that make them ill-suited to the security needs of the modern enterprise</p><ul><li><strong>Perimeter-Focused Security:</strong> <br>VPN helps reinforce the traditional perimeter-based security model because an authenticated user is granted full access to the corporate network. This allows an attacker to move laterally through the corporate network after gaining access via compromised VPN credentials or exploitation of a VPN vulnerability.</li><li><strong>Network-Level Access Controls:</strong> <br>VPNs implement access controls at the network level without visibility into or control over the application layer. This provides overly-permissive access to users, granting read, write, and execute access to resources within different applications.</li><li><strong>No Cloud Support:</strong> <br>VPNs are typically designed to provide secure remote access to the corporate network. Often, they have limited support for cloud-based resources located outside of the traditional perimeter.</li><li><strong>Poor Support for BYOD Devices:</strong> <br>Allowing BYOD devices to access the corporate VPN provides access to corporate resources from unmanaged, non-corporate endpoints. This may allow malware or other cyber threats direct access to the corporate network.</li></ul><h2>Why ZTNA Is The Future?</h2><p>With a zero trust security strategy, VPNs are no longer a viable secure remote access solution. ZTNA offers an alternative with several benefits when compared to VPNs</p><p>Implementing zero trust technologies with careful planning will make the cloud a more manageable place for any organization.<br><br>The use of ZTNA, IAM, and MFA can prevent unwanted events from occurring.<br>New compute instances or storage buckets cannot just “pop up” like weeds in unpredictable locations. Zero trust will cultivate them into domesticated plants confined to well-defined flowerpots.</p><p>These flowerpots are your micro-perimeters, which you can isolate using micro-segmentation.<br><br>They will enable easier monitoring and tighter access control. Sounds like everything needed for an over-stretched, sleep-deprived security team to defend the new frontier that is the cloud.</p></div><footer class="wrapper post__footer"><p class="post__last-updated">This article was updated on 20/08/2022</p><ul class="post__tag"><li><a href="https://blogs.theofourcraft.com/tags/cloudflare/index.html">Cloudflare</a></li><li><a href="https://blogs.theofourcraft.com/tags/zero-trust/index.html">Zero Trust</a></li></ul><div class="post__share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html" class="js-share facebook" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#facebook"/></svg> <span>Facebook</span> </a><a href="https://twitter.com/share?url=https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html&amp;via=thefourcraft&amp;text=Zero%20Trust%20vs%20VPN" class="js-share twitter" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#twitter"/></svg> <span>Twitter</span> </a><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html&amp;media=https%3A%2F%2Fblogs.theofourcraft.com%2Fmedia%2Fposts%2F3%2FVPN-VS-ZN.png&amp;description=Zero%20Trust%20vs%20VPN" class="js-share pinterest" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#pinterest"/></svg> <span>Pinterest</span> </a><a href="https://mix.com/add?url=https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html" class="js-share mix" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#mix"/></svg> <span>Mix</span> </a><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html" class="js-share linkedin" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#linkedin"/></svg> <span>LinkedIn</span> </a><a href="https://buffer.com/add?text=Zero%20Trust%20vs%20VPN&amp;url=https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html" class="js-share buffer" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#buffer"/></svg> <span>Buffer</span> </a><a href="https://api.whatsapp.com/send?text=Zero%20Trust%20vs%20VPN https%3A%2F%2Fblogs.theofourcraft.com%2Fzero-trust-vs-vpn%2Findex.html" class="js-share whatsapp" rel="nofollow noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#whatsapp"/></svg> <span>WhatsApp</span></a></div><div class="post__bio bio"><div class="bio__info"><h3 class="bio__name"><a href="https://blogs.theofourcraft.com/authors/thefourcraft/index.html" rel="author">thefourCraft</a></h3></div></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://blogs.theofourcraft.com/bungeecord-and-spigot-servers-venerability/index.html" class="post__nav-link" rel="prev"><span>Previous</span> BungeeCord And Spigot Servers Venerability</a></div><div class="post__nav-next"><a href="https://blogs.theofourcraft.com/how-does-a-ztna-work/index.html" class="post__nav-link" rel="next"><span>Next</span> How Does a ZTNA Work </a><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#arrow-next"/></svg></div></div></nav></main><footer class="footer"><div class="footer__copyright"><p>Ⓒ All Rights Are Reserved To DF Blogs<br><br></p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://blogs.theofourcraft.com/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script defer="defer" src="https://blogs.theofourcraft.com/assets/js/scripts.min.js?v=f47c11534595205f20935f0db2a62a85"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><script src="https://blogs.theofourcraft.com/media/plugins/docSearch/docsearch.min.js"></script><script type="text/javascript">docsearch({
+				container: '#docsearch',
+				appId: '',
+				indexName: '',
+				apiKey: '',
+				debug: false
+			});</script><div class="pcb" data-behaviour="badge" data-behaviour-link="#cookie-settings" data-revision="1" data-config-ttl="90" data-debug-mode="false"><div role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="pcb-title" aria-describedby="pcb-txt" class="pcb__banner"><div class="pcb__inner"><div id="pcb-title" role="heading" class="pcb__title">This website uses cookies</div><div id="pcb-txt" class="pcb__txt">Select which cookies to opt-in to via the checkboxes below; our website uses cookies to examine site traffic and user activity while on our site, for marketing, and to provide social media functionality.</div><div class="pcb__buttons"><button type="button" class="pcb__btn pcb__btn--link pcb__btn--configure" aria-haspopup="dialog">Manage preferences</button> <button type="button" class="pcb__btn pcb__btn--reject">Reject</button> <button type="button" class="pcb__btn pcb__btn--solid pcb__btn--accept">Accept all</button></div></div></div><div class="pcb__popup" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="pcb-popup-title"><div class="pcb__popup__wrapper"><div class="pcb__inner pcb__popup__inner"><div class="pcb__popup__heading"><div id="pcb-popup-title" role="heading" class="pcb__title">Cookie settings</div><button class="pcb__popup__close" aria-label="Close"></button></div><div class="pcb__popup__content"><div class="pcb__txt pcb__popup__txt">We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.</div><ul class="pcb__groups"><li class="pcb__group"><details><summary class="pcb__group__title no-desc">Required</summary></details><div class="pcb__popup__switch is-checked"><input type="checkbox" data-group-name="" id="pcb-group-0" checked="checked"> <label for="pcb-group-0">Required</label></div></li></ul></div><div class="pcb__buttons pcb__popup__buttons"><button type="button" class="pcb__btn pcb__btn--solid pcb__btn--accept">Accept all</button> <button type="button" class="pcb__btn pcb__btn--reject">Reject all</button> <button type="button" class="pcb__btn pcb__btn--save">Save settings</button></div></div></div></div><div class="pcb__overlay" aria-hidden="true"></div><button class="pcb__badge" aria-label="Cookie Policy" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="40" height="40" viewBox="0 0 23 23" fill="currentColor"><path d="M21.41 12.71c-.08-.01-.15 0-.22 0h-.03c-.03 0-.05 0-.08.01-.07 0-.13.01-.19.04-.52.21-1.44.19-2.02-.22-.44-.31-.65-.83-.62-1.53a.758.758 0 0 0-.27-.61.73.73 0 0 0-.65-.14c-1.98.51-3.49.23-4.26-.78-.82-1.08-.73-2.89.24-4.49.14-.23.14-.52 0-.75a.756.756 0 0 0-.67-.36c-.64.03-1.11-.1-1.31-.35-.19-.26-.13-.71-.01-1.29.04-.18.06-.38.03-.59-.05-.4-.4-.7-.81-.66C5.1 1.54 1 6.04 1 11.48 1 17.28 5.75 22 11.6 22c5.02 0 9.39-3.54 10.39-8.42.08-.4-.18-.78-.58-.87Zm-9.81 7.82c-5.03 0-9.12-4.06-9.12-9.06 0-4.34 3.05-8 7.25-8.86-.08.7.05 1.33.42 1.81.24.32.66.67 1.38.84-.76 1.86-.65 3.78.36 5.11.61.81 2.03 2 4.95 1.51.18.96.71 1.54 1.18 1.87.62.43 1.38.62 2.1.62.05 0 .09 0 .13-.01-1.23 3.64-4.7 6.18-8.64 6.18ZM13 17c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm5.29-12.3a.99.99 0 0 1-.29-.71c0-.55.45-.99 1-.99a1 1 0 0 1 .71.3c.19.19.29.44.29.71 0 .55-.45.99-1 .99a1 1 0 0 1-.71-.3ZM9 13.5c0 .83-.67 1.5-1.5 1.5S6 14.33 6 13.5 6.67 12 7.5 12s1.5.67 1.5 1.5Zm3.25.81a.744.744 0 0 1-.06-1.05c.28-.32.75-.34 1.05-.06.31.28.33.75.05 1.06-.15.16-.35.25-.56.25-.18 0-.36-.06-.5-.19ZM8.68 7.26c.41.37.44 1 .07 1.41-.2.22-.47.33-.75.33a.96.96 0 0 1-.67-.26c-.41-.37-.44-1-.07-1.41.37-.42 1-.45 1.41-.08Zm11.48 1.88c.18-.19.52-.19.7 0 .05.04.09.1.11.16.03.06.04.12.04.19 0 .13-.05.26-.15.35-.09.1-.22.15-.35.15s-.26-.05-.35-.15a.355.355 0 0 1-.11-.16.433.433 0 0 1-.04-.19c0-.13.05-.26.15-.35Zm-4.93-1.86a.75.75 0 1 1 1.059-1.06.75.75 0 0 1-1.059 1.06Z"/></svg></button></div><script>(function(win) {
+    if (!document.querySelector('.pcb')) {
+        return;
+    }
+
+    var cbConfig = {
+        behaviour: document.querySelector('.pcb').getAttribute('data-behaviour'),
+        behaviourLink: document.querySelector('.pcb').getAttribute('data-behaviour-link'),
+        revision: document.querySelector('.pcb').getAttribute('data-revision'),
+        configTTL: parseInt(document.querySelector('.pcb').getAttribute('data-config-ttl'), 10),
+        debugMode: document.querySelector('.pcb').getAttribute('data-debug-mode') === 'true',
+        initialState: null,
+        previouslyAccepted: []
+    };
+
+    var cbUI = {
+        wrapper: document.querySelector('.pcb'),
+        banner: {
+            element: null,
+            btnAccept: null,
+            btnReject: null,
+            btnConfigure: null
+        },
+        popup: {
+            element: null,
+            btnClose: null,
+            btnSave: null,
+            btnAccept: null,
+            btnReject: null,
+            checkboxes: null,
+        },
+        overlay: null,
+        badge: null,
+        blockedScripts: document.querySelectorAll('script[type^="gdpr-blocker/"]'),
+        triggerLinks: cbConfig.behaviourLink ? document.querySelectorAll('a[href*="' + cbConfig.behaviourLink + '"]') : null
+    };
+
+    function initUI () {
+        // setup banner elements
+        cbUI.banner.element = cbUI.wrapper.querySelector('.pcb__banner');
+        cbUI.banner.btnAccept = cbUI.banner.element.querySelector('.pcb__btn--accept');
+        cbUI.banner.btnReject = cbUI.banner.element.querySelector('.pcb__btn--reject');
+        cbUI.banner.btnConfigure = cbUI.banner.element.querySelector('.pcb__btn--configure');
+
+        // setup popup elements
+        if (cbUI.wrapper.querySelector('.pcb__popup')) {
+            cbUI.popup.element = cbUI.wrapper.querySelector('.pcb__popup');
+            cbUI.popup.btnClose = cbUI.wrapper.querySelector('.pcb__popup__close');
+            cbUI.popup.btnSave = cbUI.popup.element.querySelector('.pcb__btn--save');
+            cbUI.popup.btnAccept = cbUI.popup.element.querySelector('.pcb__btn--accept');
+            cbUI.popup.btnReject = cbUI.popup.element.querySelector('.pcb__btn--reject');
+            cbUI.popup.checkboxes = cbUI.popup.element.querySelector('input[type="checkbox"]');
+            // setup overlay
+            cbUI.overlay = cbUI.wrapper.querySelector('.pcb__overlay');
+        }
+
+        cbUI.badge = cbUI.wrapper.querySelector('.pcb__badge');
+
+        if (cbConfig.behaviour.indexOf('link') > -1) {
+            for (var i = 0; i < cbUI.triggerLinks.length; i++) {
+                cbUI.triggerLinks[i].addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showBannerOrPopup();
+                });
+            }
+        }
+    }
+
+    function initState () {
+        var lsKeyName = getConfigName();
+        var currentConfig = localStorage.getItem(lsKeyName);
+        var configIsFresh = checkIfConfigIsFresh();
+
+        if (!configIsFresh || currentConfig === null) {
+            if (cbConfig.debugMode) {
+                console.log('🍪 Config not found, or configuration expired');
+            }
+
+            showBanner();
+        } else if (typeof currentConfig === 'string') {
+            if (cbConfig.debugMode) {
+                console.log('🍪 Config founded');
+            }
+
+            showBadge();
+
+            if (cbUI.popup.element) {
+                var allowedGroups = currentConfig.split(',');
+                var checkedCheckboxes = cbUI.popup.element.querySelectorAll('input[type="checkbox"]:checked');
+
+                for (var j = 0; j < checkedCheckboxes.length; j++) {
+                    var name = checkedCheckboxes[j].getAttribute('data-group-name');
+
+                    if (name && name !== '-' && allowedGroups.indexOf(name) === -1) {
+                        checkedCheckboxes[j].checked = false;
+                    }
+                }
+
+                for (var i = 0; i < allowedGroups.length; i++) {
+                    var checkbox = cbUI.popup.element.querySelector('input[type="checkbox"][data-group-name="' + allowedGroups[i] + '"]');
+
+                    if (checkbox) {
+                        checkbox.checked = true;
+                    }
+
+                    allowCookieGroup(allowedGroups[i]);
+                }
+            }
+        }
+
+        setTimeout(function () {
+            cbConfig.initialState = getInitialStateOfConsents();
+        }, 0);
+    }
+
+    function checkIfConfigIsFresh () {
+        var lastConfigSave = localStorage.getItem('publii-gdpr-cookies-config-save-date');
+
+        if (lastConfigSave === null) {
+            return false;
+        }
+
+        lastConfigSave = parseInt(lastConfigSave, 10);
+
+        if (lastConfigSave === 0) {
+            return true;
+        }
+
+        if (+new Date() - lastConfigSave < cbConfig.configTTL * 24 * 60 * 60 * 1000) {
+            return true;
+        }
+
+        return false;
+    }
+
+    function initBannerEvents () {
+        cbUI.banner.btnAccept.addEventListener('click', function (e) {
+            e.preventDefault();
+            acceptAllCookies('banner');
+            showBadge();
+        }, false);
+
+        if (cbUI.banner.btnReject) {
+            cbUI.banner.btnReject.addEventListener('click', function (e) {
+                e.preventDefault();
+                rejectAllCookies();
+                showBadge();
+            }, false);
+        }
+
+        if (cbUI.banner.btnConfigure) {
+            cbUI.banner.btnConfigure.addEventListener('click', function (e) {
+                e.preventDefault();
+                hideBanner();
+                showAdvancedPopup();
+                showBadge();
+            }, false);
+        }
+    }
+
+    function initPopupEvents () {
+        if (!cbUI.popup.element) {
+            return;
+        }
+
+        cbUI.overlay.addEventListener('click', function (e) {
+            hideAdvancedPopup();
+        }, false);
+
+        cbUI.popup.element.addEventListener('click', function (e) {
+            e.stopPropagation();
+        }, false);
+
+        cbUI.popup.btnAccept.addEventListener('click', function (e) {
+            e.preventDefault();
+            acceptAllCookies('popup');
+        }, false);
+
+        cbUI.popup.btnReject.addEventListener('click', function (e) {
+            e.preventDefault();
+            rejectAllCookies();
+        }, false);
+
+        cbUI.popup.btnSave.addEventListener('click', function (e) {
+            e.preventDefault();
+            saveConfiguration();
+        }, false);
+
+        cbUI.popup.btnClose.addEventListener('click', function (e) {
+            e.preventDefault();
+            hideAdvancedPopup();
+        }, false);
+    }
+
+    function initBadgeEvents () {
+        if (!cbUI.badge) {
+            return;
+        }
+
+        cbUI.badge.addEventListener('click', function (e) {
+            showBannerOrPopup();
+        }, false);
+    }
+
+    initUI();
+    initState();
+    initBannerEvents();
+    initPopupEvents();
+    initBadgeEvents();
+
+    /**
+     * API
+     */
+    function addScript (src, inline) {
+        var newScript = document.createElement('script');
+
+        if (src) {
+            newScript.setAttribute('src', src);
+        }
+
+        if (inline) {
+            newScript.text = inline;
+        }
+
+        document.body.appendChild(newScript);
+    }
+
+    function allowCookieGroup (allowedGroup) {
+        var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroup + '"]');
+        cbConfig.previouslyAccepted.push(allowedGroup);
+    
+        for (var j = 0; j < scripts.length; j++) {
+            addScript(scripts[j].src, scripts[j].text);
+        }
+
+        var groupEvent = new Event('publii-cookie-banner-unblock-' + allowedGroup);
+        document.body.dispatchEvent(groupEvent);
+        unlockEmbeds(allowedGroup);
+
+        if (cbConfig.debugMode) {
+            console.log('🍪 Allowed group: ' + allowedGroup);
+        }
+    }
+
+    function showBannerOrPopup () {
+        if (cbUI.popup.element) {
+            showAdvancedPopup();
+        } else {
+            showBanner();
+        }
+    }
+
+    function showAdvancedPopup () {
+        cbUI.popup.element.classList.add('is-visible');
+        cbUI.overlay.classList.add('is-visible');
+        cbUI.popup.element.setAttribute('aria-hidden', 'false');
+        cbUI.overlay.setAttribute('aria-hidden', 'false');
+    }
+
+    function hideAdvancedPopup () {
+        cbUI.popup.element.classList.remove('is-visible');
+        cbUI.overlay.classList.remove('is-visible');
+        cbUI.popup.element.setAttribute('aria-hidden', 'true');
+        cbUI.overlay.setAttribute('aria-hidden', 'true');
+    }
+
+    function showBanner () {
+        cbUI.banner.element.classList.add('is-visible');
+        cbUI.banner.element.setAttribute('aria-hidden', 'false');
+    }
+
+    function hideBanner () {
+        cbUI.banner.element.classList.remove('is-visible');
+        cbUI.banner.element.setAttribute('aria-hidden', 'true');
+    }
+
+    function showBadge () {
+        if (!cbUI.badge) {
+            return;
+        }
+
+        cbUI.badge.classList.add('is-visible');
+        cbUI.badge.setAttribute('aria-hidden', 'false');
+    }
+
+    function getConfigName () {
+        var lsKeyName = 'publii-gdpr-allowed-cookies';
+
+        if (cbConfig.revision) {
+            lsKeyName = lsKeyName + '-v' + parseInt(cbConfig.revision, 10);
+        }
+
+        return lsKeyName;
+    }
+
+    function storeConfiguration (allowedGroups) {
+        var lsKeyName = getConfigName();
+        var dataToStore = allowedGroups.join(',');
+        localStorage.setItem(lsKeyName, dataToStore);
+
+        if (cbConfig.configTTL === 0) {
+            localStorage.setItem('publii-gdpr-cookies-config-save-date', 0);
+
+            if (cbConfig.debugMode) {
+                console.log('🍪 Store never expiring configuration');
+            }
+        } else {
+            localStorage.setItem('publii-gdpr-cookies-config-save-date', +new Date());
+        }
+    }
+
+    function getInitialStateOfConsents () {
+        if (!cbUI.popup.element) {
+            return [];
+        }
+
+        var checkedGroups = cbUI.popup.element.querySelectorAll('input[type="checkbox"]:checked');
+        var groups = [];
+
+        for (var i = 0; i < checkedGroups.length; i++) {
+            var allowedGroup = checkedGroups[i].getAttribute('data-group-name');
+
+            if (allowedGroup !== '') {
+                groups.push(allowedGroup);
+            }
+        }
+
+        if (cbConfig.debugMode) {
+            console.log('🍪 Initial state: ' + groups.join(', '));
+        }
+
+        return groups;
+    }
+
+    function getCurrentStateOfConsents () {
+        if (!cbUI.popup.element) {
+            return [];
+        }
+
+        var checkedGroups = cbUI.popup.element.querySelectorAll('input[type="checkbox"]:checked');
+        var groups = [];
+
+        for (var i = 0; i < checkedGroups.length; i++) {
+            var allowedGroup = checkedGroups[i].getAttribute('data-group-name');
+
+            if (allowedGroup !== '') {
+                groups.push(allowedGroup);
+            }
+        }
+
+        if (cbConfig.debugMode) {
+            console.log('🍪 State to save: ' + groups.join(', '));
+        }
+
+        return groups;
+    }
+
+    function getAllGroups () {
+        if (!cbUI.popup.element) {
+            return [];
+        }
+
+        var checkedGroups = cbUI.popup.element.querySelectorAll('input[type="checkbox"]');
+        var groups = [];
+
+        for (var i = 0; i < checkedGroups.length; i++) {
+            var allowedGroup = checkedGroups[i].getAttribute('data-group-name');
+
+            if (allowedGroup !== '') {
+                groups.push(allowedGroup);
+            }
+        }
+
+        return groups;
+    }
+
+    function acceptAllCookies (source) {
+        var groupsToAccept = getAllGroups();
+        storeConfiguration(groupsToAccept);
+
+        for (var i = 0; i < groupsToAccept.length; i++) {
+            var group = groupsToAccept[i];
+
+            if (cbConfig.initialState.indexOf(group) > -1 || cbConfig.previouslyAccepted.indexOf(group) > -1) {
+                if (cbConfig.debugMode) {
+                    console.log('🍪 Skip previously activated group: ' + group);
+                }
+
+                continue;
+            }
+
+            allowCookieGroup(group);
+        }
+
+        if (cbUI.popup.element) {
+            var checkboxesToCheck = cbUI.popup.element.querySelectorAll('input[type="checkbox"]');
+
+            for (var j = 0; j < checkboxesToCheck.length; j++) {
+                checkboxesToCheck[j].checked = true;
+            }
+        }
+
+        if (cbConfig.debugMode) {
+            console.log('🍪 Accept all cookies: ', groupsToAccept.join(', '));
+        }
+
+        if (source === 'popup') {
+            hideAdvancedPopup();
+        } else if (source === 'banner') {
+            hideBanner();
+        }
+    }
+
+    function rejectAllCookies () {
+        if (cbConfig.debugMode) {
+            console.log('🍪 Reject all cookies');
+        }
+
+        storeConfiguration([]);
+        setTimeout(function () {
+            window.location.reload();
+        }, 100);
+    }
+
+    function saveConfiguration () {
+        var groupsToAccept = getCurrentStateOfConsents();
+        storeConfiguration(groupsToAccept);
+
+        if (cbConfig.debugMode) {
+            console.log('🍪 Save new config: ', groupsToAccept.join(', '));
+        }
+
+        if (reloadIsNeeded(groupsToAccept)) {
+            setTimeout(function () {
+                window.location.reload();
+            }, 100);
+            return;
+        }
+
+        for (var i = 0; i < groupsToAccept.length; i++) {
+            var group = groupsToAccept[i];
+
+            if (cbConfig.initialState.indexOf(group) > -1 || cbConfig.previouslyAccepted.indexOf(group) > -1) {
+                if (cbConfig.debugMode) {
+                    console.log('🍪 Skip previously activated group: ' + group);
+                }
+
+                continue;
+            }
+
+            allowCookieGroup(group);
+        }
+
+        hideAdvancedPopup();
+    }
+
+    function reloadIsNeeded (groupsToAccept) {
+        // check if user rejected consent for initial groups
+        var initialGroups = cbConfig.initialState;
+        var previouslyAcceptedGroups = cbConfig.previouslyAccepted;
+        var groupsToCheck = initialGroups.concat(previouslyAcceptedGroups);
+
+        for (var i = 0; i < groupsToCheck.length; i++) {
+            var groupToCheck = groupsToCheck[i];
+
+            if (groupsToAccept.indexOf(groupToCheck) === -1) {
+                if (cbConfig.debugMode) {
+                    console.log('🍪 Reload is needed due lack of: ', groupToCheck);
+                }
+
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    function unlockEmbeds (cookieGroup) {
+        var iframesToUnlock = document.querySelectorAll('.pec-wrapper[data-consent-group-id="' + cookieGroup + '"]');
+
+        for (var i = 0; i < iframesToUnlock.length; i++) {
+            var iframeWrapper = iframesToUnlock[i];
+            iframeWrapper.querySelector('.pec-overlay').classList.remove('is-active');
+            iframeWrapper.querySelector('.pec-overlay').setAttribute('aria-hidden', 'true');
+            var iframe = iframeWrapper.querySelector('iframe');
+            iframe.setAttribute('src', iframe.getAttribute('data-consent-src'));
+        }
+    }
+
+    win.publiiEmbedConsentGiven = function (cookieGroup) {
+        // it will unlock embeds
+        allowCookieGroup(cookieGroup);
+
+        var checkbox = cbUI.popup.element.querySelector('input[type="checkbox"][data-group-name="' + cookieGroup + '"]');
+
+        if (checkbox) {
+            checkbox.checked = true;
+        }
+
+        var groupsToAccept = getCurrentStateOfConsents();
+        storeConfiguration(groupsToAccept);
+
+        if (cbConfig.debugMode) {
+            console.log('🍪 Save new config: ', groupsToAccept.join(', '));
+        }
+    }
+})(window);</script></body></html>
