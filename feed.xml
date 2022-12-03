@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>DF Blogs</title>
-    <link href="https://blogs.thefourcraft.com/feed.xml" rel="self" />
-    <link href="https://blogs.thefourcraft.com" />
+    <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
+    <link href="https://blog.thefourcraft.com" />
     <updated>2022-10-16T11:09:21+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
-    <id>https://blogs.thefourcraft.com</id>
+    <id>https://blog.thefourcraft.com</id>
 
     <entry>
         <title>Microsoft Power Toys</title>
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/microsoft-power-toys/index.html"/>
-        <id>https://blogs.thefourcraft.com/microsoft-power-toys/index.html</id>
+        <link href="https://blog.thefourcraft.com/microsoft-power-toys/index.html"/>
+        <id>https://blog.thefourcraft.com/microsoft-power-toys/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/9/PowerToys-logo.png" medium="image" />
             <category term="Windows"/>
             <category term="Tips &amp; Tricks"/>
 
         <updated>2022-10-16T11:09:21+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blogs.thefourcraft.com/media/posts/9/PowerToys-logo.png" alt="This is the Microsoft PowerToys GitHub Repo Share Image" />
+                        <img src="https://blog.thefourcraft.com/media/posts/9/PowerToys-logo.png" alt="This is the Microsoft PowerToys GitHub Repo Share Image" />
                     A list of hidden windows tools, which enhance the windows experience. it's an open-source tool by Microsoft, that unlocks more&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blogs.thefourcraft.com/media/posts/9/PowerToys-logo.png" alt="This is the Microsoft PowerToys GitHub Repo Share Image" />
+                    <p><img src="https://blog.thefourcraft.com/media/posts/9/PowerToys-logo.png" class="type:primaryImage" alt="This is the Microsoft PowerToys GitHub Repo Share Image" /></p>
                 <p>A list of hidden windows tools, which enhance the windows experience.<br>it's an open-source tool by Microsoft, that unlocks more functions in Windows.</p>
 <blockquote>
 <p>Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. <br>For more info on <a href="https://aka.ms/powertoys-docs" rel="nofollow">PowerToys overviews and how to use the utilities</a>, or any other tools and resources for <a href="https://learn.microsoft.com/windows/dev-environment/overview" rel="nofollow">Windows development environments</a>, head over to <a href="https://aka.ms/powertoys-docs" rel="nofollow">learn.microsoft.com</a>!<br>- GitHub</p>
@@ -39,7 +40,7 @@
 <p>As the name suggests, PowerToys Awake keeps your pc on... without having to do random console commands to prevent updates from restarting your pc. <br>We all know, how frustrating it can be when you change all the power &amp; sleep settings to make the computer not restart or shut down but it still does it because you forgot some settings.. with PowerToys Awake it's simple</p>
 <h5>How To Activate it?</h5>
 <p>1. Download <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">Power Toys</a> (you need basic understating about the platform GitHub)<br>2. Install it &amp; open the settings<br>3. Go to the Awake Tab (Conveniently marked with a coffee cap)<br>4. Expand the new Under Mode and select your desired operating state</p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://blogs.thefourcraft.com/media/posts/9//PowerToys-Awake.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blogs.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-xs.png 300w ,https://blogs.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-sm.png 480w ,https://blogs.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-md.png 768w"  alt="Settings Screenshot" width="1053" height="159"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://blog.thefourcraft.com/media/posts/9//PowerToys-Awake.png" alt="Settings Screenshot" width="1053" height="159" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-xs.png 300w ,https://blog.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-sm.png 480w ,https://blog.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-md.png 768w"></figure>
 <figcaption > PowerToys Awake Settings Screenshot</figcaption>
 </figure>
 <h3 id="color-picker" class="heading-anchor">Color Picker</h3>
@@ -54,13 +55,13 @@
 <p>Bulk Rename Files, you can search &amp; rename files and it's based on <a href="https://github.com/chrdavis/SmartRename" target="_blank" rel="noopener noreferrer">SmartRename</a> which is a tool that I have been using to bulk rename files.</p>
 <h5>How To Use it?</h5>
 <p>1. Find a folder with items that need bulk renaming<br>2. <kbd>Ctrl</kbd>+<kbd>A<br></kbd>3. Right Click and find the option labeled PowerRename</p>
-<figure class="post__image post__image--center" ><img loading="lazy" src="https://blogs.thefourcraft.com/media/posts/9/powerrename-demo-2.gif" alt="" width="1598" height="1080">
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://blog.thefourcraft.com/media/posts/9/powerrename-demo-2.gif" alt="" width="1598" height="1080">
 <figcaption >Microsoft Demo For PowerRename<br>All Rights Are Reserved To Microsoft</figcaption>
 </figure>
 <p><br>The Best Part about this is, You can undo all changes and it has a nice modern UI, this has a lot of other features <a href="https://learn.microsoft.com/en-us/windows/powertoys/powerrename" target="_blank" rel="noopener noreferrer">here's the full list</a></p>
 <h3 id="text-extractor" class="heading-anchor">Text Extractor</h3>
 <p>Who Knew that windows had a text extractor, it's based on an open-source project called <span class="mr-2 flex-self-stretch"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="https://github.com/TheJoeFin/Text-Grab">Text-Grab</a>.<br>it's as simple as its sounds... <br><br></span></p>
-<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://blogs.thefourcraft.com/media/posts/9/2-3-Full-Screen-Grab-med.gif" alt="" width="800" height="601"></figure>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://blog.thefourcraft.com/media/posts/9/2-3-Full-Screen-Grab-med.gif" alt="" width="800" height="601"></figure>
 <figcaption >Demo For <span class="mr-2 flex-self-stretch"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="https://github.com/TheJoeFin/Text-Grab">Text-Grab</a></span></figcaption>
 </figure>
 <p><span class="mr-2 flex-self-stretch">In Microsoft Power Toys they call it the Text Extractor, after installing <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">Power Toys</a> simply press <kbd>⊞ Win</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd></span> you'll see an overlay on the screen.<br>Click and hold your primary mouse button and drag to activate your capture. <br>The text will be saved to your clipboard.<br>While using it Most of the times it gets the text right, unless it's a corked font or small letters (size 5 and below)<br>also, it's very handy because it supports all installed languages on your pc, so you are not limited to English only.</p>
@@ -83,8 +84,8 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/log4j-killed-me/index.html"/>
-        <id>https://blogs.thefourcraft.com/log4j-killed-me/index.html</id>
+        <link href="https://blog.thefourcraft.com/log4j-killed-me/index.html"/>
+        <id>https://blog.thefourcraft.com/log4j-killed-me/index.html</id>
             <category term="Servers"/>
             <category term="Security"/>
             <category term="IMS - Network"/>
@@ -113,8 +114,8 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/nl-failure/index.html"/>
-        <id>https://blogs.thefourcraft.com/nl-failure/index.html</id>
+        <link href="https://blog.thefourcraft.com/nl-failure/index.html"/>
+        <id>https://blog.thefourcraft.com/nl-failure/index.html</id>
             <category term="Security"/>
             <category term="Network"/>
             <category term="IMS - Network"/>
@@ -155,7 +156,7 @@
 <p>Custom Domain Protection, a Cloudflare Registrar feature available on the Enterprise Plan, is the highest level of registrar security.<br>It protects your organization from domain hijacking with high-touch, on, and offline verification of any changes to your Registrar account. <br>Cloudflare is an ICANN accredited registrar providing secure domain registration for high-profile domains.</p>
 <h2>What Happened To isrealmincraft.ml</h2>
 <p>When we just got started with servers and managing we used a domain name from Freenom which was taken away from us, because of "fraud".<br>at first, I didn't catch the issue and didn't understand why people can't connect to our server, after talking with Cloudflare's support we made to the conclusion that Freenom caused all the problems.</p>
-<p><img loading="lazy" src="https://static.wixstatic.com/media/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg/v1/fill/w_740,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg" data-is-external-image="true" ></p>
+<p><img loading="lazy" src="https://static.wixstatic.com/media/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg/v1/fill/w_740,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg" data-is-external-image="true"></p>
 <h4 class="align-center"><strong>DON'T REGISTER FREE DOMAINS, IT'S NOT WORTH THE RISK</strong></h4>
 <p><strong> </strong></p>
             ]]>
@@ -166,8 +167,8 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/ims-double-net-bug/index.html"/>
-        <id>https://blogs.thefourcraft.com/ims-double-net-bug/index.html</id>
+        <link href="https://blog.thefourcraft.com/ims-double-net-bug/index.html"/>
+        <id>https://blog.thefourcraft.com/ims-double-net-bug/index.html</id>
             <category term="Tips &amp; Tricks"/>
             <category term="Servers"/>
             <category term="Router"/>
@@ -186,7 +187,7 @@
                 <p>IMS - Network, is an Israeli gaming community that builds and develops game servers for free.  </p>
 <h2>What is a double net? </h2>
 <p><span class="ng-emphasis">Double NAT</span> occurs when you connect your router to an ISP gateway or another router. Because NAT is performed by each router or gateway, your network is split into two different private networks. <br>The devices connected to one private network might have communication problems with the devices connected to the other private network.</p>
-<figure class="post__image"><img loading="lazy"  src="https://blogs.thefourcraft.com/media/posts/6//Blog-IMG.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blogs.thefourcraft.com/media/posts/6//responsive/Blog-IMG-xs.png 300w ,https://blogs.thefourcraft.com/media/posts/6//responsive/Blog-IMG-sm.png 480w ,https://blogs.thefourcraft.com/media/posts/6//responsive/Blog-IMG-md.png 768w"  alt="Double Net Demo" width="1920" height="683"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://blog.thefourcraft.com/media/posts/6//Blog-IMG.png" alt="Double Net Demo" width="1920" height="683" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.thefourcraft.com/media/posts/6//responsive/Blog-IMG-xs.png 300w ,https://blog.thefourcraft.com/media/posts/6//responsive/Blog-IMG-sm.png 480w ,https://blog.thefourcraft.com/media/posts/6//responsive/Blog-IMG-md.png 768w"></figure>
 <p>As you can see in the illustration I have created an example for a double net issue.<br>The double net accounts between the routers, the main problem that you will experience will use port forwarding and triggering to not work.<br>which is a major problem... if you need to open a port... because you are running a server that players need to access. </p>
 <h3>How to Identify a double net issue?</h3>
 <p>Look for 4 simple problems that can occur with a double net network:</p>
@@ -215,20 +216,21 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/nail-beta-testing/index.html"/>
-        <id>https://blogs.thefourcraft.com/nail-beta-testing/index.html</id>
+        <link href="https://blog.thefourcraft.com/nail-beta-testing/index.html"/>
+        <id>https://blog.thefourcraft.com/nail-beta-testing/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/5/Beta.png" medium="image" />
             <category term="Tips &amp; Tricks"/>
 
         <updated>2022-08-21T23:53:03+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blogs.thefourcraft.com/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
+                        <img src="https://blog.thefourcraft.com/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
                     Beta tests are important for companies and they are benefiting everyone who is involved. Companies that run beta tests are&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blogs.thefourcraft.com/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
+                    <p><img src="https://blog.thefourcraft.com/media/posts/5/Beta.png" class="type:primaryImage" alt="Beta Testing Blog Image" /></p>
                 <p>Beta tests are important for companies and they are benefiting everyone who is involved.<br>Companies that run beta tests are genuinely interested in hearing your feedback and what you think. <br>If you’re selected as a beta tester, you need to make the most of the opportunity. <br>Share every thought, note every bug, and get engaged in the process.<br><br>The more active you are on the project, the more likely you will be to earn any project incentive and get other chances to test with the company.<br>If the company likes you they will contact you again and maybe even give you benefits! </p>
 <h2>Let's Learn Some Tips To Nail Beta Testing </h2>
 <p class="dropcap">1. <strong>Don't OverWork Your Self<br></strong>Spend a little time every day doing something on every part of the product. Budget sometime each day to submit feedback.  By doing a little bit every day you will test the product in its entirety, have great performance numbers, and have a lot of fun Because getting access to beta testing usually means new features and improvements, also remember you are #first.<strong><br></strong></p>
@@ -246,20 +248,21 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/how-does-a-ztna-work/index.html"/>
-        <id>https://blogs.thefourcraft.com/how-does-a-ztna-work/index.html</id>
+        <link href="https://blog.thefourcraft.com/how-does-a-ztna-work/index.html"/>
+        <id>https://blog.thefourcraft.com/how-does-a-ztna-work/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/4/ZTNA.png" medium="image" />
             <category term="Zero Trust"/>
 
         <updated>2022-08-21T20:31:47+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blogs.thefourcraft.com/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
+                        <img src="https://blog.thefourcraft.com/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
                     While the specific tools used to implement Zero Trust Architecture may vary Implementing a Zero Trust Architecture project calls out&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blogs.thefourcraft.com/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
+                    <p><img src="https://blog.thefourcraft.com/media/posts/4/ZTNA.png" class="type:primaryImage" alt="ZTNA Blog Post Cover Image" /></p>
                 <p>While the specific tools used to implement Zero Trust Architecture may vary<br>Implementing a Zero Trust Architecture project calls out some key functions:</p>
 <ul class="learning-list">
 <li><strong>Application vs. network access:</strong> <br>ZTNA treats application access separately from network access. Connecting to a network does not automatically grant a user the right to access an application.</li>
@@ -283,21 +286,22 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/zero-trust-vs-vpn/index.html"/>
-        <id>https://blogs.thefourcraft.com/zero-trust-vs-vpn/index.html</id>
+        <link href="https://blog.thefourcraft.com/zero-trust-vs-vpn/index.html"/>
+        <id>https://blog.thefourcraft.com/zero-trust-vs-vpn/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" medium="image" />
             <category term="Zero Trust"/>
             <category term="Cloudflare"/>
 
         <updated>2022-08-20T21:35:49+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blogs.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
+                        <img src="https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
                     VPN is what many organizations use to control access instead of ZTNA. Once users are logged in to a VPN,&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blogs.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
+                    <p><img src="https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" class="type:primaryImage" alt="Zero Trust vs VPN Image" /></p>
                 <p>VPN is what many organizations use to control access instead of ZTNA. <br>Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants access to the specific application requested and denies access to applications and data by default.<br><br></p>
 <p>One of the biggest threats to network security is a company’s own Virtual Private Network (VPN). <br>Based on old network architectures, VPN’s assumption of a securely fixed perimeter surrounding a trusted network is a dated design pattern that undermines security. <br>Zero Trust is a framework of security concepts that are better suited to the way business works today.</p>
 <h2 id="what-is-zero-trust" class="sc-ghizgr-0 DIklJ">What is Zero Trust?</h2>
@@ -322,8 +326,8 @@
         <author>
             <name>thefourCraft</name>
         </author>
-        <link href="https://blogs.thefourcraft.com/bungeecord-and-spigot-servers-venerability/index.html"/>
-        <id>https://blogs.thefourcraft.com/bungeecord-and-spigot-servers-venerability/index.html</id>
+        <link href="https://blog.thefourcraft.com/bungeecord-and-spigot-servers-venerability/index.html"/>
+        <id>https://blog.thefourcraft.com/bungeecord-and-spigot-servers-venerability/index.html</id>
 
         <updated>2022-08-27T00:53:02+03:00</updated>
             <summary>
