@@ -3,12 +3,348 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2022-10-16T11:09:21+03:00</updated>
+    <updated>2022-12-23T10:35:54+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Why Monitoring and Logging Are Key to DevOps Success</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/why-monitoring-and-logging-are-key-to-devops-success/index.html"/>
+        <id>https://blog.thefourcraft.com/why-monitoring-and-logging-are-key-to-devops-success/index.html</id>
+            <category term="DevOps"/>
+
+        <updated>2022-12-23T10:12:51+02:00</updated>
+            <summary>
+                <![CDATA[
+                    <p data-pm-slice="1 1 []">Monitoring and logging are critical components of a successful DevOps strategy. They provide visibility into the health and performance of your systems, applications, and infrastructure, and help you identify and troubleshoot issues quickly.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p data-pm-slice="1 1 []">Monitoring and logging are critical components of a successful DevOps strategy. They provide visibility into the health and performance of your systems, applications, and infrastructure, and help you identify and troubleshoot issues quickly.</p>
+
+<p>But monitoring and logging do more than just help you fix problems. They also enable you to optimize your systems for maximum efficiency and reliability. <br>By understanding how your systems are behaving in real time, you can proactively identify and address potential bottlenecks or issues before they become major problems.</p>
+<p>In a DevOps environment, monitoring and logging are especially important because of the fast pace of development and deployment. <br>With frequent code updates and deployments, it's essential to have the visibility and insights needed to ensure that your systems are running smoothly and meeting the needs of your users.</p>
+<p>There are many tools and technologies available for monitoring and logging in a DevOps environment. Some popular options include:</p>
+<ul>
+<li>
+<p>Application performance monitoring (APM) tools like New Relic and AppDynamics, provide detailed insights into the performance and behavior of your applications.</p>
+</li>
+<li>
+<p>Infrastructure monitoring tools like Datadog and Nagios, give you visibility into the health and performance of your servers, networks, and other infrastructure components.</p>
+</li>
+<li>
+<p>Log analysis tools like Splunk and ELK (Elasticsearch, Logstash, and Kibana), which allow you to search, analyze, and visualize your log data to identify trends and patterns.</p>
+</li>
+</ul>
+<p>It's important to choose the right monitoring and logging tools for your specific needs and goals. Some factors to consider include:</p>
+<ul>
+<li>
+<p>The type of systems and applications you are monitoring (e.g., web applications, mobile apps, databases, servers, etc.)</p>
+</li>
+<li>
+<p>The level of detail and granularity you need (e.g., do you need to monitor individual server metrics or just overall system performance?)</p>
+</li>
+<li>
+<p>Your budget and resources (e.g., do you have the personnel and expertise to set up and maintain complex monitoring systems?)</p>
+</li>
+</ul>
+<p>No matter what tools you choose, it's essential to have a well-defined monitoring and logging strategy in place. This should include:</p>
+<ul>
+<li>
+<p>Clear goals and objectives for what you want to achieve with monitoring and logging (e.g., improve reliability, optimize performance, reduce downtime, etc.)</p>
+</li>
+<li>
+<p>Metrics and KPIs to track and measure your progress (e.g., response time, error rates, availability, etc.)</p>
+</li>
+<li>
+<p>Alerting and notification policies to ensure that you are notified when problems arise</p>
+</li>
+<li>
+<p>A process for analyzing and acting on the data you collect (e.g., identifying trends and patterns, root cause analysis, etc.)</p>
+</li>
+</ul>
+<p>In summary, monitoring and logging are crucial for the success of any DevOps initiative. By providing visibility and insights into the health and performance of your systems, they enable you to identify and fix problems quickly, optimize your systems for maximum efficiency and reliability, and ensure that your users have a great experience.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The role of AI and ML in DevOps</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/the-role-of-ai-and-ml-in-devops/index.html"/>
+        <id>https://blog.thefourcraft.com/the-role-of-ai-and-ml-in-devops/index.html</id>
+            <category term="DevOps"/>
+            <category term="AI"/>
+
+        <updated>2022-12-23T10:11:47+02:00</updated>
+            <summary>
+                <![CDATA[
+                    <p data-pm-slice="1 1 []">Artificial intelligence (AI) and machine learning (ML) are rapidly becoming key tools for DevOps teams looking to optimize and automate their workflows. <br>These technologies can help DevOps teams make better decisions, reduce errors, and improve efficiency by automating tasks and analyzing large volumes of data.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p data-pm-slice="1 1 []">Artificial intelligence (AI) and machine learning (ML) are rapidly becoming key tools for DevOps teams looking to optimize and automate their workflows. <br>These technologies can help DevOps teams make better decisions, reduce errors, and improve efficiency by automating tasks and analyzing large volumes of data.</p>
+
+<h3>GitHub CoPilot</h3>
+<p>One example of AI and ML in DevOps is GitHub CoPilot, a tool developed by GitHub that uses machine learning to assist developers with code review and debugging. <br>CoPilot analyzes code changes and provides recommendations on how to improve the code, such as fixing syntax errors or suggesting alternative approaches. <br>This helps developers save time and improve the quality of their code, which ultimately leads to faster and more reliable deployments.</p>
+<h3>CHATGPT</h3>
+<p>Another example is CHATGPT, an open-source chatbot developed by Microsoft that uses natural language processing (NLP) to assist DevOps teams with tasks such as deployment, monitoring, and incident resolution. </p>
+<p>CHATGPT can be integrated with popular DevOps tools like Ansible and Jenkins and allows teams to automate tasks and collaborate more effectively by using natural language commands and queries.</p>
+<h3>About Them</h3>
+<p>Both GitHub CoPilot and CHATGPT demonstrate the potential of AI and ML to transform DevOps workflows. By automating tasks and providing intelligent recommendations, these tools can help DevOps teams work faster and more efficiently, and ultimately deliver better results for their organizations.</p>
+<h3>Conclusion</h3>
+<p>Artificial intelligence (AI) and machine learning (ML) are technologies that allow computers to perform tasks that typically require human intelligence, such as understanding natural language, recognizing patterns, and making decisions. </p>
+<p>These technologies have the potential to transform how DevOps teams work by automating certain tasks and processes, improving efficiency and accuracy, and enabling teams to focus on more high-level, strategic work.</p>
+<p>For example, AI and ML can be used to automate the testing and deployment of code, identify and fix problems in production environments, and optimize resource utilization. They can also be used to analyze data and generate insights that can inform decision-making and improve the overall performance of systems.</p>
+<p>AI and ML can greatly improve the efficiency and effectiveness of DevOps teams by automating certain tasks and processes, providing insights through data analysis, and optimizing resource utilization. </p>
+<p>However, it is important for DevOps teams to carefully consider their needs and goals before adopting these technologies and to be aware of their limitations and ethical considerations.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Essential Tips for Maintaining a Secure and Stable Minecraft Server</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/essential-tips-for-maintaining-a-secure-and-stable-minecraft-server/index.html"/>
+        <id>https://blog.thefourcraft.com/essential-tips-for-maintaining-a-secure-and-stable-minecraft-server/index.html</id>
+            <category term="Servers"/>
+            <category term="Security"/>
+            <category term="Minecraft"/>
+            <category term="IMS - Network"/>
+
+        <updated>2022-12-23T10:04:11+02:00</updated>
+            <summary>
+                <![CDATA[
+                    <p data-pm-slice="1 1 []">As a Minecraft server admin, it's important to prioritize security and maintenance to ensure that your server is stable, reliable, and safe for your players. Here are a few best practices to keep in mind</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p data-pm-slice="1 1 []">As a Minecraft server admin, it's important to prioritize security and maintenance to ensure that your server is stable, reliable, and safe for your players. Here are a few best practices to keep in mind</p>
+
+<h3>Use strong, unique passwords</h3>
+<p>One of the most important steps you can take to secure your Minecraft server is to use strong, unique passwords for all of your accounts. This includes your server's administrative account, as well as any other accounts you may have for managing plugins or other server-side tools. Use a password manager to generate and store secure passwords, and consider enabling two-factor authentication for added security.</p>
+<h3>Keep your server and plugins up to date</h3>
+<p>It's important to keep your Minecraft server and any plugins or mods you are using up to date with the latest versions. New updates often include security fixes and other important improvements, so staying current is essential for the security and stability of your server.</p>
+<h3>Use a security plugin</h3>
+<p>Another effective way to secure your Minecraft server is to use a security plugin, such as LockLogin. <br>LockLogin is a popular plugin that adds extra security measures to your serves such as two-factor authentication, IP blocking, and password hashing. It's a great tool for protecting your server and your players' accounts from unauthorized access.</p>
+<h3>Monitor your server logs</h3>
+<p>Monitoring your server logs is a crucial part of maintaining your Minecraft server. By keeping track of log messages, you can identify any issues or problems that may arise and take appropriate action. This can help you catch and fix problems before they become serious issues.</p>
+<h3>Backup your server regularly</h3>
+<p>Finally, it's important to backup your Minecraft server regularly to protect against data loss. <br>A backup allows you to restore your server in the event of a disaster or other unforeseen event, suchas server failure or data corruption. <br>Consider using a plugin or third-party tool to automate your backups and make them easier to manage.</p>
+<h3>Prioritize player privacy</h3>
+<p>Player privacy is an important consideration for any Minecraft server. Players entrust you with their personal information when they join your server, and it's your responsibility to protect that information and ensure that it is not misused. <br>This includes taking steps to secure player data, such as using strong, unique passwords and encrypting data in transit and at rest. <br>It's also important to be transparent with players about how you collect, use, and share their personal information, and to give them the option to opt-out of data collection if they wish. By prioritizing player privacy, you can build trust and credibility with your community and ensure that your server is a safe and welcoming place for players.</p>
+<p>In summary, security and maintenance are crucial for the success and stability of your Minecraft server. By following these best practices and using tools like LockLogin, you can ensure that your server is secure, reliable, and well-maintained, while also respecting the privacy of your players.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Setting Up A Disaster Recovery Plan For Your DevOps Environment</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/setting-up-a-disaster-recovery-plan-for-your-devops-environment/index.html"/>
+        <id>https://blog.thefourcraft.com/setting-up-a-disaster-recovery-plan-for-your-devops-environment/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/13/Setting-Up-A-Disaster-Recovery-Plan-For-Your-DevOps-Environment.png" medium="image" />
+            <category term="Tips &amp; Tricks"/>
+            <category term="DevOps"/>
+
+        <updated>2022-12-23T09:56:12+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/13/Setting-Up-A-Disaster-Recovery-Plan-For-Your-DevOps-Environment.png" alt="" />
+                    <p>Disaster recovery (DR) is an essential component of any DevOps strategy that ensures that your systems and applications are able to recover quickly and effectively from unexpected outages or failures. <br>By minimizing the impact of these outages on your business and your users, a well-planned and tested disaster recovery plan can help to protect your company's reputation and bottom line.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/13/Setting-Up-A-Disaster-Recovery-Plan-For-Your-DevOps-Environment.png" class="type:primaryImage" alt="" /></p>
+                <p>Disaster recovery (DR) is an essential component of any DevOps strategy that ensures that your systems and applications are able to recover quickly and effectively from unexpected outages or failures. <br>By minimizing the impact of these outages on your business and your users, a well-planned and tested disaster recovery plan can help to protect your company's reputation and bottom line.</p>
+
+<h3>Identify Your Critical Systems And Applications</h3>
+<p>To set up a disaster recovery plan for your DevOps environment, it's important to first identify your critical systems and applications. <br>These are the systems that are most essential to your business operations and need to be up and running as quickly as possible in the event of a disaster. This may include servers, databases, and applications that support core business functions, as well as any systems that are required to meet regulatory or compliance requirements.</p>
+<h3>Develop A Disaster Recovery Strategy</h3>
+<p>Once you've identified your critical systems and applications, the next step is to develop a comprehensive disaster recovery strategy. <br>This should include details on how you will restore data, redeploy applications, and communicate with your users in the event of a disaster. <br>It's important to consider the potential impact of different types of disasters, such as natural disasters, hardware failures, or cyber attacks, and to have a plan in place to address each scenario.</p>
+<h3>Test Tour Disaster Recovery Plan</h3>
+<p>To ensure that your disaster recovery plan is effective and up to date, it's essential to test it regularly.<br>This can include simulations of different disaster scenarios, as well as testing your actual recovery processes. <br>By regularly testing your plan, you can identify and address any weaknesses or gaps, and ensure that your systems are able to recover as quickly and smoothly as possible.</p>
+<h3>Use Automation And Orchestration Tools</h3>
+<p>Automation and orchestration tools can also be a valuable part of your disaster recovery plan. By automating tasks such as data backup, deployment, and monitoring, you can reduce the risk of human error and streamline your recovery efforts. These tools can help to ensure that your systems are restored as quickly as possible, minimizing the impact of an outage on your business.</p>
+<h3>Monitor And Review Your Disaster Recovery Plan</h3>
+<p>Finally, it's important to regularly monitor and review your disaster recovery plan to ensure that it is still effective and meets the needs of your business. This may involve identifying and addressing any gaps in the plan, as well as keeping track of any changes in your systems or processes that may impact your recovery efforts. By staying vigilant and proactive, you can ensure that your disaster recovery plan is able to effectively protect your business in the event of a disaster.</p>
+<div class="w-full border-b border-black/10 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-50 dark:bg-[#444654]">
+<div class="text-base gap-4 md:gap-6 m-auto md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0">
+<div class="relative flex w-[calc(100%-50px)] md:flex-col lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>Disaster recovery (DR) is an essential component of any DevOps strategy that ensures that your systems and applications are able to recover quickly and effectively from unexpected outages or failures. <br><br>A well-planned and tested disaster recovery plan can help to minimize the impact of these outages on your business and your users, protecting your company's reputation and bottom line.<br><br>To create a disaster recovery plan for your DevOps environment, you should identify your critical systems and applications, develop a comprehensive recovery strategy, test your plan regularly, use automation and orchestration tools, and monitor and review your plan regularly. <br><br>By following these steps, you can ensure that your disaster recovery plan is effective and able to protect your business in the event of a disaster.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Effective Techniques for Debugging and Solving Issues with Java-based Minecraft Plugins</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/best-practices-for-debugging-and-troubleshooting-java-based-minecraft-plugins/index.html"/>
+        <id>https://blog.thefourcraft.com/best-practices-for-debugging-and-troubleshooting-java-based-minecraft-plugins/index.html</id>
+            <category term="Minecraft"/>
+            <category term="Java"/>
+
+        <updated>2022-12-23T09:59:39+02:00</updated>
+            <summary>
+                <![CDATA[
+                    <p data-pm-slice="1 1 []">As a Minecraft Java developer, you will inevitably encounter bugs and issues while creating your plugins.<br>Debugging and troubleshooting these issues can be a challenging and time-consuming process, but there are several best practices that can help make it more efficient and effective.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p data-pm-slice="1 1 []">As a Minecraft Java developer, you will inevitably encounter bugs and issues while creating your plugins.<br>Debugging and troubleshooting these issues can be a challenging and time-consuming process, but there are several best practices that can help make it more efficient and effective.</p>
+
+<h3>Use a debugger</h3>
+<p>One of the most powerful tools at your disposal for debugging Java-based Minecraft plugins is a debugger. <br>A debugger allows you to pause the execution of your code at specific points, inspect variables and their values, and step through your code line by line. <br>This can be extremely useful for identifying the root cause of a bug or issue.</p>
+<p>Here is an example of how to use a debugger in Eclipse, a popular Java development environment:</p>
+<pre><code>Copy code// Set a breakpoint at this line of code
+int x = 5;
+
+// Run your code in debug mode
+// The debugger will stop at the breakpoint
+System.out.println(x);
+
+// Use the debugger to inspect the value of x
+// You can also step through your code line by line
+// to see how it is executing
+</code></pre>
+<h3>Use log messages</h3>
+<p>Another effective technique for debugging Java-based Minecraft plugins is to use log messages. <br>By adding log messages to your code at various points, you can see how it is executing and identify any issues that may arise.</p>
+<p>Here is an example of how to use log messages in your Java code:</p>
+<pre><code>Copy code// Import the logging library
+import org.bukkit.Bukkit;
+
+// Add a log message
+Bukkit.getLogger().info("This is a log message");
+
+// You can also use log messages to print the values of variables
+int x = 5;
+Bukkit.getLogger().info("The value of x is: " + x);
+</code></pre>
+<h3>Use test cases</h3>
+<p>Another helpful technique for debugging Java-based Minecraft plugins is to use test cases. <br>By creating test cases that exercise specific aspects of your code, you can isolate and debug specific issues more easily.</p>
+<p>Here is an example of how to use test cases in your Java code:</p>
+<pre><code>Copy code// Import the testing library
+import org.junit.Test;
+
+// Create a test case
+@Test
+public void testExample() {
+  // Add your test code here
+  // You can use assertions to verify that your code is behaving as expected
+  assertTrue(5 == 5);
+}
+</code></pre>
+<p>By following these best practices, you can significantly improve your ability to debug and troubleshoot Java-based Minecraft plugins. Don't be afraid to experiment and try different approaches to see what works best for you and your specific needs.</p>
+<p>I hope this information is helpful, and happy debugging!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How chatGTP Helps Me As A DevOps Engineer </title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/how-chatgtp-helps-me-as-a-devops-engineer/index.html"/>
+        <id>https://blog.thefourcraft.com/how-chatgtp-helps-me-as-a-devops-engineer/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png" medium="image" />
+            <category term="AI"/>
+
+        <updated>2022-12-12T21:00:26+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png" alt="chatGTP Logo" />
+                    <p>As a DevOps engineer, I have found that using ChatGPT has greatly improved my efficiency and productivity. <br><a href="https://chat.openia.com/caht">ChatGPT</a> is a large language model trained by <a href="https://openia.com" target="_blank" rel="noopener noreferrer">OpenAI</a>, and it has proven to be an indispensable tool for me in my work.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png" class="type:primaryImage" alt="chatGTP Logo" /></p>
+                <p>As a DevOps engineer, I have found that using ChatGPT has greatly improved my efficiency and productivity. <br><a href="https://chat.openia.com/caht">ChatGPT</a> is a large language model trained by <a href="https://openia.com" target="_blank" rel="noopener noreferrer">OpenAI</a>, and it has proven to be an indispensable tool for me in my work.</p>
+
+<p>One of the key features of ChatGPT is its ability to understand and respond to natural language input. <br>This makes it easy for me to ask questions and obtain the information I need, without having to use specific commands or formatting.</p>
+<p>Another useful feature of ChatGPT is its vast knowledge base. <br>It is trained on a wide range of topics, allowing it to provide information on almost any subject. <br>This makes it a valuable resource for answering questions and providing general information.</p>
+<p>In addition to its technical capabilities, ChatGPT also has a user-friendly and intuitive interface. <br>This makes it easy for me to quickly access the information and resources that I need, and to collaborate with my team members in real time.</p>
+<p>I have found that using ChatGPT has greatly improved my ability to scan and write code. <br>While ChatGPT is a large language model trained by OpenAI, and therefore does not have the ability to execute code itself, it has proven to be an indispensable tool for me in my work.</p>
+<p>One of the key features of ChatGPT is its ability to understand and respond to natural language input. <br>This makes it easy for me to ask questions and obtain the information I need while working with code, without having to switch between different applications or interfaces. For example, I can ask ChatGPT , "What is the correct syntax for a for loop in Python?" and it will provide me with a coherent and relevant response.</p>
+<p>Another useful feature of ChatGPT is its vast knowledge base. <br>It is trained on a wide range of topics, including programming languages and software engineering principles. <br>This makes it a valuable resource for answering questions and providing general information while working with code.</p>
+<p>Overall, ChatGPT has proven to be an invaluable tool for me as a DevOps engineer. <br>It has greatly improved my ability to scan and write code and has enabled me to better access the information and resources that I need to do my job effectively.<br><br>A detailed blog about how to use ChatGPT correctly as DevOps Coming soon</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tunneling TCP To SQL Databases</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/tunneling-tcp-to-sql-databases/index.html"/>
+        <id>https://blog.thefourcraft.com/tunneling-tcp-to-sql-databases/index.html</id>
+            <category term="Tips &amp; Tricks"/>
+            <category term="Servers"/>
+            <category term="Security"/>
+            <category term="Network"/>
+            <category term="Cloudflare"/>
+
+        <updated>2022-12-23T10:35:54+02:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>SQL databases are an essential tool for many organizations, but they can also pose a significant security risk if not properly configured. One way to mitigate this risk is through the use of tunneling TCP to SQL databases.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>SQL databases are an essential tool for many organizations, but they can also pose a significant security risk if not properly configured. One way to mitigate this risk is through the use of tunneling TCP to SQL databases.</p>
+
+<h2>What is Tunneling TCP to SQL Databases?</h2>
+<p>Tunneling TCP to SQL databases involves connecting to the database as a local host, rather than through a specific port. This can increase the security of the website or server, as every user connects in the same way. Additionally, adding single sign-on (SSO) authentication to this connection can further enhance security.</p>
+<h2>How to Set Up Tunneling TCP to SQL Databases</h2>
+<p>Setting up tunneling TCP to SQL databases is a relatively straightforward process. Here are the steps you need to follow:</p>
+<ol>
+<li>Sign up for a Cloudflare account and add a website to it. This requires changing your domain's DNS to point to Cloudflare's nameservers.</li>
+<li>Install the Cloudflare daemon, cloudflared, on the host machine where your resource is located and on the client machines that will connect to the resource.</li>
+<li>Authenticate the Cloudflare daemon on the host machine by running the command <code>cloudflared tunnel login</code> and selecting the site where you will create a subdomain to represent the resource. Cloudflare will download a wildcard certificate for the site.</li>
+<li>Protect the subdomain with a Cloudflare Access policy to control who can connect to the resource.</li>
+<li>On the host machine, use the command <code>cloudflared tunnel --hostname [SUBDOMAIN] --url tcp://localhost:[PORT]</code> to connect the resource to Cloudflare, replacing [SUBDOMAIN] with the desired subdomain and [PORT] with the port number of the resource. Make sure to configure the process to stay alive and autostart.</li>
+<li>On the client machines, use the command <code>cloudflared access tcp --hostname [SUBDOMAIN] --url localhost:[PORT]</code> to create a connection from the device to Cloudflare, replacing [SUBDOMAIN] with the subdomain of the resource and [PORT] with an available port on the client machine. You can create a desktop shortcut to make it easier for end users to connect.</li>
+<li>Have the client application connect to the port specified on the client machine. When the client launches, Cloudflare will launch a browser window and prompt the user to authenticate with the SSO provider.</li>
+</ol>
+<p>By following these steps, you can set up tunneling TCP to SQL databases and increase the security of your website or server.</p>
+<h2>Conclusion</h2>
+<p>SQL databases are a vital tool for many organizations, but they can also be a significant security risk if not properly configured. One way to enhance security is through the use of tunneling TCP to SQL databases, which involves connecting to the database as a local host and adding SSO authentication. By following the steps outlined above, you can set up tunneling TCP to SQL databases and increase the security of your website or server.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Microsoft Power Toys</title>
         <author>
@@ -20,24 +356,24 @@
             <category term="Windows"/>
             <category term="Tips &amp; Tricks"/>
 
-        <updated>2022-10-16T11:09:21+03:00</updated>
+        <updated>2022-12-12T20:54:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/9/PowerToys-logo.png" alt="This is the Microsoft PowerToys GitHub Repo Share Image" />
-                    A list of hidden windows tools, which enhance the windows experience. it's an open-source tool by Microsoft, that unlocks more&hellip;
+                    A tool called "Hidden Windows Tools" that is open-source and developed by Microsoft can be used to enhance the Windows&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.thefourcraft.com/media/posts/9/PowerToys-logo.png" class="type:primaryImage" alt="This is the Microsoft PowerToys GitHub Repo Share Image" /></p>
-                <p>A list of hidden windows tools, which enhance the windows experience.<br>it's an open-source tool by Microsoft, that unlocks more functions in Windows.</p>
+                <p>A tool called "Hidden Windows Tools" that is open-source and developed by Microsoft can be used to enhance the Windows experience by unlocking additional functions.</p>
 <blockquote>
 <p>Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. <br>For more info on <a href="https://aka.ms/powertoys-docs" rel="nofollow">PowerToys overviews and how to use the utilities</a>, or any other tools and resources for <a href="https://learn.microsoft.com/windows/dev-environment/overview" rel="nofollow">Windows development environments</a>, head over to <a href="https://aka.ms/powertoys-docs" rel="nofollow">learn.microsoft.com</a>!<br>- GitHub</p>
 </blockquote>
 <h2>What New Tools Do You Get?</h2>
 <p>A lot at least for me. While Microsoft did amazing <a href="https://learn.microsoft.com/en-us/windows/powertoys/" target="_blank" rel="noopener noreferrer">documentation</a> about their Power Toys, here are some utilities that saved me time &amp; money.</p>
 <h3 id="powertoys-awake" class="heading-anchor">PowerToys Awake</h3>
-<p>As the name suggests, PowerToys Awake keeps your pc on... without having to do random console commands to prevent updates from restarting your pc. <br>We all know, how frustrating it can be when you change all the power &amp; sleep settings to make the computer not restart or shut down but it still does it because you forgot some settings.. with PowerToys Awake it's simple</p>
+<p>If you want to avoid the frustration of your PC restarting or shutting down unexpectedly, I highly recommend checking out PowerToys Awake.<br>This open-source tool from Microsoft makes it easy to keep your computer on without having to fuss with power and sleep settings. <br>Give it a try and experience the benefits of a more stable, reliable computing environment.</p>
 <h5>How To Activate it?</h5>
 <p>1. Download <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">Power Toys</a> (you need basic understating about the platform GitHub)<br>2. Install it &amp; open the settings<br>3. Go to the Awake Tab (Conveniently marked with a coffee cap)<br>4. Expand the new Under Mode and select your desired operating state</p>
 <figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://blog.thefourcraft.com/media/posts/9//PowerToys-Awake.png" alt="Settings Screenshot" width="1053" height="159" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-xs.png 300w ,https://blog.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-sm.png 480w ,https://blog.thefourcraft.com/media/posts/9//responsive/PowerToys-Awake-md.png 768w"></figure>
@@ -46,7 +382,7 @@
 <h3 id="color-picker" class="heading-anchor">Color Picker</h3>
 <p>Yeah, my reaction was the same... 😲 Windows has a color picker.<br>If you installed the <a href="https://github.com/microsoft/PowerToys" target="_blank" rel="noopener noreferrer">Power Toys</a> then just press  <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>.<br>And walla, now you don't need 3rd party solutions or go to shady websites to extract the colors from images/contact.</p>
 <h3 id="file-explorer-add-ons" class="heading-anchor">File Explorer add-ons</h3>
-<p>Now, this one... is just on another level, the benefits of this are single handily worth the whole package (they are all good).<br>This adds an addon that enables you to view files without opening them.<br>while you can see images and Microsoft Office documents, most other files aren't available for preview (eg .md .xml), files that most people usually don't see or use<br>but if you are using the thing, this tool is very handy.</p>
+<p>The "Preview Pane" tool included in the PowerToys suite is truly a game-changer. <br>With this handy add-on, you can preview files without having to open them, making it easy to quickly view images and Microsoft Office documents without the need for additional software. <br>Although some file types, such as .md and .xml, are not supported, this tool is still incredibly useful for anyone who frequently uses these file types. <br>Overall, the Preview Pane is a must-have for anyone looking to enhance their Windows experience.</p>
 <h3 id="image-resizer" class="heading-anchor">Image Resizer</h3>
 <p>With this tool, you don't need to go to carpy websites that beg you to subscribe for full HD images.</p>
 <h5>How To Use it?</h5>
@@ -75,7 +411,6 @@
 </code></pre>
 <pre class="has-inner-focus" tabindex="0"><code class="lang-powershell" data-author-content="[Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages
 ">[Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages</code></pre>
-<p class="msg msg--success">This is A test</p>
             ]]>
         </content>
     </entry>
@@ -159,188 +494,6 @@
 <p><img loading="lazy" src="https://static.wixstatic.com/media/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg/v1/fill/w_740,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e7ef83_b4f70a1c2a6d4d55bdc2a42d8b3727eb~mv2.jpg" data-is-external-image="true"></p>
 <h4 class="align-center"><strong>DON'T REGISTER FREE DOMAINS, IT'S NOT WORTH THE RISK</strong></h4>
 <p><strong> </strong></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>IMS Double Net Bug</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/ims-double-net-bug/index.html"/>
-        <id>https://blog.thefourcraft.com/ims-double-net-bug/index.html</id>
-            <category term="Tips &amp; Tricks"/>
-            <category term="Servers"/>
-            <category term="Router"/>
-            <category term="Network"/>
-            <category term="ISP"/>
-            <category term="IMS - Network"/>
-
-        <updated>2022-08-27T00:52:46+03:00</updated>
-            <summary>
-                <![CDATA[
-                    IMS - Network, is an Israeli gaming community that builds and develops game servers for free. Double NAT occurs when&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>IMS - Network, is an Israeli gaming community that builds and develops game servers for free.  </p>
-<h2>What is a double net? </h2>
-<p><span class="ng-emphasis">Double NAT</span> occurs when you connect your router to an ISP gateway or another router. Because NAT is performed by each router or gateway, your network is split into two different private networks. <br>The devices connected to one private network might have communication problems with the devices connected to the other private network.</p>
-<figure class="post__image"><img loading="lazy"  src="https://blog.thefourcraft.com/media/posts/6//Blog-IMG.png" alt="Double Net Demo" width="1920" height="683" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.thefourcraft.com/media/posts/6//responsive/Blog-IMG-xs.png 300w ,https://blog.thefourcraft.com/media/posts/6//responsive/Blog-IMG-sm.png 480w ,https://blog.thefourcraft.com/media/posts/6//responsive/Blog-IMG-md.png 768w"></figure>
-<p>As you can see in the illustration I have created an example for a double net issue.<br>The double net accounts between the routers, the main problem that you will experience will use port forwarding and triggering to not work.<br>which is a major problem... if you need to open a port... because you are running a server that players need to access. </p>
-<h3>How to Identify a double net issue?</h3>
-<p>Look for 4 simple problems that can occur with a double net network:</p>
-<ul>
-<li>Online games</li>
-<li>VPN connections</li>
-<li>Port forwarding and triggering</li>
-<li>Secure websites that use SSL</li>
-</ul>
-<h3>How To Fix double net problems?</h3>
-<p>If your router is connected to an Internet service provider (ISP) gateway or another router, and you are having network problems, your network might be set up to perform double network address translation (NAT).</p>
-<p class="msg msg--warning"><strong>Note: </strong>If you connected another router to your ISP gateway or main router to improve WiFi coverage or add more LAN ports to your home network, you might want to consider other solutions.<br>If you have a particular area where you want to improve WiFi coverage, a WiFi extender is a better choice.<br>If you want to improve WiFi coverage throughout your entire home, a mesh WiFi system is ideal.<br>If you simply want to add more LAN ports to your existing router, an affordable unmanaged Ethernet switch is appropriate.</p>
-<p>There are multiple ways to fix double NAT issues with your network. <br>Your options depend on whether your router.</p>
-<p class="msg msg--info"><strong>Suggestion: </strong>Because all routers and ISP are different, I would recommend contacting your ISP and coordinating with their support team if you don't know what you are doing.</p>
-<h4>Most Common Way To Fix Double NET issues</h4>
-<p>If your router is connected to another router, you can resolve double NAT issues by removing the first router from your network, putting the first router in bridge mode, <br>or putting your router in access point (AP) mode.</p>
-<p>I recommend that you remove the first router for the best network performance.<br>If you can’t remove the first router, check its capabilities to see if it supports bridge mode. <br>Most routers support bridge mode, but routers from other brands might not. <br>If you can’t remove or put the first router in bridge mode, you must put your main router in AP(access point) mode.</p>
-<p class="msg msg--highlight "><strong>Note:</strong> Some router features are disabled in AP mode.</p>
-<h3>What Happened on IMS - Network's server infrastructure?</h3>
-<p>As all humans, we make mistakes that can cause problems or even break critical systems and operations... <br>While Building an exception for our existing server room we used a router that was donated to us by a player on our server... <br>After deploying the router nothing stood out of the ordinary<br>One day we had extra traffic of players on the server so our management application deployed extra Minecraft server instances.<br>Unfortunately, the ports failed to connect because we created a double net, which caused the existing server to overload with players and lag, and in our industry, you can't afford lags on your server.<br>We do have primitive figures and our team was immediately alerted but, the investigation into identifying the problem took us 2 weeks.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Nail Beta Testing</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/nail-beta-testing/index.html"/>
-        <id>https://blog.thefourcraft.com/nail-beta-testing/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/5/Beta.png" medium="image" />
-            <category term="Tips &amp; Tricks"/>
-
-        <updated>2022-08-21T23:53:03+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/5/Beta.png" alt="Beta Testing Blog Image" />
-                    Beta tests are important for companies and they are benefiting everyone who is involved. Companies that run beta tests are&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/5/Beta.png" class="type:primaryImage" alt="Beta Testing Blog Image" /></p>
-                <p>Beta tests are important for companies and they are benefiting everyone who is involved.<br>Companies that run beta tests are genuinely interested in hearing your feedback and what you think. <br>If you’re selected as a beta tester, you need to make the most of the opportunity. <br>Share every thought, note every bug, and get engaged in the process.<br><br>The more active you are on the project, the more likely you will be to earn any project incentive and get other chances to test with the company.<br>If the company likes you they will contact you again and maybe even give you benefits! </p>
-<h2>Let's Learn Some Tips To Nail Beta Testing </h2>
-<p class="dropcap">1. <strong>Don't OverWork Your Self<br></strong>Spend a little time every day doing something on every part of the product. Budget sometime each day to submit feedback.  By doing a little bit every day you will test the product in its entirety, have great performance numbers, and have a lot of fun Because getting access to beta testing usually means new features and improvements, also remember you are #first.<strong><br></strong></p>
-<p class="dropcap">2.<strong>Communicate<br></strong>Be communicative and responsive throughout the project. Remember that the people running the test are eager to hear what you have to say and what you’re experiencing. It’s incredibly important to monitor your bugs, watch the forums, and respond quickly to any inquiries the beta team might have for more information. Being Active and also providing human interest can go a long way.<strong><br></strong></p>
-<p class="dropcap">3. <strong>Be Clear and Thorough</strong><br>Make your communication clear and detailed. Your feedback needs to give the beta team a solid understanding of your issues, ideas, and opinions. If they don’t understand what you’re saying or don’t have enough data, they might have to come back to you again, which just takes up more of everyone’s time. They need to be able to understand your comments and act on them immediately. Screenshots and pictures often help. Also writing the issue and using the right words is important, I often use emojis to describe sections and titles. </p>
-<p class="dropcap">4.<strong>Privacy as Always </strong><br>Many companies spend months designing and building their test product. They are spending many thousands of dollars to prepare for its launch. If the beta test is private, it’s your responsibility and obligation to keep everything about the beta test secret. Don’t blog, don’t Tweet, don’t chat, don’t post anything anywhere about the beta test. Don’t even mention you are involved in the project. Remember, these companies are trusting you with their new product. In return, you should show them respect by keeping everything you experience a secret. Also, you can get sued, because companies sometimes sign you up with an argument when joining the beta test.</p>
-<p class="dropcap">5. <strong>Relax</strong><br>Be flexible and understanding. Product development is a complicated process that involves many people and many tasks. Your role in this process is to share your perspective regarding the product. If the company discovers an important issue or needs to change the direction of the project, that could change the schedule. They might need to extend the test or cut it short to meet their new schedule. These changes are commonplace in beta, so please be willing to adapt to them. At the end of the day, you are just tasked to help beta test the product. </p>
-<h3>About Me</h3>
-<p>I love beta testing, getting access to tools/products before everyone is a huge key to getting an upper age on the market. <br>Most importantly the benefits that you are getting are knowledge and new people that you can meet and collaborate with in the future.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How Does a ZTNA Work</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/how-does-a-ztna-work/index.html"/>
-        <id>https://blog.thefourcraft.com/how-does-a-ztna-work/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/4/ZTNA.png" medium="image" />
-            <category term="Zero Trust"/>
-
-        <updated>2022-08-21T20:31:47+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/4/ZTNA.png" alt="ZTNA Blog Post Cover Image" />
-                    While the specific tools used to implement Zero Trust Architecture may vary Implementing a Zero Trust Architecture project calls out&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/4/ZTNA.png" class="type:primaryImage" alt="ZTNA Blog Post Cover Image" /></p>
-                <p>While the specific tools used to implement Zero Trust Architecture may vary<br>Implementing a Zero Trust Architecture project calls out some key functions:</p>
-<ul class="learning-list">
-<li><strong>Application vs. network access:</strong> <br>ZTNA treats application access separately from network access. Connecting to a network does not automatically grant a user the right to access an application.</li>
-<li><strong>Hidden IP addresses:</strong> <br>ZTNA does not expose IP addresses to the network. The rest of the network remains invisible to connected devices, except for the application or service they are connected to.</li>
-<li><strong>Device security:</strong> </li>
-<li>ZTNA can incorporate the risk and security posture of devices as factors in access decisions. It does this by running software on the device itself (see "Agent-based ZTNA vs. service-based ZTNA" below) or by analyzing network traffic to and from the device.</li>
-<li><strong>Additional factors:</strong> </li>
-<li>Unlike traditional access control, which only grants access based on user identity and role, ZTNA can evaluate risks associated with additional factors like user location, timing, and frequency of requests, the apps and data being requested, and more. A user could sign in to a network or application, but if their device is not trusted, access is denied.</li>
-<li><strong>No MPLS:</strong> <br>ZTNA uses encrypted Internet connections over TLS instead of MPLS-based WAN connections. Traditional corporate networks are built on private MPLS connections. ZTNA is built on the public Internet instead, using TLS encryption to keep network traffic private. ZTNA sets up small encrypted tunnels between a user and an application, as opposed to connecting a user to a larger network.</li>
-<li><strong>IdP and SSO:</strong> <br>Most ZTNA solutions integrate with separate identity providers (IdPs), single sign-on (SSO) platforms, or both. SSO allows users to authenticate identity for all applications; the IdP stores user identity and determines associated user privileges.</li>
-<li><strong>Agent vs. service:</strong> <br>ZTNA can either use an endpoint agent or be based in the cloud. The difference is explained below.</li>
-</ul>
-<h2>Explaining the Zero Trust Framework</h2>
-<p>So, you are ready to create your zero-trust network?<br>Implementing zero trust principles within an organization’s environment requires the development of a zero trust network. <br>A zero-trust network implements and enforces zero trust policies, such as zero-trust network access (ZTNA) or Software Defined Perimeter (SDP), <br>consistently across an organization’s entire environment.<br><br>In this blog post, I prepared some tips to know if you really need ZTNA for this app</p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Zero Trust vs VPN</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/zero-trust-vs-vpn/index.html"/>
-        <id>https://blog.thefourcraft.com/zero-trust-vs-vpn/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" medium="image" />
-            <category term="Zero Trust"/>
-            <category term="Cloudflare"/>
-
-        <updated>2022-08-20T21:35:49+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" alt="Zero Trust vs VPN Image" />
-                    VPN is what many organizations use to control access instead of ZTNA. Once users are logged in to a VPN,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png" class="type:primaryImage" alt="Zero Trust vs VPN Image" /></p>
-                <p>VPN is what many organizations use to control access instead of ZTNA. <br>Once users are logged in to a VPN, they gain access to the entire network and all the resources on that network (this is often called the castle-and-moat model). ZTNA instead only grants access to the specific application requested and denies access to applications and data by default.<br><br></p>
-<p>One of the biggest threats to network security is a company’s own Virtual Private Network (VPN). <br>Based on old network architectures, VPN’s assumption of a securely fixed perimeter surrounding a trusted network is a dated design pattern that undermines security. <br>Zero Trust is a framework of security concepts that are better suited to the way business works today.</p>
-<h2 id="what-is-zero-trust" class="sc-ghizgr-0 DIklJ">What is Zero Trust?</h2>
-<p>You Can read about it on my main website, and see my demo of a zero-trust system implantation</p>
-<h2 id="why-is-zero-trust-a-superior-solution-to-vpns" class="sc-ghizgr-0 DIklJ">Why Zero Trust is Better?</h2>
-<p>VPNs are the traditional choice for secure remote access because they work well with legacy perimeter-based security models. <br>However, they have several limitations that make them ill-suited to the security needs of the modern enterprise</p>
-<ul>
-<li><strong>Perimeter-Focused Security:</strong> <br>VPN helps reinforce the traditional perimeter-based security model because an authenticated user is granted full access to the corporate network. This allows an attacker to move laterally through the corporate network after gaining access via compromised VPN credentials or exploitation of a VPN vulnerability.</li>
-<li><strong>Network-Level Access Controls:</strong> <br>VPNs implement access controls at the network level without visibility into or control over the application layer. This provides overly-permissive access to users, granting read, write, and execute access to resources within different applications.</li>
-<li><strong>No Cloud Support:</strong> <br>VPNs are typically designed to provide secure remote access to the corporate network. Often, they have limited support for cloud-based resources located outside of the traditional perimeter.</li>
-<li><strong>Poor Support for BYOD Devices:</strong> <br>Allowing BYOD devices to access the corporate VPN provides access to corporate resources from unmanaged, non-corporate endpoints. This may allow malware or other cyber threats direct access to the corporate network.</li>
-</ul>
-<h2>Why ZTNA Is The Future?</h2>
-<p>With a zero trust security strategy, VPNs are no longer a viable secure remote access solution. ZTNA offers an alternative with several benefits when compared to VPNs</p>
-<p>Implementing zero trust technologies with careful planning will make the cloud a more manageable place for any organization. <br><br>The use of ZTNA, IAM, and MFA can prevent unwanted events from occurring. <br>New compute instances or storage buckets cannot just “pop up” like weeds in unpredictable locations. Zero trust will cultivate them into domesticated plants confined to well-defined flowerpots.</p>
-<p>These flowerpots are your micro-perimeters, which you can isolate using micro-segmentation. <br><br>They will enable easier monitoring and tighter access control. Sounds like everything needed for an over-stretched, sleep-deprived security team to defend the new frontier that is the cloud.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>BungeeCord And Spigot Servers Venerability</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/bungeecord-and-spigot-servers-venerability/index.html"/>
-        <id>https://blog.thefourcraft.com/bungeecord-and-spigot-servers-venerability/index.html</id>
-
-        <updated>2022-08-27T00:53:02+03:00</updated>
-            <summary>
-                <![CDATA[
-                    Introduction Most Minecraft servers today use BungeeCord as their proxy manager. What is BungeeCord? BungeeCord is a useful software written&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2>Introduction</h2>
-<p>Most Minecraft servers today use BungeeCord as their proxy manager.<br><strong>What is BungeeCord?</strong><br>BungeeCord is a useful software written in-house by the team at SpigotMC. It acts as a proxy between the player's client and the connected Minecraft servers. End-users of BungeeCord see no difference between it and a normal Minecraft server. - SpigotMC</p>
-<h3>The Venerability</h3>
-<p>some server owners do a wrong and dangerous setup </p>
             ]]>
         </content>
     </entry>
