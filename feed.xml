@@ -3,12 +3,57 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-01-08T23:39:16+02:00</updated>
+    <updated>2023-01-10T19:02:27+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>The Fall of VPN and the Rise of Zero Trust</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html"/>
+        <id>https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png" medium="image" />
+            <category term="Zero Trust"/>
+            <category term="Security"/>
+            <category term="DevOps"/>
+
+        <updated>2023-01-10T19:02:27+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png" alt="" />
+                    <p>Virtual Private Networks (VPNs) have long been the go-to solution for remote access and secure communication over the internet. <br>However, with the proliferation of cloud services, mobile devices, and the Internet of Things (IoT), traditional VPNs can no longer provide the level of security and flexibility that organizations need. <br>As a result, a new security model, known as Zero Trust, has emerged as a more effective way to protect networks and data.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png" class="type:primaryImage" alt="" /></p>
+                <p>Virtual Private Networks (VPNs) have long been the go-to solution for remote access and secure communication over the internet. <br>However, with the proliferation of cloud services, mobile devices, and the Internet of Things (IoT), traditional VPNs can no longer provide the level of security and flexibility that organizations need. <br>As a result, a new security model, known as Zero Trust, has emerged as a more effective way to protect networks and data.</p>
+
+<h2>What is VPN?</h2>
+<p>A VPN is a type of secure connection that allows users to access a private network remotely. <br>It creates a secure, encrypted tunnel between a user's device and the network, preventing outsiders from accessing the network and the data it contains. <br>VPNs are commonly used by organizations to allow employees to access internal resources and applications from anywhere, as well as by individuals to protect their internet connection and personal data from prying eyes.</p>
+<h2>What is Zero Trust?</h2>
+<p>Zero Trust is a security model that assumes that all devices, users, and networks are potentially compromised and must be verified and authenticated before access is granted. <br>This is in contrast to the traditional "trust but verify" model, where devices and users inside the network perimeter were trusted and only those outside were verified.</p>
+<p>Instead of relying on the network perimeter to protect against threats, Zero Trust employs a variety of security controls, including multi-factor authentication, endpoint security, network segmentation, and continuous monitoring, to ensure that only authorized users and devices can access sensitive resources.</p>
+<h2>The fall of VPN</h2>
+<p>The rise of cloud computing and mobile devices has made it increasingly difficult for VPNs to provide the level of security and flexibility that organizations need.</p>
+<p>VPNs were designed for a different era, when the vast majority of an organization's data and applications were located on-premises.<br>They worked well for securing remote access to these resources, but today, most organizations use a mix of cloud services and on-premises infrastructure. This has made it increasingly difficult for VPNs to provide secure access to all the resources that users need.</p>
+<p>Furthermore, VPNs are not capable to deal with all the security concerns of the current time like data breaches, phishing attacks and hacking. <br>They also have a higher risk of failure as they tend to be more complicated and vulnerable to misconfigurations.</p>
+<h2>The rise of Zero Trust</h2>
+<p>The Zero Trust model addresses many of the shortcomings of VPNs by providing a more comprehensive approach to security.</p>
+<p>Zero Trust assumes that all devices and users are potentially compromised and therefore must be verified and authenticated before access is granted. <br>This approach works well in today's cloud-based and mobile-first environment because it can be applied to all types of resources, regardless of where they are located.</p>
+<p>In addition to providing secure remote access, Zero Trust also helps organizations protect against data breaches, phishing attacks, and other cyber threats by continuously monitoring for suspicious activity and quickly identifying and responding to potential security incidents.</p>
+<h2>Conclusion</h2>
+<p>VPNs have served organizations well for remote access and secure communication, but the proliferation of cloud services and mobile devices has made them inadequate for today's needs. Zero Trust, however, is the solution for the modern era. <br>It addresses the shortcomings of VPNs by providing a comprehensive approach to security that assumes all devices and users are potentially compromised. <br>This means that all users and devices must be verified and authenticated before access is granted.</p>
+<p>As a result, Zero Trust allows organizations to secure their resources in a cloud-based and mobile-first environment.<br>This results in a protection against data breaches, phishing attacks, and other cyber threats through continuous monitoring and quick identification and response to potential security incidents.</p>
+<p>The adoption of Zero Trust is on the rise and for good reason, it is the future of secure access and communication. <br>As more and more organizations continue to adopt cloud services and mobile devices, Zero Trust will become increasingly important to ensure the safety and security of their networks and data. <br>It's an exciting time for cybersecurity as Zero Trust offers a new level of protection that was previously unattainable.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Challenges And Rewards of Volunteering As A Translator</title>
         <author>
@@ -468,36 +513,6 @@ public void testExample() {
 </code></pre>
 <pre class="has-inner-focus" tabindex="0"><code class="lang-powershell" data-author-content="[Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages
 ">[Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages</code></pre>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Log4j Killed Me</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/log4j-killed-me/index.html"/>
-        <id>https://blog.thefourcraft.com/log4j-killed-me/index.html</id>
-            <category term="Servers"/>
-            <category term="Security"/>
-            <category term="IMS - Network"/>
-
-        <updated>2022-08-27T09:39:23+03:00</updated>
-            <summary>
-                <![CDATA[
-                    What is log4shell? The Log4Shell problem is a security problem that was discovered in Java software. The problem affects servers&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2>What is log4shell?</h2>
-<p>The Log4Shell problem is a security problem that was discovered in Java software. <br>The problem affects servers in the world around the world. <br>Since December 10, 2021, days after industry experts discovered the Log4Shell flaw in servers supporting the Minecraft game.<br><br>According to one team tracking the impact.<br>The vulnerability is a potential threat to millions of other applications and devices worldwide.<br><br>In the days following the announcement of the vulnerability, Check Point tracked millions of attacks initiated by people, with some research studies at a rate of over a hundred attacks per minute, which ultimately resulted in over 40% of the world's business networks being attacked.<br><br>Cloudflare CEO Matthew Prince says evidence of use or apparent testing of the vulnerability was seen as early as December 1, nine days before the vulnerability was publicly disclosed.</p>
-<h3>Why We Closed Our Minecraft Servers Immediately?</h3>
-<p>Our security system and some functions in the Minecraft game were at risk from abuse and damage to our quality and security capabilities.<br>Minecraft is the source where the vulnerability was discovered.</p>
-<h3>The Aftermath</h3>
-<p>We had to update and change a lot of the source code for our in-game security system<br>and manually update 100k files to meet the new security system configurations.<br>while some of the poses were automatic we still had to do a lot of work by hand<br>also, all other plugins and servers had to be updated to the new server software that has been released to fix log4shell</p>
-<h3>Long Days</h3>
-<p>me and our small server team, worked around the clock for a week to fix the issue on all servers and update over 200K lines of code, 200+ plugins, and over 500K configuration files.<br>This is not even counting the sheer number of hours spent on testing the security of the new system and figuring out different compatibility issues.<br>As a mature DevOps engineer, it was kind of my first major skill check.</p>
             ]]>
         </content>
     </entry>
