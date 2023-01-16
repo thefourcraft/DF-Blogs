@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-01-16T21:57:55+02:00</updated>
+    <updated>2023-01-16T22:00:38+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -155,18 +155,21 @@
         </author>
         <link href="https://blog.thefourcraft.com/how-to-start-a-fivem-server/index.html"/>
         <id>https://blog.thefourcraft.com/how-to-start-a-fivem-server/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png" medium="image" />
             <category term="Servers"/>
             <category term="FiveM"/>
 
-        <updated>2023-01-16T21:57:50+02:00</updated>
+        <updated>2023-01-16T22:00:38+02:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png" alt="" />
                     <p>Want to start your FiveM server? here's the simplest way to start a FiveM server<br>This popular modification for Grand Theft Auto V allows players to connect to custom servers with unique gameplay experiences. </p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png" class="type:primaryImage" alt="" /></p>
                 <p>Want to start your FiveM server? here's the simplest way to start a FiveM server<br>This popular modification for Grand Theft Auto V allows players to connect to custom servers with unique gameplay experiences. </p>
 
 <p class="msg msg--info">This guide is intended for those who have a basic understanding of in-game server administration.</p>
