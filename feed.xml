@@ -3,12 +3,216 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-01-11T19:46:21+02:00</updated>
+    <updated>2023-01-16T21:57:55+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Protecting Your FiveM Server with Cloudflare</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/protecting-your-fivem-server-with-cloudflare/index.html"/>
+        <id>https://blog.thefourcraft.com/protecting-your-fivem-server-with-cloudflare/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png" medium="image" />
+            <category term="Zero Trust"/>
+            <category term="Servers"/>
+            <category term="Security"/>
+            <category term="Network"/>
+            <category term="My Personal Opinion"/>
+            <category term="FiveM"/>
+            <category term="Cloudflare"/>
+
+        <updated>2023-01-16T21:57:55+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png" alt="" />
+                    <p>Cloudflare can help gaming community's in many ways to protect their players and make their servers more secure and reliable!</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png" class="type:primaryImage" alt="" /></p>
+                <p>Cloudflare can help gaming community's in many ways to protect their players and make their servers more secure and reliable!</p>
+
+<h2>What Is Cloudflare? </h2>
+<figure class="post__video">
+                <div 
+                    class="pec-wrapper" 
+                    data-consent-group-id="youtube">
+                    <iframe data-consent-overlay-added="true" loading="lazy" width="694" height="389" style="width: 694px; height: 389px;" data-consent-src="https://www.youtube-nocookie.com/embed/XHvmX3FhTwU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+                    <div class="pec-overlay is-active" aria-hidden="false">
+                        <div class="pec-overlay-inner">
+                            <p>You Have Disabled YouTube On this Website, With cookie settings. </p>
+                            <button 
+                                class="pec-button" 
+                                onclick="window.publiiEmbedConsentGiven('youtube'); return false;">
+                                YouTube
+                            </button>
+                        </div>
+                    </div>
+                    <script>window.publiiEmbedConsentCheck('youtube');</script>
+                </div>
+                </figure>
+<h2>DDoS Protection</h2>
+<p>DDoS protection is the core feature of Spectrum that helps to absorb and mitigate DDoS attacks before they reach your server. Cloudflare uses a global network of data centers to analyze traffic and detect malicious activity. Once an attack is detected, the traffic is redirected to Cloudflare's network, where it is cleaned and filtered before being forwarded to your server. This process helps to ensure that legitimate traffic is not affected, while blocking the attack traffic.</p>
+<p>The DDoS protection feature of Spectrum can be used to protect various types of traffic, including TCP and UDP. <br>This makes it suitable for protecting custom game applications, as well as other types of online services.</p>
+<p>With DDoS protection from Spectrum, you can greatly reduce the risk of lost customers, declining revenues, and degraded brand reputation due to downtime caused by DDoS attacks.</p>
+<h2>Bot Management</h2>
+<p>Bot management is another important feature of Spectrum that helps to preserve the integrity of your FPS games. Fraudulent account creation is a common problem in online gaming, and bots can be used to cheat or disrupt gameplay. Spectrum can help to identify and block bots by analyzing their behavior and characteristics.</p>
+<p>The bot management feature of Spectrum uses machine real-time algorithms to detect and block bots in real-time. This helps to ensure that your games are fair and enjoyable for all players.</p>
+<h2>Magic Transit</h2>
+<p>Magic Transit is a feature of Spectrum that provides DDoS protection and traffic acceleration for on-premise, cloud-hosted, and hybrid networks. It is delivered from every Cloudflare data center, ensuring that your server is protected from DDoS attacks regardless of its location.</p>
+<p>With Magic Transit, you can benefit from Cloudflare's global network of data centers to improve the performance and security of your online services. This feature can be used to protect various types of traffic, including TCP and UDP.</p>
+<h2>API Shield</h2>
+<p>API Shield is a feature of Spectrum that helps to keep your APIs secure and productive. This feature includes various security measures, such as API discovery, schema validation, and strong authentication.</p>
+<p>API discovery helps to ensure that only authorized clients can access your APIs. Schema validation ensures that the data passed to your APIs is valid and conforms to the expected format. Strong authentication helps to prevent unauthorized access by requiring clients to provide valid credentials.</p>
+<p>With API Shield, you can ensure that your APIs are only accessed by authorized clients, and that the data passed to them is valid and secure.</p>
+<h2>Zero Trust</h2>
+<p>Zero Trust is a feature of Spectrum that gives developers and contractors secure and streamlined access to internal systems. With this feature, you can implement a security model that assumes that all access attempts are malicious until proven otherwise.</p>
+<p>Zero Trust can be used to secure various types of resources, such as databases, file servers, and other internal systems. This feature can be used to restrict access to specific IP ranges, as well as to implement multi-factor authentication.</p>
+<p>With Zero Trust, you can ensure that your internal systems are only accessed by authorized users, and that access attempts are logged and monitored for suspicious activity.</p>
+<h1>Conclusion</h1>
+<div class="w-full border-b border-black/10 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-50 dark:bg-[#444654]">
+<div class="text-base gap-4 md:gap-6 m-auto md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0">
+<div class="relative flex w-[calc(100%-50px)] md:flex-col lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>As the CTO of IMS - Network (the most advanced gaming communities in Israel)<br>I can attest that the protection of our server network is of the utmost importance.</p>
+<p>After careful consideration and examination of various options, we have chosen Cloudflare as our network security provider. <br><br>Ultimately, it is the responsibility of the server owner to ensure the security and uptime of their servers, and we believe that Cloudflare's service offers the best protection against DDoS attacks and other security threats.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Securing Your FiveM Server From SQL Vulnerabilities</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/index.html"/>
+        <id>https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png" medium="image" />
+            <category term="Servers"/>
+            <category term="Security"/>
+            <category term="My Personal Opinion"/>
+            <category term="FiveM"/>
+
+        <updated>2023-01-16T21:52:31+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png" alt="" />
+                    <p>Securing your FiveM server from SQL vulnerabilities is an essential step in protecting your server from malicious attacks. <br>SQL injection is a type of cyber attack that can allow an attacker to gain unauthorized access to your server's database, potentially stealing sensitive information or causing damage to your server. <br>In this guide, I will walk you through the steps you need to take to secure your FiveM server from SQL vulnerabilities.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png" class="type:primaryImage" alt="" /></p>
+                <p>Securing your FiveM server from SQL vulnerabilities is an essential step in protecting your server from malicious attacks. <br>SQL injection is a type of cyber attack that can allow an attacker to gain unauthorized access to your server's database, potentially stealing sensitive information or causing damage to your server. <br>In this guide, I will walk you through the steps you need to take to secure your FiveM server from SQL vulnerabilities.</p>
+
+<div class="msg msg--warning align-center">
+<p>These are general recommendations, each server has its specific needs and requirements if you need more specific information consult with</p>
+<p>A Cyber Security Specialist</p>
+</div>
+<h2>Step 1: Use Prepared Statements</h2>
+<ul>
+<li>Using prepared statements is one of the most effective ways to protect your server from SQL injection attacks. Prepared statements are pre-compiled SQL statements that are executed with user-provided parameters, rather than concatenating user input into the query. This eliminates the possibility of an attacker injecting malicious code into your SQL query. (screenshot)</li>
+</ul>
+<h2>Step 2: Sanitize User Input</h2>
+<ul>
+<li>Another important step in securing your server from SQL vulnerabilities is to sanitize any user input that will be used in a SQL query. This means removing any special characters that could be used to inject malicious code into your query. (screenshot)</li>
+</ul>
+<h2>Step 3: Use a Firewall</h2>
+<ul>
+<li>A firewall is software or hardware that helps to secure your server from unauthorized access. By configuring a firewall to block any incoming connections that are not explicitly allowed, you can prevent an attacker from being able to connect to your server and inject malicious code into your SQL queries. (screenshot)</li>
+</ul>
+<h2>Step 4: Keep your server updated</h2>
+<ul>
+<li>Keeping your server updated is an important step in protecting your server from vulnerabilities. By updating your server regularly, you can ensure that any security patches or updates are applied to your server, which can help to keep your server secure from SQL injection attacks.</li>
+</ul>
+<h2>Step 5: Regularly Backup your Database</h2>
+<ul>
+<li>Regularly backing up your database is an important step in protecting your server from SQL vulnerabilities. By backing up your database regularly, you can ensure that you always have a copy of your data that you can restore in case of an attack. (screenshot)</li>
+</ul>
+<p>By following these steps, you can help to secure your FiveM server from SQL vulnerabilities and protect your server from malicious attacks. <br>Remember to update your server and regularly back up your database in case of any unexpected issues.</p>
+<p>Keep Your Players Safe!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How To Start A FiveM Server</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/how-to-start-a-fivem-server/index.html"/>
+        <id>https://blog.thefourcraft.com/how-to-start-a-fivem-server/index.html</id>
+            <category term="Servers"/>
+            <category term="FiveM"/>
+
+        <updated>2023-01-16T21:57:50+02:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>Want to start your FiveM server? here's the simplest way to start a FiveM server<br>This popular modification for Grand Theft Auto V allows players to connect to custom servers with unique gameplay experiences. </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Want to start your FiveM server? here's the simplest way to start a FiveM server<br>This popular modification for Grand Theft Auto V allows players to connect to custom servers with unique gameplay experiences. </p>
+
+<p class="msg msg--info">This guide is intended for those who have a basic understanding of in-game server administration.</p>
+<h3>Step 1: Install and configure the necessary software</h3>
+<ul>
+<li>First, you'll need to download and install the latest version of the FiveM client from their <a href="https://fivem.net" target="_blank" rel="noopener noreferrer">website</a>.</li>
+<li>Next, you'll need to download and install a dedicated server software such as <a href="https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" target="_blank" rel="noopener noreferrer">FXServer</a> or <a href="https://cubecoders.com/AMP" target="null">AMP</a>. <br>This software will allow you to host your FiveM server on your computer.</li>
+</ul>
+<p class="msg msg--info align-left"><a href="https://cubecoders.com/AMP" target="_blank" rel="sponsored noopener noreferrer">AMP by Cubecoders</a> is recommended for more options and game support, Also AMP provides a simpler installation and configuration process.</p>
+<p class="msg msg--highlight ">AMP by Cubecoders is a 3rd party, and FXServer is created by <a href="cfx.re" target="_blank" rel="nofollow noopener noreferrer">cfx.re</a> (the organization behind FiveM)</p>
+<ul>
+<li>Once you have both of these programs installed, you'll need to configure FXServer to work with the FiveM client. </li>
+</ul>
+<p class="msg msg--warning">Each Program Has A different Installation Process! </p>
+<p><a href="https://www.youtube.com/watch?v=c3456y7GNT0" target="_blank" rel="nofollow noopener noreferrer">How To Install A FiveM Server On Windows With FXServer </a></p>
+<p>TODO: A Blog About This 🔝</p>
+<h4>How To Install A FiveM Server On AMP</h4>
+<ol>
+<li>Install AMP, you can do this simply by copy-pasting the relevant commands for your operating system. <a href="https://cubecoders.com/AMPInstall" target="_blank" rel="sponsored noopener noreferrer">Click Me</a></li>
+<li>After The Installation, Add A New Instance</li>
+<li>Find FiveM, On AMP its called "FiveM - GTA V Modification"</li>
+<li>Give It a name eg: My FiveM City</li>
+<li>And Create it! </li>
+</ol>
+<p>Done! 🎉</p>
+<h3>Step 2: Port Forwarding</h3>
+<ul>
+<li>For other players to be able to connect to your server, you'll need to forward the necessary ports on your router. The ports that need to be forwarded are 30120 TCP, 30110 UDP, and 30120 UDP. </li>
+</ul>
+<p class="msg msg--info">What To Learn How To Protect In Using Cloudflare? Click Here</p>
+<h3>Step 3: Start Your Server</h3>
+<ul>
+<li>Once you have your software configured and your ports forwarded, you can start your FiveM server.</li>
+<li>You should now be able to connect to your server by opening the FiveM client and searching for your server's IP address in the server list.</li>
+</ul>
+<h3>Step 4: Customize your server</h3>
+<ul>
+<li>You can customize your server by adding custom scripts and resources. You can find many scripts and resources to download on the <a href="https://forum.cfx.re/" target="_blank" rel="nofollow noopener noreferrer">FiveM forums</a>.</li>
+</ul>
+<h3>Congratulations!</h3>
+<p>You now have your FiveM server up and running. <br>Now it's time to invite your friends and start creating unique and exciting gameplay experiences.</p>
+<p class="msg msg--info">Learn How To Protect Your FiveM Server From SQL Vulnerabilities? Click Here</p>
+<p>Remember to keep your server updated with the latest version of the FiveM client and FXServer software to ensure the best performance.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Why Banning ChatGPT from Schools is a Misstep</title>
         <author>
@@ -371,150 +575,6 @@
 </div>
 </div>
 </div>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Effective Techniques for Debugging and Solving Issues with Java-based Minecraft Plugins</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/best-practices-for-debugging-and-troubleshooting-java-based-minecraft-plugins/index.html"/>
-        <id>https://blog.thefourcraft.com/best-practices-for-debugging-and-troubleshooting-java-based-minecraft-plugins/index.html</id>
-            <category term="Minecraft"/>
-            <category term="Java"/>
-
-        <updated>2022-12-23T09:59:39+02:00</updated>
-            <summary>
-                <![CDATA[
-                    <p data-pm-slice="1 1 []">As a Minecraft Java developer, you will inevitably encounter bugs and issues while creating your plugins.<br>Debugging and troubleshooting these issues can be a challenging and time-consuming process, but there are several best practices that can help make it more efficient and effective.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p data-pm-slice="1 1 []">As a Minecraft Java developer, you will inevitably encounter bugs and issues while creating your plugins.<br>Debugging and troubleshooting these issues can be a challenging and time-consuming process, but there are several best practices that can help make it more efficient and effective.</p>
-
-<h3>Use a debugger</h3>
-<p>One of the most powerful tools at your disposal for debugging Java-based Minecraft plugins is a debugger. <br>A debugger allows you to pause the execution of your code at specific points, inspect variables and their values, and step through your code line by line. <br>This can be extremely useful for identifying the root cause of a bug or issue.</p>
-<p>Here is an example of how to use a debugger in Eclipse, a popular Java development environment:</p>
-<pre><code>Copy code// Set a breakpoint at this line of code
-int x = 5;
-
-// Run your code in debug mode
-// The debugger will stop at the breakpoint
-System.out.println(x);
-
-// Use the debugger to inspect the value of x
-// You can also step through your code line by line
-// to see how it is executing
-</code></pre>
-<h3>Use log messages</h3>
-<p>Another effective technique for debugging Java-based Minecraft plugins is to use log messages. <br>By adding log messages to your code at various points, you can see how it is executing and identify any issues that may arise.</p>
-<p>Here is an example of how to use log messages in your Java code:</p>
-<pre><code>Copy code// Import the logging library
-import org.bukkit.Bukkit;
-
-// Add a log message
-Bukkit.getLogger().info("This is a log message");
-
-// You can also use log messages to print the values of variables
-int x = 5;
-Bukkit.getLogger().info("The value of x is: " + x);
-</code></pre>
-<h3>Use test cases</h3>
-<p>Another helpful technique for debugging Java-based Minecraft plugins is to use test cases. <br>By creating test cases that exercise specific aspects of your code, you can isolate and debug specific issues more easily.</p>
-<p>Here is an example of how to use test cases in your Java code:</p>
-<pre><code>Copy code// Import the testing library
-import org.junit.Test;
-
-// Create a test case
-@Test
-public void testExample() {
-  // Add your test code here
-  // You can use assertions to verify that your code is behaving as expected
-  assertTrue(5 == 5);
-}
-</code></pre>
-<p>By following these best practices, you can significantly improve your ability to debug and troubleshoot Java-based Minecraft plugins. Don't be afraid to experiment and try different approaches to see what works best for you and your specific needs.</p>
-<p>I hope this information is helpful, and happy debugging!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How chatGTP Helps Me As A DevOps Engineer </title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/how-chatgtp-helps-me-as-a-devops-engineer/index.html"/>
-        <id>https://blog.thefourcraft.com/how-chatgtp-helps-me-as-a-devops-engineer/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png" medium="image" />
-            <category term="AI"/>
-
-        <updated>2022-12-12T21:00:26+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png" alt="chatGTP Logo" />
-                    <p>As a DevOps engineer, I have found that using ChatGPT has greatly improved my efficiency and productivity. <br><a href="https://chat.openia.com/caht">ChatGPT</a> is a large language model trained by <a href="https://openia.com" target="_blank" rel="noopener noreferrer">OpenAI</a>, and it has proven to be an indispensable tool for me in my work.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png" class="type:primaryImage" alt="chatGTP Logo" /></p>
-                <p>As a DevOps engineer, I have found that using ChatGPT has greatly improved my efficiency and productivity. <br><a href="https://chat.openia.com/caht">ChatGPT</a> is a large language model trained by <a href="https://openia.com" target="_blank" rel="noopener noreferrer">OpenAI</a>, and it has proven to be an indispensable tool for me in my work.</p>
-
-<p>One of the key features of ChatGPT is its ability to understand and respond to natural language input. <br>This makes it easy for me to ask questions and obtain the information I need, without having to use specific commands or formatting.</p>
-<p>Another useful feature of ChatGPT is its vast knowledge base. <br>It is trained on a wide range of topics, allowing it to provide information on almost any subject. <br>This makes it a valuable resource for answering questions and providing general information.</p>
-<p>In addition to its technical capabilities, ChatGPT also has a user-friendly and intuitive interface. <br>This makes it easy for me to quickly access the information and resources that I need, and to collaborate with my team members in real time.</p>
-<p>I have found that using ChatGPT has greatly improved my ability to scan and write code. <br>While ChatGPT is a large language model trained by OpenAI, and therefore does not have the ability to execute code itself, it has proven to be an indispensable tool for me in my work.</p>
-<p>One of the key features of ChatGPT is its ability to understand and respond to natural language input. <br>This makes it easy for me to ask questions and obtain the information I need while working with code, without having to switch between different applications or interfaces. For example, I can ask ChatGPT , "What is the correct syntax for a for loop in Python?" and it will provide me with a coherent and relevant response.</p>
-<p>Another useful feature of ChatGPT is its vast knowledge base. <br>It is trained on a wide range of topics, including programming languages and software engineering principles. <br>This makes it a valuable resource for answering questions and providing general information while working with code.</p>
-<p>Overall, ChatGPT has proven to be an invaluable tool for me as a DevOps engineer. <br>It has greatly improved my ability to scan and write code and has enabled me to better access the information and resources that I need to do my job effectively.<br><br>A detailed blog about how to use ChatGPT correctly as DevOps Coming soon</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Tunneling TCP To SQL Databases</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/tunneling-tcp-to-sql-databases/index.html"/>
-        <id>https://blog.thefourcraft.com/tunneling-tcp-to-sql-databases/index.html</id>
-            <category term="Tips &amp; Tricks"/>
-            <category term="Servers"/>
-            <category term="Security"/>
-            <category term="Network"/>
-            <category term="Cloudflare"/>
-
-        <updated>2022-12-23T10:35:54+02:00</updated>
-            <summary>
-                <![CDATA[
-                    <p>SQL databases are an essential tool for many organizations, but they can also pose a significant security risk if not properly configured. One way to mitigate this risk is through the use of tunneling TCP to SQL databases.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>SQL databases are an essential tool for many organizations, but they can also pose a significant security risk if not properly configured. One way to mitigate this risk is through the use of tunneling TCP to SQL databases.</p>
-
-<h2>What is Tunneling TCP to SQL Databases?</h2>
-<p>Tunneling TCP to SQL databases involves connecting to the database as a local host, rather than through a specific port. This can increase the security of the website or server, as every user connects in the same way. Additionally, adding single sign-on (SSO) authentication to this connection can further enhance security.</p>
-<h2>How to Set Up Tunneling TCP to SQL Databases</h2>
-<p>Setting up tunneling TCP to SQL databases is a relatively straightforward process. Here are the steps you need to follow:</p>
-<ol>
-<li>Sign up for a Cloudflare account and add a website to it. This requires changing your domain's DNS to point to Cloudflare's nameservers.</li>
-<li>Install the Cloudflare daemon, cloudflared, on the host machine where your resource is located and on the client machines that will connect to the resource.</li>
-<li>Authenticate the Cloudflare daemon on the host machine by running the command <code>cloudflared tunnel login</code> and selecting the site where you will create a subdomain to represent the resource. Cloudflare will download a wildcard certificate for the site.</li>
-<li>Protect the subdomain with a Cloudflare Access policy to control who can connect to the resource.</li>
-<li>On the host machine, use the command <code>cloudflared tunnel --hostname [SUBDOMAIN] --url tcp://localhost:[PORT]</code> to connect the resource to Cloudflare, replacing [SUBDOMAIN] with the desired subdomain and [PORT] with the port number of the resource. Make sure to configure the process to stay alive and autostart.</li>
-<li>On the client machines, use the command <code>cloudflared access tcp --hostname [SUBDOMAIN] --url localhost:[PORT]</code> to create a connection from the device to Cloudflare, replacing [SUBDOMAIN] with the subdomain of the resource and [PORT] with an available port on the client machine. You can create a desktop shortcut to make it easier for end users to connect.</li>
-<li>Have the client application connect to the port specified on the client machine. When the client launches, Cloudflare will launch a browser window and prompt the user to authenticate with the SSO provider.</li>
-</ol>
-<p>By following these steps, you can set up tunneling TCP to SQL databases and increase the security of your website or server.</p>
-<h2>Conclusion</h2>
-<p>SQL databases are a vital tool for many organizations, but they can also be a significant security risk if not properly configured. One way to enhance security is through the use of tunneling TCP to SQL databases, which involves connecting to the database as a local host and adding SSO authentication. By following the steps outlined above, you can set up tunneling TCP to SQL databases and increase the security of your website or server.</p>
 <p> </p>
             ]]>
         </content>
