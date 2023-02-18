@@ -3,12 +3,116 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-02-14T00:05:31+02:00</updated>
+    <updated>2023-02-18T22:33:30+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Gradle Wrapper Attack On MinecraftOnline</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/gradle-wrapper-attack-on-minecraftonline/index.html"/>
+        <id>https://blog.thefourcraft.com/gradle-wrapper-attack-on-minecraftonline/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png" medium="image" />
+            <category term="Servers"/>
+            <category term="Security"/>
+            <category term="Minecraft"/>
+            <category term="Gradle"/>
+
+        <updated>2023-02-18T22:33:21+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png" alt="" />
+                    <p>On January 11th, 2023, MinecraftOnline, the oldest public server for Minecraft, reported two suspicious Gradle wrapper JARs in their repositories. A new contributor updated these JARs to the project. </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png" class="type:primaryImage" alt="" /></p>
+                <p>On January 11th, 2023, MinecraftOnline, the oldest public server for Minecraft, reported two suspicious Gradle wrapper JARs in their repositories. A new contributor updated these JARs to the project. </p>
+
+<p class="msg msg--highlight ">It's important to note that MinecraftOnline didn't have any security issues in <strong>13 years!!!</strong></p>
+<h2>Background</h2>
+<p><a href="https://minecraftonline.com/" target="_blank" rel="noopener noreferrer">MinecraftOnline</a> is a long-standing multiplayer server for the popular game Minecraft. <br>The server is home to the oldest truly public map of any SMP server, known as Freedonia, which has been live on the shared server since the day SMP was released. It is known for its pure survival feel, with no moderator-given freebies or cheat commands available. <br>Everything on the server has been built by hand from legitimately harvested resources. The world has grown to over 30km in diameter and has been explored and built-in by over 50,000 unique players, making it a massive and well-established virtual community.</p>
+<p class="msg msg--info">The server has been running since the interaction of <a href="https://minecraft.fandom.com/wiki/Multiplayer" target="_blank" rel="noopener noreferrer">Minecraft multiplayer</a> as a feature of Minecraft by <a href="https://en.wikipedia.org/wiki/Markus_Persson" target="_blank" rel="noopener noreferrer">Notch</a></p>
+<h2>Analysis</h2>
+<p><a href="https://blog.gradle.org/wrapper-attack-report" target="_blank" rel="noopener noreferrer">By gradle.org</a></p>
+<p class="msg msg--highlight ">This section was summarized by ChatGPT for the full report <a href="https://blog.gradle.org/wrapper-attack-report" target="_blank" rel="noopener noreferrer">Click Me</a></p>
+<p>Our analysis began by confirming that the SHA256 checksums for both JARs did not match any of the known good Gradle Wrapper checksums. After decompiling the JARs, we discovered two exploits patched into the wrapper JARs. The first exploit attempted to steal Discord credentials by looking into specific files on the host computer. The second exploit tried downloading and running a malicious JAR on certain Gradle invocations.</p>
+<p>The second exploit would modify any Gradle invocation that started with 'wrapper' to invoke 'cleanEclipse' instead. <br>This made it harder for the malicious wrapper JAR to be removed.</p>
+<p>Here are the modified files found in the infected wrapper JARs:</p>
+<h3>First infected wrapper</h3>
+<ul>
+<li>org/gradle/cli/SystemPropertiesCommandLineConverter.class</li>
+<li>org/gradle/wrapper/Download.class</li>
+<li>org/gradle/wrapper/PathAssembler.class</li>
+</ul>
+<h3>Second infected wrapper</h3>
+<ul>
+<li>org/gradle/cli/CommandLineParser.class</li>
+<li>org/gradle/cli/SystemPropertiesCommandLineConverter.class</li>
+<li>org/gradle/wrapper/Download.class</li>
+<li>org/gradle/wrapper/PathAssembler.class</li>
+</ul>
+<h2>Lessons Learned</h2>
+<p>The recent attack on MinecraftOnline serves as a reminder that security is essential for every organization, including gaming communities. While the allure of the gaming world may lead some to overlook security best practices, the consequences of a breach can be severe. It is essential to be vigilant and take appropriate steps to protect against attacks, such as using strong passwords, keeping software up to date, and implementing security measures such as firewalls and intrusion detection systems. Gaming communities can help ensure a safe and enjoyable environment for all players by prioritizing security.</p>
+<p>In particular, some key lessons can be learned from the MinecraftOnline breach:</p>
+<h3>Use SHA256 to verify the origin of JARs</h3>
+<p><a href="https://www.n-able.com/blog/sha-256-encryption" target="_blank" rel="noopener noreferrer">SHA256</a> is a cryptographic hash function that produces a fixed-size output based on the input data. When a JAR is downloaded, its SHA256 checksum can be calculated and compared to a known good checksum for that file. If the two checksums match, it provides strong evidence that the JAR has not been tampered with and is the original file from the expected source. This helps ensure the integrity and authenticity of the JAR and reduces the risk of downloading and running malicious code.</p>
+<h3>Be cautious when granting access to new contributors</h3>
+<p>While new contributors can bring fresh ideas and energy to a project, it is essential to be careful when giving access. In the case of MinecraftOnline, the malicious Gradle wrapper JARs were uploaded by a new contributor to the project. <br>It is crucial to verify new contributors' identities and carefully review any changes made before allowing them to make further contributions. Additionally, it is vital to ensure that new contributors have a legitimate reason to access the project's codebase and are not trying to gain access for malicious purposes. Taking these precautions can help reduce the risk of a breach and ensure the project's integrity.</p>
+<h3>Keep software up to date</h3>
+<p>Outdated software can have known vulnerabilities that attackers can exploit. It is important to keep the software, including the operating system, web server, and plugins, up to date with the latest security patches.</p>
+<h3>Use two-factor authentication</h3>
+<p>Two-factor authentication can provide an extra layer of security by requiring users to provide two forms of authentication before granting access. For example, a user might be required to enter a code sent to their mobile device in addition to a password.</p>
+<h3>Conduct security audits</h3>
+<p>Regular security audits can help identify potential vulnerabilities and areas for improvement. By conducting audits, organizations can stay ahead of potential threats and take steps to prevent breaches.</p>
+<p>By following these best practices, gaming communities can help ensure that their environments are secure and that their players can enjoy their games without worrying about the risk of a breach.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Cloudflare&#x27;s Certificate Transparency Notifications</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/cloudflares-certificate-transparency-notification/index.html"/>
+        <id>https://blog.thefourcraft.com/cloudflares-certificate-transparency-notification/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/27/Cloudflares-Certificate-Transparency-Notification.png" medium="image" />
+            <category term="Security"/>
+            <category term="SSL/TLS"/>
+            <category term="Cloudflare"/>
+
+        <updated>2023-02-18T22:33:30+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/27/Cloudflares-Certificate-Transparency-Notification.png" alt="" />
+                    <p>Certificate Transparency Notification messages from Cloudflare are a vital tool for web security. These messages provide timely and relevant information about changes to SSL/TLS certificates used on a website, which can help prevent security breaches and ensure the integrity of online communications.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/27/Cloudflares-Certificate-Transparency-Notification.png" class="type:primaryImage" alt="" /></p>
+                <p>Certificate Transparency Notification messages from Cloudflare are a vital tool for web security. These messages provide timely and relevant information about changes to SSL/TLS certificates used on a website, which can help prevent security breaches and ensure the integrity of online communications.</p>
+
+<h2>Understanding SSL/TLS Certificates</h2>
+<p>To understand why Certificate Transparency Notification messages are so important, it's helpful to understand what SSL/TLS certificates are and how they work.<br>SSL/TLS certificates encrypt and secure communications between a website and its users. When a user visits a secure website, their browser and server exchange a certificate that verifies the website's identity and ensures that the communication is encrypted and secure.</p>
+<h2>The Importance of Certificate Transparency</h2>
+<p>However, certificates are not permanent and need to be periodically renewed. When a certificate is restored, it's essential to ensure that the new certificate is legitimate and has not been forged or stolen by a malicious actor. This is where Certificate Transparency comes in.</p>
+<p>Certificate Transparency is a system that publicly logs all SSL/TLS certificates issued by trusted certificate authorities. These logs provide a way to verify the authenticity of a certificate and detect any unauthorized use of a certificate. Cloudflare is one of the companies that operate a public log for Certificate Transparency.</p>
+<h2>How Certificate Transparency Notification Messages Work</h2>
+<p>Certificate Transparency Notification messages from Cloudflare take this system one step further by notifying website owners when a new certificate is issued for their website. This notification provides valuable information about changes to a website's security posture and lets website owners quickly detect any suspicious activity.</p>
+<p>For example, suppose a website owner receives a Certificate Transparency Notification message from Cloudflare for a certificate they did not authorize. <br>In that case, they can quickly revoke the certificate and investigate potential security breaches. Without this notification, it's possible that a malicious actor could use a forged or stolen certificate for an extended period before being detected.</p>
+<h2>Conclusion</h2>
+<p>Certificate Transparency Notification messages from Cloudflare are crucial for website security. <br>As online security threats evolve, staying informed and vigilant about web security is more important than ever. Certificate Transparency Notification messages are an essential part of this effort. They provide timely and relevant information about changes to SSL/TLS certificates used on a website, which can help prevent security breaches and ensure the integrity of online communications.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The AI Revolution</title>
         <author>
@@ -495,108 +599,6 @@
 </div>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Fall of VPN and the Rise of Zero Trust</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html"/>
-        <id>https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png" medium="image" />
-            <category term="Zero Trust"/>
-            <category term="Security"/>
-            <category term="DevOps"/>
-
-        <updated>2023-01-10T19:02:27+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png" alt="" />
-                    <p>Virtual Private Networks (VPNs) have long been the go-to solution for remote access and secure communication over the internet. <br>However, with the proliferation of cloud services, mobile devices, and the Internet of Things (IoT), traditional VPNs can no longer provide the level of security and flexibility that organizations need. <br>As a result, a new security model, known as Zero Trust, has emerged as a more effective way to protect networks and data.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png" class="type:primaryImage" alt="" /></p>
-                <p>Virtual Private Networks (VPNs) have long been the go-to solution for remote access and secure communication over the internet. <br>However, with the proliferation of cloud services, mobile devices, and the Internet of Things (IoT), traditional VPNs can no longer provide the level of security and flexibility that organizations need. <br>As a result, a new security model, known as Zero Trust, has emerged as a more effective way to protect networks and data.</p>
-
-<h2>What is VPN?</h2>
-<p>A VPN is a type of secure connection that allows users to access a private network remotely. <br>It creates a secure, encrypted tunnel between a user's device and the network, preventing outsiders from accessing the network and the data it contains. <br>VPNs are commonly used by organizations to allow employees to access internal resources and applications from anywhere, as well as by individuals to protect their internet connection and personal data from prying eyes.</p>
-<h2>What is Zero Trust?</h2>
-<p>Zero Trust is a security model that assumes that all devices, users, and networks are potentially compromised and must be verified and authenticated before access is granted. <br>This is in contrast to the traditional "trust but verify" model, where devices and users inside the network perimeter were trusted and only those outside were verified.</p>
-<p>Instead of relying on the network perimeter to protect against threats, Zero Trust employs a variety of security controls, including multi-factor authentication, endpoint security, network segmentation, and continuous monitoring, to ensure that only authorized users and devices can access sensitive resources.</p>
-<h2>The fall of VPN</h2>
-<p>The rise of cloud computing and mobile devices has made it increasingly difficult for VPNs to provide the level of security and flexibility that organizations need.</p>
-<p>VPNs were designed for a different era, when the vast majority of an organization's data and applications were located on-premises.<br>They worked well for securing remote access to these resources, but today, most organizations use a mix of cloud services and on-premises infrastructure. This has made it increasingly difficult for VPNs to provide secure access to all the resources that users need.</p>
-<p>Furthermore, VPNs are not capable to deal with all the security concerns of the current time like data breaches, phishing attacks and hacking. <br>They also have a higher risk of failure as they tend to be more complicated and vulnerable to misconfigurations.</p>
-<h2>The rise of Zero Trust</h2>
-<p>The Zero Trust model addresses many of the shortcomings of VPNs by providing a more comprehensive approach to security.</p>
-<p>Zero Trust assumes that all devices and users are potentially compromised and therefore must be verified and authenticated before access is granted. <br>This approach works well in today's cloud-based and mobile-first environment because it can be applied to all types of resources, regardless of where they are located.</p>
-<p>In addition to providing secure remote access, Zero Trust also helps organizations protect against data breaches, phishing attacks, and other cyber threats by continuously monitoring for suspicious activity and quickly identifying and responding to potential security incidents.</p>
-<h2>Conclusion</h2>
-<p>VPNs have served organizations well for remote access and secure communication, but the proliferation of cloud services and mobile devices has made them inadequate for today's needs. Zero Trust, however, is the solution for the modern era. <br>It addresses the shortcomings of VPNs by providing a comprehensive approach to security that assumes all devices and users are potentially compromised. <br>This means that all users and devices must be verified and authenticated before access is granted.</p>
-<p>As a result, Zero Trust allows organizations to secure their resources in a cloud-based and mobile-first environment.<br>This results in a protection against data breaches, phishing attacks, and other cyber threats through continuous monitoring and quick identification and response to potential security incidents.</p>
-<p>The adoption of Zero Trust is on the rise and for good reason, it is the future of secure access and communication. <br>As more and more organizations continue to adopt cloud services and mobile devices, Zero Trust will become increasingly important to ensure the safety and security of their networks and data. <br>It's an exciting time for cybersecurity as Zero Trust offers a new level of protection that was previously unattainable.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Challenges And Rewards of Volunteering As A Translator</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/the-challenges-and-rewards-of-volunteering-as-a-translator/index.html"/>
-        <id>https://blog.thefourcraft.com/the-challenges-and-rewards-of-volunteering-as-a-translator/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/17/The-challenges-and-rewards-of-volunteering-as-a-translator.png" medium="image" />
-            <category term="Localization"/>
-
-        <updated>2023-01-08T23:39:16+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/17/The-challenges-and-rewards-of-volunteering-as-a-translator.png" alt="" />
-                    <p>Volunteering as a translator can be a challenging but rewarding experience.<br>It requires dedication and a willingness to give of your time and skills, but the personal and professional benefits can be numerous. <br>From improving your language skills and promoting personal growth, to giving back to your community and building your resume, volunteering as a translator offers a range of benefits. </p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/17/The-challenges-and-rewards-of-volunteering-as-a-translator.png" class="type:primaryImage" alt="" /></p>
-                <p>Volunteering as a translator can be a challenging but rewarding experience.<br>It requires dedication and a willingness to give of your time and skills, but the personal and professional benefits can be numerous. <br>From improving your language skills and promoting personal growth, to giving back to your community and building your resume, volunteering as a translator offers a range of benefits. </p>
-
-<h3>Challenges:</h3>
-<ol>
-<li>
-<p><strong>Time commitment</strong>: Volunteering as a translator often requires a significant time commitment, as you may need to meet with clients, attend events, or work on translations outside of regular business hours. Finding a balance between your personal and professional commitments can be difficult.</p>
-</li>
-<li>
-<p><strong>Limited compensation</strong>: You are not typically paid for your translation services as a volunteer. This can be a challenge for those who rely on translation as a source of income, or who have financial obligations.</p>
-</li>
-<li>
-<p><strong>Language barriers</strong>: Working with clients who speak a different language can be a challenge, even for experienced translators. Miscommunications and misunderstandings can occur, and trying and convey complex ideas in a different language can be frustrating.</p>
-</li>
-<li>
-<p><strong>Emotional challenges</strong>: Translating for clients who are facing difficult circumstances, such as refugees or survivors of abuse, can be emotionally draining. It can be difficult to remain objective and detached, and it is important to take care of your own emotional well-being.</p>
-</li>
-</ol>
-<h3>Rewards:</h3>
-<ol>
-<li>
-<p><strong>Personal growth</strong>: Volunteering as a translator can help you improve your language skills, and can also provide opportunities for personal growth and development.</p>
-</li>
-<li>
-<p><strong>Giving back</strong>: Volunteering as a translator allows you to use your skills and expertise to give back to your community and to make a positive impact on the lives of others.</p>
-</li>
-<li>
-<p><strong>Cultural exchange</strong>: Working with clients from different cultures can be a rewarding experience, as it allows you to learn about new customs and traditions.</p>
-</li>
-<li>
-<p><strong>Professional development:</strong> Volunteering as a translator can provide valuable experience and help you build your resume, particularly if you are just starting in the translation field.</p>
-</li>
-</ol>
-<p>Volunteering as a translator can be a challenging but rewarding experience. It requires dedication and a willingness to give of your time and skills, but the personal and professional benefits can be well worth the effort.</p>
             ]]>
         </content>
     </entry>
