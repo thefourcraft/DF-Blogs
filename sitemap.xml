@@ -16,7 +16,7 @@
 <loc>https://blog.thefourcraft.com/cloudflares-certificate-transparency-notification/</loc>
 <lastmod>2023-02-18T22:33:30+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\27/Cloudflares-Certificate-Transparency-Notification.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/27/Cloudflares-Certificate-Transparency-Notification.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -28,7 +28,7 @@
 <loc>https://blog.thefourcraft.com/google-vs-chatgpt-a-look-at-the-two-powerhouses-of-ai/</loc>
 <lastmod>2023-02-03T00:36:00+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\24/Google-vs-ChatGPT-A-Look-at-the-Two-Powerhouses-of-AI.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/24/Google-vs-ChatGPT-A-Look-at-the-Two-Powerhouses-of-AI.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -36,7 +36,15 @@
 <loc>https://blog.thefourcraft.com/gradle-wrapper-attack-on-minecraftonline/</loc>
 <lastmod>2023-02-18T22:33:21+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\28/Gradle-Wrapper-Attack-On-MinecraftOnline.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://blog.thefourcraft.com/historys-worst-software-error/</loc>
+<lastmod>2023-03-28T09:41:26+03:00</lastmod>
+<image:image>
+<image:loc>https://blog.thefourcraft.com/media/posts/34/Historys-Worst-Software-Error.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -44,7 +52,7 @@
 <loc>https://blog.thefourcraft.com/how-chatgtp-helps-me-as-a-devops-engineer/</loc>
 <lastmod>2022-12-12T21:00:26+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/11/How-chatGTP-Helps-Me-As-A-DevOps-Engineer.png</image:loc>
 <image:title><![CDATA[chatGTP Logo]]></image:title>
 </image:image>
 </url>
@@ -52,7 +60,7 @@
 <loc>https://blog.thefourcraft.com/how-does-a-ztna-work/</loc>
 <lastmod>2022-08-21T20:31:47+03:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\4/ZTNA.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/4/ZTNA.png</image:loc>
 <image:title><![CDATA[ZTNA Blog Post Cover Image]]></image:title>
 </image:image>
 </url>
@@ -60,7 +68,7 @@
 <loc>https://blog.thefourcraft.com/how-to-start-a-fivem-server/</loc>
 <lastmod>2023-01-16T22:00:38+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\20/How-To-Start-A-FiveM-Server.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -68,7 +76,7 @@
 <loc>https://blog.thefourcraft.com/ims-double-net-bug/</loc>
 <lastmod>2022-08-27T00:52:46+03:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\6//Blog-IMG.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/6//Blog-IMG.png</image:loc>
 <image:title><![CDATA[Double Net Demo]]></image:title>
 </image:image>
 </url>
@@ -80,19 +88,19 @@
 <loc>https://blog.thefourcraft.com/microsoft-power-toys/</loc>
 <lastmod>2022-12-12T20:54:03+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\9/PowerToys-logo.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/9/PowerToys-logo.png</image:loc>
 <image:title><![CDATA[This is the Microsoft PowerToys GitHub Repo Share Image]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\9//PowerToys-Awake.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/9//PowerToys-Awake.png</image:loc>
 <image:title><![CDATA[Settings Screenshot]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\9/powerrename-demo-2.gif</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/9/powerrename-demo-2.gif</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\9/2-3-Full-Screen-Grab-med.gif</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/9/2-3-Full-Screen-Grab-med.gif</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -100,7 +108,7 @@
 <loc>https://blog.thefourcraft.com/nail-beta-testing/</loc>
 <lastmod>2022-08-21T23:53:03+03:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\5/Beta.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/5/Beta.png</image:loc>
 <image:title><![CDATA[Beta Testing Blog Image]]></image:title>
 </image:image>
 </url>
@@ -113,10 +121,18 @@
 </image:image>
 </url>
 <url>
+<loc>https://blog.thefourcraft.com/perplexity-ia-the-next-google/</loc>
+<lastmod>2023-03-28T10:39:10+03:00</lastmod>
+<image:image>
+<image:loc>https://blog.thefourcraft.com/media/posts/32/Perplexity-IA-The-Next-Google.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://blog.thefourcraft.com/protecting-your-fivem-server-with-cloudflare/</loc>
 <lastmod>2023-01-16T21:57:55+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -124,7 +140,7 @@
 <loc>https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/</loc>
 <lastmod>2023-01-16T21:52:31+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -132,7 +148,7 @@
 <loc>https://blog.thefourcraft.com/setting-up-a-disaster-recovery-plan-for-your-devops-environment/</loc>
 <lastmod>2022-12-23T09:56:12+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\13/Setting-Up-A-Disaster-Recovery-Plan-For-Your-DevOps-Environment.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/13/Setting-Up-A-Disaster-Recovery-Plan-For-Your-DevOps-Environment.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -140,7 +156,7 @@
 <loc>https://blog.thefourcraft.com/social-media-as-saas/</loc>
 <lastmod>2023-03-04T23:03:07+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\29/Social-Media-as-SaaS.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/29/Social-Media-as-SaaS.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -148,7 +164,7 @@
 <loc>https://blog.thefourcraft.com/the-ai-revolution/</loc>
 <lastmod>2023-02-14T00:05:23+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\26/The-AI-Revolution.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/26/The-AI-Revolution.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -156,7 +172,7 @@
 <loc>https://blog.thefourcraft.com/the-challenges-and-rewards-of-volunteering-as-a-translator/</loc>
 <lastmod>2023-01-08T23:39:16+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\17/The-challenges-and-rewards-of-volunteering-as-a-translator.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/17/The-challenges-and-rewards-of-volunteering-as-a-translator.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -164,7 +180,7 @@
 <loc>https://blog.thefourcraft.com/the-era-of-hyper-volumetric-ddos-attacks/</loc>
 <lastmod>2023-02-14T00:05:31+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\25/The-Era-of-Hyper-Volumetric-DDoS-Attacks-Copy.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/25/The-Era-of-Hyper-Volumetric-DDoS-Attacks-Copy.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -172,7 +188,7 @@
 <loc>https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/</loc>
 <lastmod>2023-01-10T19:02:27+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -180,7 +196,7 @@
 <loc>https://blog.thefourcraft.com/the-importance-of-open-source-projects/</loc>
 <lastmod>2023-02-02T23:38:20+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\23/The-Importance-of-Open-Source-Projects.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/23/The-Importance-of-Open-Source-Projects.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -196,7 +212,15 @@
 <loc>https://blog.thefourcraft.com/why-banning-chatgpt-from-schools-is-a-misstep/</loc>
 <lastmod>2023-01-11T19:46:21+02:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\19/Why-Banning-ChatGPT-from-Schools-is-a-Misstep.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/19/Why-Banning-ChatGPT-from-Schools-is-a-Misstep.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://blog.thefourcraft.com/why-i-choose-lunacy-everytime/</loc>
+<lastmod>2023-03-28T09:41:59+03:00</lastmod>
+<image:image>
+<image:loc>https://blog.thefourcraft.com/media/posts/35/Why-I-Choose-Lunacy-Everytime.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -205,10 +229,22 @@
 <lastmod>2022-12-23T10:12:51+02:00</lastmod>
 </url>
 <url>
+<loc>https://blog.thefourcraft.com/why-svgs-are-dangerous/</loc>
+<lastmod>2023-03-28T09:25:38+03:00</lastmod>
+</url>
+<url>
+<loc>https://blog.thefourcraft.com/wtf-is-a-webmaster/</loc>
+<lastmod>2023-03-28T10:37:24+03:00</lastmod>
+<image:image>
+<image:loc>https://blog.thefourcraft.com/media/posts/33/WTF-is-A-Webmaster.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://blog.thefourcraft.com/zero-trust-vs-vpn/</loc>
 <lastmod>2022-08-20T21:35:49+03:00</lastmod>
 <image:image>
-<image:loc>https://blog.thefourcraft.com/media\posts\3/VPN-VS-ZN.png</image:loc>
+<image:loc>https://blog.thefourcraft.com/media/posts/3/VPN-VS-ZN.png</image:loc>
 <image:title><![CDATA[Zero Trust vs VPN Image]]></image:title>
 </image:image>
 </url>
