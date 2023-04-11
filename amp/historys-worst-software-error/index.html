@@ -1,0 +1,590 @@
+<!doctype html><html amp lang="en-us"><head><meta charset="utf-8"><title>History&#x27;s Worst Software Error | THERAC-25</title><meta name="description" content="a medical tragedy that shook the entire industry to its core, raising questions about the importance of proper training, testing, and oversight."><link rel="canonical" href="https://blog.thefourcraft.com/historys-worst-software-error/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script><script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.thefourcraft.com/amp/historys-worst-software-error/index.html"},"headline":"History's Worst Software Error","datePublished":"2023-04-04T08:00","dateModified":"2023-03-28T09:41","image":{"@type":"ImageObject","url":"https://blog.thefourcraft.com/media/posts/34/Historys-Worst-Software-Error.png","height":1080,"width":1920},"description":"a medical tragedy that shook the entire industry to its core, raising questions about the importance of proper training, testing, and oversight.","author":{"@type":"Person","name":"thefourCraft","url":"https://blog.thefourcraft.com/amp/authors/david/"},"publisher":{"@type":"Organization","name":"thefourCraft","logo":{"@type":"ImageObject","url":"https://blog.thefourcraft.com/media/website/Blogs-Open-Graph-Fallback-2.png","height":1080,"width":1920}}}</script><style amp-custom>article,
+aside,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+amp-img {
+  max-width: 100%; }
+
+button,
+input,
+select,
+textarea {
+  font: inherit; }
+
+html {
+  font-size: 1rem; }
+
+body {
+  background: #f1f1f1;
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6; }
+
+a {
+  color:  #000000;
+  text-decoration: none;
+  -webkit-transition: all 0.12s linear 0s;
+  -o-transition: all 0.12s linear 0s;
+  transition: all 0.12s linear 0s; }
+
+a:hover {
+  color: #262626;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink; }
+
+a:active {
+  color: #262626; }
+
+a:focus {
+  outline: 2px dotted #000000; }
+
+figure,
+blockquote,
+p,
+ul,
+ol,
+dl,
+table,
+hr,
+fieldset {
+  margin-top: 1.6rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #262626;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 2.13333rem; }
+
+h1 {
+  font-size: 1.67583rem;
+  font-weight: normal; }
+
+h2 {
+  font-size: 1.4729rem; }
+
+h3 {
+  font-size: 1.29454rem; }
+
+h4 {
+  font-size: 1.13778rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 0.87891rem; }
+
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0.8rem; }
+
+b,
+strong {
+  font-weight: 600; }
+
+blockquote {
+  color: #6c7175;
+  font-family: "Droid Serif", "Times", "Source Serif Pro", serif;
+  font-style: italic;
+  padding: 1.33333rem 0.53333rem 1.33333rem 3.2rem;
+  position: relative; }
+  blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 4.41226rem;
+    position: absolute;
+    left: 0;
+    top: -12px;
+    color: rgba(108, 113, 117, 0.5); }
+  blockquote > :nth-child(1) {
+    margin-top: 0; }
+
+ul,
+ol {
+  margin-left: 2rem; }
+  ul > li,
+  ol > li {
+    list-style: inherit;
+    padding: 0 0 0.26667rem 0.26667rem; }
+
+dl dt {
+  color: #262626;
+  font-weight: 600; }
+
+code,
+pre {
+  background-color: #f1f1f1;
+  font-family: monospace; }
+
+pre {
+  margin: 1.6rem 0 0;
+  padding: 1.6rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto; }
+  pre > code {
+    color: #262626;
+    padding: 0; }
+
+code {
+  border-radius: 3px;
+  color: #262626;
+  padding: 0.26667rem 0.53333rem; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #d4d4d4;
+  width: 100%;
+  overflow-x: auto;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap; }
+  table th {
+    font-weight: 500;
+    padding: 0.53333rem 1.06667rem; }
+  table tr {
+    border-bottom: 1px solid #d4d4d4; }
+    table tr:nth-child(2n) {
+      background: #f1f1f1; }
+  table td {
+    padding: 0.53333rem 1.06667rem; }
+
+figcaption {
+  clear: both;
+  color: rgba(108, 113, 117, 0.6);
+  font-size: 0.82397rem;
+  margin: 0.8rem 0 0;
+  text-align: center; }
+
+sub,
+sup {
+  font-size: 65%; }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.btn, [type=button],
+[type=submit],
+button {
+  background: #000000;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.87891rem;
+  font-weight: 500;
+  line-height: 1.9;
+  padding: 0.53333rem 1.33333rem;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .15s ease;
+  -o-transition: all .15s ease;
+  transition: all .15s ease;
+  width: auto; }
+  .btn:hover, [type=button]:hover,
+  [type=submit]:hover,
+  button:hover {
+    background: #262626;
+    color: #ffffff; }
+  .btn:focus, [type=button]:focus,
+  [type=submit]:focus,
+  button:focus {
+    outline: none; }
+  .btn-outline {
+    border: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 3px;
+    color: #262626; }
+
+[type=button],
+[type=submit],
+button {
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+.navbar {
+  background: #000000;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  line-height: 3;
+  max-height: 4rem; }
+  .navbar > div {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto; }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none; }
+  .navbar-sidebar-toggle {
+    left: 0;
+    position: relative;
+    text-indent: -99999rem; }
+    .navbar-sidebar-toggle:before {
+      content: "";
+      display: block;
+      border-top: 0.375rem double #ffffff;
+      border-bottom: 0.125rem solid #ffffff;
+      height: 0.125rem;
+      position: absolute;
+      text-indent: 0;
+      top: 50%;
+      width: 1.3rem;
+      -webkit-transform: translate(0px, -50%);
+      -ms-transform: translate(0px, -50%);
+      transform: translate(0px, -50%); }
+
+
+.logo {
+            background-image: url('https://blog.thefourcraft.com/media/website/Blogs-Open-Graph-Fallback-2.png');
+            background-size: auto 2rem;
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+            margin: 0 auto;
+            height: 2rem;
+            text-indent: -9999px;
+            width: 240px;vertical-align: middle;
+        }
+        .logo.logo-text {
+            line-height: 2;
+            text-align: center;
+            text-indent: 0;
+        }
+
+amp-sidebar {
+  background: #ffffff;
+  width: 240px; }
+  amp-sidebar > ul {
+    margin: 0.8rem 0 0;
+    padding: 0; }
+    amp-sidebar > ul ul {
+      border-left: 1px solid #d4d4d4;
+      margin: 0.53333rem 0 0; }
+    amp-sidebar > ul li {
+      color: #262626;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      list-style: none;
+      line-height: 1.4;
+      padding: 0.42667rem 1.06667rem; }
+      amp-sidebar > ul li li {
+        font-weight: normal;
+        padding: 0.26667rem 0 0.26667rem 1.06667rem; }
+    amp-sidebar > ul a,
+    amp-sidebar > ul a:visited {
+      color: #262626; }
+
+.bg-white {
+  background: #ffffff; }
+
+.wrap-page {
+  max-width: 700px;
+  margin: 0 auto; }
+
+@media all and (max-width: 43.6875em) {
+  .wrap-inner {
+    padding: 0 6%; } }
+
+.page-title {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  margin-bottom: 0.8rem;
+  padding: 1.6rem 6%; }
+  .page-title > h1 {
+    margin: 0;
+    font-size: 1.29454rem; }
+  .page-title > p {
+    font-size: 0.87891rem;
+    color: #6c7175;
+    line-height: 1.3;
+    margin: 0.26667rem 0 0; }
+  .page-title-author {
+    border-radius: 50%;
+    float: left;
+    height: 2.5rem;
+    width: 2.5rem; }
+    .page-title-author + h1 {
+      margin-left: 3.5rem; }
+      .page-title-author + h1 + p {
+        margin-left: 3.5rem; }
+
+.card {
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  box-shadow: 0 2px 3px rgba(38, 38, 38, 0.1);
+  margin-bottom: 0.8rem;
+  padding-bottom: 1.06667rem; }
+
+  .card-meta {
+    border-top: 1px solid #d4d4d4;
+    color: rgba(108, 113, 117, 0.6);
+    font-size: 0.7242rem;
+    font-weight: 500;
+    margin-top: 1.06667rem;
+    padding-top: 1.06667rem;
+    text-transform: uppercase; }
+    .card-meta a + time:before {
+      content: "";
+      background: #d4d4d4;
+      display: inline-block;
+      height: 3px;
+      margin: 0 8px;
+      width: 3px;
+      vertical-align: middle;
+      border-radius: 50%; }
+  .card-text {
+    font-size: 0.9375rem;
+    overflow: hidden;
+    padding: 0 6%; }
+    .card-text h2 {
+      font-size: 1.13778rem; }
+
+.post {
+  margin-bottom: 2.13333rem; }
+  .post-featured-image {
+    margin-top: 0;
+    position: relative; }
+    .post-featured-image > figcaption {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 3px;
+      color: #ffffff;
+      position: absolute;
+      bottom: 0.8rem;
+      padding: 0 0.26667rem;
+      right: 6%; }
+  .post-header {
+    margin-bottom: 2.13333rem; }
+  .post-meta {
+    border-bottom: 1px solid #d4d4d4;
+    color: rgba(108, 113, 117, 0.6);
+    font-size: 0.7242rem;
+    font-weight: 500;
+    margin-top: 1.06667rem;
+    padding-bottom: 1.06667rem;
+    text-transform: uppercase; }
+    .post-meta a + time:before {
+      content: "";
+      background: #d4d4d4;
+      display: inline-block;
+      height: 3px;
+      margin: 0 8px;
+      width: 3px;
+      vertical-align: middle;
+      border-radius: 50%; }
+  .post-tag {
+    margin: 0; }
+    .post-tag > li {
+      display: inline-block;
+      padding: 0; }
+      .post-tag > li a {
+        background: #f1f1f1;
+        border-radius: 2px;
+        color: #6c7175;
+        font-size: 0.77248rem;
+        display: inline-block;
+        margin: 0 0.26667rem 0.26667rem 0;
+        padding: 0.26667rem 0.53333rem; }
+        .post-tag > li a:hover {
+          background: #000000;
+          color: #ffffff;
+          text-decoration: none; }
+  .post-share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    width: 100%; }
+    .post-share amp-social-share {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+      background-size: 24px; }
+  .post-scroll {
+    color: #ffffff;
+    background: #000000;
+    bottom: 10px;
+    border-radius: 50%;
+    border: none;
+    -webkit-box-shadow: 0 1px 1.5px 0 rgba(38, 38, 38, 0.12), 0 1px 1px 0 rgba(38, 38, 38, 0.24);
+    box-shadow: 0 1px 1.5px 0 rgba(38, 38, 38, 0.12), 0 1px 1px 0 rgba(38, 38, 38, 0.24);
+    font-size: 1.13778rem;
+    height: 46px;
+    opacity: 0;
+    outline: none;
+    position: fixed;
+    padding: 0;
+    right: 4%;
+    visibility: hidden;
+    width: 46px;
+    z-index: 9999; }
+    .post-scroll-marker {
+      height: 0px;
+      position: absolute;
+      top: 100px;
+      width: 0px; }
+        .post-pagination {
+    background: #f1f1f1;
+    -webkit-box-shadow: inset 0 2px 3px rgba(38, 38, 38, 0.1);
+    box-shadow: inset 0 2px 3px rgba(38, 38, 38, 0.1);
+    border-top: 1px solid #d4d4d4;
+    padding: 1.06667rem 0; }
+    .post-pagination > div {
+      line-height: 1.2;
+      padding: 0.53333rem 1.06667rem;
+      text-align: center; }
+      .post-pagination > div span {
+        display: block;
+        color: #6c7175;
+        font-size: 0.7242rem;
+        font-weight: 500;
+        margin-bottom: 0.26667rem;
+        text-transform: uppercase; }
+    .post-pagination-prev a:before {
+      content: "\2190";
+      margin-right: 0.26667rem; }
+    .post-pagination-next a:after {
+      content: "\2192";
+      margin-left: 0.26667rem; }
+
+aside {
+  margin: 1.6rem 0 0; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.align-justify {
+  text-align: justify; }
+
+.msg {
+  border-left: 2px solid transparent;
+  padding: 1.06667rem 1.06667rem; }
+  .msg--highlight {
+    background-color: #fff8e6;
+    border-color: #e2ac4f; }
+  .msg--info {
+    background: rgba(45, 97, 201, 0.03);
+    border-color: #000000; }
+  .msg--success {
+    background: #f7fbf6;
+    border-color: #5ab44b; }
+  .msg--warning {
+    background: #fff3f3;
+    border-color: #c06367;
+    color: #a94442; }
+
+.dropcap:first-letter {
+  float: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 2.16943rem;
+  line-height: 0.7;
+  margin-right: 0.53333rem;
+  padding: 0.53333rem 0.53333rem 0.53333rem 0; }
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.8rem 0; }
+  .pagination > a {
+    padding-left: 0;
+    padding-right: 0;
+    width: 49%; }
+  .pagination-right {
+    margin-left: auto; }
+
+.bottom {
+  background: #000000;
+  color: #ffffff;
+  padding: 1.06667rem 4%;
+  text-align: center; }
+
+    /*
+ * Put your custom CSS code here (it will be used only in AMP mode)
+ */</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo" href="https://blog.thefourcraft.com/amp/index.html">DF Blogs</a></div></nav><main class="wrap-page"><article class="post"><figure class="post-featured-image"><amp-img src="https://blog.thefourcraft.com/media/posts/34/Historys-Worst-Software-Error.png" alt="" srcset="https://blog.thefourcraft.com/media/posts/34/responsive/Historys-Worst-Software-Error-xs.png 300w ,https://blog.thefourcraft.com/media/posts/34/responsive/Historys-Worst-Software-Error-sm.png 480w ,https://blog.thefourcraft.com/media/posts/34/responsive/Historys-Worst-Software-Error-md.png 768w" sizes="(max-width: 768px) 100vw, 768px" height="1080" layout="responsive" width="1920"></amp-img></figure><div class="wrap-inner"><header class="post-header"><h1>History&#x27;s Worst Software Error</h1><p class="post-meta"><time datetime="2023-04-04T08:00">cu0to0</time></p></header><p>In 1985, the world witnessed a medical tragedy that shook the entire industry to its core. This event sent shockwaves through the medical community, raising questions about the importance of proper training, testing, and oversight. A state-of-the-art radiation therapy device, the THERAC-25, was responsible for the world's first death by radiation treatment overdose.</p><h2>The THERAC-25: A Breakthrough in Radiation Therapy</h2><p>The THERAC-25 was a breakthrough in radiation therapy technology, designed to treat cancer patients with high-energy radiation beams. It was developed by the Canadian company Atomic Energy of Canada Limited (AECL) and was marketed as a faster and more efficient alternative to earlier radiation therapy machines.<br>The THERAC-25 was a computer-controlled machine that could deliver precise doses of radiation to specific parts of the body, reducing the risk of damage to healthy tissue.</p><p>However, the THERAC-25 was not without its flaws. The machine was designed with hardware and software components, making it more complex than earlier models. Moreover, the software used in the THERAC-25 had never been independently reviewed, and the manufacturer did not adequately test the device before it was put into use.</p><h2>The Tragic Events of 1985</h2><p>In 1985, the THERAC-25 started to malfunction, causing the machine to deliver massive radiation overdoses to patients. The machine's software contained a programming error that caused the radiation beam to be delivered in a continuous mode rather than a pulsed mode, resulting in radiation doses up to 100 times higher than intended. Patients who received the overdose suffered from severe radiation burns, nausea, and vomiting.</p><p>One of the patients, a 61-year-old woman named Judi Bowers, received a massive overdose of radiation that caused her to suffer excruciating pain, ultimately leading to her death. It was later revealed that the THERAC-25 had malfunctioned more than a dozen times before Bowers' death, but the hospital staff had failed to recognize the problem.</p><h2>A Cautionary Tale of Inadequate Validation and Documentation</h2><p>Here's a list of the code issues that were found in the THERAC-25:</p><ol><li>A race condition between the operator's inputs and the machine's output could cause the machine to deliver radiation in continuous mode rather than pulsed mode.</li><li>Poor user interface design made it difficult for operators to detect and respond to errors.</li><li>Inadequate safety interlocks allowed operators to bypass or disable safety features.</li><li>Poor error handling made it difficult for operators to diagnose and fix problems.</li><li>Inadequate testing and validation of the software made it difficult to identify and correct errors.</li><li>Lack of logging or tracking of machine usage made it difficult to identify patterns of malfunctions.</li><li>Insufficient documentation of the software, which made it difficult to understand and maintain the code.</li><li>Failure to follow established software development best practices, such as code reviews, version control, and software testing.</li></ol><p>These code issues contributed to the deadly legacy of the THERAC-25 and highlighted the importance of proper software design, testing, and validation in medical devices. The THERAC-25 incident led to significant changes in the way medical devices are regulated and designed, with a greater emphasis on safety, usability, and transparency.</p><h2>What Were The Code Issues With The THERAC-25</h2><p>The programming error in the THERAC-25 software was caused by a race condition, which occurs when two or more processes compete for the same resource. In the THERAC-25, the race condition was between the operator's inputs and the machine's output. Specifically, if the operator entered specific commands too quickly, the machine's software would get confused and deliver the radiation beam in continuous mode rather than pulsed mode. This error was difficult to detect because the device had no built-in safety checks to prevent it from happening. Here's an example of what the code might have looked like:</p><pre>while (operator_input == 1) {<br>    set_beam_mode(CONTINUOUS_MODE);<br>    set_beam_intensity(HIGH_INTENSITY);<br>    activate_beam();<br>}</pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]"><div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto"><div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]"><div class="flex flex-grow flex-col gap-3"><div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap"><div class="markdown prose w-full break-words dark:prose-invert light"><p>In this code example, the while loop continuously sets the beam mode to continuous and the beam intensity to high while the operator input equals 1. If the operator were to enter one multiple times in quick succession, the machine would not have enough time to deactivate the beam between pulses, resulting in a continuous beam of high-intensity radiation. This programming error highlights the importance of proper software testing and safety checks on medical devices.</p><p>One of the significant issues with the THERAC-25 was related to its user interface design. The machine's interface was poorly designed, making it difficult for operators to detect and respond to errors. For example, when an error occurred, the machine would print an error message on a paper tape rather than display it on the screen. This made it difficult for operators to identify the problem and take corrective action. Additionally, the machine did not have any built-in safety checks to prevent operators from bypassing or disabling safety interlocks, which were intended to prevent the machine from delivering radiation when it was unsafe. Here's an example of how the safety interlocks might have been implemented in the THERAC-25 software:</p><pre><code>if (beam_on) {<br>    if (door_closed &amp;&amp; water_flow &amp;&amp; vacuum_on) {<br>        activate_beam();<br>    } else {<br>        display_error_message("Safety interlock failure!");<br>    }<br>}<br></code></pre><div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]"><div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto"><div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]"><div class="flex flex-grow flex-col gap-3"><div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap"><div class="markdown prose w-full break-words dark:prose-invert light"><p>Unfortunately, the THERAC-25 did not have proper safety interlocks, which allowed operators to bypass them and deliver radiation even when it was unsafe. In this code example, the safety interlocks are designed to ensure that the beam is only activated if the door is closed, water is flowing, and the vacuum is on. However, if these conditions are not met, the machine should display an error message rather than activating the beam.</p></div></div></div></div></div></div><p>Another issue with the THERAC-25 software was related to how the machine's errors were handled. The device would display an error message and stop functioning when an error occurred. However, this made it difficult for operators to diagnose the problem and take corrective action. Sometimes, the machine would display multiple error messages simultaneously, adding to the confusion. Here's an example of how the error handling might have been implemented in the THERAC-25 software:</p><pre><code>if (beam_on) {<br>    if (door_closed &amp;&amp; water_flow &amp;&amp; vacuum_on) {<br>        activate_beam();<br>    } else {<br>        display_error_message("Safety interlock failure!");<br>        stop_beam();<br>    }<br>}<br><br>if (beam_intensity &gt; MAX_INTENSITY) {<br>    display_error_message("Beam intensity too high!");<br>    stop_beam();<br>}<br><br>if (beam_angle &lt; MIN_ANGLE || beam_angle &gt; MAX_ANGLE) {<br>    display_error_message("Invalid beam angle!");<br>    stop_beam();<br>}</code></pre></div></div></div></div></div></div></div></div><div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]"><div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto"><div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]"><div class="flex flex-grow flex-col gap-3"><div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap"><div class="markdown prose w-full break-words dark:prose-invert light"><p>In this code example, the machine is designed to display an error message and stop the beam if any of the safety interlocks fail, the beam intensity is too high, or the beam angle is invalid. However, the machine does not guide operators on how to diagnose and fix these problems. This lack of guidance made it difficult for operators to effectively troubleshoot the machine, contributing to the THERAC-25's deadly legacy.</p></div></div></div></div></div></div><h2>The Aftermath and Lessons Learned</h2><p>The THERAC-25 tragedy highlights the importance of robust software development practices, particularly in critical systems such as medical devices. Software development has evolved significantly in the decades since the THERAC-25 incident, with the adoption of continuous integration and continuous delivery (CI/CD) practices and an increased emphasis on quality assurance (QA).</p><p>CI/CD practices involve frequent, automated testing and deployment of software, allowing for faster and more reliable delivery of updates and reducing the risk of errors or vulnerabilities. Modern software development typically involves rigorous QA processes, including code reviews, unit testing, and acceptance testing. These practices help ensure that software is thoroughly tested and validated before deployment, reducing the risk of errors or defects that could have catastrophic consequences.</p><p>In the context of medical devices, these modern software development practices are critical for ensuring patient safety. Medical devices must meet rigorous safety and quality standards before they can be approved for use. Ongoing monitoring and testing are necessary to ensure they continue functioning safely and effectively. By adopting modern software development practices, medical device manufacturers can help ensure that their products meet these standards and reduce the risk of errors or malfunctions that could harm patients.</p><p>In conclusion, the lessons learned from the THERAC-25 tragedy have impacted software development, particularly in critical systems such as medical devices. By adopting modern software development practices such as CI/CD and QA, developers can help ensure their software is thoroughly tested and validated, reducing the risk of errors or vulnerabilities that could have catastrophic consequences.</p><h2>Sources</h2><ul><li><a href="https://en.wikipedia.org/wiki/Therac-25">https://en.wikipedia.org/wiki/Therac-25</a></li><li><a href="https://ethicsunwrapped.utexas.edu/case-study/therac-25">https://ethicsunwrapped.utexas.edu/case-study/therac-25</a></li><li><a href="https://www.computer.org/csdl/magazine/co/2017/11/mco2017110008/13rRUxAStVR">https://www.computer.org/csdl/magazine/co/2017/11/mco2017110008/13rRUxAStVR</a></li><li><a href="https://ieeexplore.ieee.org/abstract/document/274940">https://ieeexplore.ieee.org/abstract/document/274940</a></li><li><a href="https://www.cs.nmt.edu/~cse382/reading/therac-25.pdf">https://www.cs.nmt.edu/~cse382/reading/therac-25.pdf</a></li><li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1549374104300821">https://www.sciencedirect.com/science/article/abs/pii/S1549374104300821</a></li></ul><figure class="post__video"><amp-iframe sandbox="allow-scripts allow-same-origin" layout="responsive" width="694" height="389" src="https://www.youtube-nocookie.com/embed/Ap0orGCiou8" allowfullscreen="allowfullscreen" data-mce-fragment="1"></amp-iframe></figure><p> </p><aside><ul class="post-tag"><li><a href="https://blog.thefourcraft.com/amp/tags/documentary/index.html">Documentary</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/medical-technology/index.html">Medical Technology</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/therac-25/index.html">THERAC-25</a></li></ul><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="History&#x27;s Worst Software Error"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="1574887919592240" data-param-text="History&#x27;s Worst Software Error" data-param-href="https://blog.thefourcraft.com/amp/historys-worst-software-error/index.html"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="History&#x27;s Worst Software Error" data-param-url="https://blog.thefourcraft.com/amp/historys-worst-software-error/index.html"></amp-social-share><amp-social-share type="pinterest" width="40" height="40" data-param-url="https://blog.thefourcraft.com/amp/historys-worst-software-error/index.html"></amp-social-share><amp-social-share type="tumblr" width="40" height="40" data-param-text="History&#x27;s Worst Software Error" data-param-url="https://blog.thefourcraft.com/amp/historys-worst-software-error/index.html"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="History&#x27;s Worst Software Error" data-param-url="https://blog.thefourcraft.com/amp/historys-worst-software-error/index.html"></amp-social-share></div></aside></div></article></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{
+                    "duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{
+                        "selector": ".post-scroll",
+                        "keyframes": [{
+                            "opacity": "1",
+                            "visibility": "visible",
+                            "transform": "scale(1)"
+                        }]
+                    }]
+                }</script></amp-animation><amp-animation id="hideAnim" layout="nodisplay"><script type="application/json">{
+                    "duration": "200ms",
+                    "fill": "both",
+                    "iterations": "1",
+                    "direction": "alternate",
+                    "animations": [{
+                        "selector": ".post-scroll",
+                        "keyframes": [{
+                            "opacity": "0",
+                            "visibility": "hidden",
+                            "transform": "scale(0.1)"
+                        }]
+                    }]
+                }</script></amp-animation><div class="post-scroll-marker"><amp-position-observer on="enter:hideAnim.start; exit:showAnim.start" layout="nodisplay"></amp-position-observer></div><button class="post-scroll" on="tap:top.scrollTo(duration=200)">&#8593;</button><footer class="bottom">Ⓒ All Rights Are Reserved To DF Blogs</footer><amp-sidebar id="navbar-sidebar" layout="nodisplay"><ul><li><a href="https://blog.thefourcraft.com/amp/index.html">Home</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/index.html">Categories</a><ul class="submenu level-2" aria-hidden="true"><li><a href="https://blog.thefourcraft.com/amp/tags/network/index.html" target="_self">Network</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/servers/index.html" target="_self">Servers</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/devops/index.html" target="_self">DevOps</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/tips-and-tricks/index.html" target="_self">Tips &amp; Tricks</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/security/index.html" target="_self">Security</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/ai/index.html" target="_self">AI 🤖</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/java/index.html" target="_self">Java</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/cloudflare/index.html" target="_self">Cloudflare</a></li><li><a href="https://blog.thefourcraft.com/amp/tags/windows/index.html" target="_self">Windows</a></li></ul></li><li><a href="https://www.thefourcraft.com">Main Website</a></li><li><a href="https://www.thefourcraft.com/privacy-policy.html">Privacy Policy</a></li></ul></amp-sidebar></body></html>

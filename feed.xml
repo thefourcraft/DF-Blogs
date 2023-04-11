@@ -3,12 +3,365 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-03-04T23:03:07+02:00</updated>
+    <updated>2023-04-05T10:00:00+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Why SVG&#x27;s Are Dangerous </title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/why-svgs-are-dangerous/index.html"/>
+        <id>https://blog.thefourcraft.com/why-svgs-are-dangerous/index.html</id>
+            <category term="Webmastering"/>
+            <category term="Security"/>
+
+        <updated>2023-04-05T10:00:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                    Scalable Vector Graphics (SVG) has become increasingly popular in web design due to their ability to scale without losing quality,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Scalable Vector Graphics (SVG) has become increasingly popular in web design due to their ability to scale without losing quality, resolution independence, and ability to animate elements. While these advantages make SVGs an attractive choice for web designers, potential security risks and performance issues must be considered.</p>
+<h2>Cross-Site Scripting (XSS) Attacks and SVGs</h2>
+<p>One of the most significant security risks posed by SVGs is the potential for Cross-Site Scripting (XSS) attacks. SVGs can contain embedded scripts, which can be exploited to inject malicious code into a website. This can lead to various harmful outcomes, such as stealing user data, taking control of user sessions, or distributing malware.</p>
+<h3>Example of an XSS attack using SVG:</h3>
+<p>An attacker uploads an SVG file containing malicious JavaScript code to a website that allows user-generated content, when a user views the web page containing the SVG, the embedded script executes, providing the attacker with unauthorized access to user data or the ability to perform other malicious actions.</p>
+<h4>Mitigating XSS risks in SVGs:</h4>
+<ul>
+<li>Thoroughly vet and sanitize any SVG files uploaded to your website, ensuring they do not contain potentially harmful scripts.</li>
+<li>Disable script execution within SVG by setting your website's Content-Security-Policy (CSP) header. This restricts the types of content that can be loaded and executed, helping to prevent XSS attacks.</li>
+</ul>
+<h2>Addressing Performance Issues with SVGs</h2>
+<p>SVGs, while offering scalability and resolution independence, can be resource-intensive to render. This can be particularly problematic on older devices or slow connections, resulting in slow-loading websites or even crashes.</p>
+<p>Animations and JavaScript manipulations can further strain performance, especially on mobile devices or older computers with limited processing power.</p>
+<h3>Optimizing SVG performance:</h3>
+<ul>
+<li>Simplify your SVG files by removing unnecessary elements, optimizing complex paths, and reducing the number of nodes.</li>
+<li>Consider using alternative formats or techniques for complex animations, such as CSS animations or video files, which may be more efficient and less resource-intensive.</li>
+</ul>
+<h2>Browser Compatibility and SVGs</h2>
+<p>Despite widespread support among modern browsers, older browsers may not display SVG correctly, leading to compatibility issues and a degraded user experience.</p>
+<h3>Ensuring browser compatibility:</h3>
+<ul>
+<li>Test your website on various browsers and devices to identify compatibility issues and address them accordingly.</li>
+<li>Use fallback images or alternative formats for older browsers that do not support SVGs, ensuring users can still access your content.</li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>History&#x27;s Worst Software Error</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/historys-worst-software-error/index.html"/>
+        <id>https://blog.thefourcraft.com/historys-worst-software-error/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/34/Historys-Worst-Software-Error.png" medium="image" />
+            <category term="THERAC-25"/>
+            <category term="Medical Technology"/>
+            <category term="Documentary"/>
+
+        <updated>2023-04-04T08:00:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/34/Historys-Worst-Software-Error.png" alt="" />
+                    In 1985, the world witnessed a medical tragedy that shook the entire industry to its core. This event sent shockwaves&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/34/Historys-Worst-Software-Error.png" class="type:primaryImage" alt="" /></p>
+                <p>In 1985, the world witnessed a medical tragedy that shook the entire industry to its core. This event sent shockwaves through the medical community, raising questions about the importance of proper training, testing, and oversight. A state-of-the-art radiation therapy device, the THERAC-25, was responsible for the world's first death by radiation treatment overdose.</p>
+<h2>The THERAC-25: A Breakthrough in Radiation Therapy</h2>
+<p>The THERAC-25 was a breakthrough in radiation therapy technology, designed to treat cancer patients with high-energy radiation beams. It was developed by the Canadian company Atomic Energy of Canada Limited (AECL) and was marketed as a faster and more efficient alternative to earlier radiation therapy machines. <br>The THERAC-25 was a computer-controlled machine that could deliver precise doses of radiation to specific parts of the body, reducing the risk of damage to healthy tissue.</p>
+<p>However, the THERAC-25 was not without its flaws. The machine was designed with hardware and software components, making it more complex than earlier models. Moreover, the software used in the THERAC-25 had never been independently reviewed, and the manufacturer did not adequately test the device before it was put into use.</p>
+<h2>The Tragic Events of 1985</h2>
+<p>In 1985, the THERAC-25 started to malfunction, causing the machine to deliver massive radiation overdoses to patients. The machine's software contained a programming error that caused the radiation beam to be delivered in a continuous mode rather than a pulsed mode, resulting in radiation doses up to 100 times higher than intended. Patients who received the overdose suffered from severe radiation burns, nausea, and vomiting.</p>
+<p>One of the patients, a 61-year-old woman named Judi Bowers, received a massive overdose of radiation that caused her to suffer excruciating pain, ultimately leading to her death. It was later revealed that the THERAC-25 had malfunctioned more than a dozen times before Bowers' death, but the hospital staff had failed to recognize the problem.</p>
+<h2>A Cautionary Tale of Inadequate Validation and Documentation</h2>
+<p>Here's a list of the code issues that were found in the THERAC-25:</p>
+<ol>
+<li>A race condition between the operator's inputs and the machine's output could cause the machine to deliver radiation in continuous mode rather than pulsed mode.</li>
+<li>Poor user interface design made it difficult for operators to detect and respond to errors.</li>
+<li>Inadequate safety interlocks allowed operators to bypass or disable safety features.</li>
+<li>Poor error handling made it difficult for operators to diagnose and fix problems.</li>
+<li>Inadequate testing and validation of the software made it difficult to identify and correct errors.</li>
+<li>Lack of logging or tracking of machine usage made it difficult to identify patterns of malfunctions.</li>
+<li>Insufficient documentation of the software, which made it difficult to understand and maintain the code.</li>
+<li>Failure to follow established software development best practices, such as code reviews, version control, and software testing.</li>
+</ol>
+<p>These code issues contributed to the deadly legacy of the THERAC-25 and highlighted the importance of proper software design, testing, and validation in medical devices. The THERAC-25 incident led to significant changes in the way medical devices are regulated and designed, with a greater emphasis on safety, usability, and transparency.</p>
+<h2>What Were The Code Issues With The THERAC-25</h2>
+<p>The programming error in the THERAC-25 software was caused by a race condition, which occurs when two or more processes compete for the same resource. In the THERAC-25, the race condition was between the operator's inputs and the machine's output. Specifically, if the operator entered specific commands too quickly, the machine's software would get confused and deliver the radiation beam in continuous mode rather than pulsed mode. This error was difficult to detect because the device had no built-in safety checks to prevent it from happening. Here's an example of what the code might have looked like:</p>
+<pre>while (operator_input == 1) {<br>    set_beam_mode(CONTINUOUS_MODE);<br>    set_beam_intensity(HIGH_INTENSITY);<br>    activate_beam();<br>}</pre>
+<div class="bg-black rounded-md mb-4">
+<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>In this code example, the while loop continuously sets the beam mode to continuous and the beam intensity to high while the operator input equals 1. If the operator were to enter one multiple times in quick succession, the machine would not have enough time to deactivate the beam between pulses, resulting in a continuous beam of high-intensity radiation. This programming error highlights the importance of proper software testing and safety checks on medical devices.</p>
+<p>One of the significant issues with the THERAC-25 was related to its user interface design. The machine's interface was poorly designed, making it difficult for operators to detect and respond to errors. For example, when an error occurred, the machine would print an error message on a paper tape rather than display it on the screen. This made it difficult for operators to identify the problem and take corrective action. Additionally, the machine did not have any built-in safety checks to prevent operators from bypassing or disabling safety interlocks, which were intended to prevent the machine from delivering radiation when it was unsafe. Here's an example of how the safety interlocks might have been implemented in the THERAC-25 software:</p>
+<pre><code>if (beam_on) {<br>    if (door_closed &amp;&amp; water_flow &amp;&amp; vacuum_on) {<br>        activate_beam();<br>    } else {<br>        display_error_message("Safety interlock failure!");<br>    }<br>}<br></code></pre>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>Unfortunately, the THERAC-25 did not have proper safety interlocks, which allowed operators to bypass them and deliver radiation even when it was unsafe. In this code example, the safety interlocks are designed to ensure that the beam is only activated if the door is closed, water is flowing, and the vacuum is on. However, if these conditions are not met, the machine should display an error message rather than activating the beam.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Another issue with the THERAC-25 software was related to how the machine's errors were handled. The device would display an error message and stop functioning when an error occurred. However, this made it difficult for operators to diagnose the problem and take corrective action. Sometimes, the machine would display multiple error messages simultaneously, adding to the confusion. Here's an example of how the error handling might have been implemented in the THERAC-25 software:</p>
+<pre><code>if (beam_on) {<br>    if (door_closed &amp;&amp; water_flow &amp;&amp; vacuum_on) {<br>        activate_beam();<br>    } else {<br>        display_error_message("Safety interlock failure!");<br>        stop_beam();<br>    }<br>}<br><br>if (beam_intensity &gt; MAX_INTENSITY) {<br>    display_error_message("Beam intensity too high!");<br>    stop_beam();<br>}<br><br>if (beam_angle &lt; MIN_ANGLE || beam_angle &gt; MAX_ANGLE) {<br>    display_error_message("Invalid beam angle!");<br>    stop_beam();<br>}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>In this code example, the machine is designed to display an error message and stop the beam if any of the safety interlocks fail, the beam intensity is too high, or the beam angle is invalid. However, the machine does not guide operators on how to diagnose and fix these problems. This lack of guidance made it difficult for operators to effectively troubleshoot the machine, contributing to the THERAC-25's deadly legacy.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2>The Aftermath and Lessons Learned</h2>
+<p>The THERAC-25 tragedy highlights the importance of robust software development practices, particularly in critical systems such as medical devices. Software development has evolved significantly in the decades since the THERAC-25 incident, with the adoption of continuous integration and continuous delivery (CI/CD) practices and an increased emphasis on quality assurance (QA).</p>
+<p>CI/CD practices involve frequent, automated testing and deployment of software, allowing for faster and more reliable delivery of updates and reducing the risk of errors or vulnerabilities. Modern software development typically involves rigorous QA processes, including code reviews, unit testing, and acceptance testing. These practices help ensure that software is thoroughly tested and validated before deployment, reducing the risk of errors or defects that could have catastrophic consequences.</p>
+<p>In the context of medical devices, these modern software development practices are critical for ensuring patient safety. Medical devices must meet rigorous safety and quality standards before they can be approved for use. Ongoing monitoring and testing are necessary to ensure they continue functioning safely and effectively. By adopting modern software development practices, medical device manufacturers can help ensure that their products meet these standards and reduce the risk of errors or malfunctions that could harm patients.</p>
+<p>In conclusion, the lessons learned from the THERAC-25 tragedy have impacted software development, particularly in critical systems such as medical devices. By adopting modern software development practices such as CI/CD and QA, developers can help ensure their software is thoroughly tested and validated, reducing the risk of errors or vulnerabilities that could have catastrophic consequences.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Therac-25">https://en.wikipedia.org/wiki/Therac-25</a></li>
+<li><a href="https://ethicsunwrapped.utexas.edu/case-study/therac-25">https://ethicsunwrapped.utexas.edu/case-study/therac-25</a></li>
+<li><a href="https://www.computer.org/csdl/magazine/co/2017/11/mco2017110008/13rRUxAStVR">https://www.computer.org/csdl/magazine/co/2017/11/mco2017110008/13rRUxAStVR</a></li>
+<li><a href="https://ieeexplore.ieee.org/abstract/document/274940">https://ieeexplore.ieee.org/abstract/document/274940</a></li>
+<li><a href="https://www.cs.nmt.edu/~cse382/reading/therac-25.pdf">https://www.cs.nmt.edu/~cse382/reading/therac-25.pdf</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S1549374104300821">https://www.sciencedirect.com/science/article/abs/pii/S1549374104300821</a></li>
+</ul>
+<figure class="post__video">
+                <div 
+                    class="pec-wrapper" 
+                    data-consent-group-id="youtube">
+                    <iframe data-consent-overlay-added="true" loading="lazy" width="694" height="389" style="width: 694px; height: 389px;" data-consent-src="https://www.youtube-nocookie.com/embed/Ap0orGCiou8" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+                    <div class="pec-overlay is-active" aria-hidden="false">
+                        <div class="pec-overlay-inner">
+                            <p>You Have Disabled YouTube On this Website, With cookie settings. </p>
+                            <button 
+                                class="pec-button" 
+                                onclick="window.publiiEmbedConsentGiven('youtube'); return false;">
+                                YouTube
+                            </button>
+                        </div>
+                    </div>
+                    <script>window.publiiEmbedConsentCheck('youtube');</script>
+                </div>
+                </figure>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>WTF is A Webmaster</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/wtf-is-a-webmaster/index.html"/>
+        <id>https://blog.thefourcraft.com/wtf-is-a-webmaster/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/33/WTF-is-A-Webmaster.png" medium="image" />
+            <category term="Webmastering"/>
+            <category term="Entrepreneurship"/>
+
+        <updated>2023-04-03T10:10:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/33/WTF-is-A-Webmaster.png" alt="" />
+                    If you've ever found yourself scrolling through a sleek, user-friendly website and wondered, "WTF is a webmaster?" you've come to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/33/WTF-is-A-Webmaster.png" class="type:primaryImage" alt="" /></p>
+                <p>If you've ever found yourself scrolling through a sleek, user-friendly website and wondered, "WTF is a webmaster?" you've come to the right place. A webmaster is an unsung hero behind many successful small organizations and startups. In today's fast-paced digital world, webmasters are more than just tech-savvy jack-of-all-trades; they play a critical role in helping businesses thrive online. Let's dive deeper into the world of webmasters, their responsibilities, and why they're so crucial for small organizations and startups.</p>
+<h2>The Role of a Webmaster</h2>
+<p>A webmaster is responsible for maintaining, updating, and managing a website. They are the architects behind the scenes who ensure a website is functional, visually appealing, and user-friendly. A webmaster’s responsibilities can vary greatly depending on the organization's size and needs, but their primary tasks often include:</p>
+<ol>
+<li>
+<p>Website Design and Development: A webmaster creates and implements a website's overall design and structure, ensuring it is visually appealing and easy to navigate.</p>
+</li>
+<li>
+<p>Content Management: A webmaster manages and updates the content on a website, ensuring it remains fresh, relevant, and engaging for visitors.</p>
+</li>
+<li>
+<p>Search Engine Optimization (SEO): A webmaster is responsible for optimizing a website's content and structure to improve its visibility on search engines like Google and Bing.</p>
+</li>
+<li>
+<p>Website Analytics: A webmaster tracks and analyzes website traffic, visitor behavior, and other key performance indicators (KPIs) to make informed decisions on improving a website's performance.</p>
+</li>
+<li>
+<p>Troubleshooting and Maintenance: A webmaster is responsible for identifying and resolving any technical issues that may arise, such as broken links, slow page loading times, or security vulnerabilities. They also ensure the website is regularly backed up and updated with the latest software and security patches.</p>
+</li>
+<li>User Experience (UX) and Accessibility: A webmaster ensures that a website is accessible to users with varying abilities and provides a seamless browsing experience across different devices and browsers.</li>
+</ol>
+<h2>Why a Webmaster is Critical for Small Organizations and Startups</h2>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="text-base gap-4 md:gap-6 md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>For small organizations and startups, having a website is essential for establishing an online presence and reaching a wider audience. <br>However, creating and maintaining a website can be daunting, especially for those unfamiliar with web development and design. This is where a webmaster comes in. <br>A webmaster can help small organizations and startups create a professional-looking website that is user-friendly and optimized for search engines. <br>They can also ensure that the website is secure and up-to-date, protecting it from cyber threats and ensuring it remains competitive in today's digital world. <br>By investing in a webmaster, small organizations and startups can focus on their core business while leaving the website management to the experts. <br>This can ultimately lead to increased revenue and growth opportunities, as a well-designed and maintained website can help attract and retain customers.</p>
+</div>
+</div>
+</div>
+<div class="flex justify-between">
+<div class="text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-3 md:gap-4 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible"> </div>
+</div>
+</div>
+</div>
+</div>
+<h2>The Early Days of the Webmaster Role</h2>
+<p>The term "webmaster" first appeared in the early days of the World Wide Web in the 1990s. At that time, the web was still a relatively new technology, and few people had the skills and expertise to design, develop, and maintain websites. The role of the webmaster emerged as a way to fill this gap.</p>
+<p>Initially, webmasters were responsible for basic tasks such as uploading content, managing user accounts, and handling server maintenance. They were essentially the gatekeepers of the website, ensuring that everything ran smoothly and that users could access the content they needed.</p>
+<h2>The Expansion of the Webmaster Role</h2>
+<p>Over time, the role of the webmaster expanded to encompass a broader range of responsibilities. As websites became more complex and interactive, webmasters needed proficiency in web development, design, and optimization. They needed to be able to troubleshoot technical issues, ensure that the website was accessible to all users, and create content that was engaging and relevant to the target audience.</p>
+<p>In addition to their technical skills, webmasters also need strong communication and collaboration skills. They often worked closely with other professionals, such as designers, developers, and content creators, to ensure that the website met the organization's and its users' needs.</p>
+<h2>The Modern Webmaster</h2>
+<p>The webmaster role has evolved with the rise of content management systems (CMS) and website builders. Today, webmasters may work with a team of professionals or maybe a one-person show responsible for all website creation and management aspects.</p>
+<p>Modern webmasters must stay up-to-date with the latest web technologies, design trends, and security protocols to ensure their websites remain competitive and secure. They need to be able to analyze website data to identify improvement areas and create optimized content for search engines and social media.</p>
+<p>Despite the changes in the webmaster role over the years, one thing remains constant: the importance of webmasters in creating and maintaining successful websites. Whether working for a large corporation, a small business, or a freelancer, webmasters are critical to ensuring that websites are user-friendly, engaging, and secure.</p>
+<h2>The Future of Webmasters</h2>
+<p>As the digital world continues to evolve, the role of webmasters is likely to become even more critical. With the rise of new technologies such as artificial intelligence and the Internet of Things, webmasters must adapt and stay up-to-date with the latest trends and developments.</p>
+<p>Webmasters will also need to continue prioritizing website security, as cyber threats will only become more sophisticated in the coming years.</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Perplexity IA The Next Google?!</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/perplexity-ia-the-next-google/index.html"/>
+        <id>https://blog.thefourcraft.com/perplexity-ia-the-next-google/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/32/Perplexity-IA-The-Next-Google.png" medium="image" />
+            <category term="The Future"/>
+            <category term="Perplexity IA"/>
+            <category term="Google"/>
+            <category term="AI"/>
+
+        <updated>2023-03-31T08:00:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/32/Perplexity-IA-The-Next-Google.png" alt="" />
+                    In recent years, the rise of AI and natural language processing has spurred the development of conversational search engines that&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/32/Perplexity-IA-The-Next-Google.png" class="type:primaryImage" alt="" /></p>
+                <p>In recent years, the rise of AI and natural language processing has spurred the development of conversational search engines that aim to provide users with accurate information through a chatbot-style interface. One such contender is Perplexity AI, which has the potential to become a formidable rival to Google. <br>But how does it work, and what sets it apart from other AI-driven search engines?</p>
+<h2>Perplexity AI: A Conversational Search Engine with Source Verification</h2>
+<p>Perplexity AI prides itself on being "an answer engine that delivers accurate answers to complex questions." Its unique selling point is the ability to provide users with footnotes and links to the data sources, ensuring transparency and enabling users to verify the information. The caveat is that its web interface is still developing and may not be perfect.</p>
+<p>When asked a question, Perplexity AI generates an answer compiled from multiple sources, complete with footnotes and links to the information's origin. It's also skilled at remembering conversational context and suggesting related searches to help users refine their quest for knowledge.</p>
+<h2>The Race to Bridge the Gap</h2>
+<p>Perplexity AI is not alone in its pursuit of creating a conversational search engine that combines the best of AI tools and accurate search results. You.com's YouChat and Jasper Chat are other examples of chatbots offering a similar experience.</p>
+<p>While YouChat is designed to answer questions and assist with writing and editing prose, it still faces accuracy challenges. Jasper Chat, built on Jasper's generative AI engine, also aims to provide a conversational search experience but may not always produce the most accurate results.</p>
+<h2>Challenges and Imperfections</h2>
+<p>Despite its innovative approach, Perplexity AI is not without its flaws. The answers it provides can sometimes be outdated or change upon repeated requests, as Voicebot and Synthedia founder Bret Kinsella reported. This highlights the ongoing struggle for AI-driven search engines to maintain accuracy and up-to-date information.</p>
+<h2>The Future of Conversational Search Engines</h2>
+<p>The rapid advancements in conversational and generative AI have made the idea of a rival to Google in search more feasible than ever before. <br>We expect heated debates and fierce competition among various platforms as the industry evolves. Google has reportedly begun taking steps to maintain its lead in the field, with founders Larry Page and Sergey Brin brainstorming ways to get ahead in AI chatbots.</p>
+<h2>What's Next?!</h2>
+<p>Perplexity AI and other conversational search engines like YouChat and Jasper Chat may not yet be ready to dethrone Google. <br>Still, they represent a significant shift in how users interact with and consume information online. <br>As these platforms continue to develop and refine their offerings, the future of search could be more conversational, transparent, and personalized.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Why I Choose Lunacy Everytime</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/why-i-choose-lunacy-everytime/index.html"/>
+        <id>https://blog.thefourcraft.com/why-i-choose-lunacy-everytime/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/35/Why-I-Choose-Lunacy-Everytime.png" medium="image" />
+            <category term="Product Recommendation"/>
+            <category term="Lunacy"/>
+            <category term="100% Free Software"/>
+
+        <updated>2023-03-28T16:00:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/35/Why-I-Choose-Lunacy-Everytime.png" alt="" />
+                    Design software is an essential tool for creative professionals, but with so many options available, choosing the right one for&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/35/Why-I-Choose-Lunacy-Everytime.png" class="type:primaryImage" alt="" /></p>
+                <p>Design software is an essential tool for creative professionals, but with so many options available, choosing the right one for your needs can be challenging. If you're looking for versatile and powerful design software to handle all your design needs, look no further than Lunacy.</p>
+<h2>What is Lunacy?</h2>
+<p>Lunacy is a Windows-based design software developed by Icons8, a company known for its extensive library of icons and graphics. Lunacy offers a range of features, making it an excellent choice for designers and creative professionals looking for a comprehensive design tool.</p>
+<h1>Five reasons why Lunacy is the best design software for everything</h1>
+<p>I can give 50, but let's stick to five </p>
+<ol>
+<li>
+<h3>It's free 💯</h3>
+</li>
+</ol>
+<p>One of the most significant advantages of Lunacy is that it's completely free to use. Unlike other design software that can cost hundreds of dollars, Lunacy offers all its features for free. This makes it an excellent choice for small businesses or freelancers looking for a powerful design tool without breaking the bank.</p>
+<ol start="2">
+<li>
+<h3>It's designed for every platform 💻</h3>
+</li>
+</ol>
+<p>Lunacy is designed for every platform, so it takes full advantage of your operating system. This includes support for touchscreens, high-DPI displays, and the ability to use keyboard shortcuts.</p>
+<ol start="3">
+<li>
+<h3>It's a powerful design tool 🔧</h3>
+</li>
+</ol>
+<p>Lunacy is more than just design software - it's a full-fledged design tool in its own right. With Lunacy, you can create complex designs using various tools and features, including vector graphics, text tools, and layer styles. Lunacy also supports multiple file formats, including Sketch files, so that you can import your existing designs without issues.</p>
+<ol start="4">
+<li>
+<h3>It's optimized and creates collaboration 🤙</h3>
+</li>
+</ol>
+<p>Like other design software, Lunacy is designed for collaboration. You can share your designs with team members and clients, and they can view and comment on your work in real time. You can also export your designs in various formats, including HTML, CSS, and SVG.</p>
+<ol start="5">
+<li>
+<h3>It's constantly evolving 🚀</h3>
+</li>
+</ol>
+<p>Lunacy is a relatively new design software, but it's already making waves in the design community. The Icons8 team constantly adds new features and improves the tool based on user feedback. This means that Lunacy is continuously improving, and you can expect to see even more exciting features.</p>
+<h1>What Are You Waiting For </h1>
+<p>Lunacy is the best design software for everything, whether you're a freelancer, a small business, or part of a larger team. It's free, powerful, and optimized for collaboration, making it an excellent choice for anyone who needs a comprehensive design tool. So why not give Lunacy a try and see for yourself why it's quickly becoming the go-to choice for designers and creative professionals?</p>
+<p><a href="https://www.thefourcraft.com/lunacy" target="_blank" rel="sponsored noopener noreferrer">Also, i take pride in fully translating 70% of the app to Hebrew </a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Social Media as SaaS</title>
         <author>
@@ -263,310 +616,6 @@
 <p>Finally, it's essential to be prepared for a DDoS attack by having a response plan. This may involve working with a DDoS protection service to implement a plan for responding to an attack and having a backup plan in case your primary defense mechanisms fail.</p>
 <h2>Conclusion</h2>
 <p>Hyper-volumetric DDoS attacks are a growing threat in the world of cyber-security, and they can cause widespread disruption to businesses and organizations. By taking steps to protect your network, working with a DDoS protection service like Cloudflare, and being prepared for an attack, you can reduce the risk of a successful hyper-volumetric DDoS attack against your organization.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Google vs ChatGPT: A Look at the Two Powerhouses of AI</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/google-vs-chatgpt-a-look-at-the-two-powerhouses-of-ai/index.html"/>
-        <id>https://blog.thefourcraft.com/google-vs-chatgpt-a-look-at-the-two-powerhouses-of-ai/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/24/Google-vs-ChatGPT-A-Look-at-the-Two-Powerhouses-of-AI.png" medium="image" />
-            <category term="Google"/>
-            <category term="ChatGPT"/>
-            <category term="AI"/>
-
-        <updated>2023-02-03T00:36:00+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/24/Google-vs-ChatGPT-A-Look-at-the-Two-Powerhouses-of-AI.png" alt="" />
-                    <div class="w-full border-b border-black/10 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-50 dark:bg-[#444654]">
-<div class="text-base gap-4 md:gap-6 m-auto md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0">
-<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>As AI continues to shape our world and impact our lives, it is vital to understand the role of companies in the field.  <br>Let's explore the specializations of these two giants in AI. </p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/24/Google-vs-ChatGPT-A-Look-at-the-Two-Powerhouses-of-AI.png" class="type:primaryImage" alt="" /></p>
-                <div class="w-full border-b border-black/10 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-50 dark:bg-[#444654]">
-<div class="text-base gap-4 md:gap-6 m-auto md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0">
-<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>As AI continues to shape our world and impact our lives, it is vital to understand the role of companies in the field.  <br>Let's explore the specializations of these two giants in AI. </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p>Google, a multinational technology company, has significantly impacted the technology industry with its Internet-related services and products.</p>
-<p>On the other hand, ChatGPT is a language model developed by OpenAI, one of the leading organizations in AI research and development. <br>This model has become very popular because of its state-of-the-art language generation system, capable of generating human-like responses to text inputs,<br>Which sometimes are so convincingly wrong</p>
-<h2>What is Google Known For?</h2>
-<p>Google is known for its search engine and online advertising technologies, but it also offers cloud computing, software, and hardware. <br>With its vast resources and expertise in AI and technology, Google continues to drive innovation and push the boundaries of what is possible with technology.</p>
-<h2>What is ChatGPT Known For?</h2>
-<p>ChatGPT is an AI language model trained on a massive amount of text data to generate human-like responses to text inputs.<br>This model represents a significant advancement in AI language generation and has the potential to revolutionize the way we interact with technology.</p>
-<h2>Is Google Scared of ChatGPT?</h2>
-<p>It is not accurate to say that Google is scared of ChatGPT. <br>Both Google and OpenAI play crucial roles in the development and advancement of AI technologies, and each has unique strengths and specializations. <br>ChatGPT is only one component of the larger AI ecosystem, and Google, with its vast resources and expertise, is well-positioned to continue to drive innovation in the field.</p>
-<p>It is not a matter of being scared of the other, but perhaps we should ask what's coming next.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Importance of Open Source Projects</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/the-importance-of-open-source-projects/index.html"/>
-        <id>https://blog.thefourcraft.com/the-importance-of-open-source-projects/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/23/The-Importance-of-Open-Source-Projects.png" medium="image" />
-            <category term="Open Source"/>
-            <category term="GitHub"/>
-
-        <updated>2023-02-02T23:38:20+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/23/The-Importance-of-Open-Source-Projects.png" alt="" />
-                    <p>Open-source projects have become increasingly popular in recent years, and for a good reason. <br>These projects allow for collaboration and contributions from a large community of developers, resulting in more efficient and effective solutions.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/23/The-Importance-of-Open-Source-Projects.png" class="type:primaryImage" alt="" /></p>
-                <p>Open-source projects have become increasingly popular in recent years, and for a good reason. <br>These projects allow for collaboration and contributions from a large community of developers, resulting in more efficient and effective solutions.</p>
-
-<h2>Accessibility and Collaboration</h2>
-<p>One of the most significant advantages of open-source projects is their accessibility. Since the source code is openly available, anyone can download, use, and modify the code. <br>This opens up opportunities for collaboration and contributions from a large community of developers, who can share their expertise and provide feedback on the project. <br>It also leads to the creation of better software and a faster pace of development.</p>
-<h2>Cost-Effective Solutions</h2>
-<p>Open-source projects are often free to use and distribute, which makes them a cost-effective solution for businesses and individuals. <br>This is particularly beneficial for small businesses and non-profit organizations, <br>which may not have the resources to invest in proprietary software.</p>
-<p class="msg msg--info">In my <a href="https://ims-network.org" target="_blank" rel="noopener noreferrer">gaming community</a>, we use a lot of open-source projects to run our server network!</p>
-<p>With open-source projects, they can access the same level of technology as larger organizations without having to incur the high costs associated with proprietary software.</p>
-<h2>Improved Security</h2>
-<p>The source code is open for review, allowing security vulnerabilities to be identified and addressed quickly. <br>The large community of contributors also helps ensure that the code is constantly updated and improved, reducing the risk of security breaches. <br>Open-source projects are also known for their enhanced security compared to proprietary software.</p>
-<p class="msg msg--highlight ">This is only true for projects that receive constant updates </p>
-<h2>Customization</h2>
-<p>Open-source projects also offer a high degree of customization, as the source code can be modified to meet specific needs. <br>This allows businesses and organizations to tailor the software to their unique requirements, resulting in more efficient and effective solutions. <br>Open-source projects often have a large community of developers who can provide support and assistance with customization.</p>
-<h2>Community Support</h2>
-<p>Open-source projects usually have a strong community of contributors and supporters dedicated to the project's success. <br>This community provides support, feedback, and resources to help users get the most out of the software. <br>As a result, open-source projects have a lower risk of abandonment and a longer lifespan than proprietary software.</p>
-<p class="msg msg--highlight ">While this fact doesn't apply to all projects, many open-source communities are welcoming and provide fantastic support &amp; feedback.</p>
-<p>Open-source projects play a crucial role in technology development and offer numerous benefits, including accessibility, collaboration, cost-effectiveness, improved security, customization, and community support. <br>As technology continues to evolve, the use of open source continues to grow, making it an important area of focus for businesses, organizations, and individuals.</p>
-<p>#OSS❤️</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Protecting Your FiveM Server with Cloudflare</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/protecting-your-fivem-server-with-cloudflare/index.html"/>
-        <id>https://blog.thefourcraft.com/protecting-your-fivem-server-with-cloudflare/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png" medium="image" />
-            <category term="Zero Trust"/>
-            <category term="Servers"/>
-            <category term="Security"/>
-            <category term="Network"/>
-            <category term="My Personal Opinion"/>
-            <category term="FiveM"/>
-            <category term="Cloudflare"/>
-
-        <updated>2023-01-16T21:57:55+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png" alt="" />
-                    <p>Cloudflare can help gaming community's in many ways to protect their players and make their servers more secure and reliable!</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/22/Protecting-Your-FiveM-Server-with-Cloudflare-2.png" class="type:primaryImage" alt="" /></p>
-                <p>Cloudflare can help gaming community's in many ways to protect their players and make their servers more secure and reliable!</p>
-
-<h2>What Is Cloudflare? </h2>
-<figure class="post__video">
-                <div 
-                    class="pec-wrapper" 
-                    data-consent-group-id="youtube">
-                    <iframe data-consent-overlay-added="true" loading="lazy" width="694" height="389" style="width: 694px; height: 389px;" data-consent-src="https://www.youtube-nocookie.com/embed/XHvmX3FhTwU" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
-                    <div class="pec-overlay is-active" aria-hidden="false">
-                        <div class="pec-overlay-inner">
-                            <p>You Have Disabled YouTube On this Website, With cookie settings. </p>
-                            <button 
-                                class="pec-button" 
-                                onclick="window.publiiEmbedConsentGiven('youtube'); return false;">
-                                YouTube
-                            </button>
-                        </div>
-                    </div>
-                    <script>window.publiiEmbedConsentCheck('youtube');</script>
-                </div>
-                </figure>
-<h2>DDoS Protection</h2>
-<p>DDoS protection is the core feature of Spectrum that helps to absorb and mitigate DDoS attacks before they reach your server. Cloudflare uses a global network of data centers to analyze traffic and detect malicious activity. Once an attack is detected, the traffic is redirected to Cloudflare's network, where it is cleaned and filtered before being forwarded to your server. This process helps to ensure that legitimate traffic is not affected, while blocking the attack traffic.</p>
-<p>The DDoS protection feature of Spectrum can be used to protect various types of traffic, including TCP and UDP. <br>This makes it suitable for protecting custom game applications, as well as other types of online services.</p>
-<p>With DDoS protection from Spectrum, you can greatly reduce the risk of lost customers, declining revenues, and degraded brand reputation due to downtime caused by DDoS attacks.</p>
-<h2>Bot Management</h2>
-<p>Bot management is another important feature of Spectrum that helps to preserve the integrity of your FPS games. Fraudulent account creation is a common problem in online gaming, and bots can be used to cheat or disrupt gameplay. Spectrum can help to identify and block bots by analyzing their behavior and characteristics.</p>
-<p>The bot management feature of Spectrum uses machine real-time algorithms to detect and block bots in real-time. This helps to ensure that your games are fair and enjoyable for all players.</p>
-<h2>Magic Transit</h2>
-<p>Magic Transit is a feature of Spectrum that provides DDoS protection and traffic acceleration for on-premise, cloud-hosted, and hybrid networks. It is delivered from every Cloudflare data center, ensuring that your server is protected from DDoS attacks regardless of its location.</p>
-<p>With Magic Transit, you can benefit from Cloudflare's global network of data centers to improve the performance and security of your online services. This feature can be used to protect various types of traffic, including TCP and UDP.</p>
-<h2>API Shield</h2>
-<p>API Shield is a feature of Spectrum that helps to keep your APIs secure and productive. This feature includes various security measures, such as API discovery, schema validation, and strong authentication.</p>
-<p>API discovery helps to ensure that only authorized clients can access your APIs. Schema validation ensures that the data passed to your APIs is valid and conforms to the expected format. Strong authentication helps to prevent unauthorized access by requiring clients to provide valid credentials.</p>
-<p>With API Shield, you can ensure that your APIs are only accessed by authorized clients, and that the data passed to them is valid and secure.</p>
-<h2>Zero Trust</h2>
-<p>Zero Trust is a feature of Spectrum that gives developers and contractors secure and streamlined access to internal systems. With this feature, you can implement a security model that assumes that all access attempts are malicious until proven otherwise.</p>
-<p>Zero Trust can be used to secure various types of resources, such as databases, file servers, and other internal systems. This feature can be used to restrict access to specific IP ranges, as well as to implement multi-factor authentication.</p>
-<p>With Zero Trust, you can ensure that your internal systems are only accessed by authorized users, and that access attempts are logged and monitored for suspicious activity.</p>
-<h1>Conclusion</h1>
-<div class="w-full border-b border-black/10 dark:border-gray-900/50 text-gray-800 dark:text-gray-100 group bg-gray-50 dark:bg-[#444654]">
-<div class="text-base gap-4 md:gap-6 m-auto md:max-w-2xl lg:max-w-2xl xl:max-w-3xl p-4 md:py-6 flex lg:px-0">
-<div class="relative flex w-[calc(100%-50px)] md:flex-col lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>As the CTO of IMS - Network (the most advanced gaming communities in Israel)<br>I can attest that the protection of our server network is of the utmost importance.</p>
-<p>After careful consideration and examination of various options, we have chosen Cloudflare as our network security provider. <br><br>Ultimately, it is the responsibility of the server owner to ensure the security and uptime of their servers, and we believe that Cloudflare's service offers the best protection against DDoS attacks and other security threats.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Securing Your FiveM Server From SQL Vulnerabilities</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/index.html"/>
-        <id>https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png" medium="image" />
-            <category term="Servers"/>
-            <category term="Security"/>
-            <category term="My Personal Opinion"/>
-            <category term="FiveM"/>
-
-        <updated>2023-01-16T21:52:31+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png" alt="" />
-                    <p>Securing your FiveM server from SQL vulnerabilities is an essential step in protecting your server from malicious attacks. <br>SQL injection is a type of cyber attack that can allow an attacker to gain unauthorized access to your server's database, potentially stealing sensitive information or causing damage to your server. <br>In this guide, I will walk you through the steps you need to take to secure your FiveM server from SQL vulnerabilities.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/21/Securing-Your-FiveM-Server-From-SQL-Vulnerabilities.png" class="type:primaryImage" alt="" /></p>
-                <p>Securing your FiveM server from SQL vulnerabilities is an essential step in protecting your server from malicious attacks. <br>SQL injection is a type of cyber attack that can allow an attacker to gain unauthorized access to your server's database, potentially stealing sensitive information or causing damage to your server. <br>In this guide, I will walk you through the steps you need to take to secure your FiveM server from SQL vulnerabilities.</p>
-
-<div class="msg msg--warning align-center">
-<p>These are general recommendations, each server has its specific needs and requirements if you need more specific information consult with</p>
-<p>A Cyber Security Specialist</p>
-</div>
-<h2>Step 1: Use Prepared Statements</h2>
-<ul>
-<li>Using prepared statements is one of the most effective ways to protect your server from SQL injection attacks. Prepared statements are pre-compiled SQL statements that are executed with user-provided parameters, rather than concatenating user input into the query. This eliminates the possibility of an attacker injecting malicious code into your SQL query. (screenshot)</li>
-</ul>
-<h2>Step 2: Sanitize User Input</h2>
-<ul>
-<li>Another important step in securing your server from SQL vulnerabilities is to sanitize any user input that will be used in a SQL query. This means removing any special characters that could be used to inject malicious code into your query. (screenshot)</li>
-</ul>
-<h2>Step 3: Use a Firewall</h2>
-<ul>
-<li>A firewall is software or hardware that helps to secure your server from unauthorized access. By configuring a firewall to block any incoming connections that are not explicitly allowed, you can prevent an attacker from being able to connect to your server and inject malicious code into your SQL queries. (screenshot)</li>
-</ul>
-<h2>Step 4: Keep your server updated</h2>
-<ul>
-<li>Keeping your server updated is an important step in protecting your server from vulnerabilities. By updating your server regularly, you can ensure that any security patches or updates are applied to your server, which can help to keep your server secure from SQL injection attacks.</li>
-</ul>
-<h2>Step 5: Regularly Backup your Database</h2>
-<ul>
-<li>Regularly backing up your database is an important step in protecting your server from SQL vulnerabilities. By backing up your database regularly, you can ensure that you always have a copy of your data that you can restore in case of an attack. (screenshot)</li>
-</ul>
-<p>By following these steps, you can help to secure your FiveM server from SQL vulnerabilities and protect your server from malicious attacks. <br>Remember to update your server and regularly back up your database in case of any unexpected issues.</p>
-<p>Keep Your Players Safe!</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How To Start A FiveM Server</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/how-to-start-a-fivem-server/index.html"/>
-        <id>https://blog.thefourcraft.com/how-to-start-a-fivem-server/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png" medium="image" />
-            <category term="Servers"/>
-            <category term="FiveM"/>
-
-        <updated>2023-01-16T22:00:38+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png" alt="" />
-                    <p>Want to start your FiveM server? here's the simplest way to start a FiveM server<br>This popular modification for Grand Theft Auto V allows players to connect to custom servers with unique gameplay experiences. </p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/20/How-To-Start-A-FiveM-Server.png" class="type:primaryImage" alt="" /></p>
-                <p>Want to start your FiveM server? here's the simplest way to start a FiveM server<br>This popular modification for Grand Theft Auto V allows players to connect to custom servers with unique gameplay experiences. </p>
-
-<p class="msg msg--info">This guide is intended for those who have a basic understanding of in-game server administration.</p>
-<h3>Step 1: Install and configure the necessary software</h3>
-<ul>
-<li>First, you'll need to download and install the latest version of the FiveM client from their <a href="https://fivem.net" target="_blank" rel="noopener noreferrer">website</a>.</li>
-<li>Next, you'll need to download and install a dedicated server software such as <a href="https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" target="_blank" rel="noopener noreferrer">FXServer</a> or <a href="https://cubecoders.com/AMP" target="null">AMP</a>. <br>This software will allow you to host your FiveM server on your computer.</li>
-</ul>
-<p class="msg msg--info align-left"><a href="https://cubecoders.com/AMP" target="_blank" rel="sponsored noopener noreferrer">AMP by Cubecoders</a> is recommended for more options and game support, Also AMP provides a simpler installation and configuration process.</p>
-<p class="msg msg--highlight ">AMP by Cubecoders is a 3rd party, and FXServer is created by <a href="cfx.re" target="_blank" rel="nofollow noopener noreferrer">cfx.re</a> (the organization behind FiveM)</p>
-<ul>
-<li>Once you have both of these programs installed, you'll need to configure FXServer to work with the FiveM client. </li>
-</ul>
-<p class="msg msg--warning">Each Program Has A different Installation Process! </p>
-<p><a href="https://www.youtube.com/watch?v=c3456y7GNT0" target="_blank" rel="nofollow noopener noreferrer">How To Install A FiveM Server On Windows With FXServer </a></p>
-<p>TODO: A Blog About This 🔝</p>
-<h4>How To Install A FiveM Server On AMP</h4>
-<ol>
-<li>Install AMP, you can do this simply by copy-pasting the relevant commands for your operating system. <a href="https://cubecoders.com/AMPInstall" target="_blank" rel="sponsored noopener noreferrer">Click Me</a></li>
-<li>After The Installation, Add A New Instance</li>
-<li>Find FiveM, On AMP its called "FiveM - GTA V Modification"</li>
-<li>Give It a name eg: My FiveM City</li>
-<li>And Create it! </li>
-</ol>
-<p>Done! 🎉</p>
-<h3>Step 2: Port Forwarding</h3>
-<ul>
-<li>For other players to be able to connect to your server, you'll need to forward the necessary ports on your router. The ports that need to be forwarded are 30120 TCP, 30110 UDP, and 30120 UDP. </li>
-</ul>
-<p class="msg msg--info">What To Learn How To Protect In Using Cloudflare? Click Here</p>
-<h3>Step 3: Start Your Server</h3>
-<ul>
-<li>Once you have your software configured and your ports forwarded, you can start your FiveM server.</li>
-<li>You should now be able to connect to your server by opening the FiveM client and searching for your server's IP address in the server list.</li>
-</ul>
-<h3>Step 4: Customize your server</h3>
-<ul>
-<li>You can customize your server by adding custom scripts and resources. You can find many scripts and resources to download on the <a href="https://forum.cfx.re/" target="_blank" rel="nofollow noopener noreferrer">FiveM forums</a>.</li>
-</ul>
-<h3>Congratulations!</h3>
-<p>You now have your FiveM server up and running. <br>Now it's time to invite your friends and start creating unique and exciting gameplay experiences.</p>
-<p class="msg msg--info">Learn How To Protect Your FiveM Server From SQL Vulnerabilities? Click Here</p>
-<p>Remember to keep your server updated with the latest version of the FiveM client and FXServer software to ensure the best performance.</p>
             ]]>
         </content>
     </entry>
