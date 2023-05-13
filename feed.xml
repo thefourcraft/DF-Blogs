@@ -3,12 +3,161 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-04-28T07:00:00+03:00</updated>
+    <updated>2023-05-13T13:49:23+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>WannaCry: A Global Cyberattack</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/wannacry-a-global-cyberattack/index.html"/>
+        <id>https://blog.thefourcraft.com/wannacry-a-global-cyberattack/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/42/WannaCry-A-Global-Cyberattack.png" medium="image" />
+            <category term="Security"/>
+            <category term="Ransomware"/>
+            <category term="Documentary"/>
+            <category term="Cyberattack"/>
+
+        <updated>2023-05-13T13:49:23+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/42/WannaCry-A-Global-Cyberattack.png" alt="" />
+                    <div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>In May 2017, the world was plunged into digital chaos by a widespread cyberattack known as WannaCry. Within the blink of an eye, this devastating ransomware attack spread across the globe, infecting over 200,000 computers in 150 countries.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/42/WannaCry-A-Global-Cyberattack.png" class="type:primaryImage" alt="" /></p>
+                <div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>In May 2017, the world was plunged into digital chaos by a widespread cyberattack known as WannaCry. Within the blink of an eye, this devastating ransomware attack spread across the globe, infecting over 200,000 computers in 150 countries.</p>
+
+<h3>Unraveling the WannaCry Ransomware Attack</h3>
+<p>WannaCry's potency stemmed from its ability to spread rapidly. The ransomware exploited a vulnerability in the Windows operating system, which, while Microsoft had patched, many computers were still vulnerable due to not having updated their systems. This allowed WannaCry to spread from computer to computer without user interaction, encrypting files and demanding a ransom payment in Bitcoin to decrypt them.</p>
+<p>The impact of WannaCry was significant and global. Hundreds of hospitals were forced to cancel appointments and surgeries, and patient care was significantly compromised. Hospitals, businesses, and government agencies were all affected, with the United Kingdom's National Health Service (NHS) experiencing particularly devastating consequences.</p>
+<p>In economic terms, the repercussions were equally severe. WannaCry reportedly cost the global economy billions of dollars, making it one of the most destructive cyberattacks.</p>
+<h3>The Harrowing Aftermath: A Global Wake-Up Call</h3>
+<p>WannaCry served as a loud wake-up call, illustrating the world's vulnerability to cyberattacks and the speed at which they can propagate. It compelled governments and businesses to take critical steps toward improving their cybersecurity infrastructure.</p>
+<h3>WannaCry and the NHS: A Case Study</h3>
+<p>In the United Kingdom, the National Health Service (NHS) bore the brunt of the WannaCry ransomware attack. Hundreds of hospitals were compelled to cancel appointments and surgeries, and some patients were even turned away from emergency rooms. Financial losses for the NHS mounted to an estimated £92 million.</p>
+<p>In response to WannaCry's damaging effects, the NHS has implemented measures to bolster its cybersecurity. However, as ransomware attacks grow increasingly sophisticated, the need for continual vigilance and proactive cybersecurity measures remains paramount.</p>
+<h3>The Evolution of Ransomware: A Growing Threat</h3>
+<p>While WannaCry is a notable instance, it's merely one of many examples of a ransomware attack. Ransomware, a type of malware that encrypts a victim's files and demands a ransom payment for their decryption, has existed for many years. However, these attacks have become increasingly sophisticated and targeted, shifting from individuals to businesses and organizations.</p>
+<h3>Protecting Yourself from Ransomware: A Guide</h3>
+<p>Given the growing threat of ransomware, it's crucial to take steps to protect your digital assets:</p>
+<ol>
+<li><strong>Keep your software updated.</strong> Regular software updates often include security patches, which protect your computer from vulnerabilities.</li>
+<li><strong>Use a strong password manager.</strong> This tool helps you create and store robust, unique passwords for all your online accounts.</li>
+<li><strong>Be cautious with links.</strong> Phishing emails are a common way to spread ransomware. Ensure the legitimacy of links in emails before clicking on them.</li>
+<li><strong>Back up your data.</strong> Regular data backups can help you recover your data if your computer falls victim to a ransomware attack.</li>
+</ol>
+<h3>The Mystery of WannaCry's Creators</h3>
+<p>The creators of WannaCry remain shrouded in mystery. Some theories point towards a group of cybercriminals motivated by financial gain, while others suggest nation-state actors such as North Korea or Russia seeking to disrupt critical infrastructure. While their identity remains unknown, the WannaCry attack underscores the need for robust cybersecurity measures to protect our critical infrastructure.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h3>The Global Response: Turning the Tide</h3>
+<p>In the wake of WannaCry, a global response was triggered to combat this new threat. Cybersecurity companies, government agencies, and private entities rallied to halt ransomware spread and assist affected organizations. Microsoft swiftly released emergency security patches for unsupported operating systems, and the spread of WannaCry was eventually stopped due to the discovery of a "kill switch" by a cybersecurity researcher.</p>
+<p>However, while the immediate crisis was averted, the aftermath exposed the pressing need for comprehensive and ongoing measures against increasingly sophisticated cyber threats.</p>
+<h3>Lessons from WannaCry: Building Resilient Cybersecurity Infrastructure</h3>
+<p>The WannaCry cyberattack underscored several essential lessons for individuals, organizations, and nations. First and foremost, the importance of maintaining up-to-date software cannot be understated. WannaCry exploited a known vulnerability in Windows OS that had been patched by Microsoft months before the attack, but many computers remained unprotected due to lax update practices.</p>
+<p>Furthermore, WannaCry illustrated the potential for a cyber threat's rapid global spread. This has significant implications for how we approach cybersecurity. It is not a localized issue but a global concern that requires international cooperation and standards.</p>
+<p>Finally, the attack highlighted the importance of robust cybersecurity education. Many fall victim to cyber threats due to a lack of awareness about safe online practices. Therefore, empowering individuals and organizations with knowledge about potential threats and protective measures is vital in fortifying our collective digital defenses.</p>
+<h3>The Future of Cybersecurity: Preparing for Tomorrow's Threats</h3>
+<p>As we move further into the digital age, the threat of cyberattacks like WannaCry only stands to increase. Emerging technologies such as artificial intelligence and quantum computing could potentially be used to create even more sophisticated forms of malware.</p>
+<p>Therefore, proactive measures are crucial. This includes technical defenses, regulatory standards, and international agreements to combat cybercrime. Furthermore, fostering a culture of cybersecurity awareness and best practices can go a long way in mitigating potential threats.</p>
+<p>As the WannaCry incident has shown, cyber threats are a pressing global issue that can have significant real-world impacts. It's a reminder that cybersecurity is not just a concern for IT professionals – it's everyone's business in our increasingly connected world.</p>
+<h3>Conclusion</h3>
+<p>The WannaCry ransomware attack was a sobering demonstration of the destructive power of cyber threats and our collective vulnerability. However, by understanding the nature of such threats and taking appropriate preventative measures, we can mitigate the risks and safeguard our digital future. As technology evolves, so must our strategies for combating these digital threats.</p>
+<h3>Sources</h3>
+<ol>
+<li><a href="https://www.kaspersky.com/resource-center/threats/ransomware-wannacry">https://www.kaspersky.com/resource-center/threats/ransomware-wannacry</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WannaCry_ransomware_attack">https://en.wikipedia.org/wiki/WannaCry_ransomware_attack</a></li>
+<li><a href="https://he.wikipedia.org/wiki/WannaCry">https://he.wikipedia.org/wiki/WannaCry</a></li>
+<li><a href="https://www.malwarebytes.com/wannacry">https://www.malwarebytes.com/wannacry</a></li>
+<li><a href="https://www.csoonline.com/article/3227906/wannacry-explained-a-perfect-ransomware-storm.html">https://www.csoonline.com/article/3227906/wannacry-explained-a-perfect-ransomware-storm.html</a></li>
+<li><a href="https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf">https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf</a></li>
+</ol>
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Capital One&#x27;s $200M Cloud Catastrophe</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/capital-ones-dollar200m-cloud-catastrophe/index.html"/>
+        <id>https://blog.thefourcraft.com/capital-ones-dollar200m-cloud-catastrophe/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/41/Capital-Ones-dollar200M-Cloud-Catastrophe.png" medium="image" />
+            <category term="Security"/>
+            <category term="DevOps"/>
+            <category term="Cloud Security"/>
+            <category term="Amazon S3"/>
+            <category term="AWS"/>
+
+        <updated>2023-05-13T13:39:21+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/41/Capital-Ones-dollar200M-Cloud-Catastrophe.png" alt="" />
+                    <p>In 2019, Capital One, one of the largest banks in the US, experienced a massive data breach. A bank's cloud infrastructure vulnerability enabled a hacker to access sensitive data stored on the company's Amazon Web Services (AWS) cloud. This event exposed the personal information of over 100 million customers and credit card applicants.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/41/Capital-Ones-dollar200M-Cloud-Catastrophe.png" class="type:primaryImage" alt="" /></p>
+                <p>In 2019, Capital One, one of the largest banks in the US, experienced a massive data breach. A bank's cloud infrastructure vulnerability enabled a hacker to access sensitive data stored on the company's Amazon Web Services (AWS) cloud. This event exposed the personal information of over 100 million customers and credit card applicants.</p>
+
+<h2>A Deep Dive into Amazon S3</h2>
+<p>Amazon S3 (Simple Storage Service) is a top-rated cloud storage service that Amazon Web Services (AWS) offers. Many companies worldwide leverage S3 to store and retrieve data from the cloud. It's a simple, scalable storage service capable of handling data of any size from anywhere globally. Designed for high availability and durability, S3 incorporates multiple redundancy layers to prevent data loss.</p>
+<p>As a vital component of various cloud-based applications and services, S3 is integral to operations at companies like Capital One. Its reliability and cost-effectiveness make it ideal for businesses seeking to capitalize on cloud computing benefits.</p>
+<h2>The Fallout from the Capital One Breach</h2>
+<p>Discovered on July 19, 2019, the Capital One breach marked one of history's most significant data breaches. The incident incurred an estimated $200 million in damages for Capital One and sparked debates on cloud computing security and corporate data protection in the cloud.</p>
+<p>According to the US Department of Justice, a former AWS employee, Paige Thompson, caused the breach by exploiting a misconfigured firewall within Capital One's cloud infrastructure, allowing her access to a customer data server. Thompson was arrested and charged with wire and computer fraud in July 2019.</p>
+<p>The breach exposed various personal information, including names, addresses, phone numbers, email addresses, dates of birth, and credit scores. The hacker accessed over 140,000 Social Security numbers and 80,000 bank account numbers.</p>
+<p>Capital One quickly addressed the security issues in its cloud infrastructure in response to the breach. It also offered affected customers free credit monitoring and identity theft protection.</p>
+<h2>Implications for DevOps Teams</h2>
+<p>The incident highlighted the security challenges associated with cloud computing. While the cloud offers scalability and flexibility, it also introduces new security risks that require effective management.</p>
+<p>Companies must ensure robust security measures are in place to protect their cloud infrastructure to prevent similar incidents. This precaution includes regular security audits, vulnerability testing, and employee training to understand the risks associated with cloud computing.</p>
+<h2>The Importance of DevOps in Cloud Security</h2>
+<p>The Capital One data breach underscores why DevOps practices are crucial for maintaining cloud infrastructure security. DevOps is a methodology that fosters collaboration between development and operations teams to improve software delivery speed and efficiency.</p>
+<p>In Capital One's case, a misconfigured firewall in their cloud infrastructure caused the breach. This incident highlights the need for security practices within DevOps, such as implementing security controls during the development and deployment process.</p>
+<p>DevOps also advocates for automation tools to streamline processes and reduce human error risks. For instance, Capital One's firewall misconfiguration might have been prevented if automation tools were utilized to enforce security policies and standards.</p>
+<p>Furthermore, DevOps encourages a culture of continuous improvement and feedback. Regular monitoring and testing of cloud infrastructure can help identify and rectify issues like misconfigurations before they result in a breach.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Is AI Panic Justified?‏‏</title>
         <author>
@@ -72,18 +221,19 @@
             <category term="FiveM"/>
             <category term="Cloudflare"/>
 
-        <updated>2023-04-27T16:00:00+03:00</updated>
+        <updated>2023-05-13T11:42:06+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/40/FiveM-Server-with-zero-trust-security.png" alt="" />
-                    Introduction If you're running a FiveM server, you know how important it is to secure it from potential threats. One&hellip;
+                    <p>If you're running a FiveM server, you know how important it is to secure it from potential threats. One way to do this is using a <a href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html" target="_blank" rel="noopener noreferrer">zero-trust security model</a>, where you can only access the server through a secure channel.</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.thefourcraft.com/media/posts/40/FiveM-Server-with-zero-trust-security.png" class="type:primaryImage" alt="" /></p>
-                <h2>Introduction</h2>
-<p>If you're running a FiveM server, you know how important it is to secure it from potential threats. One way to do this is using a <a href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html" target="_blank" rel="noopener noreferrer">zero-trust security model</a>, where you can only access the server through a secure channel.</p>
+                <p>If you're running a FiveM server, you know how important it is to secure it from potential threats. One way to do this is using a <a href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html" target="_blank" rel="noopener noreferrer">zero-trust security model</a>, where you can only access the server through a secure channel.</p>
+
 <p class="msg msg--highlight ">This guide isn't for beginners. I assume you know "how to operate a FiveM server," and you have a Cloudflare account and access to the Cloudflare ZTNA.</p>
 <h2>What is Cloudflared Tunnel?</h2>
 <p>Cloudflared Tunnel is a secure, encrypted tunnel between your server and Cloudflare's network. It allows you to securely access your server from anywhere without exposing it to the internet. Cloudflared Tunnel is part of the Cloudflare Workers family of products, using the same security and privacy features as Cloudflare Workers.</p>
@@ -108,7 +258,7 @@
 <ol>
 <li>
 <p>Set up a <a href="https://docs.fivem.net/docs/server-manual/proxy-setup/" target="_blank" rel="noopener noreferrer">reverse proxy for your FiveM server</a>. The reverse proxy should listen on port 443 and forward requests to the connecting endpoint specified in the route.</p>
-<pre class="p1"><code><i># prevents the server list from advertising your server using its actual IP</i></code><br><code>set sv_forceIndirectListing true<br></code><br><br><code><i># makes the server list backend request `https://server1.example.com/` instead of the default</i></code><br><code>set sv_listingHostOverride "server1.example.com"</code><br><br><code><i># a space-separated list of IPv4 networks in CIDR notation to allow 'X-Real-IP'</i></code><br><br><code><i># from, as well as bypass the rate limiter</i></code><br><code>set sv_proxyIPRanges "100.64.1.1/32"</code><br><br><code><i># the actual endpoint your server is hosted on, or one</i></code><br><code><i># or multiple server endpoint proxies, as noted below</i></code><br><code>set sv_endpoints "100.64.1.2:30120"</code><br><br><code><i># Some guides also mention `sv_listingIpOverride.` This value is only needed </i>if the server list backend</code><br><code># can't guess the IP to query itself and is not provided to any front-end connection.</code><br><code># This is usually the case for systems with multiple IPs or <i>if</i> the server is firewalled off for all hosts except</code><br><code><strong># a server proxy.</strong></code></pre>
+<pre class="p1">// prevents the server list from advertising your server using its actual IP<br>set sv_forceIndirectListing true<br><br>// makes the server list backend request `https://server1.example.com/` instead of the default<br>set sv_listingHostOverride "server1.example.com"<br><br>// a space-separated list of IPv4 networks in CIDR notation to allow 'X-Real-IP'<br>// from, as well as bypass the rate limiter<br>set sv_proxyIPRanges "100.64.1.1/32"<br><br>// the actual endpoint your server is hosted on, or one<br>// or multiple server endpoint proxies, as noted below<br>set sv_endpoints "100.64.1.2:30120"<br><br>// Some guides also mention `sv_listingIpOverride.` This value is only needed<br>// if the server list backend can't guess the IP to query itself and is not provided to any front-end connection.<br>// This is usually the case for systems with multiple IPs or if the server is firewalled off for all hosts except<br>// a server proxy.</pre>
 </li>
 <li>
 <p>Make sure to configure your reverse proxy to use SSL encryption. You can obtain an SSL certificate from Cloudflare or a trusted certificate authority.</p>
@@ -565,112 +715,6 @@
 <h1>What Are You Waiting For </h1>
 <p>Lunacy is the best design software for everything, whether you're a freelancer, a small business, or part of a larger team. It's free, powerful, and optimized for collaboration, making it an excellent choice for anyone who needs a comprehensive design tool. So why not give Lunacy a try and see for yourself why it's quickly becoming the go-to choice for designers and creative professionals?</p>
 <p><a href="https://www.thefourcraft.com/lunacy" target="_blank" rel="sponsored noopener noreferrer">Also, i take pride in fully translating 70% of the app to Hebrew </a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Social Media as SaaS</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/social-media-as-saas/index.html"/>
-        <id>https://blog.thefourcraft.com/social-media-as-saas/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/29/Social-Media-as-SaaS.png" medium="image" />
-            <category term="SaaS"/>
-            <category term="My Personal Opinion"/>
-
-        <updated>2023-03-04T23:03:07+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/29/Social-Media-as-SaaS.png" alt="" />
-                    Social media platforms are constantly evolving to meet the changing needs of users. From introducing new features to acquiring social&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/29/Social-Media-as-SaaS.png" class="type:primaryImage" alt="" /></p>
-                <p>Social media platforms are constantly evolving to meet the changing needs of users. From introducing new features to acquiring social media giants by industry leaders, the landscape of social media is continually changing.</p>
-<h2>What's happening</h2>
-<p>Social media companies are moving to SaaS and subscription-based models. <br>Meta was launching a new paid verification service called Meta Verified, including a blue checkmark and increased reach across its platforms. Twitter Blue, launched in November 2022, is another subscription service that verifies accounts with a blue checkmark for $8 per month. <br>Social media companies have searched for new revenue sources as online advertising slows.<br>SaaS businesses can leverage social media marketing to increase brand recognition, attract new customers, and retain existing ones. <br>SaaS businesses are best suited to Twitter, Facebook, and LinkedIn. <br>Facebook's Meta for Business can help identify the interests and demands of your target audience so that your SaaS products can have content tailored to suit the audience. <br>Geo-targeting your SaaS social media ads can help penetrate a new market and provide your sales funnel with leads.</p>
-<h2>Elon Musk's Twitter Acquisition and the Introduction of Twitter Blue</h2>
-<p>One of the most significant developments in recent years was Elon Musk's acquisition of Twitter. This led to the introduction of Twitter Blue, a premium subscription service that offers early access to select features and a blue verification badge. While some features like Half Ads and Custom App Icons are still in development, Twitter Blue promises to elevate the quality of conversations on the platform.</p>
-<h2>The Blue Verification Badge</h2>
-<h3>From Public Figures to Subscription Services</h3>
-<p>The blue verification badge has traditionally been reserved for public figures like actors, musicians, and journalists. It verifies that the account is active, notable, and authentic. However, with the introduction of subscription services like Twitter Blue, the blue checkmark may also indicate that the bill has an active subscription. This trend will likely continue as social media platforms seek new revenue streams.</p>
-<h3>Potential Implications of Subscription Services on Social Media</h3>
-<p>While subscription services like Twitter Blue offer benefits to users, they also have the potential to exacerbate existing inequalities on social media. Only those who can afford the subscription will have access to the additional features and benefits, creating a divide between those who can and cannot pay. This could result in only certain voices and perspectives amplified on social media while others are left behind. One potential solution to this problem is for social media platforms to offer basic features and benefits to all users for free while reserving more advanced features for paid subscribers. This would ensure everyone has access to the essential tools to participate in social media while allowing for differentiation among users willing to pay for additional benefits.</p>
-<h3>Potential Brand Implications of Subscription Services on Social Media</h3>
-<p>Subscription services like Twitter Blue and the blue verification badge on Instagram have the potential to impact brand reputation significantly. In the past, the blue verification badge was reserved for public figures and established brands, providing added credibility and authority. <br>Now available through subscription services, the badge may lose some value and prestige. <br>Similarly, the popularity of Twitter Blue could lead to a situation where only the most well-funded and well-known brands can gain traction on social media, further solidifying their dominance. However, brands that can leverage Twitter Blue and other subscription services effectively may be able to differentiate themselves from their competitors and create a more loyal following. It remains to be seen how these changes will impact the broader social media landscape and the brands that inhabit it.</p>
-<h3>Features Offered by Twitter Blue</h3>
-<p>In addition to the blue verification badge, Twitter Blue offers several features to enhance the user experience. <br>These include Bookmark Folders, Themes, Custom Navigation, Spaces Tab, Top Articles, Reader, Undo Tweet, Prioritized Rankings in Conversations, Longer Video Upload, Longer Tweets, and SMS two-factor authentication. While some of these features are still in development, they promise to make the platform more personalized and engaging.</p>
-<h3>Further Changes and Innovations in the Social Media Space</h3>
-<p>As social media platforms evolve and innovate, we expect to see further changes and new features introduced to meet users' needs. Introducing subscription services like Twitter Blue provides a glimpse into the future of social media, where users can customize their experience and access additional features for a fee. It will be interesting to see how other social media platforms adapt and evolve their offerings to remain competitive in the rapidly changing social media landscape.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Gradle Wrapper Attack On MinecraftOnline</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/gradle-wrapper-attack-on-minecraftonline/index.html"/>
-        <id>https://blog.thefourcraft.com/gradle-wrapper-attack-on-minecraftonline/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png" medium="image" />
-            <category term="Servers"/>
-            <category term="Security"/>
-            <category term="Minecraft"/>
-            <category term="Gradle"/>
-
-        <updated>2023-02-18T22:33:21+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png" alt="" />
-                    <p>On January 11th, 2023, MinecraftOnline, the oldest public server for Minecraft, reported two suspicious Gradle wrapper JARs in their repositories. A new contributor updated these JARs to the project. </p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/28/Gradle-Wrapper-Attack-On-MinecraftOnline.png" class="type:primaryImage" alt="" /></p>
-                <p>On January 11th, 2023, MinecraftOnline, the oldest public server for Minecraft, reported two suspicious Gradle wrapper JARs in their repositories. A new contributor updated these JARs to the project. </p>
-
-<p class="msg msg--highlight ">It's important to note that MinecraftOnline didn't have any security issues in <strong>13 years!!!</strong></p>
-<h2>Background</h2>
-<p><a href="https://minecraftonline.com/" target="_blank" rel="noopener noreferrer">MinecraftOnline</a> is a long-standing multiplayer server for the popular game Minecraft. <br>The server is home to the oldest truly public map of any SMP server, known as Freedonia, which has been live on the shared server since the day SMP was released. It is known for its pure survival feel, with no moderator-given freebies or cheat commands available. <br>Everything on the server has been built by hand from legitimately harvested resources. The world has grown to over 30km in diameter and has been explored and built-in by over 50,000 unique players, making it a massive and well-established virtual community.</p>
-<p class="msg msg--info">The server has been running since the interaction of <a href="https://minecraft.fandom.com/wiki/Multiplayer" target="_blank" rel="noopener noreferrer">Minecraft multiplayer</a> as a feature of Minecraft by <a href="https://en.wikipedia.org/wiki/Markus_Persson" target="_blank" rel="noopener noreferrer">Notch</a></p>
-<h2>Analysis</h2>
-<p><a href="https://blog.gradle.org/wrapper-attack-report" target="_blank" rel="noopener noreferrer">By gradle.org</a></p>
-<p class="msg msg--highlight ">This section was summarized by ChatGPT for the full report <a href="https://blog.gradle.org/wrapper-attack-report" target="_blank" rel="noopener noreferrer">Click Me</a></p>
-<p>Our analysis began by confirming that the SHA256 checksums for both JARs did not match any of the known good Gradle Wrapper checksums. After decompiling the JARs, we discovered two exploits patched into the wrapper JARs. The first exploit attempted to steal Discord credentials by looking into specific files on the host computer. The second exploit tried downloading and running a malicious JAR on certain Gradle invocations.</p>
-<p>The second exploit would modify any Gradle invocation that started with 'wrapper' to invoke 'cleanEclipse' instead. <br>This made it harder for the malicious wrapper JAR to be removed.</p>
-<p>Here are the modified files found in the infected wrapper JARs:</p>
-<h3>First infected wrapper</h3>
-<ul>
-<li>org/gradle/cli/SystemPropertiesCommandLineConverter.class</li>
-<li>org/gradle/wrapper/Download.class</li>
-<li>org/gradle/wrapper/PathAssembler.class</li>
-</ul>
-<h3>Second infected wrapper</h3>
-<ul>
-<li>org/gradle/cli/CommandLineParser.class</li>
-<li>org/gradle/cli/SystemPropertiesCommandLineConverter.class</li>
-<li>org/gradle/wrapper/Download.class</li>
-<li>org/gradle/wrapper/PathAssembler.class</li>
-</ul>
-<h2>Lessons Learned</h2>
-<p>The recent attack on MinecraftOnline serves as a reminder that security is essential for every organization, including gaming communities. While the allure of the gaming world may lead some to overlook security best practices, the consequences of a breach can be severe. It is essential to be vigilant and take appropriate steps to protect against attacks, such as using strong passwords, keeping software up to date, and implementing security measures such as firewalls and intrusion detection systems. Gaming communities can help ensure a safe and enjoyable environment for all players by prioritizing security.</p>
-<p>In particular, some key lessons can be learned from the MinecraftOnline breach:</p>
-<h3>Use SHA256 to verify the origin of JARs</h3>
-<p><a href="https://www.n-able.com/blog/sha-256-encryption" target="_blank" rel="noopener noreferrer">SHA256</a> is a cryptographic hash function that produces a fixed-size output based on the input data. When a JAR is downloaded, its SHA256 checksum can be calculated and compared to a known good checksum for that file. If the two checksums match, it provides strong evidence that the JAR has not been tampered with and is the original file from the expected source. This helps ensure the integrity and authenticity of the JAR and reduces the risk of downloading and running malicious code.</p>
-<h3>Be cautious when granting access to new contributors</h3>
-<p>While new contributors can bring fresh ideas and energy to a project, it is essential to be careful when giving access. In the case of MinecraftOnline, the malicious Gradle wrapper JARs were uploaded by a new contributor to the project. <br>It is crucial to verify new contributors' identities and carefully review any changes made before allowing them to make further contributions. Additionally, it is vital to ensure that new contributors have a legitimate reason to access the project's codebase and are not trying to gain access for malicious purposes. Taking these precautions can help reduce the risk of a breach and ensure the project's integrity.</p>
-<h3>Keep software up to date</h3>
-<p>Outdated software can have known vulnerabilities that attackers can exploit. It is important to keep the software, including the operating system, web server, and plugins, up to date with the latest security patches.</p>
-<h3>Use two-factor authentication</h3>
-<p>Two-factor authentication can provide an extra layer of security by requiring users to provide two forms of authentication before granting access. For example, a user might be required to enter a code sent to their mobile device in addition to a password.</p>
-<h3>Conduct security audits</h3>
-<p>Regular security audits can help identify potential vulnerabilities and areas for improvement. By conducting audits, organizations can stay ahead of potential threats and take steps to prevent breaches.</p>
-<p>By following these best practices, gaming communities can help ensure that their environments are secure and that their players can enjoy their games without worrying about the risk of a breach.</p>
             ]]>
         </content>
     </entry>
