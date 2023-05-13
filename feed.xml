@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-05-14T02:30:42+03:00</updated>
+    <updated>2023-05-14T02:34:51+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Cloud Security"/>
             <category term="AWS"/>
 
-        <updated>2023-05-14T02:30:42+03:00</updated>
+        <updated>2023-05-14T02:34:51+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/44/FiveMs-Granted-Assets-Security-Backdoor.png" alt="" />
@@ -43,7 +43,7 @@
 <p>The FiveM Asset Escrow Protection System, developed in collaboration with <a href="https://Tebex.com" target="_blank" rel="noopener noreferrer">Tebex</a>, offers a secure solution for resource authors within the FiveM community. Instead of relying on obfuscation or IP locking, this system encrypts resources and ensures purchase ownership. Authors can protect their code from leaks and unauthorized usage by uploading their zipped resources to the Keymaster 4.0k dashboard. <br>Tebex is the exclusive monetization partner, allowing creators to link their FiveM Assets directly to Tebex packages.<br>Customers who purchase content receive a download link and access management is handled through the keymaster dashboard. <br>This system provides an alternative that avoids performance slowdowns and security concerns associated with traditional protection methods. It encourages collaboration and open-source practices while offering resource developers control over their code and assets.</p>
 <h2>So where is the security issue</h2>
 <p>The security issue arises when downloading files from the Cfx.re Keymaster. Upon downloading a file, you can inspect its properties to find the "Where from" information, which reveals the original URL of the downloaded file. In the case of the Cfx.re Keymaster, the URL structure is similar to the following example:</p>
-<pre><a href="https://content.cfx.re/assets/:asset-id/61e009eea9ffc702734527f676bf26e7?response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=asset-storage%2F20230513%2Fcfx%2Fs3%2Faws4_request&amp;X-Amz-Date=20230513T150508Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa20295" target="_new">https://content.cfx.re/assets/:asset-id/61e009eea9ffc702734527f676bf26e7?response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=asset-storage%2F2023%2Fcfx%2Fs3%2Faws4_request&amp;X-Amz-Date=20230513T150508Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa</a></pre>
+<pre><a href="https://content.cfx.re/assets/:asset-id/61e009eea9ffc702734527f676bf26e7?response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=asset-storage%2F20230513%2Fcfx%2Fs3%2Faws4_request&amp;X-Amz-Date=20230513T150508Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa20295" target="_new">content.cfx.re/assets/:asset-id/61e009eea9ffc702734527f676bf26e7?response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=asset-storage%2F2023%2Fcfx%2Fs3%2Faws4_request&amp;X-Amz-Date=20230513T150508Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa</a></pre>
 <p>This URL contains sensitive information, such as the asset ID, file name, and various parameters related to the Amazon Web Services (AWS) authentication and access control. The security concern lies in the fact that this URL structure can be easily deduced, allowing unauthorized individuals to access and download content without proper authentication or being connected to cfx.re.</p>
 <h3>Here's a breakdown of the URL</h3>
 <ol>
