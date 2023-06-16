@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-06-13T10:58:31+03:00</updated>
+    <updated>2023-06-16T14:09:23+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -25,24 +25,24 @@
             <category term="Documentary"/>
             <category term="Cloudflare"/>
 
-        <updated>2023-06-13T10:58:31+03:00</updated>
+        <updated>2023-06-16T10:13:21+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/49/How-One-Line-of-Code-Almost-Blew-Up-the-Internet.png" alt="" />
-                    <p>The digital realm is intricately woven into the fabric of our modern society, and at its core lies an intricate network of codes. Each line of this code bears the potential to either sustain the digital world as we know it or disrupt it entirely. Today, we delve into a fascinating incident that nearly shook the internet's foundation – a tale of how a single line of code in Cloudflare's system almost led to a catastrophic leakage of private information. We'll explore the technical details of the bug, how it was discovered, and the swift response that followed, averting a potential crisis. This incident is a stark reminder of the fragility of the digital infrastructure we often take for granted and the critical importance of rigorous testing and code review processes. Buckle up for a deep dive into the incident that almost blew up the internet on February 24, 2017.</p>
+                    <p>The digital realm is intricately woven into the fabric of our modern society, and at its core lies an intricate network of codes. Each line of this code bears the potential to either sustain the digital world as we know it or disrupt it entirely. Let's delve into a fascinating incident that nearly shook the internet's foundation – a tale of how a single line of code in <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="2" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s system almost led to a catastrophic leakage of private information. This incident is a stark reminder of the fragility of the digital infrastructure we often take for granted and the critical importance of rigorous testing and code review processes. Buckle up for a deep dive into the incident that almost blew up the internet on February 24, 2017.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.thefourcraft.com/media/posts/49/How-One-Line-of-Code-Almost-Blew-Up-the-Internet.png" class="type:primaryImage" alt="" /></p>
-                <p>The digital realm is intricately woven into the fabric of our modern society, and at its core lies an intricate network of codes. Each line of this code bears the potential to either sustain the digital world as we know it or disrupt it entirely. Today, we delve into a fascinating incident that nearly shook the internet's foundation – a tale of how a single line of code in Cloudflare's system almost led to a catastrophic leakage of private information. We'll explore the technical details of the bug, how it was discovered, and the swift response that followed, averting a potential crisis. This incident is a stark reminder of the fragility of the digital infrastructure we often take for granted and the critical importance of rigorous testing and code review processes. Buckle up for a deep dive into the incident that almost blew up the internet on February 24, 2017.</p>
+                <p>The digital realm is intricately woven into the fabric of our modern society, and at its core lies an intricate network of codes. Each line of this code bears the potential to either sustain the digital world as we know it or disrupt it entirely. Let's delve into a fascinating incident that nearly shook the internet's foundation – a tale of how a single line of code in <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="2" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s system almost led to a catastrophic leakage of private information. This incident is a stark reminder of the fragility of the digital infrastructure we often take for granted and the critical importance of rigorous testing and code review processes. Buckle up for a deep dive into the incident that almost blew up the internet on February 24, 2017.</p>
 
 <h2>The Bug That Shook The Internet</h2>
-<p>On February 24, 2017, the internet faced a potential catastrophe. An incident involving Cloudflare, a company that provides performance and security services to millions of websites, threatened to spill private data across the web. The issue was a memory leak caused by a Cloudflare's HTML parser bug. Tavis Ormandy first reported the bug from Google’s Project Zero, who noticed corrupted web pages returned by some HTTP requests run through Cloudflare.</p>
-<p>Cloudflare's edge servers, under certain unusual circumstances, were returning memory containing private data like HTTP cookies, authentication tokens, and HTTP POST bodies. Some of this data had even been cached by search engines, increasing the potential damage【7†source】. While this sounds alarming, it's worth noting that Cloudflare customer SSL private keys were not leaked due to the isolation of SSL connections through an instance of NGINX unaffected by this bug.</p>
+<p>On February 24, 2017, the internet faced a potential catastrophe. An incident involving <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="3" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>, a company that provides performance and security services to millions of websites, threatened to spill private data across the web. The issue was a memory leak caused by a <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="5" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s HTML parser bug. Tavis Ormandy first reported the bug from Google’s Project Zero, who noticed corrupted web pages returned by some HTTP requests run through Cloudflare.</p>
+<p><a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="4" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s edge servers, under certain unusual circumstances, were returning memory containing private data like HTTP cookies, authentication tokens, and HTTP POST bodies. Some of this data had even been cached by search engines, increasing the potential damage. While this sounds alarming, it's worth noting that Cloudflare customer SSL private keys were not leaked due to the isolation of SSL connections through an instance of NGINX unaffected by this bug.</p>
 <h2>Taking Immediate Action</h2>
-<p>The seriousness of the bug led to the immediate formation of a cross-functional team from software engineering, infosec, and operations in San Francisco and London. The team worked round the clock, with 12-hour shifts, to ensure a 24-hour work cycle. They aimed to understand the cause and the extent of the memory leakage and coordinate with Google and other search engines to remove any cached HTTP responses. Thanks to their dedication, what could have taken three months to resolve under industry standards was fully dealt with globally in under 7 hours, with initial mitigation happening in just 47 minutes.</p>
+<p>The seriousness of the bug led to the immediate formation of a cross-functional team from software engineering, infosec, and operations in San Francisco and London. The team worked round the clock, with 12-hour shifts, to ensure a 24-hour work cycle. They aimed to understand the cause and the extent of the memory leakage and coordinate with <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:1441" data-guid="13" data-object-urn="urn:li:organization:1441" data-original-text="Google" spellcheck="false">Google</a> and other search engines to remove any cached HTTP responses. Thanks to their dedication, what could have taken three months to resolve under industry standards was fully dealt with globally in under 7 hours, with initial mitigation happening in just 47 minutes.</p>
 <p>The most significant impact period was between February 13 and February 18, with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage. This translates to about 0.00003% of requests, but with the sheer volume of traffic Cloudflare handles, the implications were significant.</p>
 <h2>Unraveling The Root Cause</h2>
 <p>The root of the problem lay in Cloudflare's parsing system. Cloudflare uses a parser to modify HTML pages as they pass through their edge servers. It offers various services like inserting the Google Analytics tag, rewriting http:// links to https://, and more. This parser was written using Ragel, a state machine compiler, which had become too complex to maintain over the years. Consequently, Cloudflare began transitioning to a new parser named cf-html, which was faster and easier to maintain.</p>
@@ -122,18 +122,18 @@
             <category term="Cloudflare"/>
             <category term="Cloud Security"/>
 
-        <updated>2023-06-12T23:23:46+03:00</updated>
+        <updated>2023-06-15T10:37:10+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/48/A-Deep-Dive-into-playit.gg.png" alt="" />
-                    <p>In the world of online gaming, server infrastructure is a critical component. As players, we often take the technology that makes our online adventures possible for granted. Today, we will examine a service revolutionizing how we think about gaming servers: <a href="https://playit.gg" target="_blank" rel="sponsored noopener noreferrer">playit.gg</a>.</p>
+                    <p>In the world of online gaming, server infrastructure is a critical component. As players, we often take the technology that makes our online adventures possible for granted. Let's talk about a service revolutionizing how we think about gaming servers: <a href="https://playit.gg/" rel="noopener nofollow" target="_blank">playit.gg</a>.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.thefourcraft.com/media/posts/48/A-Deep-Dive-into-playit.gg.png" class="type:primaryImage" alt="" /></p>
-                <p>In the world of online gaming, server infrastructure is a critical component. As players, we often take the technology that makes our online adventures possible for granted. Today, we will examine a service revolutionizing how we think about gaming servers: <a href="https://playit.gg" target="_blank" rel="sponsored noopener noreferrer">playit.gg</a>.</p>
+                <p>In the world of online gaming, server infrastructure is a critical component. As players, we often take the technology that makes our online adventures possible for granted. Let's talk about a service revolutionizing how we think about gaming servers: <a href="https://playit.gg/" rel="noopener nofollow" target="_blank">playit.gg</a>.</p>
 
 <h2>What is playit.gg?</h2>
 <p>playit.gg is a forward-thinking service allowing anyone to create free secure gaming servers. In a world where the cost of maintaining infrastructure can hinder creative endeavors, playit.gg steps up to provide an invaluable resource to the gaming community.</p>
@@ -311,6 +311,63 @@
 <li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Linux Script</a></li>
 </ul>
 <p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How GitHub&#x27;s Database Self-Destructed in 43 Seconds</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/how-to-try-to-be-a-good-decsecops-engineer/index.html"/>
+        <id>https://blog.thefourcraft.com/how-to-try-to-be-a-good-decsecops-engineer/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/45/How-GitHubs-Database-Self-Destructed-in-43-Seconds.png" medium="image" />
+            <category term="MySQL"/>
+            <category term="GitHub"/>
+            <category term="Documentary"/>
+            <category term="DevOps"/>
+            <category term="Database"/>
+
+        <updated>2023-06-16T14:09:23+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/45/How-GitHubs-Database-Self-Destructed-in-43-Seconds.png" alt="" />
+                    <p>On October 21st, 2018, GitHub, the world's leading software development platform, experienced a significant operational mishap. During routine maintenance work on their East Coast network, connectivity to a hub was severed, creating a network partition between the East Coast data center and everything else. This incident led to GitHub losing half of its servers. Although the maintenance crew restored the connection in 43 seconds, GitHub experienced an additional 24 hours of service degradation. Users couldn't log in, stale data was served, and the website was read-only.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/45/How-GitHubs-Database-Self-Destructed-in-43-Seconds.png" class="type:primaryImage" alt="" /></p>
+                <p>On October 21st, 2018, GitHub, the world's leading software development platform, experienced a significant operational mishap. During routine maintenance work on their East Coast network, connectivity to a hub was severed, creating a network partition between the East Coast data center and everything else. This incident led to GitHub losing half of its servers. Although the maintenance crew restored the connection in 43 seconds, GitHub experienced an additional 24 hours of service degradation. Users couldn't log in, stale data was served, and the website was read-only.</p>
+
+<h2>The Architecture of GitHub's Database</h2>
+<p>GitHub stores all its metadata, such as issues, pull requests, comments, notifications, and actions, in MySQL. They use a standard primary replica setup where writes go to the primary, replicating one or more read replicas. This setup improves read throughput and availability as reads can be distributed throughout all replicas, and if the primary fails, a fellow replica can be promoted to take its place.</p>
+<p>GitHub has many services and features, and to maintain separation of concerns, this requires many database clusters, each having its designated primary. All primaries were in the East Coast data center, with replicas spread across both coasts. Specific replicas in the West functioned as intermediate primaries, or in other words. A replica can have replicas that can have more replicas. This may seem overcomplicated, but there are a few advantages here. In terms of cost, a single replication layer means a lot of cross-data center traffic which is very expensive. With an intermediate primary, the cross-data center hop is only performed once. They also reduce the load on the primary as it only replicates to its descendants.</p>
+<h2>The Role of Orchestrator</h2>
+<p>GitHub has a homegrown tool to manage all of this called <a href="https://github.blog/2016-12-08-orchestrator-github/" target="_blank" rel="noopener noreferrer">Orchestrator</a>, which comes with a UI to help visualize and manage database topologies. Most importantly, though, it supports automatic primary failover; the primary orchestrator in a database system will automatically failover and promote a new primary within 30 seconds if it detects that replicas cannot contact the primary. However, if the orchestrator is not configured carefully, it can implement topologies the application does not support.</p>
+<h2>The Incident and Its Aftermath</h2>
+<p>In the specific incident, replication lag caused data to be present in the East Coast clusters but not in the West Coast and writes timed out and failed for a few seconds. Orchestrator nodes in the West Coast and US East cloud established quorum to fail over since the primaries were unreachable to both orchestrator and replicas. Replicas in the US West database were promoted as the new primaries, and write traffic was restored. The East and West Coast databases contained unique writes not present in the other, causing inconsistencies after restoring the connection.</p>
+<p>The engineers at GitHub were facing issues with the cross-country latency of their database services, making the website unusable for many users. They were stuck between a rock and a hard place, as reversing the situation would require removing the West Coast from service, which would cause data loss for many users. Some engineers believed failing back was the correct option, but others disagreed, stating that data integrity was paramount.</p>
+<h2>The Recovery Process</h2>
+<p>Eventually, GitHub prioritized data integrity over the speed of recovery and site usability, turning off certain features to prevent further database impact and drafting a plan. The plan was to fail forward and continue with U.S West as the primary until the East Coast clusters were fully synchronized. The East Coast required a restore from backup, and the engineers saved the unreplicated writes to reconcile later.</p>
+<p>The recovery process took longer than expected, and the estimated time for recovery was off due to a miscalculation. The outage also caused a backlog of webhooks and page builds to process, which took some time to clear. Despite trying to avoid such situations, things sometimes don't work out as expected. GitHub experienced a seven-hour outage due to a maintenance mishap but restored normal operations and updated the site status to green.</p>
+<h2>Lessons Learned and Future Initiatives</h2>
+<p>The incident led to a rethinking of the capabilities of the orchestrator and the establishment of a crisper and more transparent reporting mechanism. The long-term goal is to allow the application to tolerate a complete failure of a single data center without impact.</p>
+<p>GitHub's architecture is more mature than many of its competitors, but with grand scale comes excellent complexity. The incident served as a stark reminder of the challenges of managing large-scale, distributed systems. It also highlighted the importance of robust disaster recovery plans and the need for systems to be designed to handle unexpected failures gracefully.</p>
+<p>In conclusion, the incident at GitHub was a significant event in software development and database management. It was a valuable lesson for other organizations about the importance of robust, resilient systems and the potential pitfalls of managing large-scale, distributed databases. It also underscored the importance of prioritizing data integrity over the speed of recovery, even in the face of significant service degradation.</p>
+<h2>Sources</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=dsHyUgGMht0" target="_new">How GitHub's Database Self-Destructed in 43 Seconds - YouTube</a><br><a href="https://github.blog/2018-10-30-oct21-post-incident-analysis/" target="_new"></a></li>
+<li><a href="https://github.blog/2018-10-30-oct21-post-incident-analysis/" target="_new">October 21 Post Incident Analysis - GitHub Blog</a><br><a href="https://github.blog/2016-12-08-orchestrator-github/" target="_new"></a></li>
+<li><a href="https://github.blog/2016-12-08-orchestrator-github/" target="_new">Orchestrator at GitHub - GitHub Blog</a><br><a href="https://github.blog/2018-06-20-mysql-high-availability-at-github/" target="_new"></a></li>
+<li><a href="https://github.blog/2018-06-20-mysql-high-availability-at-github/" target="_new">MySQL High Availability at GitHub - GitHub Blog</a><br><a href="https://news.ycombinator.com/item?id=18272928" target="_new"></a></li>
+<li><a href="https://news.ycombinator.com/item?id=18272928" target="_new">Discussion on Hacker News</a><br><a href="https://www.reddit.com/r/programming/comments/9q94am/github_major_service_outage/" target="_new"></a></li>
+<li><a href="https://www.reddit.com/r/programming/comments/9q94am/github_major_service_outage/" target="_new">Discussion on Reddit</a><br><a href="https://hub.packtpub.com/github-down-for-over-7-hours-due-to-failure-in-its-data-storage-system/" target="_new"></a></li>
+<li><a href="https://hub.packtpub.com/github-down-for-over-7-hours-due-to-failure-in-its-data-storage-system/" target="_new">GitHub Down for Over 7 Hours Due to Failure in Its Data Storage System - Packt </a><a href="https://hub.packtpub.com/github-down-for-over-7-hours-due-to-failure-in-its-data-storage-system/" target="_new">Hub</a><br><a href="https://github.blog/2017-10-12-evolution-of-our-data-centers/" target="_new"></a></li>
+<li><a href="https://github.blog/2017-10-12-evolution-of-our-data-centers/" target="_new">Evolution of Our Data Centers - GitHub Blog</a><br><a href="https://www.githubstatus.com/history?page=19" target="_new"></a></li>
+<li><a href="https://www.githubstatus.com/history?page=19" target="_new">GitHub Status History</a></li>
+</ul>
             ]]>
         </content>
     </entry>
@@ -715,72 +772,6 @@
 <p>As AI becomes increasingly integrated into our daily lives, the general public must develop a basic understanding of AI technologies and their potential implications. This will enable people to make informed decisions about the use of AI in their lives and to participate in democratic processes related to AI regulation and governance.</p>
 <p>Educational institutions, governments, and private organizations should work together to promote AI literacy and ensure that the public is engaged in discussions about the development and use of AI. This can be achieved through public awareness campaigns, educational programs, and opportunities for public input in developing AI regulations and policies.</p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>FiveM Server with zero trust security</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/fivem-server-with-zero-trust-security/index.html"/>
-        <id>https://blog.thefourcraft.com/fivem-server-with-zero-trust-security/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/40/FiveM-Server-with-zero-trust-security.png" medium="image" />
-            <category term="Zero Trust"/>
-            <category term="Security"/>
-            <category term="Network"/>
-            <category term="FiveM"/>
-            <category term="Cloudflare"/>
-
-        <updated>2023-05-13T11:42:06+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/40/FiveM-Server-with-zero-trust-security.png" alt="" />
-                    <p>If you're running a FiveM server, you know how important it is to secure it from potential threats. One way to do this is using a <a href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html" target="_blank" rel="noopener noreferrer">zero-trust security model</a>, where you can only access the server through a secure channel.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/40/FiveM-Server-with-zero-trust-security.png" class="type:primaryImage" alt="" /></p>
-                <p>If you're running a FiveM server, you know how important it is to secure it from potential threats. One way to do this is using a <a href="https://blog.thefourcraft.com/the-fall-of-vpn-and-the-rise-of-zero-trust/index.html" target="_blank" rel="noopener noreferrer">zero-trust security model</a>, where you can only access the server through a secure channel.</p>
-
-<p class="msg msg--highlight ">This guide isn't for beginners. I assume you know "how to operate a FiveM server," and you have a Cloudflare account and access to the Cloudflare ZTNA.</p>
-<h2>What is Cloudflared Tunnel?</h2>
-<p>Cloudflared Tunnel is a secure, encrypted tunnel between your server and Cloudflare's network. It allows you to securely access your server from anywhere without exposing it to the internet. Cloudflared Tunnel is part of the Cloudflare Workers family of products, using the same security and privacy features as Cloudflare Workers.</p>
-<h2>Setting up Cloudflared Tunnel</h2>
-<p>To set up Cloudflared Tunnel, you'll need a Cloudflare account and access to the server you want to secure.</p>
-<ol>
-<li>
-<p>Install Cloudflared on your server. You can find instructions on installing Cloudflared on the ZTNA Dashboard or <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/" target="_blank" rel="noopener noreferrer">here</a>.</p>
-</li>
-<li>
-<p>Create a new Tunnel in the Cloudflare ZTNA dashboard. <br>Give it a name and select the server that you want to secure.</p>
-</li>
-</ol>
-<h2>Integrating with FiveM</h2>
-<p>We'll use a reverse proxy to integrate your FiveM server with Cloudflared Tunnel.</p>
-<ol>
-<li>
-<p>Create a route for your FiveM server using the HTTP protocol in the Cloudflare ZTNA dashboard. The route should look something like this: <code>http://localhost:30120.</code> </p>
-</li>
-</ol>
-<p class="msg msg--info">Sometimes I needed to change the settings on the cloudflared tunnel to do the SLL work with the cre.fx server listing ping/API. It's recommended to change the proxy type to socks</p>
-<ol>
-<li>
-<p>Set up a <a href="https://docs.fivem.net/docs/server-manual/proxy-setup/" target="_blank" rel="noopener noreferrer">reverse proxy for your FiveM server</a>. The reverse proxy should listen on port 443 and forward requests to the connecting endpoint specified in the route.</p>
-<pre class="p1">// prevents the server list from advertising your server using its actual IP<br>set sv_forceIndirectListing true<br><br>// makes the server list backend request `https://server1.example.com/` instead of the default<br>set sv_listingHostOverride "server1.example.com"<br><br>// a space-separated list of IPv4 networks in CIDR notation to allow 'X-Real-IP'<br>// from, as well as bypass the rate limiter<br>set sv_proxyIPRanges "100.64.1.1/32"<br><br>// the actual endpoint your server is hosted on, or one<br>// or multiple server endpoint proxies, as noted below<br>set sv_endpoints "100.64.1.2:30120"<br><br>// Some guides also mention `sv_listingIpOverride.` This value is only needed<br>// if the server list backend can't guess the IP to query itself and is not provided to any front-end connection.<br>// This is usually the case for systems with multiple IPs or if the server is firewalled off for all hosts except<br>// a server proxy.</pre>
-</li>
-<li>
-<p>Make sure to configure your reverse proxy to use SSL encryption. You can obtain an SSL certificate from Cloudflare or a trusted certificate authority.</p>
-</li>
-<li>Test your connection!</li>
-</ol>
-<p class="msg msg--warning">It's important to note that some regions may experience higher ping when using Cloudflared Tunnel because it was not built explicitly for game servers. Instead, it was designed to securely expose websites or other networks that don't require a low ping to operate, such as websites or web applications.</p>
-<h3>Fun Fact</h3>
-<p>we are using Cloudflare tunnel to secure more than 150+ applications and websites! </p>
-<h2>Conclusion</h2>
-<p>Using Cloudflared Tunnel, you can create a secure, encrypted connection between your FiveM server and Cloudflare's network. This will help protect your server from potential threats and give you peace of mind knowing that your server is secure. Contact the Cloudflare support team if you have any questions or need help setting up Cloudflared Tunnel.</p>
             ]]>
         </content>
     </entry>
