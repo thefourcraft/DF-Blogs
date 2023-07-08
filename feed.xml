@@ -3,12 +3,106 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-07-01T22:41:45+03:00</updated>
+    <updated>2023-07-08T13:26:17+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>When the Clouds Darkened - Unpacking the AWS US-East-1 Outage</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/when-the-clouds-darkened-unpacking-the-aws-us-east-1-outage/index.html"/>
+        <id>https://blog.thefourcraft.com/when-the-clouds-darkened-unpacking-the-aws-us-east-1-outage/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/56/When-the-Clouds-Darkened-Unpacking-the-AWS-US-East-1-Outage.png" medium="image" />
+            <category term="Documentary"/>
+            <category term="DevOps"/>
+            <category term="AWS"/>
+
+        <updated>2023-07-08T13:26:17+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/56/When-the-Clouds-Darkened-Unpacking-the-AWS-US-East-1-Outage.png" alt="" />
+                    <p>On December 7, 2021, the digital world experienced a significant disruption. Amazon Web Services (AWS), one of the world's most extensive cloud service providers, faced a substantial outage in its US-East-1 region. The impact was far-reaching, affecting numerous online services and applications, from popular streaming platforms to everyday services.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/56/When-the-Clouds-Darkened-Unpacking-the-AWS-US-East-1-Outage.png" class="type:primaryImage" alt="" /></p>
+                <p>On December 7, 2021, the digital world experienced a significant disruption. Amazon Web Services (AWS), one of the world's most extensive cloud service providers, faced a substantial outage in its US-East-1 region. The impact was far-reaching, affecting numerous online services and applications, from popular streaming platforms to everyday services.</p>
+
+<div class="flex-1 overflow-hidden">
+<div class="react-scroll-to-bottom--css-jramy-79elbk h-full dark:bg-gray-800">
+<div class="react-scroll-to-bottom--css-jramy-1n7m0yu">
+<div class="flex flex-col text-sm dark:bg-gray-800">
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h2>The Outage Begins</h2>
+<p>The day they started like any other Tuesday. However, at approximately 10:30 AM Eastern Time, things began to go awry in Amazon's North Virginia region, known as "us-east-1". Over the next three minutes, several regional AWS services started experiencing issues. This wasn't a complete outage for all these services. Still, their functionality was significantly impaired, causing a ripple effect that disrupted the operations of many businesses and services relying on AWS.</p>
+<p>The services affected included the Management console, Route 53, API Gateway, EventBridge, Amazon Connect, and EC2. The outage affected all availability zones in us-east-1 and disrupted a number of global services that are homed in this region. This included AWS Account root logins, Single Sign-On (SSO), and the Security Token Service (STS).</p>
+<h2>Event Timeline </h2>
+<ul>
+<li>
+<p><strong>7:30 AM PST</strong>: An automated activity to scale capacity of one of the AWS services triggered an unexpected behavior, resulting in a significant surge of connection activity that overwhelmed the networking devices between the internal network and the leading AWS network. This caused delays in communication between these networks, leading to increased latency and errors.</p>
+</li>
+<li>
+<p><strong>9:28 AM PST</strong>: AWS teams completed work on moving the internal DNS traffic away from the congested network paths, which resulted in the complete recovery of DNS resolution errors. This improved the availability of several impacted services by reducing the load on the impacted networking devices but did not fully resolve the AWS service impact or eliminate the congestion.</p>
+</li>
+<li>
+<p><strong>1:34 PM PST</strong>: Congestion significantly improved as the operations teams applied remediation actions.</p>
+</li>
+<li>
+<p><strong>2:22 PM PST</strong>: All network devices fully recovered. However, full recovery for Amazon Secure Token Service (STS) occurred at 4:28 PM PST.</p>
+</li>
+<li>
+<p><strong>4:37 PM PST</strong>: API Gateway largely recovered, but customers may have continued to experience low errors and throttling for several hours as API Gateways fully stabilized.</p>
+</li>
+<li>
+<p><strong>5:00 PM PST</strong>: Fargate API error rates began returning to normal.</p>
+</li>
+<li>
+<p><strong>6:40 PM PST</strong>: EventBridge experienced high event delivery latency until this time as it processed the backlog of events.</p>
+</li>
+</ul>
+<h2>The Impact</h2>
+<p>The impact of the outage was broad and far-reaching. It caused various problems for services like Netflix, Disney Plus, Roomba, Ticketmaster, and the Wall Street Journal. It also affected many Amazon services, including Prime Music, Ring doorbells, logistics apps in their fulfillment centers, and some parts of the Amazon.com shopping site.</p>
+<p>The outage highlighted the interconnectedness of digital services and the potential domino effect that can occur when a primary cloud service provider experiences issues. It was a stark reminder of the potential risks of relying heavily on a single cloud service provider.</p>
+<h2>The Root Cause</h2>
+<p>After the dust settled, AWS provided a detailed explanation of what had caused the outage. The root cause was an unexpected behavior triggered by an automated system trying to scale up an internal service running on AWS's private internal network. This led to a significant surge of connection activity that overwhelmed the networking devices between the internal network and the leading AWS network, resulting in delays in communication between these networks.</p>
+<p>These delays increased latency and errors for services communicating between these networks, leading to persistent congestion and performance issues on the devices connecting the two networks. This congestion immediately impacted the availability of real-time monitoring data for AWS's internal operations teams, which impaired their ability to find and resolve the source of congestion.</p>
+<h2>The Aftermath and Lessons Learned</h2>
+<p>The outage had a significant impact on AWS's reputation. However, it also provided valuable lessons for AWS and its users. AWS has since taken several actions to prevent a recurrence of this event. They have turned off the scaling activities that triggered the event and are working on fixing a latent issue that prevented their systems from adequately backing off during the event.</p>
+<p>This incident serves as a reminder of the importance of designing robust and resilient systems. It also underscores the need for effective communication during operational issues. AWS has acknowledged the need to improve customer communication during such events and is planning significant upgrades.</p>
+<h2>Looking Forward</h2>
+<p>While the AWS outage was a significant event that caused widespread disruption, it also provided valuable lessons. It highlighted the importance of resilience in system design and the need for effective communication during operational issues. As AWS continues to learn from this event and improve its systems, users can also take this opportunity to evaluate their systems and consider how they can enhance their resilience to such events in the future.</p>
+<p>In the world of cloud computing, outages are inevitable. However, they can be mitigated through robust system design, effective communication, and continuous learning from past incidents. The December 2021 AWS outage was a stark reminder of this reality. As we progress, cloud service providers and users must take these lessons to heart, continually striving to improve system resilience and response strategies.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transparent dark:md:bg-vert-dark-gradient pt-2 md:pl-2 md:w-[calc(100%-.5rem)]"><form class="stretch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-w-3xl">
+<div class="relative flex h-full flex-1 items-stretch md:flex-col" role="presentation">
+<div class="">
+<div class="h-full flex ml-1 md:w-full md:m-auto md:mb-2 gap-0 md:gap-2 justify-center"> </div>
+</div>
+</div>
+</form></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How Does גיימינג.ישראל Work?</title>
         <author>
@@ -23,7 +117,7 @@
             <category term="Gaming"/>
             <category term="AWS"/>
 
-        <updated>2023-07-01T22:41:45+03:00</updated>
+        <updated>2023-07-01T23:54:16+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/55/How-Does-gyymyng-yshrl-Work.png" alt="" />
@@ -146,7 +240,7 @@
             <category term="Gaming"/>
             <category term="AWS"/>
 
-        <updated>2023-07-01T20:43:53+03:00</updated>
+        <updated>2023-07-03T10:08:53+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/54/I-Created-Ultimate-Hub-for-Gaming-In-Israel.png" alt="" />
@@ -164,7 +258,7 @@
 <h2>List Your Gaming Servers and More</h2>
 <p>Are you looking to showcase your multiplayer game? Look no further. <a href="https://גיימינג.ישראל" target="_blank" rel="sponsored noopener noreferrer">גיימינג.ישראל</a> provides a comprehensive platform for users to list their gaming servers and attract fellow gamers. Whether you're a developer, a community leader, or a gaming enthusiast, my platform offers the ideal avenue to reach your target audience and build a thriving gaming community.</p>
 <h2>Hold On... How's The Domain Name In Hebrew!?</h2>
-<p>The new Country Code top-level domain (ccTLD) .ישראל is launched! On November 22, 2022, the Israel Internet Association (ISOC-IL) started offering the public the option to register Hebrew domain names under a new national TLD – .ישראל. Now, Israelis have two available TLDs: ישראל and .il.</p>
+<p>The new Country Code top-level domain (ccTLD) .ישראל has launched! On November 22, 2022, the Israel Internet Association (ISOC-IL) started offering the public the option to register Hebrew domain names under a new national TLD – .ישראל. Now, Israelis have two available TLDs: ישראל and .il.</p>
 <p>Notably, while the ability to register a .ישראל domain is exciting, it's important to note that not all web apps and online services may support it initially. ISOC-IL is actively working to expand the support for the new TLD in various apps and platforms. Still, this process will take time due to the many browsers, messaging apps, online services, and email apps available.</p>
 <h3>How do non-Latin domain names work?</h3>
 <p>Domain names in Hebrew (and other languages) utilize a set of standards called IDN (Internationalized Domain Names). Hebrew domain names are translated into strings containing Latin letters, numbers, and hyphens, decoded by the domain name system (DNS). For example, the domain name "גיימינג.ישראל" is represented as "xn--6dbauaa3ap.xn--4dbrk0ce". While many browsers already support IDN standards, email software, and other applications still adopt them.</p>
@@ -714,85 +808,6 @@ SQL injection can be used to manipulate a standard SQL query to exploit non-vali
 <p>As organizations embrace digital transformation, the demand for roles like DevSecAiOps will likely increase. The future of this role hinges on how rapidly AI evolves and how quickly organizations can adapt to these changes.</p>
 <p>Given the increasing reliance on AI in various industries, it's not far-fetched to imagine a role like DevSecAiOps emerging soon. This role is at the intersection of technology and innovation, poised to redefine the tech landscape.</p>
 <p>In conclusion, while DevSecAiOps doesn't exist today, it's a concept worth exploring. As the tech world evolves, roles like this could become a reality. The fusion of development, security, AI, and operations could be the next step in evolving tech roles, taking us into an exciting, uncharted future.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>&quot;fractureiser&quot; - Security Vulnerability in the CurseForge and Bukkit Platform</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/fractureiser-security-vulnerability-in-the-curseforge-and-bukkit-platform/index.html"/>
-        <id>https://blog.thefourcraft.com/fractureiser-security-vulnerability-in-the-curseforge-and-bukkit-platform/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/47/fractureiser-Security-Vulnerability-in-the-CurseForge-and-Bukkit-Platform.png" medium="image" />
-            <category term="Vulnerability"/>
-            <category term="Security"/>
-            <category term="Minecraft"/>
-            <category term="CurseForge"/>
-            <category term="Bukkit"/>
-
-        <updated>2023-06-07T14:12:06+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/47/fractureiser-Security-Vulnerability-in-the-CurseForge-and-Bukkit-Platform.png" alt="" />
-                    <p>The Minecraft community has recently been hit with shocking news. The widely used CurseForge and Bukkit platforms have reportedly been compromised. Many groups have reported malware uploaded on various projects, potentially through a security vulnerability in the <a href="https://www.overwolf.com/" target="_blank" rel="nofollow noopener noreferrer">Overwolf</a> platform.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/47/fractureiser-Security-Vulnerability-in-the-CurseForge-and-Bukkit-Platform.png" class="type:primaryImage" alt="" /></p>
-                <p>The Minecraft community has recently been hit with shocking news. The widely used CurseForge and Bukkit platforms have reportedly been compromised. Many groups have reported malware uploaded on various projects, potentially through a security vulnerability in the <a href="https://www.overwolf.com/" target="_blank" rel="nofollow noopener noreferrer">Overwolf</a> platform.</p>
-
-<h2>Who is Overwolf?</h2>
-<p>Overwolf is a software platform that allows gamers to create and use in-game apps. It was founded in 2010 by Uri Marchand, Gil Or, Alon Ranowitz, and Nir Finkelstein with a cash seed investment from Joseph (Yossi) Vardi.</p>
-<p><a href="https://www.perplexity.ai/search/230dd1cd-aa02-48cd-a453-96235392205c" target="_blank" rel="noopener noreferrer">By Perplexity AI</a></p>
-<h2>What is CurseForge and Bukkit Platform?</h2>
-<h3><strong>CurseForge</strong></h3>
-<ul class="list-disc list-outside">
-<li>CurseForge is a website that hosts Bukkit plugins, addons, mods, and customization content</li>
-<li>Overwolf owns it</li>
-<li>CurseForge is a popular platform for Minecraft modding, and it is known for being easy to use</li>
-</ul>
-<h3><span class=""><strong>Bukkit Platform</strong></span></h3>
-<ul class="list-disc list-outside">
-<li>Bukkit is a software platform that allows developers to create plugins for Minecraft servers</li>
-<li>Bukkit plugins can be used to add new features, modify gameplay, and improve server performance<a target="_blank" rel="noopener noreferrer" class="citation ml-xs inline" href="https://www.curseforge.com/minecraft/bukkit-plugins" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">
-<div class="inline-flex relative -top-[0.3rem] light font-sans text-base text-textOff dark:text-textOffDark selection:bg-super selection:text-white dark:selection:bg-opacity-50 selection:bg-opacity-70" style="display: inline !important;">
-<div class="inline-flex h-[1rem] min-w-[1rem] px-[0.2em] rounded-full items-center justify-center text-center font-semibold md:hover:text-white tabular-nums border-borderMain/75 dark:border-borderMainDark divide-borderMain dark:divide-borderMainDark ring-borderMain dark:ring-borderMainDark  transition duration-300 bg-offsetPlus dark:bg-offsetPlusDark md:hover:bg-super" style="display: inline !important;"> </div>
-</div>
-</a><span class="whitespace-nowrap"><br></span></li>
-<li>The Bukkit platform is hosted on CurseForge, which provides a repository for Bukkit plugins<span class="whitespace-nowrap"><br></span></li>
-</ul>
-<p><a href="https://www.perplexity.ai/search/aebf3a19-2224-439d-b67e-76340cfcc2a0?s=u" target="_blank" rel="noopener noreferrer">By Perplexity AI</a></p>
-<h2><strong>Overview of the Security Breach</strong></h2>
-<p>The CurseForge and Bukkit platforms, home to a multitude of Minecraft mods and plugins, have fallen victim to a massive cybersecurity breach. A substantial number of modpacks and mods, especially those on 1.16.5, 1.18.2, and 1.19.2 versions, were reportedly updated with malware. The unauthorized access to accounts and uploads of malicious files point towards a potential vulnerability in the Overwolf platform, which manages CurseForge and Bukkit.</p>
-<h2><strong>Diving Deeper into the Malware</strong></h2>
-<p>The malware was detected in mid-April and has since been injected into numerous popular plugins and mods. The affected accounts reportedly had two-factor authentication enabled, which suggests this isn't a simple password compromise but something potentially bigger on the CurseForge side.</p>
-<p>The malware appears to extract Microsoft credentials and browser-saved passwords. We strongly advise all users to RESET ALL OF THEIR PASSWORDS after they have removed the virus.</p>
-<h2><strong>Distribution</strong></h2>
-<p>Some modpacks have had updates published for them without the authors' knowledge, adding a dependency on malicious mods. The malicious mods have uploaded dates multiple weeks in the past. DUE TO CURSE'S USAGE, a CDN compromise or cache poisoning is not out of the question. numbers, thus giving it a botnet-like behavior. It runs a command to execute a function to download the program again and save it as a self-running file. This malware has infiltrated numerous modpacks, and even with immediate archiving, these files might become accessible again later, exposing hundreds of thousands of players to malware.</p>
-<p>The code execution mainly targets Linux users, possibly intending to infiltrate servers, but Windows users are not exempt from this threat. One particular file from this incident was not archived immediately and gained 10 downloads, implying it's possibly being disseminated through other platforms.</p>
-<p class="msg msg--warning">As a precautionary measure, it is highly recommended to avoid updating any mods or modpacks until this threat is effectively neutralized.</p>
-<h2><strong>Potential Impacts</strong></h2>
-<p>The impacts could be extensive with the number of potentially compromised accounts and the malware's capability to extract sensitive information like saved passwords. Users risk losing control of their accounts or sensitive personal and financial data. The broader impact on the Minecraft modding community is also severe, with the potential for widespread mistrust and uncertainty.</p>
-<h2>The Iris Project's Statement</h2>
-<p>The Iris Project, another prominent player in the Minecraft modding community, has also voiced its concerns about the issue. The project's team states that they believe numerous accounts on CurseForge have been compromised and are being used to upload malicious files containing bot-nets. They have assured their user base that they are actively investigating the situation.</p>
-<blockquote>
-<p class="p1">"We have reason to believe many accounts on CurseForge have been hacked and are uploading malicious files containing bot-nets. Luna Pixel Studios, the owner of many big modpacks, is one of the affected accounts. The situation is being actively looked into."</p>
-</blockquote>
-<h2>What Do We Learn</h2>
-<p>The CurseForge and Bukkit breach has brought the importance of cybersecurity to the forefront once again. It serves as a reminder of the persistent threats in the digital landscape. As we await the resolution of the issue, it's critical to stay vigilant, ensuring we take steps to protect our data and systems from potential threats.</p>
-<p>Stay vigilant, perform regular checks on your system, and keep an eye out for updates on this situation. Remember, your cybersecurity is in your hands!</p>
-<h2>References</h2>
-<ul>
-<li>For the latest news, check out this <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">document</a></li>
-<li>Luna Pixel Studios <a href="https://discord.com/channels/780522480867868723/780522480867868726/848382717102342165" target="_new">Announcement</a></li>
-<li>The Iris Project's <a href="https://discord.com/channels/703688753276715079/703688753276715082/848382165810339860" target="_new">Statement</a></li>
-<li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Windows Script</a></li>
-<li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Linux Script</a></li>
-</ul>
-<p> </p>
             ]]>
         </content>
     </entry>
