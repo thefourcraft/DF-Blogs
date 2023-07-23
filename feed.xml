@@ -3,12 +3,347 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-07-01T22:41:45+03:00</updated>
+    <updated>2023-07-23T10:37:26+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Embracing the Future of Development with GitHub Copilot Chat</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/embracing-the-future-of-development-with-github-copilot-chat/index.html"/>
+        <id>https://blog.thefourcraft.com/embracing-the-future-of-development-with-github-copilot-chat/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/61/Embracing-the-Future-of-Development-with-GitHub-Copilot-Chat.png" medium="image" />
+            <category term="artificial intelligence"/>
+            <category term="My Personal Opinion"/>
+            <category term="GitHub Copilot"/>
+            <category term="GitHub"/>
+
+        <updated>2023-07-23T10:31:06+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/61/Embracing-the-Future-of-Development-with-GitHub-Copilot-Chat.png" alt="" />
+                    In an era where technology is advancing at an unprecedented pace, GitHub has once again proven its commitment to innovation&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/61/Embracing-the-Future-of-Development-with-GitHub-Copilot-Chat.png" class="type:primaryImage" alt="" /></p>
+                <p>In an era where technology is advancing at an unprecedented pace, GitHub has once again proven its commitment to innovation and developer productivity. The company recently announced the public beta release of GitHub Copilot Chat for all business users on Visual Studio and VS Code. This marks a significant step forward in integrating generative AI and GPT-4 into the developer experience on GitHub, a journey that began earlier this year with the unveiling of GitHub Copilot X.</p>
+<h2>GitHub Copilot Chat: More Than Just a Chat Window</h2>
+<p>GitHub Copilot Chat is not just a chat window. It's a context-aware conversational assistant that resides right in the Integrated Development Environment (IDE). This transformative tool allows developers to execute complex tasks through simple prompts, making the process of building applications or debugging code faster and more efficient. The potential here is immense, as it promises to reduce the time spent on unit tests and boilerplate code, thereby increasing productivity and fostering innovation.</p>
+<h2>The Power of Context</h2>
+<p>The power of context is at the heart of GitHub Copilot Chat. It's designed to understand the code a developer has typed or the error messages displayed, making it a highly specialized tool for developers. This context-awareness is a game-changer, as it keeps developers in the flow, a challenge that has grown with the proliferation of languages, cloud computing, programming frameworks, CI/CD workflows, open source software, package managers, services, and more.</p>
+<h2>Addressing the Need for Efficiency</h2>
+<p>The introduction of GitHub Copilot Chat is a response to the growing need for efficiency in the developer community. According to Stack Overflow’s 2023 Developer Survey, developers spend up to two hours a day searching for answers and solutions. GitHub Copilot Chat aims to reduce this time, allowing developers to focus on creativity and innovation.</p>
+<h2>The Impact of AI Pair Programming</h2>
+<p>As the world’s first at-scale AI pair programmer, GitHub Copilot has already been assisting more than 20,000 companies and teams of developers, enabling them to work more efficiently. With the introduction of GitHub Copilot Chat, developers can now not only get code suggestions but also ask questions, get explanations, offer prompts for code, and more. This means they’re spending more time in the IDE—and in the flow.</p>
+<h2>The Economic Impact of Generative AI Tools</h2>
+<p>The potential economic impact of generative AI tools like GitHub Copilot is staggering. Research from the analyst firm Keystone.AI and Harvard Business School professor Marco Iansiti suggests that these tools could increase global GDP by $1.5 trillion by 2030 through significant productivity gains.</p>
+<h2>Looking Forward: The Promise of GitHub Copilot X</h2>
+<p>As we look forward to the general availability of GitHub Copilot X, we can't help but feel excited about the potential it holds. It promises to make every developer ten times more productive, enabling them to complete ten days of work in just one day, ten hours of work in one hour, and ten minutes of work with a single prompt command. This is not just about increasing productivity; it's about empowering developers to express themselves and helping a new generation of developers learn and build at the speed of thought.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ChatGPT and the Hallucination of Dependencies</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/chatgpt-and-the-hallucination-of-dependencies/index.html"/>
+        <id>https://blog.thefourcraft.com/chatgpt-and-the-hallucination-of-dependencies/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/60/ChatGPT-and-the-Hallucination-of-Dependencies.png" medium="image" />
+            <category term="Security"/>
+            <category term="Malware"/>
+            <category term="DevOps"/>
+            <category term="Cloud Security"/>
+            <category term="ChatGPT"/>
+            <category term="AI"/>
+
+        <updated>2023-07-23T10:37:26+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/60/ChatGPT-and-the-Hallucination-of-Dependencies.png" alt="" />
+                    <p>Artificial intelligence (AI) has revolutionized many aspects of our lives, and the field of software development is no exception. One of the most prominent AI models in this space is ChatGPT. While it has proven to be a powerful tool for generating human-like text, it has also shown a tendency to "hallucinate" or generate information that doesn't exist. This behavior has significant implications, especially when recommending software dependencies.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/60/ChatGPT-and-the-Hallucination-of-Dependencies.png" class="type:primaryImage" alt="" /></p>
+                <p>Artificial intelligence (AI) has revolutionized many aspects of our lives, and the field of software development is no exception. One of the most prominent AI models in this space is ChatGPT. While it has proven to be a powerful tool for generating human-like text, it has also shown a tendency to "hallucinate" or generate information that doesn't exist. This behavior has significant implications, especially when recommending software dependencies.</p>
+
+<h2>The Phenomenon of AI Hallucination</h2>
+<p>AI hallucination is a phenomenon where AI models generate outputs that are plausible but not based on factual reality. This is particularly prevalent in large language models (LLMs) like ChatGPT, which have been trained on vast amounts of text data. These models can generate creative yet unexpected responses that may not align with factual reality<sup>1</sup>.</p>
+<p>In software development, one of the most concerning forms of AI hallucination is when ChatGPT recommends software packages or dependencies that do not exist. This behavior, known as "AI package hallucination," can pose significant security risks<sup>2</sup>.</p>
+<h2>The Risks of AI Package Hallucination</h2>
+<p>The problem with AI package hallucination is twofold. First, it can lead developers to waste time and resources trying to integrate non-existent packages into their projects. Second, and more concerning, it can open the door for malicious actors to exploit this behavior.</p>
+<p>Here it works: an attacker can ask ChatGPT for a package to solve a coding problem. <br>If ChatGPT recommends a non-existent package, the attacker can then create a malicious package with the same name and publish it to a package repository. <br>When a developer later asks ChatGPT a similar question, they may receive a recommendation to use the now-existing malicious package.</p>
+<p>This attack technique, dubbed "AI package hallucination," presents a significant security risk. It bypasses traditional security measures to detect suspicious activities like typosquatting or masquerading, making it harder to detect and prevent.</p>
+<h2>Mitigating the Risks</h2>
+<p>Given the potential risks associated with AI package hallucination, developers must thoroughly vet the packages they use. This is especially important when using tools like ChatGPT, which may recommend non-existent or malicious packages.</p>
+<p>Developers can mitigate these risks by checking the creation date of the package, the number of downloads, comments, and any attached notes. If anything looks suspicious, it's best to think twice before installing the package.</p>
+<h2>Sources </h2>
+<ol>
+<li id="user-content-fn-1%5E">
+<p><a href="https://vulcan.io/blog/ai-hallucinations-package-risk/" target="_new">Can you trust ChatGPT’s package recommendations?</a></p>
+</li>
+<li id="user-content-fn-2%5E">
+<p><a href="https://www.kevinmd.com/2023/07/lowering-hallucination-results-with-chatgpt.html" target="_new">Lowering hallucination results with ChatGPT</a></p>
+</li>
+<li id="user-content-fn-3%5E">
+<p><a href="https://www.linkedin.com/pulse/developers-take-note-ai-package-hallucination-thing-reversinglabs/" target="_new">Developers take note: AI package hallucination is a thing</a></p>
+</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Introducing A New Chapter &quot;Leaky Buckets&quot;</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/introducing-a-new-chapter-leaky-buckets/index.html"/>
+        <id>https://blog.thefourcraft.com/introducing-a-new-chapter-leaky-buckets/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/59/Introducing-A-New-Chapter-Leaky-Buckets.png" medium="image" />
+            <category term="Leaky Buckets"/>
+
+        <updated>2023-07-14T08:57:05+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/59/Introducing-A-New-Chapter-Leaky-Buckets.png" alt="" />
+                    Data security has become a paramount concern for organizations worldwide in today's digital age. While many businesses strive to protect&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/59/Introducing-A-New-Chapter-Leaky-Buckets.png" class="type:primaryImage" alt="" /></p>
+                <p>Data security has become a paramount concern for organizations worldwide in today's digital age. While many businesses strive to protect their sensitive information stored in the cloud, recent incidents have highlighted the prevalence of poor security practices. <br>In this blog post, we are excited to introduce a new chapter in my blog named "Leaky Buckets." <br>I aim to raise awareness about the risks associated with poorly configured Amazon Simple Storage Service (S3) storage buckets and emphasize the importance of robust data protection strategies.</p>
+<h2>The Alarming Reality</h2>
+<p><a href="https://www.databreaches.net/7-of-all-amazon-s3-servers-are-exposed-explaining-recent-surge-of-data-leaks/" target="_blank" rel="noopener noreferrer">Recent statistics have revealed unsettling figures</a>: an estimated 7% of all S3 servers are accessible to the public without authentication, and 35% of these servers are unencrypted. These numbers underscore the urgent need for organizations to address their security hygiene and fortify their cloud storage infrastructure.</p>
+<h2>Introducing "Leaky Buckets"</h2>
+<p>Recognizing the urgency and importance of addressing this pressing issue, I am proud to announce the launch of our new chapter, "Leaky Buckets." This initiative tackles the vulnerabilities and risks associated with poorly configured Amazon S3 storage buckets.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Leaky Buckets: WWE</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/leaky-buckets-wwe/index.html"/>
+        <id>https://blog.thefourcraft.com/leaky-buckets-wwe/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/58/Leaky-Buckets-WWE.png" medium="image" />
+            <category term="Security"/>
+            <category term="Leaky Buckets"/>
+            <category term="Cloud Security"/>
+            <category term="AWS"/>
+
+        <updated>2023-07-20T09:01:32+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/58/Leaky-Buckets-WWE.png" alt="" />
+                    <p>In July 2017, World Wrestling Entertainment (WWE) grappled with a formidable opponent: a significant data breach. This incident exposed the personal information of over 3 million wrestling fans.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/58/Leaky-Buckets-WWE.png" class="type:primaryImage" alt="" /></p>
+                <p>In July 2017, World Wrestling Entertainment (WWE) grappled with a formidable opponent: a significant data breach. This incident exposed the personal information of over 3 million wrestling fans.</p>
+
+<h2>The Breach Unveiled</h2>
+<p>The WWE, a global powerhouse in the entertainment industry, inadvertently leaked a vast amount of sensitive data. The exposed information included addresses, birthdates, educational background, ethnicity, earnings, and even children's age ranges. The culprit? A database of personal details left unprotected on an Amazon S3 server.</p>
+<h2>The Discovery and Response</h2>
+<p>The database was unearthed by security researchers from the Kromtech Security Research Center. Upon discovery, they promptly alerted WWE, who secured the database within hours. The researchers also identified a second database, which was swiftly secured as well.</p>
+<h2>The Data Exposed</h2>
+<p>The first database contained a large grouping of raw text files, presumably used by WWE to study its fanbase for targeted marketing campaigns. This database held details on 3,065,805 users, stored in a specific format that included a wide range of personal information.</p>
+<p>A second database was also discovered, exposing between 10% and 12% of its content to the public. This database contained spreadsheets with social media tracking data for WWE's accounts, broken down by country.</p>
+<h2>The DevOps Perspective</h2>
+<p>This incident underscores the critical need for robust security measures at every stage of the development and operations process.</p>
+<h3>Infrastructure Security</h3>
+<p>The WWE data leak occurred due to an unprotected S3 bucket, a common storage option in AWS. This highlights the importance of securing your infrastructure. In the DevOps world, this means ensuring that all servers, databases, and other infrastructure components are properly configured and protected.</p>
+<h3>Authentication and Access Control</h3>
+<p>The lack of authentication on the S3 bucket that contained the WWE data is a glaring oversight. In DevOps, it's crucial to implement strong authentication and access control measures. This includes not only user authentication but also service-to-service authentication.</p>
+<h3>Continuous Monitoring</h3>
+<p>This incident also highlights the importance of continuous monitoring in DevOps. Regular audits and real-time monitoring can help detect potential security vulnerabilities and breaches early, allowing teams to respond quickly and mitigate damage.</p>
+<h2>Lessons Learned</h2>
+<p>The WWE data leak is a cautionary tale for all organizations, especially those in the DevOps field. It underscores the importance of robust security measures, including infrastructure security, strong authentication and access control, and continuous monitoring.</p>
+<p>In the end, security is not just a one-time task but an ongoing commitment. As DevOps professionals, we must continually strive to protect our systems, our data, and ultimately, our customers.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Power of Open Source</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/the-power-of-open-source/index.html"/>
+        <id>https://blog.thefourcraft.com/the-power-of-open-source/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/57/The-Power-of-Open-Source.png" medium="image" />
+            <category term="Open Source"/>
+            <category term="My Personal Opinion"/>
+
+        <updated>2023-07-23T10:26:36+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/57/The-Power-of-Open-Source.png" alt="" />
+                    <div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>Open-source projects have been a cornerstone of the tech world for decades, driving innovation and collaboration like no other model. Their significance is immense, and their role can't be understated. </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/57/The-Power-of-Open-Source.png" class="type:primaryImage" alt="" /></p>
+                <div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p>Open-source projects have been a cornerstone of the tech world for decades, driving innovation and collaboration like no other model. Their significance is immense, and their role can't be understated. </p>
+
+<h2>The Significance of Open Source Projects</h2>
+<p>Open-source projects are public collaborations that democratize the world of software. Their source code is open to anyone, and they have shaped the technological landscape we see today. Here are some reasons why they're so important:</p>
+<ol>
+<li>
+<p><strong>Innovation:</strong> Open source promotes innovation by providing a platform for programmers from diverse backgrounds to collaborate and build upon each other's work. It's not uncommon for ideas generated in the open-source world to reshape entire industries.</p>
+</li>
+<li>
+<p><strong>Education:</strong> Open source projects provide excellent opportunities to learn. Whether you're a beginner looking to understand a new language, or an experienced programmer exploring a new domain, there's no better teacher than real-world experience.</p>
+</li>
+<li>
+<p><strong>Career Development:</strong> Contributing to open source can open doors for your career. Many employers value such contributions because they demonstrate technical skills, collaborative spirit, and passion for your work.</p>
+</li>
+</ol>
+<h2>Getting Started with Open Source Contribution</h2>
+<p>Ready to contribute? Here's a step-by-step guide to get you started:</p>
+<h3>Step 1: Find a Project</h3>
+<p>To start contributing to an open-source project, you need to find a project that aligns with your interests or skills. Websites like <a href="https://github.com/" target="_new">GitHub</a>, <a href="https://about.gitlab.com/" target="_new">GitLab</a>, and <a href="https://sourceforge.net/" target="_new">SourceForge</a> are filled with open-source projects.</p>
+<h3>Step 2: Understand the Project</h3>
+<p>Spend some time understanding the project and its rules. Most projects have a README file and a CONTRIBUTING guide that outlines the steps to contribute and the rules to follow.</p>
+<h3>Step 3: Set Up Your Environment</h3>
+<p>Make sure your coding environment is set up correctly. You may need to install specific software, dependencies, or development tools, all typically mentioned in the project's documentation.</p>
+<h3>Step 4: Pick a Task</h3>
+<p>Choose a task to work on. Many projects use issue trackers listing bugs to fix, features to add, and more. As a beginner, look for issues tagged as "good first issue" or "beginner-friendly".</p>
+<h3>Step 5: Get to Work</h3>
+<p>Create your own branch of the project and start coding. Be sure to follow the coding style and practices of the project.</p>
+<h3>Step 6: Submit Your Contribution</h3>
+<p>Once you're satisfied with your changes, it's time to submit a pull request. A project maintainer will review your work and, if accepted, merge it into the main project.</p>
+<h2>The Future is Open Source</h2>
+<p>Open source isn't just a software development method; it's a philosophy that promotes collaboration, inclusivity, and learning. Contributing to open-source projects can help shape the future of technology, and there's no better time to start than now. So, find a project that sparks your interest and start contributing – it's a journey worth embarking on</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>When the Clouds Darkened - Unpacking the AWS US-East-1 Outage</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/when-the-clouds-darkened-unpacking-the-aws-us-east-1-outage/index.html"/>
+        <id>https://blog.thefourcraft.com/when-the-clouds-darkened-unpacking-the-aws-us-east-1-outage/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/56/When-the-Clouds-Darkened-Unpacking-the-AWS-US-East-1-Outage.png" medium="image" />
+            <category term="Documentary"/>
+            <category term="DevOps"/>
+            <category term="AWS"/>
+
+        <updated>2023-07-08T13:26:17+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/56/When-the-Clouds-Darkened-Unpacking-the-AWS-US-East-1-Outage.png" alt="" />
+                    <p>On December 7, 2021, the digital world experienced a significant disruption. Amazon Web Services (AWS), one of the world's most extensive cloud service providers, faced a substantial outage in its US-East-1 region. The impact was far-reaching, affecting numerous online services and applications, from popular streaming platforms to everyday services.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/56/When-the-Clouds-Darkened-Unpacking-the-AWS-US-East-1-Outage.png" class="type:primaryImage" alt="" /></p>
+                <p>On December 7, 2021, the digital world experienced a significant disruption. Amazon Web Services (AWS), one of the world's most extensive cloud service providers, faced a substantial outage in its US-East-1 region. The impact was far-reaching, affecting numerous online services and applications, from popular streaming platforms to everyday services.</p>
+
+<div class="flex-1 overflow-hidden">
+<div class="react-scroll-to-bottom--css-jramy-79elbk h-full dark:bg-gray-800">
+<div class="react-scroll-to-bottom--css-jramy-1n7m0yu">
+<div class="flex flex-col text-sm dark:bg-gray-800">
+<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
+<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
+<div class="flex flex-grow flex-col gap-3">
+<div class="flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h2>The Outage Begins</h2>
+<p>The day they started like any other Tuesday. However, at approximately 10:30 AM Eastern Time, things began to go awry in Amazon's North Virginia region, known as "us-east-1". Over the next three minutes, several regional AWS services started experiencing issues. This wasn't a complete outage for all these services. Still, their functionality was significantly impaired, causing a ripple effect that disrupted the operations of many businesses and services relying on AWS.</p>
+<p>The services affected included the Management console, Route 53, API Gateway, EventBridge, Amazon Connect, and EC2. The outage affected all availability zones in us-east-1 and disrupted a number of global services that are homed in this region. This included AWS Account root logins, Single Sign-On (SSO), and the Security Token Service (STS).</p>
+<h2>Event Timeline </h2>
+<ul>
+<li>
+<p><strong>7:30 AM PST</strong>: An automated activity to scale capacity of one of the AWS services triggered an unexpected behavior, resulting in a significant surge of connection activity that overwhelmed the networking devices between the internal network and the leading AWS network. This caused delays in communication between these networks, leading to increased latency and errors.</p>
+</li>
+<li>
+<p><strong>9:28 AM PST</strong>: AWS teams completed work on moving the internal DNS traffic away from the congested network paths, which resulted in the complete recovery of DNS resolution errors. This improved the availability of several impacted services by reducing the load on the impacted networking devices but did not fully resolve the AWS service impact or eliminate the congestion.</p>
+</li>
+<li>
+<p><strong>1:34 PM PST</strong>: Congestion significantly improved as the operations teams applied remediation actions.</p>
+</li>
+<li>
+<p><strong>2:22 PM PST</strong>: All network devices fully recovered. However, full recovery for Amazon Secure Token Service (STS) occurred at 4:28 PM PST.</p>
+</li>
+<li>
+<p><strong>4:37 PM PST</strong>: API Gateway largely recovered, but customers may have continued to experience low errors and throttling for several hours as API Gateways fully stabilized.</p>
+</li>
+<li>
+<p><strong>5:00 PM PST</strong>: Fargate API error rates began returning to normal.</p>
+</li>
+<li>
+<p><strong>6:40 PM PST</strong>: EventBridge experienced high event delivery latency until this time as it processed the backlog of events.</p>
+</li>
+</ul>
+<h2>The Impact</h2>
+<p>The impact of the outage was broad and far-reaching. It caused various problems for services like Netflix, Disney Plus, Roomba, Ticketmaster, and the Wall Street Journal. It also affected many Amazon services, including Prime Music, Ring doorbells, logistics apps in their fulfillment centers, and some parts of the Amazon.com shopping site.</p>
+<p>The outage highlighted the interconnectedness of digital services and the potential domino effect that can occur when a primary cloud service provider experiences issues. It was a stark reminder of the potential risks of relying heavily on a single cloud service provider.</p>
+<h2>The Root Cause</h2>
+<p>After the dust settled, AWS provided a detailed explanation of what had caused the outage. The root cause was an unexpected behavior triggered by an automated system trying to scale up an internal service running on AWS's private internal network. This led to a significant surge of connection activity that overwhelmed the networking devices between the internal network and the leading AWS network, resulting in delays in communication between these networks.</p>
+<p>These delays increased latency and errors for services communicating between these networks, leading to persistent congestion and performance issues on the devices connecting the two networks. This congestion immediately impacted the availability of real-time monitoring data for AWS's internal operations teams, which impaired their ability to find and resolve the source of congestion.</p>
+<h2>The Aftermath and Lessons Learned</h2>
+<p>The outage had a significant impact on AWS's reputation. However, it also provided valuable lessons for AWS and its users. AWS has since taken several actions to prevent a recurrence of this event. They have turned off the scaling activities that triggered the event and are working on fixing a latent issue that prevented their systems from adequately backing off during the event.</p>
+<p>This incident serves as a reminder of the importance of designing robust and resilient systems. It also underscores the need for effective communication during operational issues. AWS has acknowledged the need to improve customer communication during such events and is planning significant upgrades.</p>
+<h2>Looking Forward</h2>
+<p>While the AWS outage was a significant event that caused widespread disruption, it also provided valuable lessons. It highlighted the importance of resilience in system design and the need for effective communication during operational issues. As AWS continues to learn from this event and improve its systems, users can also take this opportunity to evaluate their systems and consider how they can enhance their resilience to such events in the future.</p>
+<p>In the world of cloud computing, outages are inevitable. However, they can be mitigated through robust system design, effective communication, and continuous learning from past incidents. The December 2021 AWS outage was a stark reminder of this reality. As we progress, cloud service providers and users must take these lessons to heart, continually striving to improve system resilience and response strategies.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transparent dark:md:bg-vert-dark-gradient pt-2 md:pl-2 md:w-[calc(100%-.5rem)]"><form class="stretch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-w-3xl">
+<div class="relative flex h-full flex-1 items-stretch md:flex-col" role="presentation">
+<div class="">
+<div class="h-full flex ml-1 md:w-full md:m-auto md:mb-2 gap-0 md:gap-2 justify-center"> </div>
+</div>
+</div>
+</form></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How Does גיימינג.ישראל Work?</title>
         <author>
@@ -23,7 +358,7 @@
             <category term="Gaming"/>
             <category term="AWS"/>
 
-        <updated>2023-07-01T22:41:45+03:00</updated>
+        <updated>2023-07-01T23:54:16+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/55/How-Does-gyymyng-yshrl-Work.png" alt="" />
@@ -146,7 +481,7 @@
             <category term="Gaming"/>
             <category term="AWS"/>
 
-        <updated>2023-07-01T20:43:53+03:00</updated>
+        <updated>2023-07-03T10:08:53+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/54/I-Created-Ultimate-Hub-for-Gaming-In-Israel.png" alt="" />
@@ -164,7 +499,7 @@
 <h2>List Your Gaming Servers and More</h2>
 <p>Are you looking to showcase your multiplayer game? Look no further. <a href="https://גיימינג.ישראל" target="_blank" rel="sponsored noopener noreferrer">גיימינג.ישראל</a> provides a comprehensive platform for users to list their gaming servers and attract fellow gamers. Whether you're a developer, a community leader, or a gaming enthusiast, my platform offers the ideal avenue to reach your target audience and build a thriving gaming community.</p>
 <h2>Hold On... How's The Domain Name In Hebrew!?</h2>
-<p>The new Country Code top-level domain (ccTLD) .ישראל is launched! On November 22, 2022, the Israel Internet Association (ISOC-IL) started offering the public the option to register Hebrew domain names under a new national TLD – .ישראל. Now, Israelis have two available TLDs: ישראל and .il.</p>
+<p>The new Country Code top-level domain (ccTLD) .ישראל has launched! On November 22, 2022, the Israel Internet Association (ISOC-IL) started offering the public the option to register Hebrew domain names under a new national TLD – .ישראל. Now, Israelis have two available TLDs: ישראל and .il.</p>
 <p>Notably, while the ability to register a .ישראל domain is exciting, it's important to note that not all web apps and online services may support it initially. ISOC-IL is actively working to expand the support for the new TLD in various apps and platforms. Still, this process will take time due to the many browsers, messaging apps, online services, and email apps available.</p>
 <h3>How do non-Latin domain names work?</h3>
 <p>Domain names in Hebrew (and other languages) utilize a set of standards called IDN (Internationalized Domain Names). Hebrew domain names are translated into strings containing Latin letters, numbers, and hyphens, decoded by the domain name system (DNS). For example, the domain name "גיימינג.ישראל" is represented as "xn--6dbauaa3ap.xn--4dbrk0ce". While many browsers already support IDN standards, email software, and other applications still adopt them.</p>
@@ -374,425 +709,6 @@ SQL injection can be used to manipulate a standard SQL query to exploit non-vali
 </div>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Dev Deletes Entire Production Database</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/dev-deletes-entire-production-database-chaos-ensues/index.html"/>
-        <id>https://blog.thefourcraft.com/dev-deletes-entire-production-database-chaos-ensues/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/51/Dev-Deletes-Entire-Production-Database.png" medium="image" />
-            <category term="GitLab"/>
-
-        <updated>2023-06-24T16:30:04+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/51/Dev-Deletes-Entire-Production-Database.png" alt="" />
-                    On a seemingly ordinary day at GitLab HQ, a disaster was about to unfold. GitLab, an open-source code sharing platform,&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/51/Dev-Deletes-Entire-Production-Database.png" class="type:primaryImage" alt="" /></p>
-                <p>On a seemingly ordinary day at GitLab HQ, a disaster was about to unfold. GitLab, an open-source code sharing platform, operates fully remotely, and on this day, one of their team members was about to sign off for the day, unaware of the catastrophe that lay ahead.</p>
-<h2>The Beginning of the Crisis</h2>
-<p>At 6 PM UTC, the team member was paged in due to high database load. Upon investigation, he noticed a dramatic increase in the total number of snippets, leading him to assume that the root cause was spam. This was a fair assumption as GitLab had been experiencing similar spam issues in the past week, albeit less severe. Over the next few hours, the team attempted to block certain spam IPs and delete spam users.</p>
-<p>By 9 pm, they were alerted to an elevated number of locks in the database. Whenever write transactions are made to a record, it enforces a lock, forcing further writes to the record to wait for the first one to finish. This ensures that the writes do not interfere with each other. More spam meant more writes, more locks, and more latency. The engineers continued to search for other sources of spam.</p>
-<h2>The Alarm Bells Ring</h2>
-<p>Suddenly, a different alarm went off, this time for database replication lag. GitLab had two databases: a primary one and a secondary replica. Users would write to the primary database, which would then forward the same write to the secondary. The process of forwarding the identical writes to the secondary database is called replication, and over 4 gigabytes of data in the primary database failed to replicate in the secondary. This was a novel issue without proper documentation, so the team member stayed online to support the team.</p>
-<h2>The Failed Attempt to Restore</h2>
-<p>The team decided to use the PostgreSQL command <code>pg_basebackup</code> to create a backup from the live database. The plan was to remove the existing incomplete data on the secondary database and run <code>pg_basebackup</code> to copy the current primary database data to the secondary and then restart replication from there. However, the command failed, complaining that the primary database did not have enough replication clients.</p>
-<p>In response, the team member SSH-ed onto the primary database and increased this value in the config. Upon attempting to reload Postgres, it complained that there were too many open connections, which happens when max connections is set too high. He lowered this value, and this time the settings applied without issue.</p>
-<p>However, when he ran <code>pg_basebackup</code> again, it appeared to just hang and do nothing. Frustration began to kick in. The engineers thought perhaps the prior attempts to run <code>pg_basebackup</code> before the configuration changes had created some buggy files in the data directory, interfering with the current run. The fix would be to remove these files and try again.</p>
-<h2>The Catastrophic Mistake</h2>
-<p>"Well might as well give it a shot," thought the team member, "a hard reset to start on a clean slate, so to say." He prepared the command to <code>rm -rf</code> the directory and ran it in his shell session. Immediately after pressing enter, he noticed the shell in which he ran the command was the one connected to the live production primary database. He tried to stop the command, but it was too late. Of the over 300 gigabytes of data, only 4.5 was left. The secondary database had previously been wiped of data before running the backup command. GitLab now officially had zero data in any of their production database servers.</p>
-<h2>The Recovery Process</h2>
-<p>The team scrambled to find a copy of the production data. They checked for the database backups that were supposed to be uploaded to S3 but found nothing there. They also checked for disk snapshots, butthey found they didn't actually take these snapshots for their database servers as they assumed the other backup procedures were sufficient. Lastly, they checked for logical volume snapshots or backups of the file system.</p>
-<p>GitLab had a staging database for testing which periodically captured snapshots from the primary database to remain up to date with production. These snapshots were normally captured once every 24 hours, but luckily, the team member had taken a snapshot six hours before the outage.</p>
-<p>Now there were two choices: they could copy either the entire LVM snapshot or just the Postgres data directory from staging to production. The amount of data was similar in both options, but they opted to copy the data directory as that would be easier to restore from.</p>
-<p>However, their staging environment used Azure Classic in a different region, without premium storage, which they could not retroactively upgrade. Therefore, data transfer rates were limited to around 60 megabits per second. Copying the data to production took a solid 18 hours and nearly 24 hours later, GitLab was back up to normal operation.</p>
-<p>The only caveat was that all database data such as projects, issues, and snippets created in the six hours between the LVM snapshot and the outage were permanently lost. This affected around 5000 projects, 5000 comments, and 700 users.</p>
-<h2>Lessons Learned</h2>
-<p>Post incident, it was discovered that the replication lag was actually caused by a background job trying to delete a GitLab employee's account due to it being reported for abuse by a troll in combination with the other spam.</p>
-<p>The team also discovered that the database backups weren't uploaded to S3 because the server which was taking the database backups was using the wrong version of Postgres. These failures should have sent warning emails but they never received any of them because they forgot to enable DMARC authentication on the backup server.</p>
-<p>The incident highlighted the importance of having a second pair of eyes to review commands before running them, especially in a production environment. It also emphasized the need for thorough load testing and regular testing of backup procedures.</p>
-<p>In the end, the team member was not fired. There were many factors which led to that <code>rm -rf</code> moment and many more factors which led to it taking 18 hours to recover from there, none of which were a single person's fault. GitLab's CEO personally apologized for the outage, and GitLab never accidentally deleted their production database ever again.</p>
-<p>This incident serves as a stark reminder of the importance of robust backup procedures, careful command execution, and thorough testing in maintaining the integrity of production databases.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Terraform: A Game-Changer</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/terraform-a-game-changer-for-code-deployment/index.html"/>
-        <id>https://blog.thefourcraft.com/terraform-a-game-changer-for-code-deployment/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/50/Terraform-A-Game-Changer.png" medium="image" />
-            <category term="Terraform"/>
-            <category term="HashiCorp"/>
-            <category term="DevOps"/>
-
-        <updated>2023-06-24T16:24:09+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/50/Terraform-A-Game-Changer.png" alt="" />
-                    <p>Terraform, a tool developed by HashiCorp, has revolutionized how developers deploy code. This open-source infrastructure as code (IaC) software tool enables developers to define and provide data center infrastructure using a declarative configuration language. </p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/50/Terraform-A-Game-Changer.png" class="type:primaryImage" alt="" /></p>
-                <p>Terraform, a tool developed by HashiCorp, has revolutionized how developers deploy code. This open-source infrastructure as code (IaC) software tool enables developers to define and provide data center infrastructure using a declarative configuration language. </p>
-
-<h2>What is Infrastructure as Code (IaC)?</h2>
-<p>Infrastructure as Code (IaC) manages and provides computing infrastructure with machine-readable definition files rather than hardware configuration or interactive configuration tools. It's a way to automate your infrastructure to make it quicker, more efficient, and less error-prone.</p>
-<p>The concept of IaC revolves around the idea of declarative programming. Instead of writing code to perform iterative or procedural actions based on the current state of your environment, you describe what the expected state of your environment should look like, and Terraform will perform the necessary changes to achieve it. This approach keeps the definition of your system concise and understandable, even as the infrastructure becomes more complex.</p>
-<h2>Why Use Terraform?</h2>
-<p>Terraform is not the only tool that can do infrastructure as code, but it's probably the most ubiquitous. It allows you to build, change, and version Cloud resources safely and efficiently. Here are some of the key benefits of using Terraform:</p>
-<ol>
-<li>
-<p><strong>Deterministic and Repeatable Method for Managing Infrastructure</strong>: With Terraform, tearing down an entire environment and rebuilding it is possible in just two steps. This makes managing your infrastructure more predictable.</p>
-</li>
-<li>
-<p><strong>Version Control</strong>: By checking your code into a Version Control System such as Git, you get all its benefits, such as having your IaC reviewed by other developers and having a log of changes made to your environment.</p>
-</li>
-<li>
-<p><strong>Automation</strong>: Terraform allows you to automate the deployment process. For example, rather than manually deploying any changes you make to your Lambda function each time you make them, you can set up a continuous deployment pipeline to apply your changes whenever you commit to your main branch.</p>
-</li>
-</ol>
-<h2>Deploying Infrastructure with Terraform</h2>
-<p>To illustrate Terraform's work, consider a simple scenario: deploying an app with an AWS Lambda function, an SQS queue, and an S3 bucket. Here's how you can use Terraform to deploy this infrastructure:</p>
-<ol>
-<li>
-<p><strong>Install Terraform</strong>: The first step is to install Terraform on your system. You can use a tool like then, which allows you to manage different versions of Terraform.</p>
-</li>
-<li>
-<p><strong>Define Your Infrastructure</strong>: In Terraform, you define your infrastructure in .tf files using the HashiCorp Configuration Language (HCL). For example, you can specify an S3 bucket resource in a file called main.tf.</p>
-</li>
-<li>
-<p><strong>Initialize Terraform</strong>: Once you've defined your infrastructure, you can initialize Terraform in your project directory using the <code>Terraform init</code> command. This command downloads the necessary provider plugins.</p>
-</li>
-<li>
-<p><strong>Plan and Apply Changes</strong>: With Terraform, you can see the changes that will be made to your infrastructure before they are applied. You can do this using the <code>terraform plan</code> command. You can apply the changes using the Terraform apply base if everything looks good.</p>
-</li>
-<li>
-<p><strong>Destroy Resources</strong>: If you want to tear down the resources you've created, you can use the <code>terraform destroy</code> command.</p>
-</li>
-</ol>
-<h2>Conclusion</h2>
-<p>Terraform has forever changed the way developers deploy code. It brings a level of automation and predictability to infrastructure management that was previously difficult to achieve. By treating infrastructure as code, Terraform allows developers to take full advantage of version control systems and continuous integration/continuous deployment (CI/CD) pipelines, leading to more reliable and efficient infrastructure deployments.</p>
-<p>However, as with any tool, using Terraform responsibly is essential. Always review the changes that Terraform plans to make before applying them, and be mindful of the resources you create to avoid unnecessary costs. And remember, while Terraform can make your life much easier, it's not a silver bullet. It's a powerful tool in a developer's toolkit but must be used with good practices and careful planning.</p>
-<p>Ultimately, using a tool like Terraform makes your infrastructure more manageable, reliable, and efficient. Treating your infrastructure as code can bring all the benefits of modern software development practices to the infrastructure management world. And that's a game-changer.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How One Line of Code Almost Blew Up the Internet</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/how-one-line-of-code-almost-blew-up-the-internet/index.html"/>
-        <id>https://blog.thefourcraft.com/how-one-line-of-code-almost-blew-up-the-internet/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/49/How-One-Line-of-Code-Almost-Blew-Up-the-Internet.png" medium="image" />
-            <category term="Zero Trust"/>
-            <category term="Vulnerability"/>
-            <category term="Security"/>
-            <category term="Network"/>
-            <category term="Google"/>
-            <category term="Documentary"/>
-            <category term="Cloudflare"/>
-
-        <updated>2023-06-16T10:13:21+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/49/How-One-Line-of-Code-Almost-Blew-Up-the-Internet.png" alt="" />
-                    <p>The digital realm is intricately woven into the fabric of our modern society, and at its core lies an intricate network of codes. Each line of this code bears the potential to either sustain the digital world as we know it or disrupt it entirely. Let's delve into a fascinating incident that nearly shook the internet's foundation – a tale of how a single line of code in <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="2" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s system almost led to a catastrophic leakage of private information. This incident is a stark reminder of the fragility of the digital infrastructure we often take for granted and the critical importance of rigorous testing and code review processes. Buckle up for a deep dive into the incident that almost blew up the internet on February 24, 2017.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/49/How-One-Line-of-Code-Almost-Blew-Up-the-Internet.png" class="type:primaryImage" alt="" /></p>
-                <p>The digital realm is intricately woven into the fabric of our modern society, and at its core lies an intricate network of codes. Each line of this code bears the potential to either sustain the digital world as we know it or disrupt it entirely. Let's delve into a fascinating incident that nearly shook the internet's foundation – a tale of how a single line of code in <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="2" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s system almost led to a catastrophic leakage of private information. This incident is a stark reminder of the fragility of the digital infrastructure we often take for granted and the critical importance of rigorous testing and code review processes. Buckle up for a deep dive into the incident that almost blew up the internet on February 24, 2017.</p>
-
-<h2>The Bug That Shook The Internet</h2>
-<p>On February 24, 2017, the internet faced a potential catastrophe. An incident involving <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="3" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>, a company that provides performance and security services to millions of websites, threatened to spill private data across the web. The issue was a memory leak caused by a <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="5" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s HTML parser bug. Tavis Ormandy first reported the bug from Google’s Project Zero, who noticed corrupted web pages returned by some HTTP requests run through Cloudflare.</p>
-<p><a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:407222" data-guid="4" data-object-urn="urn:li:organization:407222" data-original-text="Cloudflare" spellcheck="false">Cloudflare</a>'s edge servers, under certain unusual circumstances, were returning memory containing private data like HTTP cookies, authentication tokens, and HTTP POST bodies. Some of this data had even been cached by search engines, increasing the potential damage. While this sounds alarming, it's worth noting that Cloudflare customer SSL private keys were not leaked due to the isolation of SSL connections through an instance of NGINX unaffected by this bug.</p>
-<h2>Taking Immediate Action</h2>
-<p>The seriousness of the bug led to the immediate formation of a cross-functional team from software engineering, infosec, and operations in San Francisco and London. The team worked round the clock, with 12-hour shifts, to ensure a 24-hour work cycle. They aimed to understand the cause and the extent of the memory leakage and coordinate with <a class="ql-mention" href="https://www.linkedin.com/post/edit/7075015664599457792/#" data-entity-urn="urn:li:fsd_company:1441" data-guid="13" data-object-urn="urn:li:organization:1441" data-original-text="Google" spellcheck="false">Google</a> and other search engines to remove any cached HTTP responses. Thanks to their dedication, what could have taken three months to resolve under industry standards was fully dealt with globally in under 7 hours, with initial mitigation happening in just 47 minutes.</p>
-<p>The most significant impact period was between February 13 and February 18, with around 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulting in memory leakage. This translates to about 0.00003% of requests, but with the sheer volume of traffic Cloudflare handles, the implications were significant.</p>
-<h2>Unraveling The Root Cause</h2>
-<p>The root of the problem lay in Cloudflare's parsing system. Cloudflare uses a parser to modify HTML pages as they pass through their edge servers. It offers various services like inserting the Google Analytics tag, rewriting http:// links to https://, and more. This parser was written using Ragel, a state machine compiler, which had become too complex to maintain over the years. Consequently, Cloudflare began transitioning to a new parser named cf-html, which was faster and easier to maintain.</p>
-<p>The memory leak bug had been in the Ragel-based parser for years but was only triggered when the new parser cf-html was introduced. This caused changes in the buffering system, enabling the memory leak. As soon as the correlation with cf-html was identified, Cloudflare disabled three features that used it - email obfuscation, Server-side Excludes, and Automatic HTTPS Rewrites, effectively stopping almost all memory leaks within a few seconds. A third feature, Server-Side Excludes, was also vulnerable and quickly patched within three hours.</p>
-<h2>The Infamous One Line of Code</h2>
-<p>The root cause of the bug was a pointer error in the generated C code from Ragel. <br>The end of a buffer was checked using the equality operator, allowing the pointer to step past the end of the buffer, resulting in a buffer overrun. Had the check been done using the '&gt;=' operator instead of '==', the buffer overrun would have been caught.</p>
-<p>The Ragel code contained a bug that caused the pointer to jump over the end of the buffer and past the ability of an equality check to spot the buffer overrun. This error was triggered particularly when parsing broken HTML tags at the end of a web page. An example of such a tag is <code>&lt;script type=</code>. In such cases, the buffer would be overrun. Statistically, such broken tags occur on about 0.06% of websites.</p>
-<h2>Incident Timeline</h2>
-<ul>
-<li>
-<p>At an unspecified date, Cloudflare decided that their Ragel-based parser had become too complex to maintain, so they started to write a new parser, named cf-html, to replace it. This parser was used to modify HTML pages on the fly as they passed through Cloudflare's edge servers, for functions such as obfuscating email addresses, enabling AMP, inserting Google Analytics tags, and more.</p>
-</li>
-<li>
-<p>A bug existed in Cloudflare's use of the Ragel-based parser that would result in a memory leak. However, this bug was not exposed until the introduction of cf-html, which subtly changed the buffering and enabled the leakage. The bug was not in the Ragel parser or cf-html itself, but in the way Cloudflare used Ragel.</p>
-</li>
-<li>
-<p>On February 13, Cloudflare changed the Email Obfuscation feature, which was one of the features that activated cf-html. This became the primary cause of the memory leak.</p>
-</li>
-<li>
-<p>Between February 13 and February 18, approximately 1 in every 3,300,000 HTTP requests through Cloudflare potentially resulted in memory leakage, which is about 0.00003% of requests.</p>
-</li>
-<li>
-<p>On an unspecified Friday, Tavis Ormandy from Google’s Project Zero contacted Cloudflare to report a security problem with Cloudflare's edge servers. He was observing corrupted web pages being returned by some HTTP requests run through Cloudflare. The edge servers were running past the end of a buffer and returning memory that contained private information such as HTTP cookies, authentication tokens, HTTP POST bodies, and other sensitive data.</p>
-</li>
-<li>
-<p>Cloudflare responded by forming a cross-functional team from software engineering, infosec, and operations in San Francisco and London. They worked to fully understand the underlying cause, understand the effect of the memory leakage, and to work with Google and other search engines to remove any cached HTTP responses.</p>
-</li>
-<li>
-<p>47 minutes after receiving details of the problem, Cloudflare activated the global kill for the Email Obfuscation feature, stopping almost all memory leaks. 3 hours and 5 minutes later, they activated the global kill for the Automatic HTTPS Rewrites feature. They confirmed that they were not seeing memory leakage via test URIs and had Google double check that they saw the same thing.</p>
-</li>
-<li>
-<p>Cloudflare discovered that a third feature, Server-Side Excludes, was also vulnerable. Since it was an older feature, it did not have a global kill switch. They implemented a global kill for Server-Side Excludes and deployed a patch to their fleet worldwide, which took roughly three hours.</p>
-</li>
-<li>
-<p>The root cause of the bug was a pointer error. The Ragel code that Cloudflare wrote contained a bug that caused the pointer to jump over the end of the buffer and past the ability of an equality check to spot the buffer overrun. This error was found to occur when the webpage ended with a broken HTML tag. From their statistics, they found that such broken tags at the end of the HTML occur on about 0.06% of websites.</p>
-</li>
-<li>
-<p>Cloudflare stated that they fixed the bug and its consequences globally in under 7 hours with an initial mitigation in 47 minutes. They also emphasized that Cloudflare customer SSL private keys were not leaked and that they have not discovered any evidence of malicious exploits of the bug or other reports of its existence.</p>
-</li>
-</ul>
-<h2>A Close Call and Lessons Learned</h2>
-<p>This incident was a close call for the internet. With a significant number of websites relying on Cloudflare's services, the potential leak of private data could have had far-reaching consequences. However, the swift action taken by Cloudflare's team, their transparency about the problem, and the steps taken to mitigate the issue serve as an excellent example of handling security crises.</p>
-<p>Moreover, the incident underscores the importance of rigorous testing and code review processes, especially when dealing with critical systems handling sensitive data. Even a seemingly innocuous code change can have unforeseen and widespread effects, reminding us all of the profound responsibility and potential impact of a single line of code.</p>
-<h2>Sources</h2>
-<ul>
-<li>
-<p><a href="https://techcrunch.com/2023/03/10/cloudflare-outage/" target="_new">Cloudflare outage takes down a large portion of the internet</a></p>
-</li>
-<li><a href="https://blog.cloudflare.com/quantifying-the-impact-of-cloudbleed/" target="_blank" rel="noopener noreferrer">Quantifying the Impact of "Cloudbleed"</a></li>
-<li><a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1139" target="_blank" rel="noopener noreferrer">Issue 1139: cloudflare: Cloudflare Reverse Proxies are Dumping Uninitialized Memory</a></li>
-<li><a href="https://asamborski.github.io/cs558_s17_blog/2017/04/08/cloudbleed.html" target="_blank" rel="noopener noreferrer">Cloudbleed</a></li>
-<li><a href="Ragel State Machine Compiler" target="_blank" rel="noopener noreferrer">Ragel State Machine Compiler</a></li>
-<li><a href="https://arstechnica.com/information-technology/2017/02/serious-cloudflare-bug-exposed-a-potpourri-of-secret-customer-data/" target="_new">Details about the Cloudflare memory leak incident - Ars Technica</a></li>
-<li><a href="https://news.ycombinator.com/item?id=13718752" target="_new">Discussion on the Cloudflare memory leak incident - Hacker News</a></li>
-<li><a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1139" target="_new">Initial report by Tavis Ormandy - Project Zero</a></li>
-<li><a href="https://github.com/pirate/sites-using-cloudflare" target="_new">Github - Cloudflare's incident report and timeline</a></li>
-<li><a href="https://www.theverge.com/2023/3/12/22228956/cloudflare-outage-down-detector-web-performance" target="_new">Cloudflare’s bad software deployment led to a big web slowdown</a></li>
-<li><a href="https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/" target="_new">Incident report on memory leak caused by Cloudflare parser bug</a></li>
-<li><a href="https://www.youtube.com/watch?v=GEbn3nHyKnA&amp;t=234s" target="_blank" rel="noopener noreferrer">How One Line of Code Almost Blew Up the Internet</a> - <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/@kevinfaang" dir="auto">Kevin Fang</a></li>
-</ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>A Deep Dive into playit.gg</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/a-deep-dive-into-playitgg/index.html"/>
-        <id>https://blog.thefourcraft.com/a-deep-dive-into-playitgg/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/48/A-Deep-Dive-into-playit.gg.png" medium="image" />
-            <category term="playit.gg"/>
-            <category term="Security"/>
-            <category term="Product Recommendation"/>
-            <category term="My Personal Opinion"/>
-            <category term="DDos"/>
-            <category term="Cloudflare"/>
-            <category term="Cloud Security"/>
-
-        <updated>2023-06-15T10:37:10+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/48/A-Deep-Dive-into-playit.gg.png" alt="" />
-                    <p>In the world of online gaming, server infrastructure is a critical component. As players, we often take the technology that makes our online adventures possible for granted. Let's talk about a service revolutionizing how we think about gaming servers: <a href="https://playit.gg/" rel="noopener nofollow" target="_blank">playit.gg</a>.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/48/A-Deep-Dive-into-playit.gg.png" class="type:primaryImage" alt="" /></p>
-                <p>In the world of online gaming, server infrastructure is a critical component. As players, we often take the technology that makes our online adventures possible for granted. Let's talk about a service revolutionizing how we think about gaming servers: <a href="https://playit.gg/" rel="noopener nofollow" target="_blank">playit.gg</a>.</p>
-
-<h2>What is playit.gg?</h2>
-<p>playit.gg is a forward-thinking service allowing anyone to create free secure gaming servers. In a world where the cost of maintaining infrastructure can hinder creative endeavors, playit.gg steps up to provide an invaluable resource to the gaming community.</p>
-<p>The platform is not just about cost savings, though. It's also about security, reliability, and performance. And this is where our technical deep dive begins: with the magic of an anycast network.</p>
-<blockquote>
-<div class="info-section margin-top">
-<p>playit.gg is a networking service that make it possible to host game servers at home that anyone across the world can join. We do this through our custom tunneling software. You can find our opensource client <a href="https://playit.gg/about" rel="noreferrer">here</a>. When you launch the playit program, the program will connect to our Anycast Network and assign you a static IP and port. You can then share your static IP and port with friends. When they connect, their connection information will go to the nearest tunnel server and be tunneled to the playit program running on your computer. By tunneling the connection, your friend is able to connect to the server running within your network.</p>
-<p>From the About page on the website :) </p>
-</div>
-</blockquote>
-<h2>What is an Anycast network?</h2>
-<p>Anycast is a network addressing and routing methodology that enables routing inbound requests to different locations, depending on factors like congestion, distance, and link health. In the context of DevOps and network management, anycast offers tremendous advantages.</p>
-<p>In a conventional unicast network, a single IP address is tied to a single device. An IP address can be assigned to multiple devices with anycast, typically servers distributed across different geographical locations. When a user requests an anycast IP address, network protocols determine the best path to one of these servers, usually the closest or least congested.</p>
-<p>This has several implications for system resilience and performance. Anycast networks can handle heavy traffic loads, automatically routing around congestion and spreading demand across multiple servers. They can also improve latency, as users are routed to the nearest server.</p>
-<p>In addition, anycast networks can enhance security. For example, in the event of a Distributed Denial of Service (DDoS) attack, the traffic can be distributed across multiple servers, reducing the risk of any single server being overwhelmed. This is especially important for a gaming service like playit.gg, which needs to maintain uptime and performance even in the face of potential cyberattacks.</p>
-<blockquote>
-<p>An Anycast Network is a network where all of our IP addresses are available at all of our datacenters. When you or a player tries to communicate with a playit tunnel server, your ISP will route your connection to what they consider is the closet datacenter we operate in. ISPs don't always get this right so we're actively working of a new ways to improve this.</p>
-<p>From the About page on the website :) </p>
-</blockquote>
-<h2>How to use playit.gg?</h2>
-<p>Using playit.gg is straightforward. After signing up for an account, you can create your gaming server by following the prompts on the website. You can customize your server to suit your needs, including choosing the game you want to host, the number of players, and other settings.</p>
-<p>Once your server is set up, playit.gg provides an IP address you can share with other players. This IP address is hosted on playit.gg's anycast network, ensuring that your server benefits from resilience, performance, and security offered 100% free by playit.gg.</p>
-<h2>What do you get in the free tier?</h2>
-<p>playit.gg offers both free and premium tiers, with the free tier offering up to 4 TCP ports, 4 UDP ports, and a single firewall. For users on IPv6 networks, playit.gg offers immense flexibility with the ability to use any or all of your 65,000+ public ports on your IP. Additional features like custom domains and dedicated IP addresses are available as add-ons.</p>
-<h2>About DDoS Attacks and playit.gg</h2>
-<p>In 2023, Distributed Denial of Service (DDoS) attacks have become a significant threat to the online gaming industry, significantly reshaping its landscape. These attacks involve overwhelming a network, service, or server with internet traffic, causing it to slow down or crash. In the gaming context, these attacks target the game servers, disrupting the gaming experience for players and potentially leading to substantial financial losses for gaming companies.</p>
-<p>The most direct impact of a DDoS attack on a gaming server is the disruption it causes to the players. Games may become laggy, disconnect frequently, or entirely inaccessible, significantly affecting players' gaming experience. A successful DDoS attack for gaming companies can result in substantial financial losses. These can stem from lost revenue during the attack, the cost of mitigating the attack, and potential compensation to affected players. Frequent or severe DDoS attacks can damage a gaming company’s reputation, losing the player base.</p>
-<p>A service like playit.gg is acutely aware of the potential for DDoS attacks and has implemented measures to protect its users and maintain service quality. When you launch the playit program, the program will connect to playit.gg's Anycast Network and assign you a static IP and port. Your static IP and port can then be shared with friends. When they connect, their connection information will go to the nearest tunnel server and be tunneled to the playit program on your computer. By tunneling the connection, your friends can connect to the server running within your network.</p>
-<h2>What is the best part about playit.gg</h2>
-<p>One of the vital safety benefits of playit.gg is that it hides your IP, meaning that even if there is a DDoS attack, it won't affect your network. The service also lets you turn the "tunneling" off anytime by closing the program. Additionally, playit.gg features strong firewalls and better connection handling, further bolstering the service's resilience to DDoS attacks and other potential disruptions.</p>
-<h2>Challenges of DDoS Protection in Playit.gg</h2>
-<p>Despite the advantages of playit.gg's DDoS protection, some challenges come with it. One of the primary issues is the cost of maintaining a robust defense against DDoS attacks. In a message from Patrick, the founder and CEO of playit.gg, he acknowledges that the only viable way to handle these attacks is to invest more money in renting powerful servers. This could be a substantial expenditure, especially given the scale and frequency of the attacks.</p>
-<h2>About DDoS in gaming</h2>
-<p>The gaming industry is increasingly implementing measures to combat DDoS attacks. These include using DDoS protection services, educating players about DDoS attacks, and improving incident response capabilities. These measures aim to ensure the reliability and security of online gaming experiences and to minimize disruption to players​</p>
-<h2>On a Personal note</h2>
-<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
-<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
-<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap break-words">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>I deeply enjoy featuring remarkable tools on my blog and introducing them to a global audience. As a financial supporter of the playit.gg project, I cannot stress enough how much I believe in their mission and their service. I highly encourage you to try it out for yourself and perhaps consider becoming a supporter. The gaming community thrives with the support of its passionate members, and every contribution helps ensure the availability of innovative platforms like playit.gg. </p>
-<p>Written with 🥙 and ❤️ by me, ChatGPT, Google Bard &amp; perplexity.ai </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>DevSecAiOps The Future</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/devsecaiops-the-future/index.html"/>
-        <id>https://blog.thefourcraft.com/devsecaiops-the-future/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/46/DevSecAiOps-The-Future.png" medium="image" />
-            <category term="artificial intelligence"/>
-            <category term="The Future"/>
-            <category term="Security"/>
-            <category term="My Personal Opinion"/>
-            <category term="DevOps"/>
-            <category term="AI"/>
-
-        <updated>2023-06-11T08:50:00+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/46/DevSecAiOps-The-Future.png" alt="" />
-                    <p>Imagine a world where artificial intelligence seamlessly integrates and enhances a tech organization's development, security, and operations. This is the world of DevSecAiOps, a hypothetical future role that could revolutionize how we approach technology.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/46/DevSecAiOps-The-Future.png" class="type:primaryImage" alt="" /></p>
-                <p>Imagine a world where artificial intelligence seamlessly integrates and enhances a tech organization's development, security, and operations. This is the world of DevSecAiOps, a hypothetical future role that could revolutionize how we approach technology.</p>
-
-<h2>Defining DevSecAiOps</h2>
-<p>Today, we're familiar with DevSecOps, a methodology that integrates development, security, and operations. Its philosophy promotes closer collaboration between previously siloed lines, resulting in more efficient processes and better end products.</p>
-<p>DevSecAiOps, as the name implies, takes this one step further by incorporating AI into the mix. This means harnessing AI to improve, automate, and innovate across all areas of the DevSecOps process.</p>
-<h2>The Shift Toward AI</h2>
-<p>As AI becomes increasingly prevalent and sophisticated, its potential applications in DevOps are vast. From automating mundane tasks and speeding up development cycles to enhancing security measures and optimizing system operations, AI is a game-changer.</p>
-<h3>AI in Development</h3>
-<p>AI has the potential to streamline the development process significantly. It can automate coding, testing, debugging, and more. By reducing the human effort required for these tasks, developers can focus more on their work's strategic, creative, and complex aspects.</p>
-<h3>AI in Security</h3>
-<p>In the security realm, AI can be used to predict and identify threats more effectively. It can analyze patterns, detect anomalies, and respond to incidents faster than humanly possible. With AI, we can proactively mitigate risks and enhance the overall security posture of our systems.</p>
-<h3>AI in Operations</h3>
-<p>Regarding operations, AI can optimize resource allocation, system performance, and incident response. Predictive analytics can foresee potential issues, while automation can handle routine tasks, freeing human resources for more complex challenges.</p>
-<h2>Imagining the DevSecAiOps Role</h2>
-<p>The DevSecAiOps role would need a deep understanding of development, security, and operations and a solid grasp of AI. They must know how to apply AI to benefit these areas and align with the organization's goals.</p>
-<p>However, this doesn't mean every DevSecAiOps professional must be an AI expert. They would need a foundational understanding and the ability to work with AI specialists. Collaboration and continuous learning would be critical aspects of this role.</p>
-<h2>The Future of DevSecAiOps</h2>
-<p>As organizations embrace digital transformation, the demand for roles like DevSecAiOps will likely increase. The future of this role hinges on how rapidly AI evolves and how quickly organizations can adapt to these changes.</p>
-<p>Given the increasing reliance on AI in various industries, it's not far-fetched to imagine a role like DevSecAiOps emerging soon. This role is at the intersection of technology and innovation, poised to redefine the tech landscape.</p>
-<p>In conclusion, while DevSecAiOps doesn't exist today, it's a concept worth exploring. As the tech world evolves, roles like this could become a reality. The fusion of development, security, AI, and operations could be the next step in evolving tech roles, taking us into an exciting, uncharted future.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>&quot;fractureiser&quot; - Security Vulnerability in the CurseForge and Bukkit Platform</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/fractureiser-security-vulnerability-in-the-curseforge-and-bukkit-platform/index.html"/>
-        <id>https://blog.thefourcraft.com/fractureiser-security-vulnerability-in-the-curseforge-and-bukkit-platform/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/47/fractureiser-Security-Vulnerability-in-the-CurseForge-and-Bukkit-Platform.png" medium="image" />
-            <category term="Vulnerability"/>
-            <category term="Security"/>
-            <category term="Minecraft"/>
-            <category term="CurseForge"/>
-            <category term="Bukkit"/>
-
-        <updated>2023-06-07T14:12:06+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/47/fractureiser-Security-Vulnerability-in-the-CurseForge-and-Bukkit-Platform.png" alt="" />
-                    <p>The Minecraft community has recently been hit with shocking news. The widely used CurseForge and Bukkit platforms have reportedly been compromised. Many groups have reported malware uploaded on various projects, potentially through a security vulnerability in the <a href="https://www.overwolf.com/" target="_blank" rel="nofollow noopener noreferrer">Overwolf</a> platform.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/47/fractureiser-Security-Vulnerability-in-the-CurseForge-and-Bukkit-Platform.png" class="type:primaryImage" alt="" /></p>
-                <p>The Minecraft community has recently been hit with shocking news. The widely used CurseForge and Bukkit platforms have reportedly been compromised. Many groups have reported malware uploaded on various projects, potentially through a security vulnerability in the <a href="https://www.overwolf.com/" target="_blank" rel="nofollow noopener noreferrer">Overwolf</a> platform.</p>
-
-<h2>Who is Overwolf?</h2>
-<p>Overwolf is a software platform that allows gamers to create and use in-game apps. It was founded in 2010 by Uri Marchand, Gil Or, Alon Ranowitz, and Nir Finkelstein with a cash seed investment from Joseph (Yossi) Vardi.</p>
-<p><a href="https://www.perplexity.ai/search/230dd1cd-aa02-48cd-a453-96235392205c" target="_blank" rel="noopener noreferrer">By Perplexity AI</a></p>
-<h2>What is CurseForge and Bukkit Platform?</h2>
-<h3><strong>CurseForge</strong></h3>
-<ul class="list-disc list-outside">
-<li>CurseForge is a website that hosts Bukkit plugins, addons, mods, and customization content</li>
-<li>Overwolf owns it</li>
-<li>CurseForge is a popular platform for Minecraft modding, and it is known for being easy to use</li>
-</ul>
-<h3><span class=""><strong>Bukkit Platform</strong></span></h3>
-<ul class="list-disc list-outside">
-<li>Bukkit is a software platform that allows developers to create plugins for Minecraft servers</li>
-<li>Bukkit plugins can be used to add new features, modify gameplay, and improve server performance<a target="_blank" rel="noopener noreferrer" class="citation ml-xs inline" href="https://www.curseforge.com/minecraft/bukkit-plugins" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">
-<div class="inline-flex relative -top-[0.3rem] light font-sans text-base text-textOff dark:text-textOffDark selection:bg-super selection:text-white dark:selection:bg-opacity-50 selection:bg-opacity-70" style="display: inline !important;">
-<div class="inline-flex h-[1rem] min-w-[1rem] px-[0.2em] rounded-full items-center justify-center text-center font-semibold md:hover:text-white tabular-nums border-borderMain/75 dark:border-borderMainDark divide-borderMain dark:divide-borderMainDark ring-borderMain dark:ring-borderMainDark  transition duration-300 bg-offsetPlus dark:bg-offsetPlusDark md:hover:bg-super" style="display: inline !important;"> </div>
-</div>
-</a><span class="whitespace-nowrap"><br></span></li>
-<li>The Bukkit platform is hosted on CurseForge, which provides a repository for Bukkit plugins<span class="whitespace-nowrap"><br></span></li>
-</ul>
-<p><a href="https://www.perplexity.ai/search/aebf3a19-2224-439d-b67e-76340cfcc2a0?s=u" target="_blank" rel="noopener noreferrer">By Perplexity AI</a></p>
-<h2><strong>Overview of the Security Breach</strong></h2>
-<p>The CurseForge and Bukkit platforms, home to a multitude of Minecraft mods and plugins, have fallen victim to a massive cybersecurity breach. A substantial number of modpacks and mods, especially those on 1.16.5, 1.18.2, and 1.19.2 versions, were reportedly updated with malware. The unauthorized access to accounts and uploads of malicious files point towards a potential vulnerability in the Overwolf platform, which manages CurseForge and Bukkit.</p>
-<h2><strong>Diving Deeper into the Malware</strong></h2>
-<p>The malware was detected in mid-April and has since been injected into numerous popular plugins and mods. The affected accounts reportedly had two-factor authentication enabled, which suggests this isn't a simple password compromise but something potentially bigger on the CurseForge side.</p>
-<p>The malware appears to extract Microsoft credentials and browser-saved passwords. We strongly advise all users to RESET ALL OF THEIR PASSWORDS after they have removed the virus.</p>
-<h2><strong>Distribution</strong></h2>
-<p>Some modpacks have had updates published for them without the authors' knowledge, adding a dependency on malicious mods. The malicious mods have uploaded dates multiple weeks in the past. DUE TO CURSE'S USAGE, a CDN compromise or cache poisoning is not out of the question. numbers, thus giving it a botnet-like behavior. It runs a command to execute a function to download the program again and save it as a self-running file. This malware has infiltrated numerous modpacks, and even with immediate archiving, these files might become accessible again later, exposing hundreds of thousands of players to malware.</p>
-<p>The code execution mainly targets Linux users, possibly intending to infiltrate servers, but Windows users are not exempt from this threat. One particular file from this incident was not archived immediately and gained 10 downloads, implying it's possibly being disseminated through other platforms.</p>
-<p class="msg msg--warning">As a precautionary measure, it is highly recommended to avoid updating any mods or modpacks until this threat is effectively neutralized.</p>
-<h2><strong>Potential Impacts</strong></h2>
-<p>The impacts could be extensive with the number of potentially compromised accounts and the malware's capability to extract sensitive information like saved passwords. Users risk losing control of their accounts or sensitive personal and financial data. The broader impact on the Minecraft modding community is also severe, with the potential for widespread mistrust and uncertainty.</p>
-<h2>The Iris Project's Statement</h2>
-<p>The Iris Project, another prominent player in the Minecraft modding community, has also voiced its concerns about the issue. The project's team states that they believe numerous accounts on CurseForge have been compromised and are being used to upload malicious files containing bot-nets. They have assured their user base that they are actively investigating the situation.</p>
-<blockquote>
-<p class="p1">"We have reason to believe many accounts on CurseForge have been hacked and are uploading malicious files containing bot-nets. Luna Pixel Studios, the owner of many big modpacks, is one of the affected accounts. The situation is being actively looked into."</p>
-</blockquote>
-<h2>What Do We Learn</h2>
-<p>The CurseForge and Bukkit breach has brought the importance of cybersecurity to the forefront once again. It serves as a reminder of the persistent threats in the digital landscape. As we await the resolution of the issue, it's critical to stay vigilant, ensuring we take steps to protect our data and systems from potential threats.</p>
-<p>Stay vigilant, perform regular checks on your system, and keep an eye out for updates on this situation. Remember, your cybersecurity is in your hands!</p>
-<h2>References</h2>
-<ul>
-<li>For the latest news, check out this <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">document</a></li>
-<li>Luna Pixel Studios <a href="https://discord.com/channels/780522480867868723/780522480867868726/848382717102342165" target="_new">Announcement</a></li>
-<li>The Iris Project's <a href="https://discord.com/channels/703688753276715079/703688753276715082/848382165810339860" target="_new">Statement</a></li>
-<li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Windows Script</a></li>
-<li>Download <a href="https://hackmd.io/B46EYzKXSfWSF35DeCZz9A" target="_new">Linux Script</a></li>
-</ul>
-<p> </p>
             ]]>
         </content>
     </entry>
