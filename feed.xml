@@ -3,12 +3,68 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-07-23T10:37:26+03:00</updated>
+    <updated>2023-08-01T11:46:30+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Minecraft Mayhem: The BleedingPipe Exploit</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/minecraft-mayhem-the-bleedingpipe-exploit/index.html"/>
+        <id>https://blog.thefourcraft.com/minecraft-mayhem-the-bleedingpipe-exploit/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/62/Minecraft-Mayhem-The-BleedingPipe-Exploit.png" medium="image" />
+            <category term="Security"/>
+            <category term="Minecraft"/>
+            <category term="Malware"/>
+            <category term="Documentary"/>
+
+        <updated>2023-08-01T11:46:30+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/62/Minecraft-Mayhem-The-BleedingPipe-Exploit.png" alt="" />
+                    <p>A new exploit has been spotted in the wild, enabling complete remote code execution (RCE) on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge. </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/62/Minecraft-Mayhem-The-BleedingPipe-Exploit.png" class="type:primaryImage" alt="" /></p>
+                <p>A new exploit has been spotted in the wild, enabling complete remote code execution (RCE) on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge. </p>
+
+<p class="msg msg--warning">It's crucial to understand that this vulnerability doesn't stem from Forge itself but mods that employ unsafe deserialization code.</p>
+<h2>The Vulnerable Mods</h2>
+<p>Several mods have been pinpointed as susceptible to the BleedingPipe exploit. These include EnderCore, LogisticsPipes, BDLib, Smart Moving 1.12, Brazier, DankNull, and Gadomancy. It's imperative for both players and server administrators to either update these mods or remove them entirely to reduce the risk.</p>
+<h2>Tracing the Origins</h2>
+<p>The Java community has been aware of this kind of vulnerability, often termed as a deserialization attack or gadget chain, for quite some time. The first indications of this exploit within the Minecraft modding community can be traced back to March 2022, when a vulnerability in ObjectInputStream was hinted at on BDLib’s GitHub. The issue remained dormant until it resurfaced in July 2023, leading to widespread awareness and subsequent patching efforts.</p>
+<h2>The Exploitation Surge</h2>
+<p>Post the initial discovery, it was revealed that a malicious actor had scanned all Minecraft servers on the IPv4 address space to exploit vulnerable servers on a large scale. The exact contents of the exploit and its potential impact on other clients remain unknown.</p>
+<h2>Protective Measures</h2>
+<p>The ambiguity surrounding the exploit's payload makes detection a challenging task. However, server admins are advised to search for suspicious files and run malware detection tools like jSus or jNeedle on all installed mods. Conversely, players should conduct antivirus scans and check for suspicious files in their .minecraft directory.</p>
+<h2>Mitigating the Threat</h2>
+<p>Updating EnderIO or LogisticsPipes to the latest CurseForge versions is recommended to mitigate the risk. For BDLib users, a migration to the GT New Horizons fork is suggested. The PipeBlocker mod can also be installed on forge servers and clients for general mitigation.</p>
+<h2>A Technical Examination</h2>
+<p>The root cause of the BleedingPipe exploits lies in the use of ObjectInputStream for networking code in the affected mods. This sends packets with malicious serialization, enabling any code to be run on the server, which can then infect all clients.</p>
+<pre><code>// Hypothetical example of vulnerable code</code><br><code>public class VulnerableClass {</code><br><code>    public void executeCommand(String command) {</code><br><code>        try {</code><br><code>            Runtime.getRuntime().exec(command);</code><br><code>        } catch (IOException e) {</code><br><code>            e.printStackTrace();</code><br><code>        }</code><br><code>    }</code><br><code>}</code></pre>
+<p>In the example above, the <code>executeCommand</code> method is vulnerable to RCE because it executes any command it receives without any validation or sanitization. This is a simplified example; actual vulnerabilities can be much more complex and harder to spot.</p>
+<div class="bg-black rounded-md mb-4">
+<pre class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code>// Hypothetical example of a secure code</code><br><code>public class SecureClass {</code><br><code>    public void executeCommand(String command) {</code><br><code>        if (isValidCommand(command)) {</code><br><code>            try {</code><br><code>                Runtime.getRuntime().exec(command);</code><br><code>            } catch (IOException e) {</code><br><code>                e.printStackTrace();</code><br><code>            }</code><br><code>        }</code><br><code>    }</code><br><br><code>    private boolean isValidCommand(String command) {</code><br><code>        // Implement validation logic here</code><br><code>        return true;</code><br><code>    }</code><br><code>}</code></pre>
+<div>In the secure code version, the <code>executeCommand</code> method checks if the command is valid before executing it. This basic form of input validation can help prevent RCE attacks.</div>
+<div>
+<p>The BleedingPipe exploit is another stark reminder of the ever-present threats in the digital landscape, even in seemingly innocuous environments like Minecraft modding. It underscores the importance of vigilance, regular updates, and secure coding practices.</p>
+<p>While the exploit is not a flaw in Forge itself, it has exposed vulnerabilities in several mods that use unsafe deserialization code. The affected mods include EnderCore, LogisticsPipes, BDLib, and others. Players and server administrators must stay informed about such vulnerabilities and take immediate action, such as updating or removing vulnerable mods.</p>
+<p>The exploit also highlights the importance of secure coding practices. As the code examples demonstrate, input validation is a simple yet effective way to prevent remote code execution attacks. Developers must always be mindful of potential security risks and implement measures to mitigate them.</p>
+<p>In the face of such threats, the Minecraft community has shown resilience and quick response. The discovery and subsequent awareness of the exploit have led to patching efforts and the development of mitigation measures like the PipeBlocker mod. This collective response is a testament to the strength and resourcefulness of the community.</p>
+<p class="align-left">The BleedingPipe exploit is a significant security concern, but its impact can be mitigated with awareness, vigilance, and proactive measures. As we continue to enjoy the creativity and fun of Minecraft modding, let's also remember to prioritize security and protect our digital spaces.</p>
+</div>
+<div> </div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Embracing the Future of Development with GitHub Copilot Chat</title>
         <author>
@@ -22,17 +78,19 @@
             <category term="GitHub Copilot"/>
             <category term="GitHub"/>
 
-        <updated>2023-07-23T10:31:06+03:00</updated>
+        <updated>2023-07-23T11:25:25+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/61/Embracing-the-Future-of-Development-with-GitHub-Copilot-Chat.png" alt="" />
-                    In an era where technology is advancing at an unprecedented pace, GitHub has once again proven its commitment to innovation&hellip;
+                    <p>In an era where technology is advancing at an unprecedented pace, GitHub has once again proven its commitment to innovation and developer productivity. The company recently announced the public beta release of GitHub Copilot Chat for all business users on Visual Studio and VS Code. This marks a significant step forward in integrating generative AI and GPT-4 into the developer experience on GitHub, a journey that began earlier this year with the unveiling of GitHub Copilot X.</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.thefourcraft.com/media/posts/61/Embracing-the-Future-of-Development-with-GitHub-Copilot-Chat.png" class="type:primaryImage" alt="" /></p>
                 <p>In an era where technology is advancing at an unprecedented pace, GitHub has once again proven its commitment to innovation and developer productivity. The company recently announced the public beta release of GitHub Copilot Chat for all business users on Visual Studio and VS Code. This marks a significant step forward in integrating generative AI and GPT-4 into the developer experience on GitHub, a journey that began earlier this year with the unveiling of GitHub Copilot X.</p>
+
 <h2>GitHub Copilot Chat: More Than Just a Chat Window</h2>
 <p>GitHub Copilot Chat is not just a chat window. It's a context-aware conversational assistant that resides right in the Integrated Development Environment (IDE). This transformative tool allows developers to execute complex tasks through simple prompts, making the process of building applications or debugging code faster and more efficient. The potential here is immense, as it promises to reduce the time spent on unit tests and boilerplate code, thereby increasing productivity and fostering innovation.</p>
 <h2>The Power of Context</h2>
@@ -63,7 +121,7 @@
             <category term="ChatGPT"/>
             <category term="AI"/>
 
-        <updated>2023-07-23T10:37:26+03:00</updated>
+        <updated>2023-07-23T11:29:20+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/60/ChatGPT-and-the-Hallucination-of-Dependencies.png" alt="" />
@@ -187,7 +245,7 @@
             <category term="Open Source"/>
             <category term="My Personal Opinion"/>
 
-        <updated>2023-07-23T10:26:36+03:00</updated>
+        <updated>2023-07-23T11:22:38+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/57/The-Power-of-Open-Source.png" alt="" />
@@ -603,112 +661,6 @@
 </li>
 </ol>
 </section>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Why FiveM Servers Are So Insecure</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/kubernetes-privilege-escalation-excessive-permissions-in-popular-platforms/index.html"/>
-        <id>https://blog.thefourcraft.com/kubernetes-privilege-escalation-excessive-permissions-in-popular-platforms/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/52/Why-FiveM-Servers-Are-So-Insecure.png" medium="image" />
-            <category term="Vulnerability"/>
-            <category term="Security"/>
-            <category term="My Personal Opinion"/>
-            <category term="Gaming"/>
-            <category term="FiveM"/>
-
-        <updated>2023-06-24T15:32:24+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/52/Why-FiveM-Servers-Are-So-Insecure.png" alt="" />
-                    <p>A deep dive into FiveM server security, This post aims to shed light on why these servers are insecure and how cheaters can exploit these insecurities.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/52/Why-FiveM-Servers-Are-So-Insecure.png" class="type:primaryImage" alt="" /></p>
-                <p>A deep dive into FiveM server security, This post aims to shed light on why these servers are insecure and how cheaters can exploit these insecurities.</p>
-
-<h2>Introduction</h2>
-<p>FiveM is a modification framework for Grand Theft Auto V, enabling you to play multiplayer on customized dedicated servers. Despite its popularity and extensive features, FiveM servers are often criticized for their security vulnerabilities.</p>
-<h2>Understanding the Threat Landscape</h2>
-<p>Before we can effectively secure our servers, we must first understand what we're up against. Hackers and cheaters are constantly finding new ways to exploit server vulnerabilities, and their methods are often as sophisticated as diverse.</p>
-<h2>Understanding Resources and Streaming</h2>
-<p>In a FiveM server, resources are the addons that allow you to customize your server. These resources can be scripts, maps, vehicles, etc. They are streamed to the player when they connect to the server and during their gameplay. This streaming process allows for a dynamic and immersive gaming experience. However, it also opens up potential security vulnerabilities.</p>
-<h1>Insecure Resources</h1>
-<h2>What is an Insecure Resource?</h2>
-<p>To understand the concept of an insecure resource, we must delve into the possibilities a resource provides to a cheater. In an ideal scenario, a resource should validate the input it receives from clients multiple times. However, in reality, many resources accept input without a second thought, sometimes even allowing the execution of arbitrary code on your server.</p>
-<p>You might think, isn't executing code harmless? What harm could come from it? Well, let's consider an example. Here's a quick and easy way to stop a Linux-Based Server (the entire server, not just the FiveM Server!) if the FXServer is run with administrative privileges:</p>
-<pre><code>TriggerServerEvent("RunCode:RunRemotelly", "os.execute('shutdown now')")</code></pre>
-<p>Yes, it's that simple. But remote code execution isn't the only thing a cheater can do. What if a cheater wants to do something seemingly harmless, like giving themselves money? Here's an example:</p>
-<pre><code>for i=1, 100 do</code><br><code>    TriggerServerEvent("esx_carsshop:sv:1", 5000, "cheated", "cheated")</code><br><code>end</code></pre>
-<div class="bg-black rounded-md mb-4">
-<h1>SQL Injections</h1>
-<h2>SQL Injection in FiveM Servers</h2>
-<p>In my blog, I have talked about <a href="https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/index.html" target="_blank" rel="noopener noreferrer">How to prevent SQL injections in your FiveM server </a><br>In the context of FiveM servers, SQL injection can be particularly damaging, which is why developers and server owners must pay close attention to prevent <a href="https://blog.thefourcraft.com/securing-your-fivem-server-from-sql-vulnerabilities/index.html" target="_blank" rel="noopener noreferrer">SQL injections</a></p>
-<h2>Understanding SQL Injection</h2>
-<p>SQL injection, also known as SQLI, is a common attack vector that uses malicious SQL code for backend database manipulation to access information not intended to be displayed. This information may include sensitive company data, user lists, or private customer details. The impact SQL injection can have on a business is far-reaching. <br>A successful attack may result in unauthorized viewing of user lists, deletion of entire tables, and the attacker gaining administrative rights to a database in certain cases. All of these outcomes are highly detrimental to a business.</p>
-<p>SQL injections typically fall under three categories: In-band SQLi (Classic), Inferential SQLi (Blind), and Out-of-band SQLi.</p>
-<ul>
-<li>
-<p><strong>In-band SQLi: </strong>The attacker uses the same communication channel to launch their attacks and gather their results. It's one of the most common types of SQLi attack due to its simplicity and efficiency.</p>
-</li>
-<li>
-<p><strong>Inferential (Blind) SQLi:</strong> The attacker sends data payloads to the server and observes the response and behavior of the server to learn more about its structure. This method is called blind SQLi because the data is not transferred from the website database to the attacker, thus the attacker cannot see information about the attack in-band.</p>
-</li>
-<li>
-<p><strong>Out-of-band SQLi:</strong> The attacker can only carry out this form of attack when certain features are enabled on the database server used by the web application. This attack is primarily used as an alternative to the in-band and inferential SQLi techniques.</p>
-</li>
-</ul>
-SQL injection can be used to manipulate a standard SQL query to exploit non-validated input vulnerabilities in a database.</div>
-<div class="bg-black rounded-md mb-4">For example, an attacker could alter a typical website’s SQL database query to read <code>http://www.website.com/items/items.asp?itemid=999 or 1=1</code>. As a result, the corresponding SQL query would look like this:</div>
-<pre><code>SELECT ItemName, ItemDescription</code><br><code>FROM Items</code><br><code>WHERE ItemNumber = 999 OR 1=1</code></pre>
-<div>
-<p>And since the statement 1 = 1 is always true, the query returns all of the product names and descriptions in the database, even those that you may not be eligible to access.</p>
-<h1>The RCON Exploit</h1>
-<h2>Understanding the RCON Exploit</h2>
-<p>The RCON exploit revolves around the misuse of the RCON password, a password used to provide remote console access to a server. If this password is known or easily guessable, it can be used to gain unauthorized access to the server. This is particularly concerning if the server is running on an account with administrative privileges, as it allows for the execution of arbitrary commands on the server.</p>
-<p>The exploit works by first gaining access to the RCON of the server. Once access is gained, the attacker can use the 'runcode' resource, a base FiveM resource found on almost every FiveM server, to execute code on the server, on a specific client, or all clients at once.</p>
-<p>The attacker can then use the 'os.execute()' function to run commands on the server's command line, create temporary files to store the output of these commands, and then read these files to gain information about the server. This can be used to find out the current user account running the server, change the password of this account, or even create a new user account with administrative privileges.</p>
-<h2>The Potential Damage</h2>
-<p>The potential damage from this exploit is significant. An attacker could take over the entire machine, infect resources with malicious code, install keyloggers or trojans to log sensitive information, or even use the machine as part of a Distributed Denial of Service (DDoS) attack.</p>
-<p><span style="color: var(--headings-color); font-family: var(--font-base); font-size: 1.60181em; font-weight: var(--font-weight-bold); letter-spacing: var(--letter-spacing);">How to Build A Secure FiveM Server</span></p>
-</div>
-<div class="bg-black rounded-md mb-4">
-<p>Securing your resources is challenging, especially if you are unfamiliar with coding. <br>It is strongly recommended to get someone who is capable of coding on board and then auditing your resources. There is no "one-check-finds-all" solution. Every resource requires its way of securing it against cheaters and hackers. However, simply not accepting random input, as many resources do, ensures your server is free of cheaters.</p>
-<p>A good example of correctly using the inbuilt FiveM permission system is vMenu and EasyAdmin. These resources double-check each event with the ACE Natives, ensuring that no one can do things they shouldn't be able to do.</p>
-<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
-<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
-<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>On another note, employing <a href="https://www.vaultproject.io/" target="_blank" rel="noopener noreferrer">Vault by HashiCorp</a> to rotate secrets, such as the RECON password, is highly advisable. Regularly changing your RCON password is strongly recommended, and ensuring it is not easily guessable is essential. Disabling RCON altogether is also recommended as an additional security measure if feasible.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<p>In addition to these measures, it's important to regularly audit your resources and ensure they are not accepting random input. This goes a long way in ensuring your server is free of cheaters and hackers.</p>
-<p>While FiveM servers offer a unique and customizable gaming experience but are not without security vulnerabilities. Server owners must understand these vulnerabilities and take the necessary steps to secure their servers.</p>
-<h2>So Why FiveM Servers Are So Insecure</h2>
-<div class="group w-full text-gray-800 dark:text-gray-100 border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]">
-<div class="flex p-4 gap-4 text-base md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl md:py-6 lg:px-0 m-auto">
-<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
-<div class="flex flex-grow flex-col gap-3">
-<div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words flex-col gap-4">
-<div class="markdown prose w-full break-words dark:prose-invert dark">The primary concern lies with server owners who neglect proper security measures. Securing a FiveM server necessitates a proactive approach. <br>By comprehending potential vulnerabilities and implementing suitable security measures, server owners can safeguard their servers and establish a secure and equitable gaming environment for their players. Always remember, in cybersecurity, a potent offense is the best defense.</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
             ]]>
         </content>
     </entry>
