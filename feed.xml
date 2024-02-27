@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-02-27T08:56:34+02:00</updated>
+    <updated>2024-02-27T09:19:39+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="React"/>
             <category term="100% Free Software"/>
 
-        <updated>2024-02-27T08:56:34+02:00</updated>
+        <updated>2024-02-27T09:19:39+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/86/Revolutionary-Enhancements-in-React.png" alt="" />
@@ -40,21 +40,21 @@
 <p><strong>Old Approach: Manual Memoization</strong></p>
 <p>Before the React Compiler, developers often used <code>React.memo</code>, <code>useMemo</code>, and <code>useCallback</code> to avoid unnecessary re-renders.</p>
 <p>The React Compiler's ability to navigate the dynamic nature of JavaScript and enforce the "rules of React" for optimization heralds a new era of efficiency and developer experience. The compiler can safely optimize applications by modeling both JavaScript's flexibility and React's principles, even when developers "bend the rules." This advancement not only enhances performance but also simplifies the development process, making React more approachable for new developers and more potent for veterans.</p>
-<pre><code>import React, { useState, useMemo } from 'react';</code><br><br><code>function ExpensiveComponent({ compute, value }) {</code><br><code>  const result = useMemo(() =&gt; compute(value), [compute, value]);</code><br><code>  return &lt;div&gt;Result: {result}&lt;/div&gt;;</code><br><code>}</code><br><br><code>function App() {</code><br><code>  const [count, setCount] = useState(0);</code><br><br><code>  const square = useMemo(() =&gt; (x) =&gt; x * x, []);</code><br><br><code>  return (</code><br><code>    &lt;div&gt;</code><br><code>      &lt;ExpensiveComponent compute={square} value={count} /&gt;</code><br><code>      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;</code><br><code>    &lt;/div&gt;</code><br><code>  );</code><br><code>}</code></pre>
+<pre><code>import React, { useState, useMemo } from 'react';<br><br>function ExpensiveComponent({ compute, value }) {<br>  const result = useMemo(() =&gt; compute(value), [compute, value]);<br>  return &lt;div&gt;Result: {result}&lt;/div&gt;;<br>}<br><br>function App() {<br>  const [count, setCount] = useState(0);<br>  const square = useMemo(() =&gt; (x) =&gt; x * x, []);<br>  return (<br>    &lt;div&gt;<br>      &lt;ExpensiveComponent compute={square} value={count} /&gt;<br>      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;<br>    &lt;/div&gt;<br>  );<br>}</code></pre>
 <p><strong>New Approach: React Compiler Optimization</strong></p>
 <p>The React Compiler reduces the need for manual memoization as it optimizes re-renders automatically.</p>
-<pre><code>import React, { useState } from 'react';</code><br><br><code>function ExpensiveComponent({ compute, value }) {</code><br><code>  // Assume the React Compiler automatically optimizes this component</code><br><code>  const result = compute(value);</code><br><code>  return &lt;div&gt;Result: {result}&lt;/div&gt;;</code><br><code>}</code><br><br><code>function App() {</code><br><code>  const [count, setCount] = useState(0);</code><br><br><code>  const square = (x) =&gt; x * x;</code><br><br><code>  return (</code><br><code>    &lt;div&gt;</code><br><code>      &lt;ExpensiveComponent compute={square} value={count} /&gt;</code><br><code>      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;</code><br><code>    &lt;/div&gt;</code><br><code>  );</code><br><code>}</code></pre>
+<pre><code>import React, { useState } from 'react';<br><br>function ExpensiveComponent({ compute, value }) {<br>  // Assume the React Compiler automatically optimizes this component<br>  const result = compute(value);<br>  return &lt;div&gt;Result: {result}&lt;/div&gt;;<br>}<br><br>function App() {<br>  const [count, setCount] = useState(0);<br>  const square = (x) =&gt; x * x;<br>  return (<br>    &lt;div&gt;<br>      &lt;ExpensiveComponent compute={square} value={count} /&gt;<br>      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;<br>    &lt;/div&gt;<br>  );<br>}</code></pre>
 <p>In the new approach, the same performance benefits are expected without cluttering the code with memoization hooks, thanks to the React Compiler's automatic optimization.</p>
 <h3>React Actions vs. Vue and Angular for Data Handling</h3>
 <p><strong>React with Actions</strong></p>
 <p>React's new Actions simplify data handling, especially for forms, making client-server communication more straightforward.</p>
-<pre><code>// React with Actions</code><br><code>function SearchForm() {</code><br><code>  const search = async (formData) =&gt; {</code><br><code>    // Perform the search operation</code><br><code>  };</code><br><br><code>  return (</code><br><code>    &lt;form action={search}&gt;</code><br><code>      &lt;input name="query" /&gt;</code><br><code>      &lt;button type="submit"&gt;Search&lt;/button&gt;</code><br><code>    &lt;/form&gt;</code><br><code>  );</code><br><code>}</code></pre>
+<pre><code>// React with Actions<br>function SearchForm() {<br>  const search = async (formData) =&gt; {<br>    // Perform the search operation<br>  };<br>  return (<br>    &lt;form action={search}&gt;<br>      &lt;input name="query" /&gt;<br>      &lt;button type="submit"&gt;Search&lt;/button&gt;<br>    &lt;/form&gt;<br>  );<br>}</code></pre>
 <p><strong>Vue: Method-based Data Handling</strong></p>
 <p>Vue handles form submissions and data handling through methods within the Vue instance.</p>
-<pre><code>&lt;template&gt;</code><br><code>  &lt;form @submit.prevent="search"&gt;</code><br><code>    &lt;input v-model="query" /&gt;</code><br><code>    &lt;button type="submit"&gt;Search&lt;/button&gt;</code><br><code>  &lt;/form&gt;</code><br><code>&lt;/template&gt;</code><br><br><code>&lt;script&gt;</code><br><code>export default {</code><br><code>  data() {</code><br><code>    return {</code><br><code>      query: '',</code><br><code>    };</code><br><code>  },</code><br><code>  methods: {</code><br><code>    async search() {</code><br><code>      // Perform the search operation</code><br><code>    },</code><br><code>  },</code><br><code>};</code><br><code>&lt;/script&gt;</code></pre>
+<pre><code>&lt;template&gt;<br>  &lt;form @submit.prevent="search"&gt;<br>    &lt;input v-model="query" /&gt;<br>    &lt;button type="submit"&gt;Search&lt;/button&gt;<br>  &lt;/form&gt;<br>&lt;/template&gt;<br><br>&lt;script&gt;<br>export default {<br>  data() {<br>    return {<br>      query: '',<br>    };<br>  },<br>  methods: {<br>    async search() {<br>      // Perform the search operation<br>    },<br>  },<br>};<br>&lt;/script&gt;</code></pre>
 <p><strong>Angular: Reactive Forms</strong></p>
 <p>Angular often utilizes reactive forms for handling form submissions, offering a robust set of utilities for managing form state and validation.</p>
-<pre><code>import { Component } from '@angular/core';</code><br><code>import { FormControl } from '@angular/forms';</code><br><code>import { HttpClient } from '@angular/common/http';</code><br><br><code>@Component({</code><br><code>  selector: 'app-search-form',</code><br><code>  template: `</code><br><code>    &lt;form (ngSubmit)="search()"&gt;</code><br><code>      &lt;input [formControl]="query" /&gt;</code><br><code>      &lt;button type="submit"&gt;Search&lt;/button&gt;</code><br><code>    &lt;/form&gt;</code><br><code>  `,</code><br><code>})</code><br><code>export class SearchFormComponent {</code><br><code>  query = new FormControl('');</code><br><br><code>  constructor(private http: HttpClient) {}</code><br><br><code>  search() {</code><br><code>    // Perform the search operation</code><br><code>  }</code><br><code>}</code></pre>
+<pre><code>import { Component } from '@angular/core';<br>import { FormControl } from '@angular/forms';<br>import { HttpClient } from '@angular/common/http';<br><br>@Component({<br>  selector: 'app-search-form',<br>  template: `&lt;form (ngSubmit)="search()"&gt;<br>      &lt;input [formControl]="query" /&gt;<br>      &lt;button type="submit"&gt;Search&lt;/button&gt;<br>    &lt;/form&gt;`,<br>})<br>export class SearchFormComponent {<br>  query = new FormControl('');<br>  constructor(private http: HttpClient) {}<br>  search() {<br>    // Perform the search operation<br>  }<br>}</code></pre>
 <h3>Comparison and Implications</h3>
 <ul>
 <li>
