@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-03-15T13:04:21+02:00</updated>
+    <updated>2024-03-21T11:53:11+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://blog.thefourcraft.com/media/posts/88/thefuck.png" medium="image" />
             <category term="Open Source"/>
 
-        <updated>2024-03-15T13:04:21+02:00</updated>
+        <updated>2024-03-15T12:52:34+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/88/thefuck.png" alt="" />
@@ -201,7 +201,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
             <category term="React"/>
             <category term="100% Free Software"/>
 
-        <updated>2024-02-27T09:19:39+02:00</updated>
+        <updated>2024-02-27T08:55:02+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/86/Revolutionary-Enhancements-in-React.png" alt="" />
@@ -265,7 +265,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
         <media:content url="https://blog.thefourcraft.com/media/posts/85/Towards-2024-Five-Key-Developments-Shaping-the-Future-of-Cybersecurity.png" medium="image" />
             <category term="Security"/>
 
-        <updated>2023-12-04T08:22:19+02:00</updated>
+        <updated>2023-12-04T08:17:14+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/85/Towards-2024-Five-Key-Developments-Shaping-the-Future-of-Cybersecurity.png" alt="" />
@@ -305,7 +305,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
             <category term="Iron Swords War"/>
             <category term="Antisemitism"/>
 
-        <updated>2024-01-28T23:23:49+02:00</updated>
+        <updated>2023-11-19T22:01:56+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/84/How-The-Largest-Israeli-Discord-Community-Combat-Antisemitism.png" alt="" />
@@ -393,7 +393,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
             <category term="Security"/>
             <category term="Cloud Security"/>
 
-        <updated>2023-10-27T03:15:35+03:00</updated>
+        <updated>2023-10-27T03:12:58+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/83/A-Deep-Dive-into-the-Critical-WebP-Vulnerability.png" alt="" />
@@ -634,7 +634,7 @@ CMD ["python", "/app/app.py"]
             <category term="Open Source"/>
             <category term="DevOps"/>
 
-        <updated>2023-10-04T16:42:14+03:00</updated>
+        <updated>2023-10-04T16:38:11+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.thefourcraft.com/media/posts/81/Uptime-Kuma-The-Rising-Star-in-Monitoring-Solutions.png" alt="" />
