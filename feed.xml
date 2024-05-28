@@ -3,7 +3,7 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-04-01T23:21:22+03:00</updated>
+    <updated>2024-04-02T08:46:37+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
@@ -149,7 +149,7 @@
 <p><strong>Example 1: Correcting Git Commands</strong></p>
 <p>Ever mistyped a Git command? Let's say you accidentally typed <code>git brnch</code> instead of <code>git branch</code>. Usually, you'd get an error message from Git. With TheFuck, simply type <code>fuck</code>, and it will suggest the correct command:</p>
 <div class="dark bg-gray-950 rounded-md">
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">$ git brnch
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash line-numbers">$ git brnch
 git: <span class="hljs-string">'brnch'</span> is not a git <span class="hljs-built_in">command</span>. See <span class="hljs-string">'git --help'</span>.
 $ fuck
 git branch [enter/↑/↓/ctrl+c]
@@ -158,7 +158,7 @@ git branch [enter/↑/↓/ctrl+c]
 <p><strong>Example 2: Misspelled Python Command</strong></p>
 <p>Python commands can get lengthy, and typos happen. If you attempt to run a Python script but misspell 'python' as 'pyhton', TheFuck comes to the rescue:</p>
 <div class="dark bg-gray-950 rounded-md">
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">$ pyhton my_script.py
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash line-numbers">$ pyhton my_script.py
 pyhton: <span class="hljs-built_in">command</span> not found
 $ fuck
 python my_script.py [enter/↑/↓/ctrl+c]
@@ -167,7 +167,7 @@ python my_script.py [enter/↑/↓/ctrl+c]
 <p><strong>Example 3: Forgotten sudo</strong></p>
 <p>Forgetting to prepend <code>sudo</code> to a command that requires superuser privileges is a common mistake. With TheFuck, you don't have to retype the entire command:</p>
 <div class="dark bg-gray-950 rounded-md">
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">$ apt-get update
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash line-numbers">$ apt-get update
 E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
 E: Unable to lock directory /var/lib/apt/lists/
 $ fuck
@@ -531,7 +531,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <div class="bg-black rounded-md mb-4">
 <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
 <blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">import</span> sys
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python line-numbers"><span class="hljs-keyword">import</span> sys
 
 <span class="hljs-built_in">print</span>(<span class="hljs-string">"Info: Application started"</span>, file=sys.stdout)
 </code></pre>
@@ -544,7 +544,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <div class="bg-black rounded-md mb-4">
 <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
 <blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">source</span>&gt;</span>
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-xml line-numbers"><span class="hljs-tag">&lt;<span class="hljs-name">source</span>&gt;</span>
   @type forward
   port 24224
 <span class="hljs-tag">&lt;/<span class="hljs-name">source</span>&gt;</span>
@@ -607,7 +607,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <h5>Example: Ansible Playbook</h5>
 <div class="bg-black rounded-md mb-4">
 <blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-yaml"><span class="hljs-meta">---</span>
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-yaml line-numbers"><span class="hljs-meta">---</span>
 <span class="hljs-bullet">-</span> <span class="hljs-attr">hosts:</span> <span class="hljs-string">all</span>
   <span class="hljs-attr">roles:</span>
     <span class="hljs-bullet">-</span> <span class="hljs-attr">role:</span> <span class="hljs-string">web-server</span>
@@ -621,7 +621,7 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <div class="bg-black rounded-md mb-4">
 <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
 <blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-Dockerfile">FROM python:3.8
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-Dockerfile line-numbers">FROM python:3.8
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app
@@ -635,7 +635,7 @@ CMD ["python", "/app/app.py"]
 <div class="bg-black rounded-md mb-4">
 <div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
 <blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-groovy">pipeline {
+<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-groovy line-numbers">pipeline {
   agent any
   stages {
     stage('Build') { ... }
