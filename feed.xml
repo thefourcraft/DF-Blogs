@@ -3,12 +3,52 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-04-02T08:46:37+03:00</updated>
+    <updated>2024-05-29T09:57:12+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Lessons from NASA&#x27;s Playbook for Spacecraft Software</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/lessons-from-nasas-playbook-for-spacecraft-software/index.html"/>
+        <id>https://blog.thefourcraft.com/lessons-from-nasas-playbook-for-spacecraft-software/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/90/Lessons-from-NASAs-Playbook-for-Spacecraft-Software.png" medium="image" />
+            <category term="Fun Facts"/>
+
+        <updated>2024-05-29T09:53:12+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/90/Lessons-from-NASAs-Playbook-for-Spacecraft-Software.png" alt="" />
+                    <p>When you're a developer, encountering code failures in production is generally perceived as one of the worst professional setbacks. But imagine your production environment isn't just any typical setting—it's outer space.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/90/Lessons-from-NASAs-Playbook-for-Spacecraft-Software.png" class="type:primaryImage" alt="" /></p>
+                <p>When you're a developer, encountering code failures in production is generally perceived as one of the worst professional setbacks. But imagine your production environment isn't just any typical setting—it's outer space.</p>
+
+<p>Here, a simple error like a null pointer dereference or a use-after-free could not just crash a system, but send a satellite careening uncontrollably into the void. With stakes this high, how does one ensure reliability?</p>
+<p>NASA's software development practices provide a fascinating blueprint. Derived from what's known as the "Power of Ten" rules, these guidelines were developed by Gerard Holzmann at the Jet Propulsion Laboratory for Reliable Software. Though strict, these rules are crucial for environments where safety is paramount.</p>
+<p><strong>1. Simplify Control Flow:</strong> NASA avoids using complex control structures like goto statements, setjmp, or longjmp. They also prohibit recursion, which can complicate control flow graphs and lead to runaway processes, especially in embedded systems.</p>
+<p><strong>2. Bound All Loops:</strong> NASA ensures all loops have a fixed upper limit to prevent endless iterations. For instance, in a linked list traversal, rather than just stopping when a null pointer is encountered, they impose a strict cap on the number of permissible iterations.</p>
+<p><strong>3. Stack Memory Usage:</strong> One of the standout rules is excluding heap memory. By using only stack memory, which has predictable and limited allocation, the risks of memory leaks and use-after-free errors are minimized.</p>
+<p><strong>4. Function Length and Clarity:</strong> NASA advocates for functions to be short (no more than 60 lines) and focused on a single task. This not only aids in testing but also enhances readability and maintainability.</p>
+<p><strong>5. Variable Scope and Data Hiding:</strong> Declaring variables at the lowest possible scope reduces the risk of errors and restricts access, which is integral to maintaining code integrity.</p>
+<p><strong>6. Check Return Values:</strong> Even seemingly fail-safe functions like <code>printf</code> must have their return values checked or explicitly cast to void if ignored. This practice ensures that all potential errors are handled or consciously disregarded.</p>
+<p><strong>7. Limited Preprocessor Use:</strong> NASA restricts the use of the C preprocessor to file inclusions and simple macros, avoiding conditional compilation that could lead to multiple code paths and complicate testing.</p>
+<p><strong>8. Pointer and Function Pointer Restrictions:</strong> Pointers are not allowed to be dereferenced more than one layer deep, and using function pointers is discouraged. This simplifies the tracking and analysis of pointer usage.</p>
+<p><strong>9. Compile Rigorously:</strong> Software is compiled with all warnings enabled and in pedantic mode, turning all compiler warnings into errors. This is followed by thorough analysis with multiple static code analyzers and extensive unit testing.</p>
+<p><strong>10. Engage Comprehensive Static Code Analysis:</strong> NASA emphasizes using multiple static code analyzers with different rule sets to examine the code. This thorough analysis helps identify and address all potential issues before the software is deployed.</p>
+<p>These rules might seem overly stringent for everyday programming, but their value becomes clear when the cost of failure includes losing control of a satellite—or worse. For those of us working in less critical fields, applying these principles can still significantly enhance the reliability and quality of our software.</p>
+<p>Before you launch your next project (or rocket!), consider integrating these practices into your development process</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Unraveling CVE-2024-3094: A Severe Vulnerability in XZ Utils</title>
         <author>
@@ -567,95 +607,6 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <li><strong>Monitoring Stage</strong>: Create dashboards, alerts, and analysis based on log data.</li>
 </ul>
 <p>Treating logs as event streams aligns with modern, distributed system design. </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Twelve-Factor App | Dev/Prod Parity</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/twelve-factor-app-or-devprod-parity/index.html"/>
-        <id>https://blog.thefourcraft.com/twelve-factor-app-or-devprod-parity/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/74/Twelve-Factor-App.png" medium="image" />
-            <category term="Twelve Factor App"/>
-
-        <updated>2023-10-10T09:00:00+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/74/Twelve-Factor-App.png" alt="" />
-                    <p>The tenth factor of the Twelve-Factor App methodology emphasizes keeping these environments as similar as possible.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/74/Twelve-Factor-App.png" class="type:primaryImage" alt="" /></p>
-                <p>The tenth factor of the Twelve-Factor App methodology emphasizes keeping these environments as similar as possible.</p>
-
-<h4>Why Keep Development, Staging, and Production Similar?</h4>
-<p>Maintaining parity between environments minimizes the discrepancies that can lead to unexpected issues when deploying to production.</p>
-<h5>Benefits:</h5>
-<ul>
-<li><strong>Reliability</strong>: Reduces unexpected errors during deployment.</li>
-<li><strong>Efficiency</strong>: Streamlines development and testing by mirroring production conditions.</li>
-<li><strong>Collaboration</strong>: Facilitates collaboration between development, QA, and operations teams.</li>
-</ul>
-<h4>How to Keep Environments Similar</h4>
-<h5>Use Configuration Management</h5>
-<p>Configuration management tools like Ansible or Terraform can ensure consistent setup across environments.</p>
-<h5>Example: Ansible Playbook</h5>
-<div class="bg-black rounded-md mb-4">
-<blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-yaml line-numbers"><span class="hljs-meta">---</span>
-<span class="hljs-bullet">-</span> <span class="hljs-attr">hosts:</span> <span class="hljs-string">all</span>
-  <span class="hljs-attr">roles:</span>
-    <span class="hljs-bullet">-</span> <span class="hljs-attr">role:</span> <span class="hljs-string">web-server</span>
-    <span class="hljs-bullet">-</span> <span class="hljs-attr">role:</span> <span class="hljs-string">database</span>
-</code></pre>
-</blockquote>
-</div>
-<h5>Utilize Containers</h5>
-<p>Containers like Docker encapsulate dependencies, ensuring consistent execution across environments.</p>
-<h5>Example: Dockerfile</h5>
-<div class="bg-black rounded-md mb-4">
-<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
-<blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-Dockerfile line-numbers">FROM python:3.8
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . /app
-CMD ["python", "/app/app.py"]
-</code></pre>
-</blockquote>
-</div>
-<h5>Implement Continuous Integration/Continuous Deployment (CI/CD)</h5>
-<p>CI/CD pipelines can automate testing and deployment, maintaining consistency across stages.</p>
-<h5>Example: Jenkins Pipeline</h5>
-<div class="bg-black rounded-md mb-4">
-<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
-<blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-groovy line-numbers">pipeline {
-  agent any
-  stages {
-    stage('Build') { ... }
-    stage('Test') { ... }
-    stage('Deploy to Staging') { ... }
-    stage('Deploy to Production') { ... }
-  }
-}
-</code></pre>
-</blockquote>
-</div>
-<h4>Deployment Strategies with Dev/Prod Parity</h4>
-<p>Maintaining parity is essential for a smooth transition from development to production.</p>
-<h5>Example:</h5>
-<ul>
-<li><strong>Development Stage</strong>: Use the same base images and configurations as production.</li>
-<li><strong>Testing Stage</strong>: Test in an environment that mirrors production.</li>
-<li><strong>Deployment Stage</strong>: Automate deployment to ensure consistency.</li>
-</ul>
-<p>Keeping development, staging, and production environments as similar as possible is vital to creating a robust and efficient software development lifecycle.</p>
             ]]>
         </content>
     </entry>
