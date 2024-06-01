@@ -3,12 +3,163 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-05-29T09:57:12+03:00</updated>
+    <updated>2024-06-01T15:19:46+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Dev Loses $440 Million in 28 minutes | The Night Capital Catastrophe</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/dev-loses-440-million-in-28-minutes/index.html"/>
+        <id>https://blog.thefourcraft.com/dev-loses-440-million-in-28-minutes/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/92/Dev-Loses-440-Million-in-28-minutes-The-Night-Capital-Catastrophe.png" medium="image" />
+            <category term="Documentary"/>
+
+        <updated>2024-06-01T15:12:24+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/92/Dev-Loses-440-Million-in-28-minutes-The-Night-Capital-Catastrophe.png" alt="" />
+                    <p>On August 1st, 2012, a quiet morning in New York soon erupted into chaos on Wall Street. Knight Capital, one of the largest trading firms, faced a catastrophic failure, losing a staggering $440 million in less than an hour. The question remains: who is to blame for this debacle – man or machine?</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/92/Dev-Loses-440-Million-in-28-minutes-The-Night-Capital-Catastrophe.png" class="type:primaryImage" alt="" /></p>
+                <p>On August 1st, 2012, a quiet morning in New York soon erupted into chaos on Wall Street. Knight Capital, one of the largest trading firms, faced a catastrophic failure, losing a staggering $440 million in less than an hour. The question remains: who is to blame for this debacle – man or machine?</p>
+
+<h2>The Prelude to Disaster</h2>
+<p>As the sun rose over the New York skyline, pre-market trading was set to commence at 8:00 a.m. EST. Night Capital's internal system sent out 97 email alerts a minute later, indicating an error labeled "Power Peg disabled." Unfortunately, these alerts were not prioritized and went unnoticed by the staff, setting the stage for a disaster.</p>
+<h2>The Unraveling</h2>
+<p>When the market opened at 9:30 a.m., traders quickly realized something was amiss. Within a minute, the market was flooded with an unusually high order of specific stocks. By 9:31 a.m., the surge in trading activity had caught the attention of many on Wall Street. By 9:34 a.m., quantitative analysts traced the issue back to Night Capital.</p>
+<p>In a desperate attempt to contain the situation, the New York Stock Exchange (NYSE) tried contacting Night Capital's CEO, Thomas Joyce, who was recovering from knee surgery at home. Meanwhile, Night's trades accounted for more than 50% of the trading volume on the NYSE, with positions worth $148 million being opened every minute.</p>
+<h2>The Core Issue</h2>
+<p>The chaos resulted from a new dark pool trading system called the Retail Liquidity Program (RLP), which launched on the same day. Dark pools are private exchanges allowing institutional investors to trade large blocks of securities away from the public eye. While these pools provide liquidity, they also raise concerns about market fairness.</p>
+<p>Night Capital, a major market maker, had updated its trading infrastructure to prepare for the RLP launch. However, a series of critical errors in their code deployment led to the disaster. The new RLP code inadvertently activated an old, deprecated algorithm called Power Peg. This algorithm, designed to lose money for testing purposes, ran unchecked due to missing safeguards in the code.</p>
+<h2>The Deployment Failure</h2>
+<p>A week before the launch, an engineer deployed the updated code to seven of eight servers, leaving one with the old code. This oversight went unnoticed due to the absence of a secondary review process. When the markets opened, this lone server executed trades using the flawed Power Peg algorithm, resulting in a relentless barrage of orders that drove prices up uncontrollably.</p>
+<h2>The Fallout</h2>
+<p>In the ensuing 45 minutes, Night Capital's systems executed 4 million trades across 154 stocks, amassing positions worth $6.65 billion. With only $365 million in cash, the firm was on the brink of collapse. Attempts to cancel the trades through the SEC were denied, and a rollback of the code only exacerbated the losses.</p>
+<h2>The Aftermath</h2>
+<p>By 9:58 a.m., engineers finally identified the root cause and shut down the system. Goldman Sachs intervened, buying Night's positions at a discount, but the damage was done. Night Capital faced a $440 million hole, receiving a $400 million cash infusion from investors a week later. Ultimately, the firm was acquired by GetGo LLC the following summer.</p>
+<h2>Timeline of the Night Capital Debacle</h2>
+<h3>August 1, 2012</h3>
+<ul>
+<li><strong>8:00 a.m. EST</strong>: Pre-market trading on the New York Stock Exchange (NYSE) is set to commence.</li>
+<li><strong>8:01 a.m.</strong>: 97 email alerts were sent from Night Capital's internal system indicating an error labeled "Power Peg disabled"; the staff ignored these alerts.</li>
+</ul>
+<h3>Market Opens</h3>
+<ul>
+<li><strong>9:30 a.m.</strong>: Market opens; an abnormal surge in trading volume is immediately noticeable.</li>
+<li><strong>9:31 a.m.</strong>: The market is uncontrollably flooded with high orders on specific stocks.</li>
+<li><strong>9:32 a.m.</strong>: Wall Street traders and analysts outside of Night Capital notice the ongoing issue.</li>
+<li><strong>9:34 a.m.</strong>: Quantitative analysts trace the surge in volume back to Night Capital.</li>
+</ul>
+<h3>Escalation</h3>
+<ul>
+<li><strong>9:35 a.m.</strong>: NYSE Chief Executive Officer Duncan L. Niederauer tries to contact Night Capital CEO Thomas Joyce, who is recovering from knee surgery at home.</li>
+<li><strong>9:36 a.m.</strong>: Orders from Night Capital start pushing stock prices by over 10%.</li>
+<li><strong>9:40 a.m.</strong>: Night Capital's trades constitute more than 50% of the trading volume on the NYSE.</li>
+<li><strong>9:42 a.m.</strong>: Night's Chief Information Officer is contacted to flip a kill switch, but no such kill switch is in place.</li>
+</ul>
+<h3>Uncontrolled Trading</h3>
+<ul>
+<li><strong>9:45 a.m.</strong>: Engineers at Night Capital struggle to diagnose the issue in a live trading environment.</li>
+<li><strong>9:50 a.m.</strong>: Night Capital realizes they are losing $48 million per minute and orders $2.5 million worth of trades every second.</li>
+<li><strong>9:55 a.m.</strong>: Night Capital's positions have reached $6.65 billion in open trades with only $365 million in cash.</li>
+</ul>
+<h3>Attempted Resolution</h3>
+<ul>
+<li><strong>9:57 a.m.</strong>: Night Capital tries to roll back the code, believing the bug is in the new deployment.</li>
+<li><strong>9:58 a.m.</strong>: Engineers identify the root cause and shut down SMARS on all servers.</li>
+</ul>
+<h3>Aftermath</h3>
+<ul>
+<li><strong>9:59 a.m.</strong>: Goldman Sachs buys Night Capital's positions at a discount, amounting to a $440 million loss.</li>
+<li><strong>10:00 a.m.</strong>: The NYSE continues average trading as the situation is resolved.</li>
+</ul>
+<h3>Subsequent Developments</h3>
+<ul>
+<li><strong>August 8, 2012</strong>: Night Capital receives a $400 million cash infusion from investors.</li>
+<li><strong>Summer 2013</strong>: Night Capital is acquired by rival firm GetGo LLC.</li>
+</ul>
+<h3>Key Events Leading to the Debacle</h3>
+<ul>
+<li><strong>October 2011</strong>: NYSE proposes the Retail Liquidity Program (RLP), sparking controversy.</li>
+<li><strong>June 2012</strong>: The SEC grants approval for the RLP, which is set to go live on August 1, 2012.</li>
+<li><strong>Late July 2012</strong>: Night Capital's software development team rushes to update trading infrastructure for the RLP launch.</li>
+<li><strong>One Week Before August 1, 2012</strong>: An engineer mistakenly deploys the new SMARS code to seven out of eight servers, leaving one with the old code.</li>
+<li><strong>August 1, 2012, 8:01 a.m.</strong>: Initial email alerts about the "Power Peg disabled" error are ignored.</li>
+</ul>
+<p>The Night Capital incident unequivocally underlines the fragility of high-frequency trading systems and the absolute necessity for rigorous testing and robust fail-safes. Human error and technological flaws undeniably contributed to the debacle, emphasizing the imperative need for vigilance in an increasingly automated financial world.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>The Great AT&amp;T Network Outage of 1990</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/the-great-atandt-network-outage-of-1990/index.html"/>
+        <id>https://blog.thefourcraft.com/the-great-atandt-network-outage-of-1990/index.html</id>
+
+        <updated>2024-05-30T19:30:06+03:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>On a seemingly regular Monday afternoon in January 1990, at 2:25 pm, AT&amp;T's Network Operations Center began receiving alarming notifications.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>On a seemingly regular Monday afternoon in January 1990, at 2:25 pm, AT&amp;T's Network Operations Center began receiving alarming notifications.</p>
+
+<p>Their extensive network was experiencing an unusual number of warning signals, marking the onset of a massive network outage. This outage, which persisted for nine hours, had severe repercussions for airlines, businesses, and individuals, resulting in financial losses exceeding $60 million. This incident provides valuable insights into the complexities and vulnerabilities of large-scale network systems.</p>
+<h2>The Backbone of American Communications</h2>
+<p>AT&amp;T's long-distance network was a crucial part of the American communications infrastructure, handling over 70% of the nation's traffic and routing over 115 million telephone calls daily. AT&amp;T deployed 114 computer-operated electronic switches, known as 4ESS, across the United States to support this vast network. Each switch could handle up to 700,000 calls per hour. These switches were interconnected using a cascading network called CCSS7, which coordinated communications between switches.</p>
+<h3>How the Switching System Worked</h3>
+<p>When a call was initiated, the local switch analyzed possible routes to complete it. The call would then be directed through a series of switches until it reached the destination switch, which would connect it to the recipient's phone line. If the destination switch was unavailable, the originating switch would notify the caller that the recipient was unreachable.</p>
+<p><img loading="lazy" src="https://files.oaiusercontent.com/file-e2pYSAEvRjVxHU8h9kY6YKcq?se=2024-05-30T16%3A28%3A40Z&amp;sp=r&amp;sv=2023-11-03&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D25896ef0-afad-461a-98d7-abe366933cfa.webp&amp;sig=vd02lRPniNdAZlXvleTYkzobM9WHEoADcRQN1VcLoOw%3D" alt="An illustration showing how a call is routed through a series of switches in AT&amp;T's network. Start with a caller making a call from a phone on the left. The call goes to the first local switch, which analyzes possible routes and directs the call to a series of intermediate switches represented as boxes with arrows connecting them, leading to the final destination switch. The destination switch connects the call to the recipient's phone on the right. Indicate the process of rerouting if the destination switch is unavailable, with an arrow showing a notification back to the caller." data-is-external-image="true"></p>
+<h2>The Incident Begins</h2>
+<p>A switch located in New York was scheduled for routine maintenance because it was nearing its load limit and experiencing overloading issues. During this maintenance, the switch would temporarily alert other switches that it would stop accepting requests for about four seconds.</p>
+<h3>The Cascading Failure</h3>
+<ol>
+<li>
+<p><strong>Reset and Overwrite</strong>: After the reset, the New York switch retrieved data from the queue and forwarded the requests to the destination switch. The destination switch updated its records to indicate that the New York switch was back online. However, within less than 10 milliseconds, a second message arrived while the first was still being processed. Due to a critical software defect, this second message overwrote the communication information.</p>
+</li>
+<li>
+<p><strong>Backup Activation</strong>: The software in the destination switch detected this overwrite and immediately activated a backup while attempting to reset itself. Unfortunately, another series of closely timed messages triggered the same issue in the backup switch.</p>
+</li>
+<li>
+<p><strong>Propagation and Cascading Effect</strong>: Upon recovery, the destination switch read from its backlog and propagated the messages to other switches, leading to a cascading effect across the network.</p>
+</li>
+</ol>
+<h2>Identifying and Resolving the Issue</h2>
+<p>Once the issue was identified, AT&amp;T rolled back their software to the previous working version. They then spent a rigorous amount of time reading through code and testing to identify the break statement that caused the failure. After many hours of debugging, they pinpointed the issue to a specific block of code:</p>
+<pre><code class="!whitespace-pre hljs language-pseudocode">if (ring_write_buffer is empty) {
+    send message to status map indicating sending switch is active;
+}
+else {
+    break; <br>// This statement caused the issue by exiting the switch statement <br>without processing the incoming message.
+}
+</code></pre>
+<p>This single break statement led to the cascading network failure and the significant financial losses.</p>
+<h2>Key Takeaways</h2>
+<ol>
+<li>
+<p><strong>Continuous Testing</strong>: Just because your software was released and operational, it doesn't mean that it's bug-free. The software update responsible for the outage was released months before the incident and had undergone extensive testing. This highlights the importance of thorough and continuous testing to ensure system reliability, especially for edge cases.</p>
+</li>
+<li>
+<p><strong>Systematic Risk Understanding and Mitigation</strong>: The cascading impact of a single software defect across the entire network illustrates the interconnectedness and vulnerability of complex systems. To minimize the potential for widespread failures, it is crucial to design systems with built-in fault tolerance, redundancy, and resilience. Additionally, an effective recovery plan can significantly mitigate the impact of unexpected incidents and restore operations swiftly.</p>
+</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Lessons from NASA&#x27;s Playbook for Spacecraft Software</title>
         <author>
@@ -493,120 +644,6 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <h2>Mitigation and Patching</h2>
 <p>The first line of defense against this vulnerability was patching the affected libwebp library. The patch addressed the out-of-buffer (OOB) error in the image decoder, specifically in the handling of Huffman tables. It introduced additional validation of input data and modified the dynamic memory allocation model to prevent such buffer overflow issues in the future​<span class="" data-state="closed"><a href="https://blog.cloudflare.com/uncovering-the-hidden-webp-vulnerability-cve-2023-4863/" target="_blank" rel="noopener noreferrer" class="px-0.5 text-green-600 !no-underline"><sup>3</sup></a></span>​.</p>
 <p>The WebP vulnerability of 2023 serves as a harsh reminder of the intricate interdependencies within the digital ecosystem. A single flawed code segment within a widely adopted image processing library had the potential to compromise a myriad of applications, from web browsers to email clients, illustrating the paramount importance of rigorous security vetting in software development. Through prompt identification and patching, a major security crisis was averted, but the echoes of this incident will reverberate through the cybersecurity community for years to come.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Unraveling the Quirkiness of Rubber Duck Debugging</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/unraveling-the-quirkiness-of-rubber-duck-debugging/index.html"/>
-        <id>https://blog.thefourcraft.com/unraveling-the-quirkiness-of-rubber-duck-debugging/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/82/Unraveling-the-Quirkiness-of-Rubber-Duck-Debugging.png" medium="image" />
-            <category term="Fun Facts"/>
-
-        <updated>2023-10-27T03:05:16+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/82/Unraveling-the-Quirkiness-of-Rubber-Duck-Debugging.png" alt="" />
-                    <p>Rubber Duck Debugging (RDD) is an imaginative yet effective method programmers use to debug code.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/82/Unraveling-the-Quirkiness-of-Rubber-Duck-Debugging.png" class="type:primaryImage" alt="" /></p>
-                <p>Rubber Duck Debugging (RDD) is an imaginative yet effective method programmers use to debug code.</p>
-
-<p>The quirky name traces back to a story in "The Pragmatic Programmer: From Journeyman to Master" by Andrew Hunt and David Thomas. In the tale, a programmer would carry around a rubber duck and debug their code by forcing themselves to explain it, line-by-line, to the duck​<span class="" data-state="closed"><a href="https://www.makeuseof.com/what-is-rubber-duck-debugging/" target="_blank" rel="noopener noreferrer"><sup>1</sup></a></span>​.</p>
-<p>At its core, RDD is about articulating problems in code using spoken or written natural language, which often unveils misunderstandings or misinterpretations that are at the root of bugs​<span class="" data-state="closed"><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener noreferrer"><sup>2</sup></a></span>​. The process is simple yet profound:</p>
-<ol>
-<li><strong>Acquire a Rubber Duck:</strong> The first step is to get a rubber duck. It doesn't have to be a duck per se; any inanimate object will do. However, the duck has become a symbol of this debugging method.</li>
-<li><strong>Explain Your Code:</strong> Sit with your duck (or chosen object) and go over your code, explaining it line by line. As you articulate your thought process and the expected behavior of the code, you're likely to stumble upon the bug that's been eluding you.</li>
-<li><strong>Reflect and Refactor:</strong> Often, explaining the code aloud (or in writing) sparks a realization of where the error lies or how the code could be improved.</li>
-</ol>
-<p>This method hinges on explaining complex ideas (like code) to someone else (or something else, in this case) and forces a programmer to think in a different, often more straightforward, way. The rubber duck is a silent companion, patiently "listening" as programmers work through their code challenges.</p>
-<p>One of the main benefits of RDD is its ability to break programmers from the "tunnel vision" that often occurs when deeply engrossed in code. It's akin to typing a message to be posted on social media and reading it aloud before hitting the post button - it gives a fresh perspective. It often catches errors that might have been overlooked otherwise​<span class="" data-state="closed"><a href="https://www.freecodecamp.org/news/rubber-duck-debugging/#:~:text=The%20idea%20behind%20the%20rubber,loud%20before%20you%20post%20it" target="_blank" rel="noopener noreferrer" class="px-0.5 text-green-600 !no-underline"><sup>3</sup></a></span>​.</p>
-<p>In practice, the RDD method is quite flexible. You can choose to do it alone or in a pair, and it can be a fun and light-hearted way to tackle the often frustrating task of debugging. Plus, it's a method that doesn't require special tools or software, just a rubber duck and a willingness to embrace a bit of silliness for better code.</p>
-<p>The world of programming is filled with technicalities. Still, methodologies like Rubber Duck Debugging add a touch of whimsy, making the coding journey a bit more enjoyable and less arduous.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Twelve-Factor App | Treat Logs as Event Streams</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/twelve-factor-app-or-treat-logs-as-event-streams/index.html"/>
-        <id>https://blog.thefourcraft.com/twelve-factor-app-or-treat-logs-as-event-streams/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/75/Twelve-Factor-App.png" medium="image" />
-            <category term="Twelve Factor App"/>
-
-        <updated>2023-10-17T09:00:00+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/75/Twelve-Factor-App.png" alt="" />
-                    <p>The eleventh factor of the Twelve-Factor App methodology emphasizes treating logs as event streams.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/75/Twelve-Factor-App.png" class="type:primaryImage" alt="" /></p>
-                <p>The eleventh factor of the Twelve-Factor App methodology emphasizes treating logs as event streams.</p>
-
-<h4>Why Treat Logs as Event Streams?</h4>
-<p>Treating logs as event streams means considering logs as continuous events rather than static files. This approach offers several benefits:</p>
-<h5>Benefits:</h5>
-<ul>
-<li><strong>Real-Time Analysis</strong>: Enables real-time monitoring and alerting.</li>
-<li><strong>Flexibility</strong>: Facilitates integration with various log processing and monitoring tools.</li>
-<li><strong>Scalability</strong>: Supports efficient handling of large volumes of log data.</li>
-</ul>
-<h4>How to Treat Logs as Event Streams</h4>
-<h5>Write Logs to Standard Output</h5>
-<p>Applications should write logs to standard output, allowing them to be collected and processed by the surrounding environment.</p>
-<h5>Example: Logging in a Python Application</h5>
-<div class="bg-black rounded-md mb-4">
-<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
-<blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python line-numbers"><span class="hljs-keyword">import</span> sys
-
-<span class="hljs-built_in">print</span>(<span class="hljs-string">"Info: Application started"</span>, file=sys.stdout)
-</code></pre>
-</blockquote>
-</div>
-<h5>Utilize Log Aggregation Tools</h5>
-<p>Tools like Fluentd, Logstash, or Splunk can collect, process, and analyze log streams.</p>
-<h5>Example: Forwarding Logs with Fluentd</h5>
-<p>Fluentd configuration to collect logs and forward them to Elasticsearch:</p>
-<div class="bg-black rounded-md mb-4">
-<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"> </div>
-<blockquote>
-<pre class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-xml line-numbers"><span class="hljs-tag">&lt;<span class="hljs-name">source</span>&gt;</span>
-  @type forward
-  port 24224
-<span class="hljs-tag">&lt;/<span class="hljs-name">source</span>&gt;</span>
-
-<span class="hljs-tag">&lt;<span class="hljs-name">match</span> **&gt;</span>
-  @type elasticsearch
-  ...
-<span class="hljs-tag">&lt;/<span class="hljs-name">match</span>&gt;</span>
-</code></pre>
-</blockquote>
-</div>
-<h5>Implement Centralized Logging</h5>
-<p>Centralized logging systems provide a unified view of logs across different services and environments.</p>
-<h4>Deployment Strategies with Logs</h4>
-<p>Logs play a critical role in monitoring, troubleshooting, and analytics.</p>
-<h5>Example:</h5>
-<ul>
-<li><strong>Development Stage</strong>: Implement proper logging practices in the application code.</li>
-<li><strong>Deployment Stage</strong>: Set up log aggregation and processing tools.</li>
-<li><strong>Monitoring Stage</strong>: Create dashboards, alerts, and analysis based on log data.</li>
-</ul>
-<p>Treating logs as event streams aligns with modern, distributed system design. </p>
             ]]>
         </content>
     </entry>

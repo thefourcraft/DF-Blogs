@@ -107,6 +107,14 @@
 </image:image>
 </url>
 <url>
+<loc>https://blog.thefourcraft.com/dev-loses-440-million-in-28-minutes/</loc>
+<lastmod>2024-06-01T15:19:46+03:00</lastmod>
+<image:image>
+<image:loc>https://blog.thefourcraft.com/media/posts/92/Dev-Loses-440-Million-in-28-minutes-The-Night-Capital-Catastrophe.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://blog.thefourcraft.com/devsecaiops-the-future/</loc>
 <lastmod>2023-06-11T08:50:00+03:00</lastmod>
 <image:image>
@@ -689,6 +697,14 @@
 <image:image>
 <image:loc>https://blog.thefourcraft.com/media/posts/18/The-Fall-of-VPN-and-the-Rise-of-Zero-Trust.png</image:loc>
 <image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://blog.thefourcraft.com/the-great-atandt-network-outage-of-1990/</loc>
+<lastmod>2024-05-30T19:32:08+03:00</lastmod>
+<image:image>
+<image:loc>https://files.oaiusercontent.com/file-e2pYSAEvRjVxHU8h9kY6YKcq?se=2024-05-30T16%3A28%3A40Z&amp;sp=r&amp;sv=2023-11-03&amp;sr=b&amp;rscc=max-age%3D31536000%2C%20immutable&amp;rscd=attachment%3B%20filename%3D25896ef0-afad-461a-98d7-abe366933cfa.webp&amp;sig=vd02lRPniNdAZlXvleTYkzobM9WHEoADcRQN1VcLoOw%3D</image:loc>
+<image:title><![CDATA[An illustration showing how a call is routed through a series of switches in AT&amp;T's network. Start with a caller making a call from a phone on the left. The call goes to the first local switch, which analyzes possible routes and directs the call to a series of intermediate switches represented as boxes with arrows connecting them, leading to the final destination switch. The destination switch connects the call to the recipient's phone on the right. Indicate the process of rerouting if the destination switch is unavailable, with an arrow showing a notification back to the caller.]]></image:title>
 </image:image>
 </url>
 <url>
