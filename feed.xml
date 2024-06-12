@@ -3,12 +3,103 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-06-03T23:18:04+03:00</updated>
+    <updated>2024-06-12T15:58:06+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>The 2021 Facebook Outage</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/the-2021-facebook-outage/index.html"/>
+        <id>https://blog.thefourcraft.com/the-2021-facebook-outage/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/94/The-2021-Facebook-Outage.png" medium="image" />
+            <category term="Downtime"/>
+
+        <updated>2024-06-12T15:54:59+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/94/The-2021-Facebook-Outage.png" alt="" />
+                    <p>On October 4, 2021, Facebook and its affiliated services, including Instagram and WhatsApp, experienced a massive global outage that lasted approximately six hours, from 15:39 to 21:40 UTC. This unprecedented disruption affected billions of users and highlighted the intricate and sometimes fragile Internet infrastructure.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/94/The-2021-Facebook-Outage.png" class="type:primaryImage" alt="" /></p>
+                <p>On October 4, 2021, Facebook and its affiliated services, including Instagram and WhatsApp, experienced a massive global outage that lasted approximately six hours, from 15:39 to 21:40 UTC. This unprecedented disruption affected billions of users and highlighted the intricate and sometimes fragile Internet infrastructure.</p>
+
+<h3>The Prelude: Understanding DNS and BGP</h3>
+<h4>DNS: The Internet's Phonebook</h4>
+<p>The Domain Name System (DNS) is often called the internet's phonebook. It translates human-readable domain names like <a rel="noreferrer" target="_new" href="http://www.facebook.com">www.facebook.com</a> into numerical IP addresses that computers use to communicate. Here's a step-by-step breakdown of how DNS works:</p>
+<ol>
+<li>
+<p><strong>Root Servers</strong>: When you type <a rel="noreferrer" target="_new" href="http://www.facebook.com">www.facebook.com</a> into your browser, your query first goes to one of the 13 DNS root servers. These servers don't have the specific IP address for Facebook but can direct your query to the appropriate top-level domain (TLD) server, such as those responsible for the .com domain.</p>
+</li>
+<li>
+<p><strong>Top-Level Domain Servers</strong>: The root server redirects your query to a TLD server. For instance, for the .com TLD, these servers handle queries for all domains ending in .com. They then forward the query to the authoritative name servers for the specific domain.</p>
+</li>
+<li>
+<p><strong>Authoritative Name Servers</strong>: Finally, the TLD server directs your query to Facebook's authoritative name servers, which provide the IP address for <a rel="noreferrer" target="_new" href="http://www.facebook.com">www.facebook.com</a>. These name servers contain the actual DNS records for Facebook, enabling your browser to connect to Facebook's web servers.</p>
+</li>
+</ol>
+<h4>BGP: The Internet's Routing System</h4>
+<p>Once DNS resolves the IP address, BGP takes over. The Border Gateway Protocol (BGP) is crucial for exchanging routing information between different networks on the internet. Each large network, such as those operated by ISPs and Facebook, maintains extensive routing tables that help direct data to its correct destination.</p>
+<p>BGP enables these networks to share information about which IP addresses they manage, ensuring that data packets can traverse multiple networks to reach their final destination. This complex system requires meticulous coordination and management to maintain the integrity and functionality of the Internet.</p>
+<h3>Timeline of the 2021 Facebook Outage</h3>
+<h4>October 4, 2021</h4>
+<ul>
+<li>
+<p><strong>15:39 UTC</strong>: The first signs of trouble appeared as Facebook's services became inaccessible. Users across the globe reported issues accessing Facebook, Instagram, and WhatsApp.</p>
+</li>
+<li>
+<p><strong>15:50 UTC</strong>: Facebook confirmed the outage via a tweet, acknowledging that some users were experiencing difficulties accessing its apps and services.</p>
+</li>
+<li>
+<p><strong>16:00 UTC</strong>: Technical teams at Facebook identified a significant issue with their backbone network. A configuration change issued during routine maintenance inadvertently disrupted their network's connectivity.</p>
+</li>
+<li>
+<p><strong>16:30 UTC</strong>: Due to the configuration error, Facebook's DNS servers automatically disabled BGP advertisements. This safety mechanism prevents further issues when DNS servers lose connection with the data centers. However, this led to all routes to Facebook's DNS servers being withdrawn, effectively cutting off access to Facebook's services.</p>
+</li>
+<li>
+<p><strong>17:00 UTC</strong>: Engineers at Facebook began restoring service, but they faced significant challenges due to stringent security protocols that delayed physical access to data centers.</p>
+</li>
+<li>
+<p><strong>18:00 UTC</strong>: The outage continued as engineers worked to regain access and re-establish connectivity. The lack of DNS routes meant that any attempts to access Facebook's services were unsuccessful.</p>
+</li>
+<li>
+<p><strong>19:00 UTC</strong>: Progress was slow as the technical teams navigated the complexities of Facebook's global network. The redundancy in their DNS setup, intended to provide robustness, ironically complicated the recovery process.</p>
+</li>
+<li>
+<p><strong>20:00 UTC</strong>: Facebook engineers regained access to some data centers and reversed the erroneous configuration change. This step was crucial to re-establishing the BGP routes and restoring DNS functionality.</p>
+</li>
+<li>
+<p><strong>21:40 UTC</strong>: Facebook announced that its services were gradually returning online. Restoring full service continued for several hours as engineers monitored and stabilized the network.</p>
+</li>
+</ul>
+<h3>The Technical Breakdown: What Went Wrong?</h3>
+<h4>Configuration Error and Network Isolation</h4>
+<p>The outage's root cause was a misconfiguration during routine maintenance that severed connections in Facebook's backbone network. This backbone network is crucial as it connects all of Facebook's data centers globally. The disruption triggered a safety mechanism in Facebook's DNS servers, causing them to withdraw BGP routes.</p>
+<h4>BGP Route Withdrawals</h4>
+<p>BGP route withdrawals meant that Facebook's DNS servers were no longer reachable from the internet. Without these routes, DNS queries for Facebook's services failed to resolve, rendering the services inaccessible. BGP routes are essential for directing traffic to the correct network paths, and their absence can lead to significant disruptions.</p>
+<h3>The Recovery: Challenges and Solutions</h3>
+<h4>Physical Access and Security Protocols</h4>
+<p>One of the most significant challenges faced by Facebook's engineers was the physical access to data centers. Facebook's security protocols, designed to protect against unauthorized access, delayed the entry of engineers into critical facilities. These delays prolonged the outage as the technical teams could not quickly implement the necessary fixes.</p>
+<h4>Restoring BGP Routes</h4>
+<p>Once access was gained, the primary task was to restore the BGP routes. This involved re-advertising the routes to Facebook's DNS servers, making them reachable again. The process required careful coordination to avoid further misconfigurations and ensure a stable restoration of services.</p>
+<h3>Lessons Learned and Future Preventive Measures</h3>
+<h4>Importance of Redundancy and Fail-Safes</h4>
+<p>The outage highlighted the importance of redundancy and fail-safes in network design. While Facebook had multiple DNS servers and redundant paths, the simultaneous withdrawal of BGP routes exposed a vulnerability in their system. Future improvements may ensure backup systems are unaffected by the same failure conditions.</p>
+<h4>Enhanced Monitoring and Rapid Response</h4>
+<p>Improved monitoring tools and rapid response protocols can help detect and mitigate similar issues more quickly. Automated systems that can identify and correct configuration errors before they propagate could prevent such widespread outages.</p>
+<h4>Collaboration and Communication</h4>
+<p>Effective communication between technical teams and external partners, such as ISPs, is crucial during an outage. Collaborative efforts can expedite the resolution process and minimize downtime.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>1M Visitors Is Just the Beginning</title>
         <author>
@@ -569,93 +660,6 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <p>Cybersecurity is ever-changing, with over 450,000 new variants of cyberattacks emerging daily. Comprehensive cyber intelligence, analyzed with advanced AI capabilities, is crucial for detecting potential threats within our systems early.</p>
 <hr>
 <p>The role of a Chief Information Security Officer (CISO) in 2024 will be more challenging than ever, considering the economic, social, cultural, geopolitical, and technological aspects. The insights into the prominent trends towards 2024 should help formulate and rethink your organization's cybersecurity and information security strategies.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How The Largest Israeli Discord Community Combat Antisemitism</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/how-the-largest-israeli-discord-community-combat-antisemitism/index.html"/>
-        <id>https://blog.thefourcraft.com/how-the-largest-israeli-discord-community-combat-antisemitism/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/84/How-The-Largest-Israeli-Discord-Community-Combat-Antisemitism.png" medium="image" />
-            <category term="Iron Swords War"/>
-            <category term="Antisemitism"/>
-
-        <updated>2023-11-19T22:01:56+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/84/How-The-Largest-Israeli-Discord-Community-Combat-Antisemitism.png" alt="" />
-                    <div class="w-full text-token-text-primary" data-testid="conversation-turn-3">
-<div class="px-4 py-2 justify-center text-base md:gap-6 m-auto">
-<div class="flex flex-1 text-base mx-auto gap-3 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group final-completion">
-<div class="relative flex w-full flex-col lg:w-[calc(100%-115px)] agent-turn">
-<div class="flex-col gap-1 md:gap-3">
-<div class="flex flex-grow flex-col max-w-full">
-<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="53894fc4-b52c-466f-a6d0-059abcce2d6c">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>After the tragic events of the October 7th massacre, the surge in antisemitism became alarming. In <a href="https://discord.gg/tgi" target="_blank" rel="sponsored noopener noreferrer">@TeGriAi</a>, the Largest Israeli Discord Community, here's how we are addressing and combating antisemitism.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/84/How-The-Largest-Israeli-Discord-Community-Combat-Antisemitism.png" class="type:primaryImage" alt="" /></p>
-                <div class="w-full text-token-text-primary" data-testid="conversation-turn-3">
-<div class="px-4 py-2 justify-center text-base md:gap-6 m-auto">
-<div class="flex flex-1 text-base mx-auto gap-3 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group final-completion">
-<div class="relative flex w-full flex-col lg:w-[calc(100%-115px)] agent-turn">
-<div class="flex-col gap-1 md:gap-3">
-<div class="flex flex-grow flex-col max-w-full">
-<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="53894fc4-b52c-466f-a6d0-059abcce2d6c">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>After the tragic events of the October 7th massacre, the surge in antisemitism became alarming. In <a href="https://discord.gg/tgi" target="_blank" rel="sponsored noopener noreferrer">@TeGriAi</a>, the Largest Israeli Discord Community, here's how we are addressing and combating antisemitism.</p>
-
-<h2>About <a href="https://discord.gg/tgi" target="_blank" rel="sponsored noopener noreferrer">TeGriAi</a></h2>
-<p>TeGriAi stands as the largest Israeli community on Discord, boasting over 230K members, with a remarkable 30K active daily participants.</p>
-<h2>Addressing Global Antisemitism:</h2>
-<p>Since the October 7th massacre, the increase in antisemitic rhetoric online has been alarming. Within our server alone, we noted a significant spike in hateful messages. This disturbing trend is not confined to our community but is a reflection of a larger, more sinister wave sweeping across the internet.</p>
-<h3><strong>The Iron Wall for Discord: Our Shield Against Hate</strong></h3>
-<p>In collaboration with the @Israeli Gaming Association and @NiroTeam, we formed the Iron Wall for Discord. This initiative is our answer to the rising tide of antisemitism, leveraging advanced AI and Discord's auto-moderation to safeguard our space. The system meticulously analyzes messages, ensuring a safe environment for all members.</p>
-<h2>The Iron Wall for Discord</h2>
-<p>The Iron Wall is a marvel of technology and community effort. It's designed to understand context, making it adept at identifying and countering antisemitic content. "The precision of this system is unparalleled," notes a lead developer. "It's like having a vigilant guardian for our community."</p>
-<div class="flex-1 overflow-hidden">
-<div class="react-scroll-to-bottom--css-mfkmc-79elbk h-full">
-<div class="react-scroll-to-bottom--css-mfkmc-1n7m0yu">
-<div class="flex flex-col pb-9 text-sm">
-<div class="w-full text-token-text-primary" data-testid="conversation-turn-7">
-<div class="px-4 py-2 justify-center text-base md:gap-6 m-auto">
-<div class="flex flex-1 text-base mx-auto gap-3 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group final-completion">
-<div class="relative flex w-full flex-col lg:w-[calc(100%-115px)] agent-turn">
-<div class="flex-col gap-1 md:gap-3">
-<div class="flex flex-grow flex-col max-w-full">
-<div class="min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="a048d81b-7013-4606-aea5-b6c382b5dc7e">
-<div class="markdown prose w-full break-words dark:prose-invert dark">
-<p>Since its inception, the Iron Wall has successfully blocked over 1 million users and prevented 300,000 raid attempts. These numbers are a testament to its effectiveness, acting as an unwavering guard against discrimination and hate.</p>
-<h3><strong>Evolving for a Safer Tomorrow</strong></h3>
-<p>Our commitment to combating antisemitism is unwavering. We constantly seek feedback and explore new ways to enhance the Iron Wall, ensuring it remains an effective shield against hate speech.</p>
-<p>In conclusion, @TeGriAi is more than just a Discord server; it's a movement against antisemitism. Our efforts with the Iron Wall demonstrate our unwavering commitment to creating a safer online space. We invite you to join us in this noble cause. Together, we can make a difference.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
             ]]>
         </content>
     </entry>
