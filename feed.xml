@@ -3,12 +3,118 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2024-06-19T15:10:43+03:00</updated>
+    <updated>2024-07-05T22:46:37+03:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>How easy is it to get malware from Google?</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/how-easy-is-it-to-get-malware-from-google/index.html"/>
+        <id>https://blog.thefourcraft.com/how-easy-is-it-to-get-malware-from-google/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/96/How-easy-is-it-to-get-malware-from-Google.png" medium="image" />
+            <category term="Security"/>
+
+        <updated>2024-07-05T22:46:37+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/96/How-easy-is-it-to-get-malware-from-Google.png" alt="" />
+                    <figure class="post__video">
+                <div 
+                    class="pec-wrapper" 
+                    data-consent-group-id="youtube">
+                    <iframe data-consent-overlay-added="true" loading="lazy" width="688" height="386" style="width: 688px; height: 386px;" data-consent-src="https://www.youtube-nocookie.com/embed/c5fAiwVvr6s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+                    <div class="pec-overlay is-active" aria-hidden="false">
+                        <div class="pec-overlay-inner">
+                            <p>You Have Disabled YouTube On this Website, With cookie settings. </p>
+                            <button 
+                                class="pec-button" 
+                                onclick="window.publiiEmbedConsentGiven('youtube'); return false;">
+                                YouTube
+                            </button>
+                        </div>
+                    </div>
+                    <script>window.publiiEmbedConsentCheck('youtube');</script>
+                </div>
+                </figure>
+<p>we often rely on Google for quick answers and resources. But have you ever wondered how easy it is to stumble upon malware just through Google searches? </p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/96/How-easy-is-it-to-get-malware-from-Google.png" class="type:primaryImage" alt="" /></p>
+                <figure class="post__video">
+                <div 
+                    class="pec-wrapper" 
+                    data-consent-group-id="youtube">
+                    <iframe data-consent-overlay-added="true" loading="lazy" width="688" height="386" style="width: 688px; height: 386px;" data-consent-src="https://www.youtube-nocookie.com/embed/c5fAiwVvr6s" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+                    <div class="pec-overlay is-active" aria-hidden="false">
+                        <div class="pec-overlay-inner">
+                            <p>You Have Disabled YouTube On this Website, With cookie settings. </p>
+                            <button 
+                                class="pec-button" 
+                                onclick="window.publiiEmbedConsentGiven('youtube'); return false;">
+                                YouTube
+                            </button>
+                        </div>
+                    </div>
+                    <script>window.publiiEmbedConsentCheck('youtube');</script>
+                </div>
+                </figure>
+<p>we often rely on Google for quick answers and resources. But have you ever wondered how easy it is to stumble upon malware just through Google searches? </p>
+
+<h2>Experiment 1: Searching for Cheats</h2>
+<p>Leo starts his experiment with a potentially risky search query: <strong>"CS2 cheats download free."</strong> This search immediately brings up several questionable sites and videos.</p>
+<ul>
+<li><strong>Suspicious Site:</strong> One of the top results features a site with a "nice free download" in all caps, claiming to be undetected and safe.</li>
+<li><strong>Deceptive Instructions:</strong> The video description explains how to disable real-time protection and cloud protection for Windows Defender before downloading.</li>
+<li><strong>Password-Protected File:</strong> The download link leads to MediaFire and includes a password, a typical red flag indicating malware. Password protection prevents the archive from being scanned by security software.</li>
+</ul>
+<p>Leo concludes that this download is almost certainly an info-stealer malware. This experiment highlights how easy it is to find malware with just one search.</p>
+<h2>Experiment 2: Searching for Wallpaper</h2>
+<p>Next, Leo tries a seemingly harmless search: <strong>"cave wallpaper."</strong></p>
+<ul>
+<li><strong>Top Result:</strong> The top result is "Wallpaper Cave," a popular site for wallpapers.</li>
+<li><strong>Adware Risk:</strong> Clicking on a wallpaper link leads to a third-party adware website.</li>
+<li><strong>Malicious Download:</strong> The download file is 4.2 MB with a suspicious developer signature. Running it locks the screen and installs adware, changing the default search engine and redirecting future searches to tracking websites.</li>
+</ul>
+<p>With two simple searches, Leo demonstrates how easy it is to encounter malware, even with seemingly benign queries.</p>
+<h2>Common Software Searches and Malware Ads</h2>
+<p>Even users who avoid risky searches can fall victim to malware through malicious ads. Cybercriminals frequently purchase ads to replace top search results for popular software. For example, searches for <strong>AMD Graphics Drivers, Blender, and OBS Studio</strong> can lead to fake sites offering malware-laden installers. These fake sites mimic legitimate ones in design and content but redirect users to malicious downloads.</p>
+<h3>Techniques Used by Cybercriminals</h3>
+<ol>
+<li>
+<p><strong>Malvertising:</strong> This involves placing malicious ads that appear in search results. These ads redirect users to fake websites designed to look like legitimate ones, leading to malware downloads​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://securelist.com/malvertising-through-search-engines/108996/" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">Securelist</a><span class="text-token-text-secondary">)</span></span>​​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.rapid7.com/blog/post/2024/05/13/ongoing-malvertising-campaign-leads-to-ransomware/" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">Rapid7</a><span class="text-token-text-secondary">)</span></span>​.</p>
+</li>
+<li>
+<p><strong>SEO Poisoning:</strong> Threat actors manipulate search engine optimization (SEO) to push malicious websites higher in search results. This technique makes it easier for users to stumble upon these dangerous sites when looking for popular software​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.zscaler.com/blogs/security-research/black-hat-seo-leveraged-distribute-malware" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">Home Page</a><span class="text-token-text-secondary">)</span></span>​​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.itpro.com/security/malware-being-pushed-to-businesses-by-search-engines-remains-a-pervasive-threat" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">ITPro</a><span class="text-token-text-secondary">)</span></span>​.</p>
+</li>
+<li>
+<p><strong>Typosquatting:</strong> This method involves creating URLs that are very similar to legitimate ones, often with minor typographical errors, to trick users into visiting the fake sites​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://securelist.com/malvertising-through-search-engines/108996/" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">Securelist</a><span class="text-token-text-secondary">)</span></span>​​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.cpomagazine.com/cyber-security/fbi-hackers-are-using-search-engine-ads-for-phishing-and-malware-distribution/" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">CPO Magazine</a><span class="text-token-text-secondary">)</span></span>​.</p>
+</li>
+<li>
+<p><strong>Malicious Payloads in Software:</strong> Fake downloads often include large files filled with junk data to appear legitimate. These files can include info-stealers, ransomware, and other malware types​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.bleepingcomputer.com/news/security/hackers-push-malware-via-google-search-ads-for-vlc-7-zip-ccleaner/" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">BleepingComputer</a><span class="text-token-text-secondary">)</span></span>​.</p>
+</li>
+</ol>
+<h2>Impact and Prevalence</h2>
+<p>The rise in malvertising and fake ads has led to a significant increase in malware distribution. Security reports indicate that attackers are successfully using these techniques to infect a large number of systems, highlighting the need for better ad scrutiny and user vigilance​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.rapid7.com/blog/post/2024/05/13/ongoing-malvertising-campaign-leads-to-ransomware/" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">Rapid7</a><span class="text-token-text-secondary">)</span></span>​​<span class="" data-state="closed"><span class="text-token-text-secondary"> (</span><a href="https://www.itpro.com/security/malware-being-pushed-to-businesses-by-search-engines-remains-a-pervasive-threat" target="_blank" rel="noopener noreferrer" class="text-green-600 !no-underline">ITPro</a><span class="text-token-text-secondary">)</span></span>​.</p>
+<h3>Protecting Yourself</h3>
+<p>To mitigate the risks, consider the following steps:</p>
+<ul>
+<li><strong>Verify URLs:</strong> Always check the URL of search results and ads before clicking. Look for typos and unusual domain names.</li>
+<li><strong>Use Ad Blockers:</strong> Install ad blockers to reduce exposure to malicious ads.</li>
+<li><strong>Download from Official Sources:</strong> Whenever possible, download software directly from the official website.</li>
+<li><strong>Enable Security Software:</strong> Use comprehensive security software to detect and block malicious downloads.</li>
+</ul>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Impacting Public Opinion Under Fire</title>
         <author>
@@ -640,72 +746,6 @@ sudo apt-get update [enter/↑/↓/ctrl+c]
 <li>University of Oxford: Research on developing the world's first ultra-fast photonic computing processor using polarization​<a href="https://www.ox.ac.uk/news/2022-06-16-researchers-develop-worlds-first-ultra-fast-photonic-computing-processor-using" target="_blank" rel="noopener noreferrer" class="px-0.5 text-green-600 !no-underline"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 19 15" fill="none" class="-mt-0.5 ml-0.5 inline-block text-token-link hover:text-token-link-hover" width="19" height="15"><path d="M4.42 0.75H2.8625H2.75C1.64543 0.75 0.75 1.64543 0.75 2.75V11.65C0.75 12.7546 1.64543 13.65 2.75 13.65H2.8625C2.8625 13.65 2.8625 13.65 2.8625 13.65C2.8625 13.65 4.00751 13.65 4.42 13.65M13.98 13.65H15.5375H15.65C16.7546 13.65 17.65 12.7546 17.65 11.65V2.75C17.65 1.64543 16.7546 0.75 15.65 0.75H15.5375H13.98" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6.16045 7.41534C5.32257 7.228 4.69638 6.47988 4.69638 5.58551C4.69638 4.54998 5.53584 3.71051 6.57136 3.71051C7.60689 3.71051 8.44635 4.54998 8.44635 5.58551C8.44635 5.8965 8.37064 6.1898 8.23664 6.448C8.22998 6.48984 8.21889 6.53136 8.20311 6.57208L6.77017 10.2702C6.63182 10.6272 6.18568 10.7873 5.7737 10.6276C5.36172 10.468 5.13991 10.0491 5.27826 9.69206L6.16045 7.41534ZM11.4177 7.41534C10.5798 7.228 9.95362 6.47988 9.95362 5.58551C9.95362 4.54998 10.7931 3.71051 11.8286 3.71051C12.8641 3.71051 13.7036 4.54998 13.7036 5.58551C13.7036 5.8965 13.6279 6.1898 13.4939 6.448C13.4872 6.48984 13.4761 6.53136 13.4604 6.57208L12.0274 10.2702C11.8891 10.6272 11.4429 10.7873 11.0309 10.6276C10.619 10.468 10.3971 10.0491 10.5355 9.69206L11.4177 7.41534Z" fill="currentColor"></path></svg></a>​.</li>
 </ul>
 <p>This exploration into photonic computing highlights the technological advancements and underscores the importance of sustainable innovation. As the digital world evolves, integrating photonic computing could lead to more efficient, faster, and greener solutions, paving the way for a brighter technological future.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Revolutionary Enhancements in React</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/revolutionary-enhancements-in-react/index.html"/>
-        <id>https://blog.thefourcraft.com/revolutionary-enhancements-in-react/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/86/Revolutionary-Enhancements-in-React.png" medium="image" />
-            <category term="Tips &amp; Tricks"/>
-            <category term="React"/>
-            <category term="100% Free Software"/>
-
-        <updated>2024-02-27T08:55:02+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/86/Revolutionary-Enhancements-in-React.png" alt="" />
-                    <p>The recent update from the React Labs team, marks a pivotal moment in the evolution of React</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/86/Revolutionary-Enhancements-in-React.png" class="type:primaryImage" alt="" /></p>
-                <p>The recent update from the React Labs team, marks a pivotal moment in the evolution of React</p>
-
-<p><strong>The Dawn of the React Compiler</strong></p>
-<p>Perhaps the most groundbreaking announcement is the transition of the React Compiler from a research project to a core component powering Instagram.com in production. This leap is not just a technical achievement but a paradigm shift in optimizing React applications. The traditional reliance on manual memoization techniques like <code>useMemo</code>, <code>useCallback</code>, and <code>memo</code> has been a necessary evil to prevent excessive re-renders. While effective, this approach introduced complexity and maintenance challenges. The introduction of the React Compiler signifies a move towards automatic optimization, ensuring UI components re-render only when necessary, without the developer's manual intervention.</p>
-<h3>React: Manual Memoization vs. React Compiler Optimization</h3>
-<p><strong>Old Approach: Manual Memoization</strong></p>
-<p>Before the React Compiler, developers often used <code>React.memo</code>, <code>useMemo</code>, and <code>useCallback</code> to avoid unnecessary re-renders.</p>
-<p>The React Compiler's ability to navigate the dynamic nature of JavaScript and enforce the "rules of React" for optimization heralds a new era of efficiency and developer experience. The compiler can safely optimize applications by modeling both JavaScript's flexibility and React's principles, even when developers "bend the rules." This advancement not only enhances performance but also simplifies the development process, making React more approachable for new developers and more potent for veterans.</p>
-<pre><code>import React, { useState, useMemo } from 'react';<br><br>function ExpensiveComponent({ compute, value }) {<br>  const result = useMemo(() =&gt; compute(value), [compute, value]);<br>  return &lt;div&gt;Result: {result}&lt;/div&gt;;<br>}<br><br>function App() {<br>  const [count, setCount] = useState(0);<br>  const square = useMemo(() =&gt; (x) =&gt; x * x, []);<br>  return (<br>    &lt;div&gt;<br>      &lt;ExpensiveComponent compute={square} value={count} /&gt;<br>      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;<br>    &lt;/div&gt;<br>  );<br>}</code></pre>
-<p><strong>New Approach: React Compiler Optimization</strong></p>
-<p>The React Compiler reduces the need for manual memoization as it optimizes re-renders automatically.</p>
-<pre><code>import React, { useState } from 'react';<br><br>function ExpensiveComponent({ compute, value }) {<br>  // Assume the React Compiler automatically optimizes this component<br>  const result = compute(value);<br>  return &lt;div&gt;Result: {result}&lt;/div&gt;;<br>}<br><br>function App() {<br>  const [count, setCount] = useState(0);<br>  const square = (x) =&gt; x * x;<br>  return (<br>    &lt;div&gt;<br>      &lt;ExpensiveComponent compute={square} value={count} /&gt;<br>      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;<br>    &lt;/div&gt;<br>  );<br>}</code></pre>
-<p>In the new approach, the same performance benefits are expected without cluttering the code with memoization hooks, thanks to the React Compiler's automatic optimization.</p>
-<h3>React Actions vs. Vue and Angular for Data Handling</h3>
-<p><strong>React with Actions</strong></p>
-<p>React's new Actions simplify data handling, especially for forms, making client-server communication more straightforward.</p>
-<pre><code>// React with Actions<br>function SearchForm() {<br>  const search = async (formData) =&gt; {<br>    // Perform the search operation<br>  };<br>  return (<br>    &lt;form action={search}&gt;<br>      &lt;input name="query" /&gt;<br>      &lt;button type="submit"&gt;Search&lt;/button&gt;<br>    &lt;/form&gt;<br>  );<br>}</code></pre>
-<p><strong>Vue: Method-based Data Handling</strong></p>
-<p>Vue handles form submissions and data handling through methods within the Vue instance.</p>
-<pre><code>&lt;template&gt;<br>  &lt;form @submit.prevent="search"&gt;<br>    &lt;input v-model="query" /&gt;<br>    &lt;button type="submit"&gt;Search&lt;/button&gt;<br>  &lt;/form&gt;<br>&lt;/template&gt;<br><br>&lt;script&gt;<br>export default {<br>  data() {<br>    return {<br>      query: '',<br>    };<br>  },<br>  methods: {<br>    async search() {<br>      // Perform the search operation<br>    },<br>  },<br>};<br>&lt;/script&gt;</code></pre>
-<p><strong>Angular: Reactive Forms</strong></p>
-<p>Angular often utilizes reactive forms for handling form submissions, offering a robust set of utilities for managing form state and validation.</p>
-<pre><code>import { Component } from '@angular/core';<br>import { FormControl } from '@angular/forms';<br>import { HttpClient } from '@angular/common/http';<br><br>@Component({<br>  selector: 'app-search-form',<br>  template: `&lt;form (ngSubmit)="search()"&gt;<br>      &lt;input [formControl]="query" /&gt;<br>      &lt;button type="submit"&gt;Search&lt;/button&gt;<br>    &lt;/form&gt;`,<br>})<br>export class SearchFormComponent {<br>  query = new FormControl('');<br>  constructor(private http: HttpClient) {}<br>  search() {<br>    // Perform the search operation<br>  }<br>}</code></pre>
-<h3>Comparison and Implications</h3>
-<ul>
-<li>
-<p><strong>React Compiler Optimization</strong>: This innovation significantly simplifies the developer experience in React by automating what used to be a manual and error-prone process. Compared to Vue and Angular, which are not directly equivalent to React's compiler-based optimization, React's approach can potentially lead to performance improvements without additional developer overhead.</p>
-</li>
-<li>
-<p><strong>React Actions</strong>: This feature simplifies handling form submissions and client-server data interactions, making React more comparable to Angular's reactive forms in handling form state and server communication. Vue's method-based approach, while straightforward, doesn't provide built-in state management for server interactions, unlike React Actions, which manage the lifecycle and state of the data submission.</p>
-</li>
-</ul>
-<p><strong>Expanding the Horizon with Actions</strong></p>
-<p>Introducing Actions extends React's capabilities beyond the client side, offering a unified approach to handling data submissions and mutations across client and server environments. This feature simplifies form handling and server communication, making it more intuitive and efficient. The ability to manage asynchronous operations and optimistic UI updates seamlessly within React's ecosystem is a testament to the framework's commitment to developer efficiency and application performance.</p>
-<p><strong>Canary Releases: A Step Towards Open Innovation</strong></p>
-<p>The shift towards Canary releases represents a significant change in React's development philosophy. The React team embraces open innovation by involving the community in finalizing new features. This approach accelerates the development process and ensures that new features are battle-tested and refined based on community feedback before their stable release.</p>
-<p><strong>Looking Forward to React 19</strong></p>
-<p>The announcement of React 19 and its inclusion of all these advancements signifies a significant milestone. The focus on compatibility across different environments, alongside improvements like Asset Loading, Document Metadata, and support for Web Components, underscores React's commitment to providing a comprehensive development experience. React 19's emphasis on breaking changes for progress and improvement illustrates a forward-thinking mindset, ensuring React remains at the forefront of web development technologies.</p>
-<p><strong>Concluding Thoughts</strong></p>
-<p>The updates from React Labs mark a transformative period in the React ecosystem. The move towards automatic optimization with the React Compiler, the introduction of Actions for streamlined data handling, and the shift towards Canary releases for community-driven development all indicate a brighter, more efficient future for React developers. These advancements not only enhance the performance and usability of React applications but also reaffirm React's position as a leading framework in the ever-evolving landscape of web development.</p>
             ]]>
         </content>
     </entry>
