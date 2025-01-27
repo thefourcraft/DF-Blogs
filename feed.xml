@@ -3,12 +3,75 @@
     <title>DF Blogs</title>
     <link href="https://blog.thefourcraft.com/feed.xml" rel="self" />
     <link href="https://blog.thefourcraft.com" />
-    <updated>2025-01-18T19:57:48+02:00</updated>
+    <updated>2025-01-27T23:49:56+02:00</updated>
     <author>
         <name>thefourCraft</name>
     </author>
     <id>https://blog.thefourcraft.com</id>
 
+    <entry>
+        <title>Chinese AI Chatbot DeepSeek: A Dangerous AI Trojan Horse?</title>
+        <author>
+            <name>thefourCraft</name>
+        </author>
+        <link href="https://blog.thefourcraft.com/chinese-ai-chatbot-deepseek-a-dangerous-ai-trojan-horse/index.html"/>
+        <id>https://blog.thefourcraft.com/chinese-ai-chatbot-deepseek-a-dangerous-ai-trojan-horse/index.html</id>
+        <media:content url="https://blog.thefourcraft.com/media/posts/103/Chinese-AI-Chatbot-DeepSeek-A-Dangerous-AI-Trojan-Horse.png" medium="image" />
+            <category term="artificial intelligence"/>
+
+        <updated>2025-01-27T23:49:56+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.thefourcraft.com/media/posts/103/Chinese-AI-Chatbot-DeepSeek-A-Dangerous-AI-Trojan-Horse.png" alt="" />
+                    <p>In recent years, China has made waves in the AI industry by releasing powerful open-source AI models. Its latest chatbot, DeepSeek, is no exception. On the surface, it may appear to be an impressive contribution to the global AI community. However, a closer look reveals the potential dangers behind this seemingly generous offering.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.thefourcraft.com/media/posts/103/Chinese-AI-Chatbot-DeepSeek-A-Dangerous-AI-Trojan-Horse.png" class="type:primaryImage" alt="" /></p>
+                <p>In recent years, China has made waves in the AI industry by releasing powerful open-source AI models. Its latest chatbot, DeepSeek, is no exception. On the surface, it may appear to be an impressive contribution to the global AI community. However, a closer look reveals the potential dangers behind this seemingly generous offering.</p>
+
+<h4><strong>Not So Innocent Generosity</strong></h4>
+<p>The Chinese approach to releasing high-quality AI models for free might initially seem altruistic. But it’s far from innocent. China raises the stakes with every new model, pushing the boundaries of what open-source AI can achieve. The availability of such powerful tools at little or no cost will send shockwaves through the global tech industry—especially in the U.S., where American AI giants like OpenAI, Anthropic, Google, and Grok By X are trying to stay ahead in the race.</p>
+<p>Why would China release these advanced models for free? Because the implications go far beyond mere technological competition.</p>
+<h4><strong>A Massive Data Vacuum</strong></h4>
+<p>At its core, AI is about data. And DeepSeek, like any chatbot, thrives on user interaction. Every question asked, and every preference shared feeds directly into an expansive database of human behavior.</p>
+<p>Imagine millions of users worldwide interacting with an AI like DeepSeek. They’re essentially handing over critical data, such as their likes, dislikes, habits, preferences, etc. <br>Unlike AI models operating in countries bound by GDPR or cookie consent laws, these Chinese models operate in a regulatory gray zone, free from scrutiny or accountability.</p>
+<p>This isn’t just a tool—it’s a potential global surveillance system. (<a href="https://blog.thefourcraft.com/why-is-tiktok-still-allowed-to-operate-in-israel/index.html" target="_blank" rel="noopener noreferrer">Just like TikTok</a>)</p>
+<h4><strong>The Economic Weaponization of AI</strong></h4>
+<p>Another critical factor is the <strong>economics of AI</strong>. China’s strategy isn’t just about collecting data; it’s also about dominating the AI market. By releasing models at a fraction of the cost of competitors like OpenAI’s ChatGPT, Chinese companies are creating an environment where Western AI companies struggle to compete.</p>
+<p>The choice for businesses and developers is obvious: why pay premium prices for AI services when a comparable or even superior tool is free? Over time, this could kill American AI businesses, making them unprofitable and unsustainable.</p>
+<h4><strong>How Will the U.S. Respond?</strong></h4>
+<p>The U.S. government and its AI companies face a tough decision. If China continues to undercut the market while offering increasingly sophisticated models, American companies could be forced out of the industry entirely. At some point, the U.S. may be left with no choice but to take drastic measures:</p>
+<ol>
+<li><strong>Ban Access to Chinese AI Models</strong>: This could be incredibly difficult, especially since open-source tools are hard to regulate.</li>
+<li><strong>Government-Subsidized AI</strong>: Could the U.S. government fund AI development and reduce the prices of tools like GPT-4? A semi-governmental AI service may become the only viable way to compete.</li>
+</ol>
+<p>Either way, the rise of Chinese AI models will force America to rethink its AI development and regulation approach.</p>
+<div class="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn">
+<div class="flex-col gap-1 md:gap-3">
+<div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="7527676e-c538-4dbd-b9ce-4e87e0db1b8b" data-message-model-slug="gpt-4o">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h3><strong>Self-Hosting</strong></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Some users will inevitably choose to self-host their models even with open-source AI to avoid sending data back to China. However, this is a limited defense. The overwhelming majority of users and businesses will gravitate toward the cheaper, hosted options offered by Chinese companies—especially when they provide cloud infrastructure and support at a fraction of the cost.</p>
+<p>Ultimately, the sheer adoption scale will still give China a competitive edge.</p>
+<p>Want to host AI for cheap? Check Out <a href="https://cloud.ims-network.net" target="_blank" rel="noopener noreferrer">IMS - Cloud</a></p>
+<h4><strong>A Global AI Reckoning</strong></h4>
+<p>The release of tools like DeepSeek raises uncomfortable questions about the future of AI. Is the world heading toward a bifurcated AI ecosystem, with Western models competing against Chinese ones? Will governments need to intervene to protect their own AI industries? And at what cost?</p>
+<p>One thing is clear: <strong>AI is not just about technology. It’s about power, influence, and control.</strong> The rise of Chinese AI like DeepSeek should be a wake-up call—not just for America, but for the world.</p>
+<p>While AI promises to reshape the world, its evolution is a double-edged sword. <br>As we marvel at the power of tools like DeepSeek, we must also ask: <br>Who controls them, and to what end?</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Why is TikTok Still Allowed To Operate In Israel?</title>
         <author>
@@ -853,56 +916,6 @@ public static function ended()
 <p>Improved monitoring tools and rapid response protocols can help detect and mitigate similar issues more quickly. Automated systems that can identify and correct configuration errors before they propagate could prevent such widespread outages.</p>
 <h4>Collaboration and Communication</h4>
 <p>Effective communication between technical teams and external partners, such as ISPs, is crucial during an outage. Collaborative efforts can expedite the resolution process and minimize downtime.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>1M Visitors Is Just the Beginning</title>
-        <author>
-            <name>thefourCraft</name>
-        </author>
-        <link href="https://blog.thefourcraft.com/1m-visitors-is-just-the-beginning/index.html"/>
-        <id>https://blog.thefourcraft.com/1m-visitors-is-just-the-beginning/index.html</id>
-        <media:content url="https://blog.thefourcraft.com/media/posts/93/1M-Visitors-Is-Just-the-Beginning.png" medium="image" />
-            <category term="Iron Swords War"/>
-            <category term="Antisemitism"/>
-
-        <updated>2024-06-03T23:15:47+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.thefourcraft.com/media/posts/93/1M-Visitors-Is-Just-the-Beginning.png" alt="" />
-                    <p>Recently, My international Hasbara site for the Iron Swords War surpassed 1 million monthly visitors. However, this milestone is overshadowed by the massive financial support, amounting to billions of dollars each month, that fuels the terror propaganda machine.</p>
-
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.thefourcraft.com/media/posts/93/1M-Visitors-Is-Just-the-Beginning.png" class="type:primaryImage" alt="" /></p>
-                <p>Recently, My international Hasbara site for the Iron Swords War surpassed 1 million monthly visitors. However, this milestone is overshadowed by the massive financial support, amounting to billions of dollars each month, that fuels the terror propaganda machine.</p>
-
-<h2 id="ember3188" class="ember-view reader-content-blocks__paragraph"><a class="app-aware-link " target="_self" href="https://forms.gle/foVDerabjDoHQ8KA8" data-test-app-aware-link=""><strong>Take Action💪🏻 Join Our Hasbara Project 🚨🇮🇱</strong></a></h2>
-<h2 id="ember3189" class="ember-view reader-content-blocks__paragraph"><a class="app-aware-link " target="_self" href="https://iron-swords.co.il/" data-test-app-aware-link=""><strong>Our Website</strong></a></h2>
-<p>At the start of the war, over 1,400 Israelis were brutally tortured and murdered in a horrific attack by Hamas. The global narrative, shockingly, supports these terrorists. This war is also fought in the digital space.</p>
-<p>After October 7th, the world saw the cruelty of Hamas, initially showing empathy towards Israel. However, a wave of anti-Semitism soon emerged, starting on social media and escalating to violent incidents worldwide. Pro-Palestinian organizations operating in Europe, Canada, and the United States also began acting against Jews and the state of Israel.</p>
-<div class="post__iframe"><iframe loading="lazy" width="640" height="360" title="vimeo-player" src="https://player.vimeo.com/video/873780784?h=97d3a9b5bd&dnt=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<p>While Israel was still recovering from the October 7 massacre and preparing for war (Oct 8 - 20), Pro-Hamas organizations on social media began to be flooded with disinformation, fake news, and horror videos.</p>
-<p>The October 7th attack by Hamas marked a historic turning point, not just for its brutality but also for the simultaneous digital assault. Hamas shared their atrocities online, like the murder of Braa Levenson, which was broadcast on her Facebook feed. These acts were meticulously planned, filmed, and distributed to incite fear and provoke global protests against Israel.</p>
-<p>Despite Israel's efforts to prevent civilian casualties, many still view Israel as the aggressor and Hamas as the victim. This shift in perception is fueled by disinformation and propaganda on social media, spread by bots and fake accounts. <br><strong>The campaign against Israel began while the massacres were still ongoing!!!</strong>, leveraging social media to manipulate public opinion swiftly.</p>
-<p>This was a calculated move from all the Pro-Palestine organizations that are operating worldwide.</p>
-<h3>What can we do!? </h3>
-<p>The propaganda campaign against Israel is an orchestrated attempt to overshadow the massacre's grim reality, and we cannot afford to remain silent. <br>Every Israeli citizen, and indeed every supporter of freedom worldwide, must work to reverse the narrative that threatens to delegitimize our cause. <br>This means standing together and asserting our truth, leveraging media and diplomatic channels to dismantle the falsehoods being spread and showcase the legitimacy of our actions.</p>
-<p id="ember3195">Our story is one of resilience in the face of adversity, and it's a story the world needs to hear. Our mission is to defend our borders, reclaim the truth, and show that our battle is for survival and justice. <br>We must remember October 7th as a day of sorrow and a rallying cry to unite and remind the world why our struggle remains morally justified.</p>
-<h3>1M Visitors Is Just the Beginning</h3>
-<p>My international Hasbara site for the Iron Swords War has recently surpassed 1 million monthly visitors. However, this milestone is just the beginning. My goal for the website is straightforward: to document every detail of this conflict, which I refer to as the Second War of Independence. Israel is currently engaged on seven active fronts, but we also face other, less visible fronts. These include the "terror universities" in the United States, Canada, and Europe, as well as the ongoing battle on social media.</p>
-<p><img loading="lazy" src="https://pbs.twimg.com/media/GPJKpyLXwAA6N-V?format=jpg&amp;name=small" alt="תמונה" data-is-external-image="true"></p>
-<h4>Why should we care?</h4>
-<p>That is a very valid question because many people believe that the online landscape and activities on social media and in "terror universities" have no real impact. They think these factors do not influence policy changes or leaders. However, the truth is quite the opposite. Palestinian organizations operating in the United States, Europe, Canada, and essentially the entire free world are causing immense damage by manipulating the narrative about Israel in every conceivable way.</p>
-<p>This manipulation is a significant threat to our existence, rivaling the immediate dangers posed by the organizations currently attacking the State of Israel. Their profound influence in shaping perceptions and policies cannot be underestimated.</p>
-<h2>How Can We Help?</h2>
-<p>The Palestinian terror propaganda is direct, organized, and focused. Our lack of focus is a triple-edged sword, slowly wounding the State of Israel.<br><br>We must unite to reveal the truth to the world—the only truth! We must join together and be organized in our Hasbara efforts. While independent actions, such as commenting and promoting the truth through posts and videos, are essential, we must also be united and coordinated.<br><br>We will be responsible for the consequences if we do not organize immediately. We must act now to prevent the next catastrophe.</p>
-<h2 id="ember3197" class="ember-view reader-content-blocks__heading-2">Hasbara Now! More Than Ever</h2>
-<h3 id="ember3198" class="ember-view reader-content-blocks__heading-3">Take Action💪🏻</h3>
-<p id="ember3199" class="ember-view reader-content-blocks__paragraph"><a href="https://forms.gle/foVDerabjDoHQ8KA8" target="_blank" rel="noopener noreferrer">Join Our Hasbara Project 🚨🇮🇱</a></p>
             ]]>
         </content>
     </entry>
